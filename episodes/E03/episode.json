@@ -1,0 +1,505 @@
+{
+  "id": "E03",
+  "num": 5,
+  "status": "scheduled",
+  "pillar": "B",
+  "title": "Compound Interest: The Simple Math That Builds Wealth",
+  "music": "music_759.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "Compound interest",
+      "chapterTitle": "Intro: less money, bigger result",
+      "broll": [
+        "18302",
+        "46768"
+      ],
+      "badge": "$200 a month for just 10 years",
+      "numberValue": 281,
+      "prefix": "$",
+      "unit": "K",
+      "sub": "at age 65, vs $244K for 30 years of saving",
+      "big": {
+        "at": "eighty"
+      },
+      "chips": [
+        {
+          "text": "Put in: only $24K",
+          "at": "twenty"
+        },
+        {
+          "text": "Assumes 7% a year, not guaranteed",
+          "at": "assuming"
+        }
+      ],
+      "text": "Two people invest the same two hundred dollars a month. One invests for just ten years, puts in twenty four thousand dollars, then stops. The other invests for thirty years and puts in seventy two thousand. At sixty five, assuming a seven percent yearly return, the one who put in less money ends up with more. About two hundred eighty one thousand dollars, versus two hundred forty four thousand. That's not a trick. It's compound interest. In this video, I'll show you the simple math behind it, a shortcut called the rule of seventy two, and the same force working against you on a credit card."
+    },
+    {
+      "id": "s02",
+      "kind": "cards",
+      "chapter": "Simple vs compound",
+      "chapterTitle": "Simple vs compound interest",
+      "broll": [
+        "45923",
+        "42648"
+      ],
+      "items": [
+        {
+          "title": "You start with",
+          "value": "$10,000",
+          "sub": "earning 7% a year",
+          "at": "ten"
+        },
+        {
+          "title": "Simple interest",
+          "value": "$31,000",
+          "sub": "after 30 years",
+          "at": "thirty",
+          "nth": 1
+        },
+        {
+          "title": "Compound interest",
+          "value": "$76,123",
+          "sub": "after 30 years",
+          "at": "seventy"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Interest earns interest",
+          "at": "itself"
+        }
+      ],
+      "footer": {
+        "text": "Same money. Same rate.",
+        "highlight": "About 2.5× the result.",
+        "tone": "good",
+        "at": "double"
+      },
+      "text": "Let's start with the difference between simple and compound interest. Say you put ten thousand dollars somewhere that earns seven percent a year. With simple interest, you only earn on the original ten thousand. That's seven hundred dollars a year, every year. After thirty years, you'd have thirty one thousand dollars. With compound interest, you also earn on the interest you already made. Same money, same rate, same thirty years. But now you end up with about seventy six thousand dollars. That's more than double, just because the interest was left to grow on itself."
+    },
+    {
+      "id": "s03",
+      "kind": "steps",
+      "chapter": "How it works",
+      "chapterTitle": "How compounding works, year by year",
+      "broll": [
+        "4806",
+        "46990"
+      ],
+      "items": [
+        {
+          "text": "Year 1: $10,000 earns $700 → $10,700",
+          "at": "one"
+        },
+        {
+          "text": "Year 2: $10,700 earns $749 → $11,449",
+          "at": "two"
+        },
+        {
+          "text": "Year 3: $11,449 earns $801 → $12,250",
+          "at": "three"
+        }
+      ],
+      "footer": {
+        "text": "Interest on interest:",
+        "highlight": "it grows every year",
+        "tone": "good",
+        "at": "magic"
+      },
+      "text": "Here's how it works, year by year. In year one, ten thousand dollars earns seven hundred, so you have ten thousand seven hundred. In year two, you earn seven percent on that bigger number. That's seven hundred forty nine dollars, not seven hundred. In year three, you earn about eight hundred and one. The amount you earn each year keeps growing, even though you never added a single extra dollar. Early on, the difference looks tiny. Forty nine dollars here, a hundred there. That's exactly why most people ignore it. The magic only shows up when you give it time."
+    },
+    {
+      "id": "s04",
+      "kind": "rows",
+      "chapter": "The snowball",
+      "chapterTitle": "Why it feels slow, then fast",
+      "broll": [
+        "9607",
+        "26758"
+      ],
+      "items": [
+        {
+          "name": "After 10 years",
+          "desc": "≈ $19,700 (first decade added under $10K)",
+          "at": "nineteen"
+        },
+        {
+          "name": "After 20 years",
+          "desc": "≈ $38,700",
+          "at": "thirty"
+        },
+        {
+          "name": "After 30 years",
+          "desc": "≈ $76,100 (last decade added $37K+)",
+          "at": "seventy"
+        }
+      ],
+      "footer": {
+        "text": "Over half the growth came in the last 10 years",
+        "at": "half"
+      },
+      "text": "Now let's zoom out. Keep that same ten thousand dollars growing at seven percent and don't touch it. After ten years, it's about nineteen thousand seven hundred. After twenty years, about thirty eight thousand seven hundred. And after thirty years, about seventy six thousand. Look at the jumps. The first decade added less than ten thousand dollars. The last decade added more than thirty seven thousand. More than half of all the growth came in the final ten years. That's why compounding feels slow at first and then suddenly fast. And most people quit during the slow part."
+    },
+    {
+      "id": "s05",
+      "kind": "stat",
+      "chapter": "The rule of 72",
+      "chapterTitle": "The rule of 72 shortcut",
+      "broll": [
+        "46768",
+        "221"
+      ],
+      "badge": "The rule of 72",
+      "numberValue": 72,
+      "sub": "72 ÷ yearly rate ≈ years to double your money",
+      "big": {
+        "at": "divide"
+      },
+      "chips": [
+        {
+          "text": "7% → about 10 years",
+          "at": "seven",
+          "nth": 2
+        },
+        {
+          "text": "10% → about 7 years",
+          "at": "ten",
+          "nth": 1
+        },
+        {
+          "text": "4% → about 18 years",
+          "at": "four"
+        }
+      ],
+      "text": "There's a simple shortcut to feel this in your head. It's called the rule of seventy two. Divide seventy two by your yearly interest rate, and you get roughly how many years it takes your money to double. At seven percent, that's about ten years. At ten percent, about seven years. At four percent, it takes around eighteen years. It's an estimate, not exact math, but it's surprisingly close for normal interest rates. And it works for debt too, not just for savings. Which means you can use it to see how fast a balance you owe can grow."
+    },
+    {
+      "id": "s06",
+      "kind": "compare",
+      "chapter": "Start early",
+      "chapterTitle": "Alex vs Sam: why starting early wins",
+      "broll": [
+        "31407",
+        "4907"
+      ],
+      "cards": [
+        {
+          "title": "Alex, 25–35",
+          "sub": "$24K put in",
+          "at": "alex"
+        },
+        {
+          "title": "Sam, 35–65",
+          "sub": "$72K put in",
+          "at": "sam"
+        }
+      ],
+      "big": {
+        "value": "+$37K",
+        "sub": "Alex ahead at 65",
+        "at": "eighty"
+      },
+      "bars": [
+        {
+          "label": "Alex",
+          "value": "$281K",
+          "fill": 1.0,
+          "tone": "good",
+          "at": "eighty"
+        },
+        {
+          "label": "Sam",
+          "value": "$244K",
+          "fill": 0.87,
+          "tone": "bad",
+          "at": "forty"
+        }
+      ],
+      "footer": {
+        "text": "Illustration at 7% a year, not a promise",
+        "at": "third"
+      },
+      "text": "Here's a story about two investors, Alex and Sam. Alex invests two hundred dollars a month from age twenty five to thirty five, then stops completely. Total put in, twenty four thousand dollars. Sam waits, then invests the same two hundred a month from thirty five all the way to sixty five. Total put in, seventy two thousand. Assuming a seven percent yearly return, Alex ends up with about two hundred eighty one thousand dollars. Sam ends up with about two hundred forty four thousand. Alex put in a third of the money, and still came out ahead. The ten year head start did the heavy lifting."
+    },
+    {
+      "id": "s07",
+      "kind": "cards",
+      "chapter": "The three levers",
+      "chapterTitle": "The three things that drive compounding",
+      "broll": [
+        "42664",
+        "26923"
+      ],
+      "items": [
+        {
+          "title": "Money",
+          "value": "Amount",
+          "sub": "how much you put in",
+          "at": "money"
+        },
+        {
+          "title": "Rate",
+          "value": "Return",
+          "sub": "how fast it grows",
+          "at": "rate"
+        },
+        {
+          "title": "Time",
+          "value": "Years",
+          "sub": "how long you leave it",
+          "at": "time"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Higher return = higher risk",
+          "at": "higher"
+        },
+        {
+          "text": "Time can't be bought back",
+          "at": "lever"
+        }
+      ],
+      "footer": {
+        "text": "Time does most of the work",
+        "at": "remember"
+      },
+      "text": "So what actually drives compounding? Only three things. The money you put in. The rate it grows at. And the time you leave it alone. You can add more money later in life, and you can look for better returns, though higher returns usually come with higher risk. But time is the one lever you can never buy back. Every year you wait is a year of growth that's gone. That's why even a small amount started early can beat a bigger amount started late. If you only remember one thing from this video, it's this. Time does most of the work."
+    },
+    {
+      "id": "s08",
+      "kind": "compare",
+      "chapter": "The fee trap",
+      "chapterTitle": "How a 1% fee eats your growth",
+      "broll": [
+        "47214",
+        "9330"
+      ],
+      "cards": [
+        {
+          "title": "Low cost",
+          "sub": "7% → ≈ $76,100",
+          "at": "cheap"
+        },
+        {
+          "title": "1% fee",
+          "sub": "6% → ≈ $57,400",
+          "at": "expensive"
+        }
+      ],
+      "big": {
+        "value": "−$18,700",
+        "sub": "lost to a 1% fee over 30 years",
+        "at": "eighteen"
+      },
+      "bars": [
+        {
+          "label": "Low-cost",
+          "value": "$76K",
+          "fill": 1.0,
+          "tone": "good",
+          "at": "cheap"
+        },
+        {
+          "label": "1% fee",
+          "value": "$57K",
+          "fill": 0.75,
+          "tone": "bad",
+          "at": "expensive"
+        }
+      ],
+      "footer": {
+        "text": "Check the yearly cost (expense ratio)",
+        "at": "check"
+      },
+      "text": "Compounding can also quietly work against you, through fees. Imagine two funds that both earn seven percent before costs. One charges almost nothing. The other charges one percent a year, so you keep about six. One percent sounds small. But over thirty years, ten thousand dollars grows to about seventy six thousand in the cheap fund, and only about fifty seven thousand in the expensive one. That one percent fee cost more than eighteen thousand dollars. The fee isn't taken just once. Every dollar it takes is a dollar that never gets to compound. So always check what a fund or account charges every year."
+    },
+    {
+      "id": "s09",
+      "kind": "stat",
+      "chapter": "The dark side: debt",
+      "chapterTitle": "Credit cards: compounding against you",
+      "broll": [
+        "18296",
+        "4915"
+      ],
+      "badge": "Avg credit card rate (accounts paying interest)",
+      "numberValue": 22.4,
+      "unit": "%",
+      "sub": "Federal Reserve G.19, Q3 2026",
+      "big": {
+        "at": "point"
+      },
+      "chips": [
+        {
+          "text": "72 ÷ 22 ≈ doubles in ~3 years if unpaid",
+          "at": "double"
+        },
+        {
+          "text": "$5K → about $10K",
+          "at": "five"
+        }
+      ],
+      "text": "Compound interest has a dark side. It doesn't care whether it's working for you or against you. According to the Federal Reserve, the average interest rate on credit card accounts that pay interest was about twenty two point four percent in the third quarter of twenty twenty six. Now use the rule of seventy two. Seventy two divided by twenty two is about three. So a balance left with no payments could roughly double in just over three years. Five thousand dollars could become ten thousand. That's why paying off high interest debt is often one of the smartest money moves you can make."
+    },
+    {
+      "id": "s10",
+      "kind": "steps",
+      "chapter": "Put it on your side",
+      "chapterTitle": "5 ways to put compounding on your side",
+      "broll": [
+        "4907",
+        "42653"
+      ],
+      "items": [
+        {
+          "text": "Clear high-interest debt first",
+          "at": "step",
+          "nth": 0
+        },
+        {
+          "text": "Start early, even if it's small",
+          "at": "step",
+          "nth": 1
+        },
+        {
+          "text": "Automate a fixed amount every month",
+          "at": "step",
+          "nth": 2
+        },
+        {
+          "text": "Keep costs low",
+          "at": "step",
+          "nth": 3
+        },
+        {
+          "text": "Reinvest and leave it alone",
+          "at": "step",
+          "nth": 4
+        }
+      ],
+      "footer": {
+        "text": "Education, not financial advice.",
+        "at": "education"
+      },
+      "text": "So how do people put compounding on their side? Step one. Deal with high interest debt first, because it compounds against you faster than most investments grow. Step two. Start as early as you can, even if the amount feels too small to matter. Step three. Automate it, so a fixed amount goes in every month without you deciding again. Step four. Keep costs low, because fees compound too. And step five. Leave it alone. Reinvest the growth and don't interrupt the snowball. And remember, this video is education, not financial advice. Your situation is your own."
+    },
+    {
+      "id": "s11",
+      "kind": "verdict",
+      "chapterTitle": "The big idea",
+      "broll": [
+        "26923",
+        "50759"
+      ],
+      "badge": "The big idea",
+      "title": "Start early. Be patient.",
+      "sub": "The same math grows savings and debt. Pick your side.",
+      "text": "Here's the big idea. Compound interest isn't exciting in year one or year two. It looks like nothing is happening. But it rewards people who start early and stay patient, and it punishes people who carry expensive debt for years. The math is exactly the same either way. The only real question is which side of that math you're on."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "41541",
+        "13218"
+      ],
+      "title": "Let time do the work",
+      "accent": [
+        1
+      ],
+      "next": "7 AI Tools That Can Save You Hours Every Week",
+      "text": "Now I want to hear from you. If you could send one message about money to your younger self, what would it be? Tell me in the comments. And if you know someone who should start early, share this video with them. If this helped, subscribe to Future Money Lab. In the next video, I'll show you seven AI tools that can save you hours every single week."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "START EARLY",
+      "line2": "COMPOUND INTEREST",
+      "tag": "The simple math"
+    },
+    "b": {
+      "kicker": "$200/MONTH FOR 10 YEARS",
+      "from": "$24K",
+      "to": "$281K",
+      "line2": "HERE'S THE MATH",
+      "tag": "Compound interest"
+    }
+  },
+  "youtube": {
+    "title": "Compound Interest: The Simple Math That Builds Wealth",
+    "summary": "Why can someone who invests less money end up with more? This is a plain-English guide to compound interest: simple vs compound interest, how it grows year by year, why it feels slow and then fast, the rule of 72, why starting early matters so much, how a 1% fee eats your growth, and how the same math works against you on credit card debt.",
+    "details": "Numbers mentioned:\n- All growth examples use an assumed 7% yearly return (illustration only, not a prediction or promise). Alex/Sam example: $200 a month, compounded monthly.\n- $10,000 at 7% for 30 years: about $76,123 compounded yearly vs $31,000 with simple interest; at 6% (after a 1% fee) about $57,435.\n- Rule of 72: 72 divided by the yearly rate ≈ years to double (an estimate).\n- Average credit card interest rate, accounts assessed interest: 22.36% in Q3 2026 (preliminary), Federal Reserve G.19 released November 6, 2026 (checked November 2026).",
+    "sources": [
+      {
+        "name": "Federal Reserve G.19 Consumer Credit (released Nov 6, 2026)",
+        "url": "https://www.federalreserve.gov/releases/g19/current/"
+      },
+      {
+        "name": "Rule of 72 (Nasdaq glossary)",
+        "url": "https://www.nasdaq.com/glossary/r/rule-of-72"
+      }
+    ],
+    "tags": [
+      "compound interest",
+      "compound interest explained",
+      "rule of 72",
+      "how compound interest works",
+      "start investing early",
+      "investing for beginners",
+      "credit card interest",
+      "investment fees",
+      "personal finance",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#compoundinterest",
+      "#personalfinance",
+      "#investing"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s06"
+      ],
+      "headline": "Alex invested LESS but ended up with MORE",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s05"
+      ],
+      "headline": "The rule of 72 in 40 seconds",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s09"
+      ],
+      "headline": "Your credit card can double your debt",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 421172459,
+    "publishAt": "2026-11-11T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 421172605,
+        "publishAt": "2026-11-11T02:45:00+05:00"
+      },
+      {
+        "postId": 421172626,
+        "publishAt": "2026-11-11T06:45:00+05:00"
+      },
+      {
+        "postId": 421172647,
+        "publishAt": "2026-11-11T21:15:00+05:00"
+      }
+    ]
+  }
+}
