@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="liq" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#fcd34d"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <clipPath id="flask">
+      <path d="M82 40 h36 v38 l38 68 a12 12 0 0 1 -10.5 18 h-91 a12 12 0 0 1 -10.5 -18 l38 -68 z"/>
+    </clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- liquid -->
+  <g clip-path="url(#flask)">
+    <path d="M30 128 C60 118 80 136 100 126 C120 116 140 132 170 122 V180 H30 Z" fill="url(#liq)" opacity="0.95"/>
+  </g>
+  <!-- rising chart inside flask -->
+  <polyline points="64,152 86,138 102,145 132,110" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <polyline points="116,108 134,108 134,126" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <!-- flask outline -->
+  <path d="M82 40 h36 v38 l38 68 a12 12 0 0 1 -10.5 18 h-91 a12 12 0 0 1 -10.5 -18 l38 -68 z" fill="none" stroke="url(#glass)" stroke-width="8" stroke-linejoin="round" filter="url(#glow)"/>
+  <line x1="74" y1="40" x2="126" y2="40" stroke="url(#glass)" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- bubbles / data dots -->
+  <circle cx="96" cy="96" r="5" fill="#67e8f9"/>
+  <circle cx="108" cy="80" r="3.5" fill="#67e8f9" opacity="0.8"/>
+  <circle cx="100" cy="64" r="2.5" fill="#67e8f9" opacity="0.6"/>
+</svg>

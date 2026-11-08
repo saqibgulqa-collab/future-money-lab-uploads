@@ -1,0 +1,5 @@
+node_modules/
+pipeline/remotion/public/
+*.wav
+*.png.tmp
+__pycache__/
