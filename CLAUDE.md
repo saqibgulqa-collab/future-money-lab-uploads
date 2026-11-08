@@ -97,8 +97,12 @@ All scenes: `id`, `kind`, `text` (spoken), `broll: [id, id]`, optional `chapter`
 221 screen reflected in glasses (focus) · 4915 typing on phone · 45923 stack of papers, person writing ·
 42648 businessman explaining graphs · 26923 man on rooftop at sunrise · 50759 man stretching on balcony ·
 42653 woman finishing work at computer · 31407 woman stretching in the morning.
-More: `curl -sL -A "Mozilla/5.0" https://mixkit.co/free-stock-video/<tag>/ | grep -oE '/free-stock-video/[a-z0-9-]+-[0-9]+/'`
-(tags like money, stock-market, finance, laptop, office, phone, city, coins, graph). Landscape clips only.
+Finance: 47214 man analyzing market data · 9607 stock trend on screen · 18302 counting money · 18296 counting bills ·
+18263 counting coins · 47796 stock ticker board · 47793 stock data screen · 9330 bid/ask screen with pen ·
+46990 chart on tablet · 5461 animated stock UI · 26758 / 30873 3D candlestick charts.
+More: mixkit.co listing pages are blocked from the shell (Cloudflare 429). Find ids with
+`WebSearch` (allowed_domains `mixkit.co`, e.g. "mixkit free stock video laptop"); the id is the number at the end of
+the clip URL. The CDN still works: `https://assets.mixkit.co/videos/<id>/<id>-1080.mp4` (or `-720.mp4`). Landscape clips only.
 
 ## Git
 Commit as yourself; end messages with the session attribution lines the system gives you. Never commit video files
