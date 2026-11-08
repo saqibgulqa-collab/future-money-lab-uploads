@@ -2,5 +2,7 @@
   "A": 0.5,
   "B": 0.5,
   "updated": "2026-11-08",
-  "reason": "Start: no published data yet, 50/50 test."
+  "reason": "Start: no published data yet, 50/50 test.",
+  "perDay": 1,
+  "stockTarget": 20
 }

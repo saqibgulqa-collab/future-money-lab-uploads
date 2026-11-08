@@ -15,20 +15,26 @@ Videos themselves are in English for a US/UK audience.
 | Upload hand-off | this repo's root on `main`: raw URL `https://raw.githubusercontent.com/saqibgulqa-collab/future-money-lab-uploads/main/<file>` |
 
 ## Publishing plan (owner's standing order, Nov 2026 — keep going until Saqib says stop)
-- **2 long videos every day** + **3 Shorts per long video** (6 Shorts a day). Audience: US/UK.
-- **Long slots (PKT):** 00:15 (= 2:15 PM ET) and 05:15 (= 7:15 PM ET).
-- **Short slots (PKT):** 19:15, 21:15, 23:15, 02:45, 06:45, 08:15 (= 9:15 AM, 11:15 AM, 1:15 PM, 4:45 PM, 8:45 PM, 10:15 PM ET).
-  A Short always goes out **after** its own long video (so "full video" works): take the earliest free Short slots after it.
+- `plan/mix.json` holds `perDay` (long videos per day), `stockTarget` and the niche mix. Read it every run.
+- **Phase 1 (now): `perDay: 1`, `stockTarget: 20`.** One long video a day at **00:15 PKT** (= 2:15 PM ET) while the
+  stock builds up to 20 scheduled long videos.
+- **Phase 2:** the 9 AM report switches to `perDay: 2`, `stockTarget: 14` the first time 20 or more long videos are
+  scheduled. Then the long slots are **00:15 and 05:15 PKT** (= 2:15 PM and 7:15 PM ET).
+- **3 Shorts per long video.** Short slots (PKT): phase 1 → 02:45, 06:45, 21:15 (= 4:45 PM, 8:45 PM, 11:15 AM ET);
+  phase 2 → 19:15, 21:15, 23:15, 02:45, 06:45, 08:15. A Short always goes out **after** its own long video:
+  take the earliest free Short slots after it.
 - When the US switches to daylight time (2nd Sunday of March) move every slot 1 hour earlier; back in November.
-- **Niche mix:** `plan/mix.json` says what share of new videos is pillar A (AI tools) vs B (money). The 9 AM report
-  task updates it from real analytics. Production follows it; never decide the mix from guesses.
+- **Niche mix:** `mix.A` / `mix.B` = share of new videos for pillar A (AI tools) vs B (money). The 9 AM report updates it
+  from real analytics. Production follows it; never decide the mix from guesses.
+- **Use as little as possible:** keep runs lean. Read only the files you need, no extra drafts or re-renders unless a
+  check fails, no messages to Saqib except real problems.
 
-## Stock rule: keep 10 long videos scheduled ahead (= 5 days)
+## Stock rule
 Each run starts with this check: call `getScheduledPosts` (brand 7939426, Asia/Karachi, from now to now + 45 days)
-and count future YouTube posts whose `youtubeData.type` is `video`. **If there are 10 or more, stop immediately**
-(no build, no message). Otherwise make exactly ONE new long video **and its 3 Shorts** in this run. Runs fire every
-4 hours, so the stock refills on its own. Two runs may overlap: always claim a video in the tracker before working
-on it, and re-check `getScheduledPosts` right before you schedule so two runs never take one slot.
+and count future YouTube posts whose `youtubeData.type` is `video`. **If the count is at or above `stockTarget`, stop
+immediately** (no build, no message). Otherwise make exactly ONE new long video **and its 3 Shorts** in this run.
+Runs fire every 6 hours. Two runs may overlap: always claim a video in the tracker before working on it, and re-check
+`getScheduledPosts` right before you schedule so two runs never take one slot.
 
 ## One production run (do these in order)
 1. `bash pipeline/setup.sh` (installs Chatterbox voice, Whisper, Remotion, music/SFX; ~10–15 min first time).
@@ -62,7 +68,7 @@ on it, and re-check `getScheduledPosts` right before you schedule so two runs ne
 7. **Schedule** with Metricool `createScheduledPost` (same fields as E01: `providers:[{network:"youtube"}]`,
    `youtubeData` {title, type:"video", privacy:"public", tags, category:"SCIENCE_TECHNOLOGY", madeForKids:false,
    isAiGeneratedContent:true}, `text` = `youtube_description.txt`, `media` = [raw url], `autoPublish:true`).
-   Long video: the earliest free **long slot** at least 2 hours away.
+   Long video: the earliest free **long slot** for the current phase, at least 2 hours away.
    **Then each Short** with its own file (also via the repo raw URL): `youtubeData.type: "short"`, title = the short
    headline (+ " #Shorts"), same tags, `isAiGeneratedContent: true`, text = 2 lines about the clip +
    "Full video: search 'Future Money Lab' or visit https://www.youtube.com/@TheFutureMoneyLabAI" + the disclaimer line.
@@ -81,10 +87,12 @@ Every day at 09:00 PKT, in Roman Urdu, short:
 3. Production: videos made in the last 24 h, ones stuck in Script/Voice/Edit (and why).
 4. Numbers per pillar from Metricool YouTube analytics (`getAnalyticsAvailableMetrics` then `getAnalyticsDataByMetrics`):
    views, watch time / average view duration, subscribers gained, best and worst video. Say clearly when data is missing.
-5. **Mix update:** once each pillar has ≥ 5 long videos published ≥ 3 days ago, compare views per video and average view
+5. **Phase switch:** if `perDay` is 1 and 20 or more long videos are scheduled, set `perDay: 2`, `stockTarget: 14`
+   in `plan/mix.json`, commit, and tell Saqib in the report.
+6. **Mix update:** once each pillar has ≥ 5 long videos published ≥ 3 days ago, compare views per video and average view
    duration. Move `plan/mix.json` toward the stronger pillar by at most 0.10 per day, staying between 0.20 and 0.80;
    write the reason in it and commit. Before that, keep 0.5 / 0.5.
-6. **Needs from Saqib** (or "Kuch nahi chahiye"): e.g. phone verification, an expired connection, a failed upload.
+7. **Needs from Saqib** (or "Kuch nahi chahiye"): e.g. phone verification, an expired connection, a failed upload.
 Save the report as `reports/YYYY-MM-DD.md` in this repo (commit + push) and send it as the final message.
 
 ## Content rules (non-negotiable)
