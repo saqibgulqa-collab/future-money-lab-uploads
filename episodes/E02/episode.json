@@ -1,459 +1,475 @@
 {
- "id": "E02",
- "num": 2,
- "status": "production",
- "pillar": "B",
- "title": "How the Stock Market Actually Works (Explained Simply)",
- "music": "music_744.mp3",
- "scenes": [
-  {
-   "id": "s01",
-   "kind": "stat",
-   "chapter": "Stock market basics",
-   "chapterTitle": "Intro: $10,000 and the long-run average",
-   "broll": [
-    "47214",
-    "9607"
-   ],
-   "badge": "$10,000 invested for 30 years",
-   "numberValue": 170,
-   "prefix": "$",
-   "unit": "K",
-   "sub": "if it grew at the long-run average (about 10% a year)",
-   "big": {
-    "at": "hundred"
-   },
-   "chips": [
-    {
-     "text": "Not guaranteed",
-     "at": "same"
-    },
-    {
-     "text": "Some years fall 40%+",
-     "at": "forty"
-    }
-   ],
-   "text": "Here's a number that surprises most people. If you had put ten thousand dollars into the S&P 500, and it grew at its long-run average of about ten percent a year, after thirty years you'd have around one hundred and seventy thousand dollars. But that same market also fell more than forty percent in a single year. So what is the stock market, really? In this video, I'll explain how it actually works, in plain English. What a stock is, how prices move, what an index is, and how beginners usually get started."
-  },
-  {
-   "id": "s02",
-   "kind": "cards",
-   "chapter": "What is a stock?",
-   "chapterTitle": "What a stock actually is",
-   "broll": [
-    "13218",
-    "42648"
-   ],
-   "items": [
-    {
-     "title": "A company",
-     "value": "1,000,000",
-     "sub": "shares in total",
-     "at": "million"
-    },
-    {
-     "title": "You buy",
-     "value": "100",
-     "sub": "shares",
-     "at": "hundred"
-    },
-    {
-     "title": "You own",
-     "value": "0.01%",
-     "sub": "of the company",
-     "at": "hundredth"
-    }
-   ],
-   "chips": [
-    {
-     "text": "IPO = first sale of shares to the public",
-     "at": "ipo"
-    }
-   ],
-   "footer": {
-    "text": "The company gets cash.",
-    "highlight": "You get a stake.",
-    "tone": "good",
-    "at": "stake"
-   },
-   "text": "Let's start with the basics. A stock is a tiny piece of ownership in a company. Imagine a company is split into one million equal pieces, called shares. If you buy one hundred of them, you own one hundredth of one percent of that company. Giant companies like Apple or Microsoft have billions of shares, which is why a single share is such a tiny slice. Why would a company sell pieces of itself? To raise money. When a company first sells shares to the public, it's called an IPO, an initial public offering. The company gets cash to grow, and investors get a stake in its future."
-  },
-  {
-   "id": "s03",
-   "kind": "rows",
-   "chapter": "How investors make money",
-   "chapterTitle": "Two ways investors make money",
-   "broll": [
-    "18302",
-    "18263"
-   ],
-   "items": [
-    {
-     "name": "Price growth",
-     "desc": "Buy at $50, later worth $70 = $20 gain",
-     "at": "first"
-    },
-    {
-     "name": "Dividends",
-     "desc": "Part of the profits paid to shareholders",
-     "at": "second"
-    }
-   ],
-   "footer": {
-    "text": "Not every company pays dividends",
-    "at": "not"
-   },
-   "text": "So how do investors actually make money from stocks? There are two ways. The first is price growth. If you buy a share for fifty dollars and it later trades at seventy, you've gained twenty dollars on paper. You only lock it in when you sell. The second is dividends. Some companies share part of their profits with shareholders, often every three months. Not every company pays dividends. Many fast growing companies keep their profits and reinvest them instead."
-  },
-  {
-   "id": "s04",
-   "kind": "cards",
-   "chapter": "Where trading happens",
-   "chapterTitle": "Stock exchanges, hours and brokers",
-   "broll": [
-    "41541",
-    "47796"
-   ],
-   "items": [
-    {
-     "title": "NYSE",
-     "value": "Exchange",
-     "sub": "New York Stock Exchange",
-     "at": "new"
-    },
-    {
-     "title": "Nasdaq",
-     "value": "Exchange",
-     "sub": "the other big US exchange",
-     "at": "nasdaq"
-    },
-    {
-     "title": "Regular hours",
-     "value": "9:30–4:00",
-     "sub": "New York time, Mon–Fri",
-     "at": "nine"
-    }
-   ],
-   "chips": [
-    {
-     "text": "Some brokers offer extended hours",
-     "at": "some"
-    },
-    {
-     "text": "You trade through a broker app",
-     "at": "broker",
-     "nth": 1
-    }
-   ],
-   "footer": {
-    "text": "Your broker sends your order to the market",
-    "at": "sends"
-   },
-   "text": "Where does all this buying and selling happen? On stock exchanges. In the United States, the two biggest are the New York Stock Exchange and the Nasdaq. Their regular trading hours are nine thirty in the morning to four in the afternoon, New York time, Monday to Friday. Some brokers now also offer trading outside those hours. And you don't walk into the exchange yourself. You use a broker, usually an app, which sends your order to the market for you."
-  },
-  {
-   "id": "s05",
-   "kind": "steps",
-   "chapter": "How a price is set",
-   "chapterTitle": "How a stock price is set: bid and ask",
-   "broll": [
-    "47793",
-    "9330"
-   ],
-   "items": [
-    {
-     "text": "Buyers post a BID: the most they'll pay",
-     "at": "buyers"
-    },
-    {
-     "text": "Sellers post an ASK: the least they'll accept",
-     "at": "sellers"
-    },
-    {
-     "text": "They agree = a trade = the new price",
-     "at": "agree"
-    }
-   ],
-   "footer": {
-    "text": "More buyers → price up.",
-    "highlight": "More sellers → price down.",
-    "tone": "bad",
-    "at": "more"
-   },
-   "text": "So how is a stock's price decided? It's an auction that never stops. Buyers post the highest price they're willing to pay. That's called the bid. Sellers post the lowest price they'll accept. That's the ask. For example, if the best bid is ninety nine dollars and the best ask is one hundred, the next trade will usually happen right around there. When a buyer and a seller agree, a trade happens, and that becomes the latest price. If more people want to buy than sell, buyers have to offer more, and the price rises. If more people want to sell, the price falls. That's it. Supply and demand, second by second."
-  },
-  {
-   "id": "s06",
-   "kind": "rows",
-   "chapter": "What moves prices",
-   "chapterTitle": "What makes prices move",
-   "broll": [
-    "4908",
-    "46990"
-   ],
-   "items": [
-    {
-     "name": "Company results",
-     "desc": "Profits above expectations often lift the price",
-     "at": "company"
-    },
-    {
-     "name": "Interest rates",
-     "desc": "Higher rates can pull stock prices down",
-     "at": "interest"
-    },
-    {
-     "name": "Economy & news",
-     "desc": "Jobs reports, new laws, world events",
-     "at": "economy"
-    },
-    {
-     "name": "Emotions",
-     "desc": "Fear and greed move prices short term",
-     "at": "emotions"
-    }
-   ],
-   "footer": {
-    "text": "Short term: emotions. Long term: results.",
-    "at": "short"
-   },
-   "text": "So what makes buyers and sellers change their minds? Mostly four things. Company results. When a company reports higher profits than expected, its stock often rises. And one disappointing report can send a stock sharply lower in a single day. Interest rates. When rates go up, borrowing gets more expensive, and stocks can fall. The economy and the news, like jobs reports or a new law. And finally, emotions. Fear and greed can move prices far more than the facts in the short term."
-  },
-  {
-   "id": "s07",
-   "kind": "cards",
-   "chapter": "What is an index?",
-   "chapterTitle": "Indexes: S&P 500, Dow and Nasdaq",
-   "broll": [
-    "5461",
-    "9607"
-   ],
-   "items": [
-    {
-     "title": "S&P 500",
-     "value": "500",
-     "sub": "large US companies",
-     "at": "s&p"
-    },
-    {
-     "title": "Dow Jones",
-     "value": "30",
-     "sub": "big US companies",
-     "at": "dow"
-    },
-    {
-     "title": "Nasdaq Composite",
-     "value": "Tech-heavy",
-     "sub": "thousands of stocks",
-     "at": "nasdaq"
-    }
-   ],
-   "chips": [
-    {
-     "text": "Index = many stocks as one number",
-     "at": "index",
-     "nth": 1
-    }
-   ],
-   "footer": {
-    "text": "\"The market is up\" usually means an index is up",
-    "at": "overall"
-   },
-   "text": "When people on the news say the market is up today, they usually mean an index went up. An index tracks a group of stocks as one number. The S&P 500 follows five hundred large American companies. The Dow Jones tracks just thirty big companies. And the Nasdaq Composite is packed with technology names. So instead of checking thousands of stocks, you can look at one number to see how the market is doing overall. That's also the idea behind index funds, which simply buy every stock in an index."
-  },
-  {
-   "id": "s08",
-   "kind": "stat",
-   "chapter": "The long-run average",
-   "chapterTitle": "The long-run average return",
-   "broll": [
-    "26758",
-    "30873"
-   ],
-   "badge": "S&P 500 average, 1928–2025",
-   "numberValue": 9.9,
-   "unit": "% / year",
-   "sub": "≈ 6.6% a year after inflation",
-   "big": {
-    "at": "point"
-   },
-   "chips": [
-    {
-     "text": "Includes dividends",
-     "at": "dividends"
-    },
-    {
-     "text": "Compounding over decades",
-     "at": "compounding"
-    }
-   ],
-   "text": "So how has the market done over time? According to data going back to nineteen twenty eight, the S&P 500 has grown about nine point nine percent per year on average, including dividends. After inflation, that's closer to six and a half percent. That's the engine behind long term investing. Small yearly gains, compounding on top of each other, decade after decade. But averages hide something important, and this is the part most beginners miss."
-  },
-  {
-   "id": "s09",
-   "kind": "compare",
-   "chapter": "The catch: risk",
-   "chapterTitle": "The catch: bad years happen",
-   "broll": [
-    "47214",
-    "26758"
-   ],
-   "cards": [
-    {
-     "title": "Worst year",
-     "sub": "1931: −41.8%",
-     "at": "worst"
-    },
-    {
-     "title": "Best year",
-     "sub": "1933: +54.4%",
-     "at": "best"
-    }
-   ],
-   "big": {
-    "value": "72 / 98",
-    "sub": "years ended higher",
-    "at": "seventy"
-   },
-   "bars": [
-    {
-     "label": "Up years",
-     "value": "72",
-     "fill": 0.735,
-     "tone": "good",
-     "at": "higher"
-    },
-    {
-     "label": "Down years",
-     "value": "26",
-     "fill": 0.265,
-     "tone": "bad",
-     "at": "twenty"
-    }
-   ],
-   "footer": {
-    "text": "≈ 1 year in 4 is a losing year",
-    "at": "roughly"
-   },
-   "text": "But the average is not a smooth ride. The worst year in that data was nineteen thirty one, when the market fell almost forty two percent. The best was nineteen thirty three, up more than fifty four percent. And out of ninety eight years, the market finished higher in seventy two of them, and lower in twenty six. In other words, roughly one year in four is a losing year. If you can't stay calm through those years, the average won't help you."
-  },
-  {
-   "id": "s10",
-   "kind": "verdict",
-   "chapterTitle": "The big lesson: time, not timing",
-   "broll": [
-    "26923",
-    "50759"
-   ],
-   "badge": "The big lesson",
-   "title": "Time, not timing",
-   "sub": "Long-term money gives good years time to make up for bad ones",
-   "text": "That's why the most common lesson in investing is about time, not timing. Nobody can reliably predict the next crash or the next rally. Historically, the longer people stayed invested, the less those bad years mattered, because the good years had time to make up for them. That's not a guarantee. Markets can stay down for years. But for long term money, time in the market has usually mattered more than trying to time the market."
-  },
-  {
-   "id": "s11",
-   "kind": "steps",
-   "chapter": "How beginners usually start",
-   "chapterTitle": "How beginners usually get started",
-   "broll": [
-    "4907",
-    "4806"
-   ],
-   "items": [
-    {
-     "text": "Build an emergency fund first",
-     "at": "step",
-     "nth": 0
-    },
-    {
-     "text": "Open an account with a regulated broker",
-     "at": "step",
-     "nth": 1
-    },
-    {
-     "text": "Many start with a low-cost index fund",
-     "at": "step",
-     "nth": 2
-    },
-    {
-     "text": "Invest a fixed amount regularly",
-     "at": "step",
-     "nth": 3
-    }
-   ],
-   "footer": {
-    "text": "Education, not financial advice.",
-    "at": "education"
-   },
-   "text": "So how do beginners usually get started? Step one. Build an emergency fund first, so you never have to sell in a panic. Step two. Open an account with a regulated broker. Step three. Many beginners start with a low cost index fund, which spreads money across hundreds of companies at once. Step four. Invest a fixed amount regularly, and don't check prices every day. And remember, this video is education, not financial advice. Your situation is your own."
-  },
-  {
-   "id": "s12",
-   "kind": "outro",
-   "chapterTitle": "Your turn",
-   "broll": [
-    "41541",
-    "13218"
-   ],
-   "title": "Learn it once, use it forever",
-   "accent": [
-    4
-   ],
-   "next": "7 AI Tools That Can Save You Hours Every Week",
-   "text": "Now I want to hear from you. What's the one thing about the stock market that always confused you? Tell me in the comments, and I might make a video about it. If this helped, subscribe to Future Money Lab. In the next video, I'll show you seven AI tools that can save you hours every single week."
-  }
- ],
- "short": {
-  "scenes": [
-   "s05"
-  ],
-  "headline": "How a stock price is ACTUALLY set",
-  "cta": "Full video on our channel"
- },
- "thumbnail": {
-  "a": {
-   "big": "STOCKS",
-   "line2": "EXPLAINED SIMPLY",
-   "tag": "How the market really works"
-  },
-  "b": {
-   "kicker": "$10K AT THE LONG-RUN AVERAGE",
-   "from": "$10K",
-   "to": "$170K",
-   "line2": "BUT THERE'S A CATCH",
-   "tag": "Stock market basics"
-  }
- },
- "youtube": {
+  "id": "E02",
+  "num": 2,
+  "status": "production",
+  "pillar": "B",
   "title": "How the Stock Market Actually Works (Explained Simply)",
-  "summary": "What actually is a stock, how is its price set, and why does the market go up and down? This is a plain-English guide to how the stock market works: shares and IPOs, how investors make money, exchanges and brokers, bids and asks, what moves prices, what an index like the S&P 500 is, the long-run average return, and the risk most beginners miss.",
-  "details": "Numbers mentioned:\n- S&P 500 average annual return 1928–2025: about 9.92% (CAGR, including dividends), about 6.64% after inflation; worst year 1931 (-41.8%), best year 1933 (+54.4%), positive in 72 of 98 years (Motley Fool research using Robert Shiller's data, updated September 2026)\n- $10,000 at 9.92% a year for 30 years ≈ $170,000 (illustration only, not a prediction)\n- NYSE and Nasdaq regular hours: 9:30 am to 4:00 pm New York time, Monday to Friday (checked November 2026)",
-  "sources": [
-   {
-    "name": "S&P 500 annual returns (Motley Fool research, updated Sep 2026)",
-    "url": "https://www.fool.com/research/sp-500-annual-returns/"
-   },
-   {
-    "name": "Stock market trading hours (Kiplinger, updated Jul 2026)",
-    "url": "https://www.kiplinger.com/article/investing/T038-C000-S001-stock-market-hours-what-time-is-the-market-open.html"
-   }
+  "music": "music_744.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "Stock market basics",
+      "chapterTitle": "Intro: $10,000 and the long-run average",
+      "broll": [
+        "47214",
+        "9607"
+      ],
+      "badge": "$10,000 invested for 30 years",
+      "numberValue": 170,
+      "prefix": "$",
+      "unit": "K",
+      "sub": "if it grew at the long-run average (about 10% a year)",
+      "big": {
+        "at": "hundred"
+      },
+      "chips": [
+        {
+          "text": "Not guaranteed",
+          "at": "same"
+        },
+        {
+          "text": "Some years fall 40%+",
+          "at": "forty"
+        }
+      ],
+      "text": "Here's a number that surprises most people. If you had put ten thousand dollars into the S&P 500, and it grew at its long-run average of about ten percent a year, after thirty years you'd have around one hundred and seventy thousand dollars. But that same market also fell more than forty percent in a single year. So what is the stock market, really? In this video, I'll explain how it actually works, in plain English. What a stock is, how prices move, what an index is, and how beginners usually get started."
+    },
+    {
+      "id": "s02",
+      "kind": "cards",
+      "chapter": "What is a stock?",
+      "chapterTitle": "What a stock actually is",
+      "broll": [
+        "13218",
+        "42648"
+      ],
+      "items": [
+        {
+          "title": "A company",
+          "value": "1,000,000",
+          "sub": "shares in total",
+          "at": "million"
+        },
+        {
+          "title": "You buy",
+          "value": "100",
+          "sub": "shares",
+          "at": "hundred"
+        },
+        {
+          "title": "You own",
+          "value": "0.01%",
+          "sub": "of the company",
+          "at": "hundredth"
+        }
+      ],
+      "chips": [
+        {
+          "text": "IPO = first sale of shares to the public",
+          "at": "ipo"
+        }
+      ],
+      "footer": {
+        "text": "The company gets cash.",
+        "highlight": "You get a stake.",
+        "tone": "good",
+        "at": "stake"
+      },
+      "text": "Let's start with the basics. A stock is a tiny piece of ownership in a company. Imagine a company is split into one million equal pieces, called shares. If you buy one hundred of them, you own one hundredth of one percent of that company. Giant companies like Apple or Microsoft have billions of shares, which is why a single share is such a tiny slice. Why would a company sell pieces of itself? To raise money. When a company first sells shares to the public, it's called an IPO, an initial public offering. The company gets cash to grow, and investors get a stake in its future."
+    },
+    {
+      "id": "s03",
+      "kind": "rows",
+      "chapter": "How investors make money",
+      "chapterTitle": "Two ways investors make money",
+      "broll": [
+        "18302",
+        "18263"
+      ],
+      "items": [
+        {
+          "name": "Price growth",
+          "desc": "Buy at $50, later worth $70 = $20 gain",
+          "at": "first"
+        },
+        {
+          "name": "Dividends",
+          "desc": "Part of the profits paid to shareholders",
+          "at": "second"
+        }
+      ],
+      "footer": {
+        "text": "Not every company pays dividends",
+        "at": "not"
+      },
+      "text": "So how do investors actually make money from stocks? There are two ways. The first is price growth. If you buy a share for fifty dollars and it later trades at seventy, you've gained twenty dollars on paper. You only lock it in when you sell. The second is dividends. Some companies share part of their profits with shareholders, often every three months. Not every company pays dividends. Many fast growing companies keep their profits and reinvest them instead."
+    },
+    {
+      "id": "s04",
+      "kind": "cards",
+      "chapter": "Where trading happens",
+      "chapterTitle": "Stock exchanges, hours and brokers",
+      "broll": [
+        "41541",
+        "47796"
+      ],
+      "items": [
+        {
+          "title": "NYSE",
+          "value": "Exchange",
+          "sub": "New York Stock Exchange",
+          "at": "new"
+        },
+        {
+          "title": "Nasdaq",
+          "value": "Exchange",
+          "sub": "the other big US exchange",
+          "at": "nasdaq"
+        },
+        {
+          "title": "Regular hours",
+          "value": "9:30–4:00",
+          "sub": "New York time, Mon–Fri",
+          "at": "nine"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Some brokers offer extended hours",
+          "at": "some"
+        },
+        {
+          "text": "You trade through a broker app",
+          "at": "broker",
+          "nth": 1
+        }
+      ],
+      "footer": {
+        "text": "Your broker sends your order to the market",
+        "at": "sends"
+      },
+      "text": "Where does all this buying and selling happen? On stock exchanges. In the United States, the two biggest are the New York Stock Exchange and the Nasdaq. Their regular trading hours are nine thirty in the morning to four in the afternoon, New York time, Monday to Friday. Some brokers now also offer trading outside those hours. And you don't walk into the exchange yourself. You use a broker, usually an app, which sends your order to the market for you."
+    },
+    {
+      "id": "s05",
+      "kind": "steps",
+      "chapter": "How a price is set",
+      "chapterTitle": "How a stock price is set: bid and ask",
+      "broll": [
+        "47793",
+        "9330"
+      ],
+      "items": [
+        {
+          "text": "Buyers post a BID: the most they'll pay",
+          "at": "buyers"
+        },
+        {
+          "text": "Sellers post an ASK: the least they'll accept",
+          "at": "sellers"
+        },
+        {
+          "text": "They agree = a trade = the new price",
+          "at": "agree"
+        }
+      ],
+      "footer": {
+        "text": "More buyers → price up.",
+        "highlight": "More sellers → price down.",
+        "tone": "bad",
+        "at": "more"
+      },
+      "text": "So how is a stock's price decided? It's an auction that never stops. Buyers post the highest price they're willing to pay. That's called the bid. Sellers post the lowest price they'll accept. That's the ask. For example, if the best bid is ninety nine dollars and the best ask is one hundred, the next trade will usually happen right around there. When a buyer and a seller agree, a trade happens, and that becomes the latest price. If more people want to buy than sell, buyers have to offer more, and the price rises. If more people want to sell, the price falls. That's it. Supply and demand, second by second."
+    },
+    {
+      "id": "s06",
+      "kind": "rows",
+      "chapter": "What moves prices",
+      "chapterTitle": "What makes prices move",
+      "broll": [
+        "4908",
+        "46990"
+      ],
+      "items": [
+        {
+          "name": "Company results",
+          "desc": "Profits above expectations often lift the price",
+          "at": "company"
+        },
+        {
+          "name": "Interest rates",
+          "desc": "Higher rates can pull stock prices down",
+          "at": "interest"
+        },
+        {
+          "name": "Economy & news",
+          "desc": "Jobs reports, new laws, world events",
+          "at": "economy"
+        },
+        {
+          "name": "Emotions",
+          "desc": "Fear and greed move prices short term",
+          "at": "emotions"
+        }
+      ],
+      "footer": {
+        "text": "Short term: emotions. Long term: results.",
+        "at": "short"
+      },
+      "text": "So what makes buyers and sellers change their minds? Mostly four things. Company results. When a company reports higher profits than expected, its stock often rises. And one disappointing report can send a stock sharply lower in a single day. Interest rates. When rates go up, borrowing gets more expensive, and stocks can fall. The economy and the news, like jobs reports or a new law. And finally, emotions. Fear and greed can move prices far more than the facts in the short term."
+    },
+    {
+      "id": "s07",
+      "kind": "cards",
+      "chapter": "What is an index?",
+      "chapterTitle": "Indexes: S&P 500, Dow and Nasdaq",
+      "broll": [
+        "5461",
+        "9607"
+      ],
+      "items": [
+        {
+          "title": "S&P 500",
+          "value": "500",
+          "sub": "large US companies",
+          "at": "s&p"
+        },
+        {
+          "title": "Dow Jones",
+          "value": "30",
+          "sub": "big US companies",
+          "at": "dow"
+        },
+        {
+          "title": "Nasdaq Composite",
+          "value": "Tech-heavy",
+          "sub": "thousands of stocks",
+          "at": "nasdaq"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Index = many stocks as one number",
+          "at": "index",
+          "nth": 1
+        }
+      ],
+      "footer": {
+        "text": "\"The market is up\" usually means an index is up",
+        "at": "overall"
+      },
+      "text": "When people on the news say the market is up today, they usually mean an index went up. An index tracks a group of stocks as one number. The S&P 500 follows five hundred large American companies. The Dow Jones tracks just thirty big companies. And the Nasdaq Composite is packed with technology names. So instead of checking thousands of stocks, you can look at one number to see how the market is doing overall. That's also the idea behind index funds, which simply buy every stock in an index."
+    },
+    {
+      "id": "s08",
+      "kind": "stat",
+      "chapter": "The long-run average",
+      "chapterTitle": "The long-run average return",
+      "broll": [
+        "26758",
+        "30873"
+      ],
+      "badge": "S&P 500 average, 1928–2025",
+      "numberValue": 9.9,
+      "unit": "% / year",
+      "sub": "≈ 6.6% a year after inflation",
+      "big": {
+        "at": "point"
+      },
+      "chips": [
+        {
+          "text": "Includes dividends",
+          "at": "dividends"
+        },
+        {
+          "text": "Compounding over decades",
+          "at": "compounding"
+        }
+      ],
+      "text": "So how has the market done over time? According to data going back to nineteen twenty eight, the S&P 500 has grown about nine point nine percent per year on average, including dividends. After inflation, that's closer to six and a half percent. That's the engine behind long term investing. Small yearly gains, compounding on top of each other, decade after decade. But averages hide something important, and this is the part most beginners miss."
+    },
+    {
+      "id": "s09",
+      "kind": "compare",
+      "chapter": "The catch: risk",
+      "chapterTitle": "The catch: bad years happen",
+      "broll": [
+        "47214",
+        "26758"
+      ],
+      "cards": [
+        {
+          "title": "Worst year",
+          "sub": "1931: −41.8%",
+          "at": "worst"
+        },
+        {
+          "title": "Best year",
+          "sub": "1933: +54.4%",
+          "at": "best"
+        }
+      ],
+      "big": {
+        "value": "72 / 98",
+        "sub": "years ended higher",
+        "at": "seventy"
+      },
+      "bars": [
+        {
+          "label": "Up years",
+          "value": "72",
+          "fill": 0.735,
+          "tone": "good",
+          "at": "higher"
+        },
+        {
+          "label": "Down years",
+          "value": "26",
+          "fill": 0.265,
+          "tone": "bad",
+          "at": "twenty"
+        }
+      ],
+      "footer": {
+        "text": "≈ 1 year in 4 is a losing year",
+        "at": "roughly"
+      },
+      "text": "But the average is not a smooth ride. The worst year in that data was nineteen thirty one, when the market fell almost forty two percent. The best was nineteen thirty three, up more than fifty four percent. And out of ninety eight years, the market finished higher in seventy two of them, and lower in twenty six. In other words, roughly one year in four is a losing year. If you can't stay calm through those years, the average won't help you."
+    },
+    {
+      "id": "s10",
+      "kind": "verdict",
+      "chapterTitle": "The big lesson: time, not timing",
+      "broll": [
+        "26923",
+        "50759"
+      ],
+      "badge": "The big lesson",
+      "title": "Time, not timing",
+      "sub": "Long-term money gives good years time to make up for bad ones",
+      "text": "That's why the most common lesson in investing is about time, not timing. Nobody can reliably predict the next crash or the next rally. Historically, the longer people stayed invested, the less those bad years mattered, because the good years had time to make up for them. That's not a guarantee. Markets can stay down for years. But for long term money, time in the market has usually mattered more than trying to time the market."
+    },
+    {
+      "id": "s11",
+      "kind": "steps",
+      "chapter": "How beginners usually start",
+      "chapterTitle": "How beginners usually get started",
+      "broll": [
+        "4907",
+        "4806"
+      ],
+      "items": [
+        {
+          "text": "Build an emergency fund first",
+          "at": "step",
+          "nth": 0
+        },
+        {
+          "text": "Open an account with a regulated broker",
+          "at": "step",
+          "nth": 1
+        },
+        {
+          "text": "Many start with a low-cost index fund",
+          "at": "step",
+          "nth": 2
+        },
+        {
+          "text": "Invest a fixed amount regularly",
+          "at": "step",
+          "nth": 3
+        }
+      ],
+      "footer": {
+        "text": "Education, not financial advice.",
+        "at": "education"
+      },
+      "text": "So how do beginners usually get started? Step one. Build an emergency fund first, so you never have to sell in a panic. Step two. Open an account with a regulated broker. Step three. Many beginners start with a low cost index fund, which spreads money across hundreds of companies at once. Step four. Invest a fixed amount regularly, and don't check prices every day. And remember, this video is education, not financial advice. Your situation is your own."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "41541",
+        "13218"
+      ],
+      "title": "Learn it once, use it forever",
+      "accent": [
+        4
+      ],
+      "next": "7 AI Tools That Can Save You Hours Every Week",
+      "text": "Now I want to hear from you. What's the one thing about the stock market that always confused you? Tell me in the comments, and I might make a video about it. If this helped, subscribe to Future Money Lab. In the next video, I'll show you seven AI tools that can save you hours every single week."
+    }
   ],
-  "tags": [
-   "how the stock market works",
-   "stock market for beginners",
-   "what is a stock",
-   "S&P 500 explained",
-   "bid and ask",
-   "stock market explained",
-   "investing for beginners",
-   "index funds",
-   "personal finance",
-   "Future Money Lab"
-  ],
-  "hashtags": [
-   "#stockmarket",
-   "#investing",
-   "#personalfinance"
+  "thumbnail": {
+    "a": {
+      "big": "STOCKS",
+      "line2": "EXPLAINED SIMPLY",
+      "tag": "How the market really works"
+    },
+    "b": {
+      "kicker": "$10K AT THE LONG-RUN AVERAGE",
+      "from": "$10K",
+      "to": "$170K",
+      "line2": "BUT THERE'S A CATCH",
+      "tag": "Stock market basics"
+    }
+  },
+  "youtube": {
+    "title": "How the Stock Market Actually Works (Explained Simply)",
+    "summary": "What actually is a stock, how is its price set, and why does the market go up and down? This is a plain-English guide to how the stock market works: shares and IPOs, how investors make money, exchanges and brokers, bids and asks, what moves prices, what an index like the S&P 500 is, the long-run average return, and the risk most beginners miss.",
+    "details": "Numbers mentioned:\n- S&P 500 average annual return 1928–2025: about 9.92% (CAGR, including dividends), about 6.64% after inflation; worst year 1931 (-41.8%), best year 1933 (+54.4%), positive in 72 of 98 years (Motley Fool research using Robert Shiller's data, updated September 2026)\n- $10,000 at 9.92% a year for 30 years ≈ $170,000 (illustration only, not a prediction)\n- NYSE and Nasdaq regular hours: 9:30 am to 4:00 pm New York time, Monday to Friday (checked November 2026)",
+    "sources": [
+      {
+        "name": "S&P 500 annual returns (Motley Fool research, updated Sep 2026)",
+        "url": "https://www.fool.com/research/sp-500-annual-returns/"
+      },
+      {
+        "name": "Stock market trading hours (Kiplinger, updated Jul 2026)",
+        "url": "https://www.kiplinger.com/article/investing/T038-C000-S001-stock-market-hours-what-time-is-the-market-open.html"
+      }
+    ],
+    "tags": [
+      "how the stock market works",
+      "stock market for beginners",
+      "what is a stock",
+      "S&P 500 explained",
+      "bid and ask",
+      "stock market explained",
+      "investing for beginners",
+      "index funds",
+      "personal finance",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#stockmarket",
+      "#investing",
+      "#personalfinance"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s05"
+      ],
+      "headline": "How a stock price is ACTUALLY set",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s08"
+      ],
+      "headline": "What stocks really returned since 1928",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s02"
+      ],
+      "headline": "What you actually own when you buy a stock",
+      "cta": "Full video on our channel"
+    }
   ]
- }
 }

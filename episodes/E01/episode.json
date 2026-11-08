@@ -505,11 +505,27 @@
     "postId": 420904748,
     "publishAt": "2026-11-09T00:15:00+05:00"
   },
-  "short": {
-    "scenes": [
-      "s01"
-    ],
-    "headline": "8 AI tools cost $145 a month. You need about 3.",
-    "cta": "Full video on our channel"
-  }
+  "shorts": [
+    {
+      "scenes": [
+        "s01"
+      ],
+      "headline": "8 AI tools cost $145 a month. You need about 3.",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s02"
+      ],
+      "headline": "Ask these 3 questions before paying for AI",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s10"
+      ],
+      "headline": "Cut your AI bill in 15 minutes",
+      "cta": "Full video on our channel"
+    }
+  ]
 }
