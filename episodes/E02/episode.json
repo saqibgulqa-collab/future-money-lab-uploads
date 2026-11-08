@@ -1,7 +1,7 @@
 {
   "id": "E02",
   "num": 2,
-  "status": "production",
+  "status": "scheduled",
   "pillar": "B",
   "title": "How the Stock Market Actually Works (Explained Simply)",
   "music": "music_744.mp3",
@@ -471,5 +471,9 @@
       "headline": "What you actually own when you buy a stock",
       "cta": "Full video on our channel"
     }
-  ]
+  ],
+  "metricool": {
+    "postId": 420932517,
+    "publishAt": "2026-11-10T00:15:00+05:00"
+  }
 }
