@@ -16,9 +16,9 @@ Videos themselves are in English for a US/UK audience.
 
 ## Publishing plan (owner's standing order, Nov 2026 — keep going until Saqib says stop)
 - `plan/mix.json` holds `perDay` (long videos per day), `stockTarget` and the niche mix. Read it every run.
-- **Phase 1 (now): `perDay: 1`, `stockTarget: 20`.** One long video a day at **00:15 PKT** (= 2:15 PM ET) while the
-  stock builds up to 20 scheduled long videos.
-- **Phase 2:** the 9 AM report switches to `perDay: 2`, `stockTarget: 14` the first time 20 or more long videos are
+- **Phase 1 (now): `perDay: 1`, `stockTarget: 60`.** One long video a day at **00:15 PKT** (= 2:15 PM ET). Owner's order:
+  keep building stock as far as usage allows, not just to 20 (Nov 2026).
+- **Phase 2:** the 9 AM report switches to `perDay: 2` the first time 20 or more long videos are
   scheduled. Then the long slots are **00:15 and 05:15 PKT** (= 2:15 PM and 7:15 PM ET).
 - **3 Shorts per long video.** Short slots (PKT): phase 1 → 02:45, 06:45, 21:15 (= 4:45 PM, 8:45 PM, 11:15 AM ET);
   phase 2 → 19:15, 21:15, 23:15, 02:45, 06:45, 08:15. A Short always goes out **after** its own long video:
@@ -33,7 +33,7 @@ Videos themselves are in English for a US/UK audience.
 Each run starts with this check: call `getScheduledPosts` (brand 7939426, Asia/Karachi, from now to now + 45 days)
 and count future YouTube posts whose `youtubeData.type` is `video`. **If the count is at or above `stockTarget`, stop
 immediately** (no build, no message). Otherwise make exactly ONE new long video **and its 3 Shorts** in this run.
-Runs fire every 6 hours. Two runs may overlap: always claim a video in the tracker before working on it, and re-check
+Runs fire every 4 hours. If Metricool refuses a post because of a plan limit, stop, note it in the tracker and tell Saqib. Two runs may overlap: always claim a video in the tracker before working on it, and re-check
 `getScheduledPosts` right before you schedule so two runs never take one slot.
 
 ## One production run (do these in order)
@@ -87,7 +87,7 @@ Every day at 09:00 PKT, in Roman Urdu, short:
 3. Production: videos made in the last 24 h, ones stuck in Script/Voice/Edit (and why).
 4. Numbers per pillar from Metricool YouTube analytics (`getAnalyticsAvailableMetrics` then `getAnalyticsDataByMetrics`):
    views, watch time / average view duration, subscribers gained, best and worst video. Say clearly when data is missing.
-5. **Phase switch:** if `perDay` is 1 and 20 or more long videos are scheduled, set `perDay: 2`, `stockTarget: 14`
+5. **Phase switch:** if `perDay` is 1 and 20 or more long videos are scheduled, set `perDay: 2` (keep `stockTarget: 60`)
    in `plan/mix.json`, commit, and tell Saqib in the report.
 6. **Mix update:** once each pillar has ≥ 5 long videos published ≥ 3 days ago, compare views per video and average view
    duration. Move `plan/mix.json` toward the stronger pillar by at most 0.10 per day, staying between 0.20 and 0.80;
