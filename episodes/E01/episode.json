@@ -504,5 +504,12 @@
  "metricool": {
   "postId": 420717218,
   "publishAt": "2026-11-11T00:15:00+05:00"
+ },
+ "short": {
+  "scenes": [
+   "s01"
+  ],
+  "headline": "8 AI tools cost $145 a month. You need about 3.",
+  "cta": "Full video on our channel"
  }
 }

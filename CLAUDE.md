@@ -14,10 +14,19 @@ Videos themselves are in English for a US/UK audience.
 | Scheduling | Metricool connector, brand/blogId `7939426`, timezone `Asia/Karachi` |
 | Upload hand-off | this repo's root on `main`: raw URL `https://raw.githubusercontent.com/saqibgulqa-collab/future-money-lab-uploads/main/<file>` |
 
+## Stock rule: keep 10 long videos scheduled ahead
+The owner wants **10 finished long videos always waiting** in Metricool. Each run starts with this check:
+call `getScheduledPosts` (brand 7939426, Asia/Karachi, from now to now + 45 days) and count future YouTube posts
+whose `youtubeData.type` is `video`. **If there are 10 or more, stop immediately** (no build, no message).
+Otherwise make exactly ONE new long video **and its Short** in this run (steps below). Runs fire every 4 hours,
+so the stock refills on its own as videos publish. Two runs may overlap: always claim a video in the tracker
+before working on it, and re-check `getScheduledPosts` right before you schedule so two runs never take one slot.
+
 ## One production run (do these in order)
 1. `bash pipeline/setup.sh` (installs Chatterbox voice, Whisper, Remotion, music/SFX; ~10–15 min first time).
-2. Read the tracker `videos` collection. Pick the lowest `num` whose `stage` is `Idea`. Set its stage to `Script`
-   (always pin writes with `if_version`).
+2. Read the tracker `videos` collection. Pick the lowest `num` whose `stage` is `Idea` (skip ones another run
+   already moved to `Script`/`Voice`/`Edit`). Set its stage to `Script` (always pin writes with `if_version`).
+   Pillars alternate A (AI tools) / B (money) by the plan's order; keep that order.
 3. **Research** with WebSearch/WebFetch. Open the pages you take numbers from. Note prices/dates as "checked <Month Year>".
 4. **Write `episodes/EXX/episode.json`** (copy the shape of E01):
    - 1,050–1,250 spoken words (≈7–8 min at 160 wpm), 10–13 scenes, each scene's `text` 60–130 words.
@@ -29,8 +38,12 @@ Videos themselves are in English for a US/UK audience.
    - `youtube`: title (50–65 chars), summary, details, sources (pages you opened), 8–12 tags, hashtags.
 5. Build: `FML_WORK=~/fml-work python3 pipeline/make_episode.py episodes/EXX/episode.json broll voice pace props stills`
    then **Read `~/fml-work/EXX/stills_sheet.png`** and fix any overlap/clipped text in the JSON (re-run `props stills`).
-   Then `... render audio assemble thumbs meta` (render ≈ 1 min per 9 s of video; run it in the background and wait).
-   Read `contact_sheet.png` and both thumbnails before going on. Update tracker stage as you go (Voice → Edit).
+   Then `... render audio assemble short thumbs meta` (render ≈ 1 min per 9 s of video; run it in the background and wait).
+   Read `contact_sheet.png`, both thumbnails, and one frame of `EXX_short.mp4` before going on. Update tracker stage as you go (Voice → Edit).
+   **Memory:** the machine has ~7 GB. Never run two heavy jobs at once (voice generation, a Remotion render, the
+   57-input audio mix). A SIGKILL means out of memory: wait for the other job, then re-run the stage (stages resume).
+   **Short:** set `episode.json` → `short: {scenes: [one or two consecutive scene ids, 30–55 s total], headline (≤ 50 chars, a hook), cta}`.
+   Pick the most self-contained, surprising scene (a number, a rule, a reveal) — not the intro if it only teases.
 6. **Upload hand-off**: copy `EXX_upload.mp4` (<95 MB) into the repo root, commit, push to `main`,
    then confirm `curl -sI <raw url>` returns 200 with the right content-length.
 7. **Schedule** with Metricool `createScheduledPost` (same fields as E01: `providers:[{network:"youtube"}]`,
@@ -38,7 +51,11 @@ Videos themselves are in English for a US/UK audience.
    isAiGeneratedContent:true}, `text` = `youtube_description.txt`, `media` = [raw url], `autoPublish:true`).
    **Slots** (US afternoon = 2:15 PM ET): **Wed, Fri, Sun 00:15 Asia/Karachi**. Use `getScheduledPosts` and take the
    earliest free slot that is **at least 24 hours away**, so the owner can still stop it in Metricool.
-8. When the post is created (Metricool copies media to static.metricool.com), `git rm` the mp4 and push.
+   **Then schedule the Short** the same way with its own file `EXX_short.mp4` (also via the repo raw URL):
+   `youtubeData.type: "short"`, title = the short headline (+ " #Shorts"), same tags, `isAiGeneratedContent: true`,
+   text = 2 lines about the clip + "Full video: search 'Future Money Lab' or visit https://www.youtube.com/@TheFutureMoneyLabAI"
+   + the disclaimer line. Publish time = the long video's time **+ 1 day + 3 hours** (US evening).
+8. When the posts are created (Metricool copies media to static.metricool.com), `git rm` the mp4 files and push.
    Commit `episode.json` with `"status":"scheduled"` and `metricool.postId/publishAt`.
 9. Tracker: video `stage: "Scheduled"`, `day` = slot; add a short note to the matching task if useful.
 10. Tell Saqib (Roman Urdu, short): title, publish time (PKT + US ET), Metricool planner link

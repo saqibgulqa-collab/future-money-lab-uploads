@@ -2,7 +2,7 @@
 
 Usage:
   python3 pipeline/make_episode.py episodes/E02/episode.json [stage ...]
-Stages (default: all, in order): broll voice pace props render audio assemble thumbs meta
+Stages (default: all, in order): broll voice pace props stills render audio assemble short thumbs meta
 Every stage skips work that is already done, so a stopped run can be resumed.
 Outputs go to $FML_WORK/<episode id>/ (default ~/fml-work/E02).
 """
@@ -14,7 +14,7 @@ FPS, WPM = 30, 160
 EP_PATH = os.path.abspath(sys.argv[1])
 EP = json.load(open(EP_PATH))
 OUT = os.path.join(WORK, EP["id"])
-STAGES = sys.argv[2:] or ["broll", "voice", "pace", "props", "render", "audio", "assemble", "thumbs", "meta"]
+STAGES = sys.argv[2:] or ["broll", "voice", "pace", "props", "stills", "render", "audio", "assemble", "short", "thumbs", "meta"]
 os.makedirs(OUT, exist_ok=True)
 norm = lambda s: re.sub(r"[^a-z0-9$]", "", s.lower())
 sh = lambda *a, **k: subprocess.run(list(a), check=True, **k)
@@ -204,6 +204,36 @@ def stage_assemble():
         ff("-i", master, "-c:v", "libx264", "-preset", "medium", "-b:v", f"{vk}k", "-pass", "2", "-passlogfile", f"{OUT}/x264", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", up)
     ff("-i", master, "-vf", "select='not(mod(n\\,1800))',scale=480:-1,tile=4x3", "-frames:v", "1", "-fps_mode", "vfr", f"{OUT}/contact_sheet.png")
     log("assemble", master, round(d, 1), "s; upload", round(os.path.getsize(up) / 1e6, 1), "MB")
+
+
+def stage_short():
+    """Vertical Short from episode["short"]["scenes"] (consecutive scene ids, ideally 30-55 s total)."""
+    sp = EP["short"]; t = json.load(open(f"{OUT}/timing.json")); END = 2.5
+    pub = f"{ROOT}/pipeline/remotion/public/shorts"; os.makedirs(pub, exist_ok=True)
+    src = f"{pub}/{EP['id']}_short_src.mp4"
+    with open(f"{OUT}/short_list.txt", "w") as f:
+        for sid in sp["scenes"]: f.write(f"file '{OUT}/scenes/{sid}.mp4'\n")
+    ff("-f", "concat", "-safe", "0", "-i", f"{OUT}/short_list.txt", "-c", "copy", src)
+    words, off = [], 0.0
+    for sid in sp["scenes"]:
+        for w in t[sid]["words"]: words.append({"w": w["w"], "s": round(w["s"] + off, 2), "e": round(w["e"] + off, 2)})
+        off += round(t[sid]["dur"] * FPS) / FPS
+    props = {"video": f"shorts/{EP['id']}_short_src.mp4", "words": words, "dur": off, "endCard": END,
+             "headline": sp["headline"], "cta": sp.get("cta", "Full video on our channel")}
+    json.dump(props, open(f"{OUT}/short_props.json", "w"))
+    vid = f"{OUT}/{EP['id']}_short_video.mp4"
+    sh("npx", "remotion", "render", "src/index.ts", "Short", vid, f"--props={OUT}/short_props.json", "--codec=h264", "--crf=18", "--muted",
+       "--concurrency=2", "--offthreadvideo-cache-size-in-bytes=400000000", "--offthreadvideo-video-threads=1", "--log=error", cwd=f"{ROOT}/pipeline/remotion")
+    with open(f"{OUT}/short_voice.txt", "w") as f:
+        for sid in sp["scenes"]: f.write(f"file '{OUT}/audio_n/{sid}_fit.wav'\n")
+    total = off + END
+    ff("-f", "concat", "-safe", "0", "-i", f"{OUT}/short_voice.txt", "-stream_loop", "-1", "-i", f"{WORK}/sfx/" + EP.get("music", "music_759.mp3"),
+       "-filter_complex", f"[0]aformat=channel_layouts=stereo,apad,atrim=0:{total},asplit=2[v][sc];[1]atrim=0:{total},afade=t=in:d=0.8,afade=t=out:st={total-1.5}:d=1.5,volume=0.22[m];"
+       f"[m][sc]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=350[md];[v][md]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
+       "-map", "[out]", "-ar", "48000", f"{OUT}/short_mix.wav")
+    ff("-i", vid, "-i", f"{OUT}/short_mix.wav", "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", f"{OUT}/{EP['id']}_short.mp4")
+    os.remove(src)
+    log("short", f"{OUT}/{EP['id']}_short.mp4", round(total, 1), "s")
 
 
 def stage_thumbs():
