@@ -1,515 +1,515 @@
 {
- "id": "E01",
- "num": 1,
- "status": "scheduled",
- "title": "I Compared 8 Popular AI Tools: Only 3 Are Worth Paying For",
- "pillar": "A",
- "music": "music_759.mp3",
- "scenes": [
-  {
-   "id": "s01",
-   "kind": "pricelist",
-   "chapter": "The AI subscription trap",
-   "chapterTitle": "Intro: the $145 AI subscription trap",
-   "items": [
-    {
-     "label": "ChatGPT Plus",
-     "value": "~$20",
-     "num": 20,
-     "at": "chatgpt"
-    },
-    {
-     "label": "Claude Pro",
-     "value": "~$20",
-     "num": 20,
-     "at": "claude"
-    },
-    {
-     "label": "Gemini AI Pro",
-     "value": "~$19.99",
-     "num": 19.99,
-     "at": "gemini"
-    },
-    {
-     "label": "Perplexity Pro",
-     "value": "~$20",
-     "num": 20,
-     "at": "perplexity"
-    },
-    {
-     "label": "Notion AI (Business)",
-     "value": "~$20",
-     "num": 20,
-     "at": "notion"
-    },
-    {
-     "label": "Otter Pro",
-     "value": "~$16.99",
-     "num": 16.99,
-     "at": "otter"
-    },
-    {
-     "label": "Fireflies Pro",
-     "value": "~$18",
-     "num": 18,
-     "at": "fireflies"
-    },
-    {
-     "label": "Gamma Plus",
-     "value": "~$10",
-     "num": 10,
-     "at": "gamma"
-    }
-   ],
-   "total": {
-    "label": "Every month",
-    "yearly": {
-     "text": "≈ $1,700 a year",
-     "at": "seventeen",
-     "tone": "bad"
-    },
-    "callout": {
-     "text": "You need ~3",
-     "at": "three"
-    }
-   },
-   "broll": [
-    "41541",
-    "13218"
-   ],
-   "text": "If you paid for every popular AI tool right now, ChatGPT, Claude, Gemini, Perplexity, Notion AI, Otter, Fireflies and Gamma, you'd spend almost one hundred and fifty dollars a month. That's around seventeen hundred dollars a year. And most people who pay for these tools don't use half of them. So I compared all eight, using their current plans and prices. The truth is, most people only need three of them. In this video, I'll show you which three, how much you can save, and a simple test you can use on any AI tool before you pay for it."
-  },
-  {
-   "id": "s02",
-   "kind": "questions",
-   "chapter": "The 3-question test",
-   "chapterTitle": "The 3-question test",
-   "items": [
-    {
-     "text": "Will I use it every week?",
-     "at": "question",
-     "nth": 0
-    },
-    {
-     "text": "Does the free plan already cover it?",
-     "at": "question",
-     "nth": 1
-    },
-    {
-     "text": "Does it do the same job as a tool I pay for?",
-     "at": "question",
-     "nth": 2
-    }
-   ],
-   "footer": {
-    "text": "Fails any one?",
-    "highlight": "Don't pay for it.",
-    "tone": "bad",
-    "at": "fails"
-   },
-   "broll": [
-    "4806",
-    "46768"
-   ],
-   "text": "Here's the test I used. For every tool, ask three questions. Question one. Will I actually use this every week? Not once a month. Every week. Question two. Does the free plan already cover what I need? Many free plans today are surprisingly good. And question three. Does this tool do the same job as something I'm already paying for? If a tool fails any one of these three questions, don't pay for it. Write these down, because we're going to run every tool through them."
-  },
-  {
-   "id": "s03",
-   "kind": "cards",
-   "chapter": "The big four assistants",
-   "chapterTitle": "The big four AI assistants",
-   "items": [
-    {
-     "title": "ChatGPT Plus",
-     "value": "~$20",
-     "sub": "per month",
-     "at": "chatgpt"
-    },
-    {
-     "title": "Claude Pro",
-     "value": "~$20",
-     "sub": "per month",
-     "at": "claude"
-    },
-    {
-     "title": "Gemini AI Pro",
-     "value": "~$20",
-     "sub": "per month",
-     "at": "gemini"
-    },
-    {
-     "title": "Perplexity Pro",
-     "value": "~$20",
-     "sub": "per month",
-     "at": "perplexity"
-    }
-   ],
-   "chips": [
-    {
-     "text": "Write emails",
-     "at": "write"
-    },
-    {
-     "text": "Summarize docs",
-     "at": "summarize"
-    },
-    {
-     "text": "Answer questions",
-     "at": "answer"
-    },
-    {
-     "text": "Analyze files",
-     "at": "analyze"
-    },
-    {
-     "text": "Brainstorm",
-     "at": "brainstorm"
-    },
-    {
-     "text": "Research",
-     "at": "research"
-    }
-   ],
-   "footer": {
-    "text": "All four =",
-    "highlight": "$80/mo for mostly the same job",
-    "tone": "bad",
-    "at": "eighty"
-   },
-   "broll": [
-    "1730",
-    "4907"
-   ],
-   "text": "Let's start with the big four AI assistants. ChatGPT Plus, Claude, Gemini, and Perplexity Pro. Each one costs about twenty dollars a month. And here's the problem. They overlap massively. All four can write emails, summarize long documents, answer questions, analyze files, brainstorm ideas, and help you research. If you pay for all four, you're spending eighty dollars a month on tools that mostly do the same thing. It's like paying for four streaming services that all show the same movies."
-  },
-  {
-   "id": "s04",
-   "kind": "rows",
-   "chapter": "What each one does best",
-   "chapterTitle": "What each assistant does best",
-   "items": [
-    {
-     "name": "Gemini",
-     "desc": "Lives inside Gmail, Docs & Drive · extra storage",
-     "at": "gemini"
-    },
-    {
-     "name": "Perplexity",
-     "desc": "Shows sources for every answer",
-     "at": "perplexity"
-    },
-    {
-     "name": "ChatGPT",
-     "desc": "Widest feature set: projects, custom GPTs, deep research",
-     "at": "chatgpt"
-    },
-    {
-     "name": "Claude",
-     "desc": "Popular for long writing & big documents",
-     "at": "claude"
-    }
-   ],
-   "footer": {
-    "text": "Best = the one that fits how you already work",
-    "at": "honest"
-   },
-   "broll": [
-    "42653",
-    "221"
-   ],
-   "text": "That said, each one does have a home ground. Gemini is built into Google's apps, so if your work runs on Gmail, Docs and Drive, it fits right in, and the paid plan also bundles extra Google storage. Perplexity is built around research, and it shows its sources for every answer, which makes checking facts easy. ChatGPT has the widest set of features, like projects, custom assistants and deep research. And many people choose Claude for long writing and for working through big documents. The honest answer is, the best one is the one that fits how you already work."
-  },
-  {
-   "id": "s05",
-   "kind": "verdict",
-   "badge": "Worth paying #1",
-   "title": "One AI assistant",
-   "sub": "Pick the one that fits where you already work",
-   "chapterTitle": "Worth paying #1: one AI assistant",
-   "broll": [
-    "4907",
-    "1730"
-   ],
-   "text": "So here's pick number one. Pay for one AI assistant, not four. Here's how to choose. Use the free versions of two or three of them for one week, on your real work. Notice which one you keep opening without thinking about it. That's the one to pay for. And for Perplexity, its free version is already great for quick research with sources. Only upgrade if research is the main part of your job. This one decision alone can save most people sixty dollars a month."
-  },
-  {
-   "id": "s06",
-   "kind": "stamp",
-   "chapter": "Tool check",
-   "chapterTitle": "Notion AI: skip it?",
-   "title": "Notion AI",
-   "value": "$20",
-   "sub": "per member / month (Business plan)",
-   "stamp": "Skip",
-   "stampAt": "skip",
-   "footer": {
-    "text": "…unless your whole team already lives in Notion",
-    "at": "unless"
-   },
-   "broll": [
-    "42664",
-    "4806"
-   ],
-   "text": "Next, Notion AI. Notion recently removed its old ten dollar add-on. Full AI now comes with the Business plan, at about twenty dollars per member each month. Now, if your whole team already plans projects and keeps its documents in Notion, that can be worth it, because the AI can search and summarize everything your team has written. But if you're one person using Notion for notes, your AI assistant can already write, rewrite and summarize those notes for you. So for most people, Notion AI fails question three. It does the same job as something you already pay for. Skip it, unless your team truly lives in Notion."
-  },
-  {
-   "id": "s07",
-   "kind": "compare",
-   "chapter": "AI meeting notes",
-   "chapterTitle": "Meeting notes: Otter vs Fireflies",
-   "cards": [
-    {
-     "title": "Otter",
-     "sub": "Free: 300 min / month",
-     "at": "otter"
-    },
-    {
-     "title": "Fireflies",
-     "sub": "Free plan available",
-     "at": "fireflies"
-    }
-   ],
-   "big": {
-    "value": "300 min",
-    "sub": "= 5 hours of meetings",
-    "at": "hundred"
-   },
-   "bars": [
-    {
-     "label": "Pay monthly",
-     "value": "~$17–18 / mo",
-     "fill": 1,
-     "tone": "bad",
-     "at": "seventeen"
-    },
-    {
-     "label": "Pay yearly",
-     "value": "~$8–10 / mo",
-     "fill": 0.52,
-     "tone": "good",
-     "at": "yearly"
-    }
-   ],
-   "footer": {
-    "text": "Yearly ≈ half the price",
-    "at": "half"
-   },
-   "broll": [
-    "4915",
-    "42648"
-   ],
-   "text": "Now let's talk about meeting notes. Otter and Fireflies both join your video calls, record them, turn them into text, and write a summary with action items. Otter's free plan gives you three hundred minutes a month. That's five hours of meetings. Fireflies also has a free plan. And here's a money tip most people miss. Paid plans cost around seventeen to eighteen dollars if you pay month to month, but only around eight to ten dollars a month if you pay yearly. That's roughly half price. So if you know you'll use a tool all year, yearly billing can save you a lot."
-  },
-  {
-   "id": "s08",
-   "kind": "verdict",
-   "badge": "Worth paying #2",
-   "title": "One meeting notetaker",
-   "sub": "Only if you're in meetings 5+ hours a month",
-   "chapterTitle": "Worth paying #2: a meeting notetaker",
-   "broll": [
-    "42648",
-    "4915"
-   ],
-   "text": "So here's pick number two, with a condition. If you spend less than five hours a month in meetings, stay on the free plan. But if you're on calls every day, a meeting notetaker is one of the best deals in AI. Think about it. If it saves you even one hour of writing notes each week, that's four hours a month, for around ten dollars. Just choose one. Otter or Fireflies, not both. They do the same job, so paying for both fails question three."
-  },
-  {
-   "id": "s09",
-   "kind": "verdict",
-   "badge": "Worth paying #3",
-   "title": "An AI presentation tool",
-   "sub": "Only if you build slides every week",
-   "chapterTitle": "Worth paying #3: an AI presentation tool",
-   "broll": [
-    "46768",
-    "42664"
-   ],
-   "text": "Pick number three is for a specific group of people. If you build presentations every week, for clients, for your manager, or for training, Gamma can turn a simple outline into a clean slide deck in minutes. The free plan gives you starter credits to try it properly. The Plus plan costs around ten a month. If you only make a few decks a year, the free credits are enough, so don't pay. But if slides are a regular part of your job, this tool pays for itself after the first deck."
-  },
-  {
-   "id": "s10",
-   "kind": "steps",
-   "chapter": "15-minute AI subscription audit",
-   "chapterTitle": "15-minute AI subscription audit",
-   "items": [
-    {
-     "text": "List every AI tool on your statement",
-     "at": "step",
-     "nth": 0
-    },
-    {
-     "text": "Write the last time you used each one",
-     "at": "step",
-     "nth": 1
-    },
-    {
-     "text": "Run each through the 3 questions",
-     "at": "step",
-     "nth": 2
-    }
-   ],
-   "footer": {
-    "text": "Not used in 2 weeks or doubles another tool?",
-    "highlight": "Cancel.",
-    "tone": "bad",
-    "at": "cancel"
-   },
-   "broll": [
-    "45923",
-    "4806"
-   ],
-   "text": "Before we total it up, here's a fifteen minute AI subscription audit you can do today. Step one. Open your bank or card statement and list every AI tool you pay for. Step two. Next to each one, write the last time you actually used it. Step three. Run each tool through the three questions. Cancel anything you haven't used in the last two weeks, and anything that does the same job as another tool. Most people find at least one subscription they forgot about."
-  },
-  {
-   "id": "s11",
-   "kind": "scorecard",
-   "chapter": "The final scorecard",
-   "chapterTitle": "The final scorecard",
-   "left": {
-    "title": "Pay for",
-    "items": [
-     "1 AI assistant",
-     "Meeting notetaker*",
-     "Slide tool*"
-    ],
-    "note": "*only if your work needs it"
-   },
-   "right": {
-    "title": "Skip",
-    "items": [
-     "Extra assistants",
-     "Notion AI (solo)",
-     "A 2nd notetaker",
-     "Paid Perplexity (most)",
-     "Gamma (rare decks)"
-    ]
-   },
-   "from": "~$145",
-   "to": "$20–40",
-   "unit": "/ month",
-   "big": {
-    "at": "between"
-   },
-   "saving": {
-    "text": "$1,000+ saved / year",
-    "at": "thousand"
-   },
-   "broll": [
-    "13218",
-    "41541"
-   ],
-   "text": "So let's add it up. Instead of almost one hundred and fifty dollars a month, most people need one AI assistant for about twenty dollars, plus a notetaker or a slide tool only if their work truly needs it. That's somewhere between twenty and forty dollars a month. That's over a thousand dollars a year back in your pocket. Just remember, prices and plans change often, so always check the official pricing page before you subscribe. I'll put the sources I used in the description."
-  },
-  {
-   "id": "s12",
-   "kind": "outro",
-   "title": "Pay for what you use",
-   "accent": [
-    3
-   ],
-   "next": "7 AI Tools That Can Save You Hours Every Week",
-   "chapterTitle": "Your turn",
-   "broll": [
-    "26923",
-    "50759"
-   ],
-   "text": "Now I want to hear from you. Which AI tool are you paying for right now, and is it really worth it? Tell me in the comments. If this video saved you some money, subscribe to Future Money Lab. In the next video, I'll show you seven AI tools that can save you hours every single week."
-  }
- ],
- "thumbnail": {
-  "a": {
-   "big": "ONLY 3",
-   "line2": "ARE WORTH IT",
-   "tag": "8 AI tools compared",
-   "chips": [
-    [
-     "1 AI assistant",
-     true
-    ],
-    [
-     "Meeting notes",
-     true
-    ],
-    [
-     "Slide tool",
-     true
-    ],
-    [
-     "3 extra assistants",
-     false
-    ],
-    [
-     "Notion AI (solo)",
-     false
-    ],
-    [
-     "2nd notetaker",
-     false
-    ]
-   ]
-  },
-  "b": {
-   "kicker": "AI SUBSCRIPTIONS",
-   "from": "$145",
-   "to": "$40",
-   "line2": "STOP OVERPAYING",
-   "tag": "Only 3 AI tools are worth it"
-  }
- },
- "youtube": {
+  "id": "E01",
+  "num": 1,
+  "status": "scheduled",
   "title": "I Compared 8 Popular AI Tools: Only 3 Are Worth Paying For",
-  "summary": "Paying for every AI tool can cost almost $150 a month. I compared 8 popular AI tools (ChatGPT, Claude, Gemini, Perplexity, Notion AI, Otter, Fireflies and Gamma) using their current plans and prices, and for most people only 3 are worth paying for. Here's which three, how to decide for yourself, and how to cut your AI bill to around $20-40 a month.",
-  "details": "Prices mentioned (checked November 2026, always confirm on the official pricing page):\n- ChatGPT Plus, Claude Pro, Gemini AI Pro, Perplexity Pro: about $20/month each\n- Notion AI: included in the Business plan, about $20 per member/month\n- Otter Pro: $16.99/month or $8.33/month billed yearly; free plan 300 minutes/month\n- Fireflies Pro: $18/month or $10/month billed yearly\n- Gamma Plus: about 10/month (8/month billed yearly)",
-  "sources": [
-   {
-    "name": "AI chatbot plans and prices (Tech Insider, Nov 2026)",
-    "url": "https://tech-insider.org/best-ai-chatbot-subscription-newest-model-by-plan-2026/"
-   },
-   {
-    "name": "Notion AI pricing (Krater, Oct 2026)",
-    "url": "https://krater.ai/blog/notion-ai-pricing"
-   },
-   {
-    "name": "Gamma pricing (Dupple, Oct 2026)",
-    "url": "https://dupple.com/pricing/gamma"
-   },
-   {
-    "name": "Otter vs Fireflies pricing (CostBench)",
-    "url": "https://costbench.com/compare/otter-ai-vs-fireflies-ai/"
-   },
-   {
-    "name": "Perplexity pricing (eesel)",
-    "url": "https://www.eesel.ai/blog/perplexity-pricing"
-   }
-  ],
-  "tags": [
-   "AI tools",
-   "best AI tools 2026",
-   "ChatGPT vs Claude vs Gemini",
-   "AI subscriptions",
-   "Perplexity Pro",
-   "Notion AI",
-   "Otter vs Fireflies",
-   "Gamma AI",
-   "AI productivity",
-   "save money",
-   "Future Money Lab"
-  ],
-  "hashtags": [
-   "#AItools",
-   "#productivity",
-   "#personalfinance"
-  ]
- },
- "metricool": {
-  "postId": 420717218,
-  "publishAt": "2026-11-11T00:15:00+05:00"
- },
- "short": {
+  "pillar": "A",
+  "music": "music_759.mp3",
   "scenes": [
-   "s01"
+    {
+      "id": "s01",
+      "kind": "pricelist",
+      "chapter": "The AI subscription trap",
+      "chapterTitle": "Intro: the $145 AI subscription trap",
+      "items": [
+        {
+          "label": "ChatGPT Plus",
+          "value": "~$20",
+          "num": 20,
+          "at": "chatgpt"
+        },
+        {
+          "label": "Claude Pro",
+          "value": "~$20",
+          "num": 20,
+          "at": "claude"
+        },
+        {
+          "label": "Gemini AI Pro",
+          "value": "~$19.99",
+          "num": 19.99,
+          "at": "gemini"
+        },
+        {
+          "label": "Perplexity Pro",
+          "value": "~$20",
+          "num": 20,
+          "at": "perplexity"
+        },
+        {
+          "label": "Notion AI (Business)",
+          "value": "~$20",
+          "num": 20,
+          "at": "notion"
+        },
+        {
+          "label": "Otter Pro",
+          "value": "~$16.99",
+          "num": 16.99,
+          "at": "otter"
+        },
+        {
+          "label": "Fireflies Pro",
+          "value": "~$18",
+          "num": 18,
+          "at": "fireflies"
+        },
+        {
+          "label": "Gamma Plus",
+          "value": "~$10",
+          "num": 10,
+          "at": "gamma"
+        }
+      ],
+      "total": {
+        "label": "Every month",
+        "yearly": {
+          "text": "≈ $1,700 a year",
+          "at": "seventeen",
+          "tone": "bad"
+        },
+        "callout": {
+          "text": "You need ~3",
+          "at": "three"
+        }
+      },
+      "broll": [
+        "41541",
+        "13218"
+      ],
+      "text": "If you paid for every popular AI tool right now, ChatGPT, Claude, Gemini, Perplexity, Notion AI, Otter, Fireflies and Gamma, you'd spend almost one hundred and fifty dollars a month. That's around seventeen hundred dollars a year. And most people who pay for these tools don't use half of them. So I compared all eight, using their current plans and prices. The truth is, most people only need three of them. In this video, I'll show you which three, how much you can save, and a simple test you can use on any AI tool before you pay for it."
+    },
+    {
+      "id": "s02",
+      "kind": "questions",
+      "chapter": "The 3-question test",
+      "chapterTitle": "The 3-question test",
+      "items": [
+        {
+          "text": "Will I use it every week?",
+          "at": "question",
+          "nth": 0
+        },
+        {
+          "text": "Does the free plan already cover it?",
+          "at": "question",
+          "nth": 1
+        },
+        {
+          "text": "Does it do the same job as a tool I pay for?",
+          "at": "question",
+          "nth": 2
+        }
+      ],
+      "footer": {
+        "text": "Fails any one?",
+        "highlight": "Don't pay for it.",
+        "tone": "bad",
+        "at": "fails"
+      },
+      "broll": [
+        "4806",
+        "46768"
+      ],
+      "text": "Here's the test I used. For every tool, ask three questions. Question one. Will I actually use this every week? Not once a month. Every week. Question two. Does the free plan already cover what I need? Many free plans today are surprisingly good. And question three. Does this tool do the same job as something I'm already paying for? If a tool fails any one of these three questions, don't pay for it. Write these down, because we're going to run every tool through them."
+    },
+    {
+      "id": "s03",
+      "kind": "cards",
+      "chapter": "The big four assistants",
+      "chapterTitle": "The big four AI assistants",
+      "items": [
+        {
+          "title": "ChatGPT Plus",
+          "value": "~$20",
+          "sub": "per month",
+          "at": "chatgpt"
+        },
+        {
+          "title": "Claude Pro",
+          "value": "~$20",
+          "sub": "per month",
+          "at": "claude"
+        },
+        {
+          "title": "Gemini AI Pro",
+          "value": "~$20",
+          "sub": "per month",
+          "at": "gemini"
+        },
+        {
+          "title": "Perplexity Pro",
+          "value": "~$20",
+          "sub": "per month",
+          "at": "perplexity"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Write emails",
+          "at": "write"
+        },
+        {
+          "text": "Summarize docs",
+          "at": "summarize"
+        },
+        {
+          "text": "Answer questions",
+          "at": "answer"
+        },
+        {
+          "text": "Analyze files",
+          "at": "analyze"
+        },
+        {
+          "text": "Brainstorm",
+          "at": "brainstorm"
+        },
+        {
+          "text": "Research",
+          "at": "research"
+        }
+      ],
+      "footer": {
+        "text": "All four =",
+        "highlight": "$80/mo for mostly the same job",
+        "tone": "bad",
+        "at": "eighty"
+      },
+      "broll": [
+        "1730",
+        "4907"
+      ],
+      "text": "Let's start with the big four AI assistants. ChatGPT Plus, Claude, Gemini, and Perplexity Pro. Each one costs about twenty dollars a month. And here's the problem. They overlap massively. All four can write emails, summarize long documents, answer questions, analyze files, brainstorm ideas, and help you research. If you pay for all four, you're spending eighty dollars a month on tools that mostly do the same thing. It's like paying for four streaming services that all show the same movies."
+    },
+    {
+      "id": "s04",
+      "kind": "rows",
+      "chapter": "What each one does best",
+      "chapterTitle": "What each assistant does best",
+      "items": [
+        {
+          "name": "Gemini",
+          "desc": "Lives inside Gmail, Docs & Drive · extra storage",
+          "at": "gemini"
+        },
+        {
+          "name": "Perplexity",
+          "desc": "Shows sources for every answer",
+          "at": "perplexity"
+        },
+        {
+          "name": "ChatGPT",
+          "desc": "Widest feature set: projects, custom GPTs, deep research",
+          "at": "chatgpt"
+        },
+        {
+          "name": "Claude",
+          "desc": "Popular for long writing & big documents",
+          "at": "claude"
+        }
+      ],
+      "footer": {
+        "text": "Best = the one that fits how you already work",
+        "at": "honest"
+      },
+      "broll": [
+        "42653",
+        "221"
+      ],
+      "text": "That said, each one does have a home ground. Gemini is built into Google's apps, so if your work runs on Gmail, Docs and Drive, it fits right in, and the paid plan also bundles extra Google storage. Perplexity is built around research, and it shows its sources for every answer, which makes checking facts easy. ChatGPT has the widest set of features, like projects, custom assistants and deep research. And many people choose Claude for long writing and for working through big documents. The honest answer is, the best one is the one that fits how you already work."
+    },
+    {
+      "id": "s05",
+      "kind": "verdict",
+      "badge": "Worth paying #1",
+      "title": "One AI assistant",
+      "sub": "Pick the one that fits where you already work",
+      "chapterTitle": "Worth paying #1: one AI assistant",
+      "broll": [
+        "4907",
+        "1730"
+      ],
+      "text": "So here's pick number one. Pay for one AI assistant, not four. Here's how to choose. Use the free versions of two or three of them for one week, on your real work. Notice which one you keep opening without thinking about it. That's the one to pay for. And for Perplexity, its free version is already great for quick research with sources. Only upgrade if research is the main part of your job. This one decision alone can save most people sixty dollars a month."
+    },
+    {
+      "id": "s06",
+      "kind": "stamp",
+      "chapter": "Tool check",
+      "chapterTitle": "Notion AI: skip it?",
+      "title": "Notion AI",
+      "value": "$20",
+      "sub": "per member / month (Business plan)",
+      "stamp": "Skip",
+      "stampAt": "skip",
+      "footer": {
+        "text": "…unless your whole team already lives in Notion",
+        "at": "unless"
+      },
+      "broll": [
+        "42664",
+        "4806"
+      ],
+      "text": "Next, Notion AI. Notion recently removed its old ten dollar add-on. Full AI now comes with the Business plan, at about twenty dollars per member each month. Now, if your whole team already plans projects and keeps its documents in Notion, that can be worth it, because the AI can search and summarize everything your team has written. But if you're one person using Notion for notes, your AI assistant can already write, rewrite and summarize those notes for you. So for most people, Notion AI fails question three. It does the same job as something you already pay for. Skip it, unless your team truly lives in Notion."
+    },
+    {
+      "id": "s07",
+      "kind": "compare",
+      "chapter": "AI meeting notes",
+      "chapterTitle": "Meeting notes: Otter vs Fireflies",
+      "cards": [
+        {
+          "title": "Otter",
+          "sub": "Free: 300 min / month",
+          "at": "otter"
+        },
+        {
+          "title": "Fireflies",
+          "sub": "Free plan available",
+          "at": "fireflies"
+        }
+      ],
+      "big": {
+        "value": "300 min",
+        "sub": "= 5 hours of meetings",
+        "at": "hundred"
+      },
+      "bars": [
+        {
+          "label": "Pay monthly",
+          "value": "~$17–18 / mo",
+          "fill": 1,
+          "tone": "bad",
+          "at": "seventeen"
+        },
+        {
+          "label": "Pay yearly",
+          "value": "~$8–10 / mo",
+          "fill": 0.52,
+          "tone": "good",
+          "at": "yearly"
+        }
+      ],
+      "footer": {
+        "text": "Yearly ≈ half the price",
+        "at": "half"
+      },
+      "broll": [
+        "4915",
+        "42648"
+      ],
+      "text": "Now let's talk about meeting notes. Otter and Fireflies both join your video calls, record them, turn them into text, and write a summary with action items. Otter's free plan gives you three hundred minutes a month. That's five hours of meetings. Fireflies also has a free plan. And here's a money tip most people miss. Paid plans cost around seventeen to eighteen dollars if you pay month to month, but only around eight to ten dollars a month if you pay yearly. That's roughly half price. So if you know you'll use a tool all year, yearly billing can save you a lot."
+    },
+    {
+      "id": "s08",
+      "kind": "verdict",
+      "badge": "Worth paying #2",
+      "title": "One meeting notetaker",
+      "sub": "Only if you're in meetings 5+ hours a month",
+      "chapterTitle": "Worth paying #2: a meeting notetaker",
+      "broll": [
+        "42648",
+        "4915"
+      ],
+      "text": "So here's pick number two, with a condition. If you spend less than five hours a month in meetings, stay on the free plan. But if you're on calls every day, a meeting notetaker is one of the best deals in AI. Think about it. If it saves you even one hour of writing notes each week, that's four hours a month, for around ten dollars. Just choose one. Otter or Fireflies, not both. They do the same job, so paying for both fails question three."
+    },
+    {
+      "id": "s09",
+      "kind": "verdict",
+      "badge": "Worth paying #3",
+      "title": "An AI presentation tool",
+      "sub": "Only if you build slides every week",
+      "chapterTitle": "Worth paying #3: an AI presentation tool",
+      "broll": [
+        "46768",
+        "42664"
+      ],
+      "text": "Pick number three is for a specific group of people. If you build presentations every week, for clients, for your manager, or for training, Gamma can turn a simple outline into a clean slide deck in minutes. The free plan gives you starter credits to try it properly. The Plus plan costs around ten a month. If you only make a few decks a year, the free credits are enough, so don't pay. But if slides are a regular part of your job, this tool pays for itself after the first deck."
+    },
+    {
+      "id": "s10",
+      "kind": "steps",
+      "chapter": "15-minute AI subscription audit",
+      "chapterTitle": "15-minute AI subscription audit",
+      "items": [
+        {
+          "text": "List every AI tool on your statement",
+          "at": "step",
+          "nth": 0
+        },
+        {
+          "text": "Write the last time you used each one",
+          "at": "step",
+          "nth": 1
+        },
+        {
+          "text": "Run each through the 3 questions",
+          "at": "step",
+          "nth": 2
+        }
+      ],
+      "footer": {
+        "text": "Not used in 2 weeks or doubles another tool?",
+        "highlight": "Cancel.",
+        "tone": "bad",
+        "at": "cancel"
+      },
+      "broll": [
+        "45923",
+        "4806"
+      ],
+      "text": "Before we total it up, here's a fifteen minute AI subscription audit you can do today. Step one. Open your bank or card statement and list every AI tool you pay for. Step two. Next to each one, write the last time you actually used it. Step three. Run each tool through the three questions. Cancel anything you haven't used in the last two weeks, and anything that does the same job as another tool. Most people find at least one subscription they forgot about."
+    },
+    {
+      "id": "s11",
+      "kind": "scorecard",
+      "chapter": "The final scorecard",
+      "chapterTitle": "The final scorecard",
+      "left": {
+        "title": "Pay for",
+        "items": [
+          "1 AI assistant",
+          "Meeting notetaker*",
+          "Slide tool*"
+        ],
+        "note": "*only if your work needs it"
+      },
+      "right": {
+        "title": "Skip",
+        "items": [
+          "Extra assistants",
+          "Notion AI (solo)",
+          "A 2nd notetaker",
+          "Paid Perplexity (most)",
+          "Gamma (rare decks)"
+        ]
+      },
+      "from": "~$145",
+      "to": "$20–40",
+      "unit": "/ month",
+      "big": {
+        "at": "between"
+      },
+      "saving": {
+        "text": "$1,000+ saved / year",
+        "at": "thousand"
+      },
+      "broll": [
+        "13218",
+        "41541"
+      ],
+      "text": "So let's add it up. Instead of almost one hundred and fifty dollars a month, most people need one AI assistant for about twenty dollars, plus a notetaker or a slide tool only if their work truly needs it. That's somewhere between twenty and forty dollars a month. That's over a thousand dollars a year back in your pocket. Just remember, prices and plans change often, so always check the official pricing page before you subscribe. I'll put the sources I used in the description."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "title": "Pay for what you use",
+      "accent": [
+        3
+      ],
+      "next": "7 AI Tools That Can Save You Hours Every Week",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "26923",
+        "50759"
+      ],
+      "text": "Now I want to hear from you. Which AI tool are you paying for right now, and is it really worth it? Tell me in the comments. If this video saved you some money, subscribe to Future Money Lab. In the next video, I'll show you seven AI tools that can save you hours every single week."
+    }
   ],
-  "headline": "8 AI tools cost $145 a month. You need about 3.",
-  "cta": "Full video on our channel"
- }
+  "thumbnail": {
+    "a": {
+      "big": "ONLY 3",
+      "line2": "ARE WORTH IT",
+      "tag": "8 AI tools compared",
+      "chips": [
+        [
+          "1 AI assistant",
+          true
+        ],
+        [
+          "Meeting notes",
+          true
+        ],
+        [
+          "Slide tool",
+          true
+        ],
+        [
+          "3 extra assistants",
+          false
+        ],
+        [
+          "Notion AI (solo)",
+          false
+        ],
+        [
+          "2nd notetaker",
+          false
+        ]
+      ]
+    },
+    "b": {
+      "kicker": "AI SUBSCRIPTIONS",
+      "from": "$145",
+      "to": "$40",
+      "line2": "STOP OVERPAYING",
+      "tag": "Only 3 AI tools are worth it"
+    }
+  },
+  "youtube": {
+    "title": "I Compared 8 Popular AI Tools: Only 3 Are Worth Paying For",
+    "summary": "Paying for every AI tool can cost almost $150 a month. I compared 8 popular AI tools (ChatGPT, Claude, Gemini, Perplexity, Notion AI, Otter, Fireflies and Gamma) using their current plans and prices, and for most people only 3 are worth paying for. Here's which three, how to decide for yourself, and how to cut your AI bill to around $20-40 a month.",
+    "details": "Prices mentioned (checked November 2026, always confirm on the official pricing page):\n- ChatGPT Plus, Claude Pro, Gemini AI Pro, Perplexity Pro: about $20/month each\n- Notion AI: included in the Business plan, about $20 per member/month\n- Otter Pro: $16.99/month or $8.33/month billed yearly; free plan 300 minutes/month\n- Fireflies Pro: $18/month or $10/month billed yearly\n- Gamma Plus: about 10/month (8/month billed yearly)",
+    "sources": [
+      {
+        "name": "AI chatbot plans and prices (Tech Insider, Nov 2026)",
+        "url": "https://tech-insider.org/best-ai-chatbot-subscription-newest-model-by-plan-2026/"
+      },
+      {
+        "name": "Notion AI pricing (Krater, Oct 2026)",
+        "url": "https://krater.ai/blog/notion-ai-pricing"
+      },
+      {
+        "name": "Gamma pricing (Dupple, Oct 2026)",
+        "url": "https://dupple.com/pricing/gamma"
+      },
+      {
+        "name": "Otter vs Fireflies pricing (CostBench)",
+        "url": "https://costbench.com/compare/otter-ai-vs-fireflies-ai/"
+      },
+      {
+        "name": "Perplexity pricing (eesel)",
+        "url": "https://www.eesel.ai/blog/perplexity-pricing"
+      }
+    ],
+    "tags": [
+      "AI tools",
+      "best AI tools 2026",
+      "ChatGPT vs Claude vs Gemini",
+      "AI subscriptions",
+      "Perplexity Pro",
+      "Notion AI",
+      "Otter vs Fireflies",
+      "Gamma AI",
+      "AI productivity",
+      "save money",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#AItools",
+      "#productivity",
+      "#personalfinance"
+    ]
+  },
+  "metricool": {
+    "postId": 420904748,
+    "publishAt": "2026-11-09T00:15:00+05:00"
+  },
+  "short": {
+    "scenes": [
+      "s01"
+    ],
+    "headline": "8 AI tools cost $145 a month. You need about 3.",
+    "cta": "Full video on our channel"
+  }
 }

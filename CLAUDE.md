@@ -49,8 +49,8 @@ before working on it, and re-check `getScheduledPosts` right before you schedule
 7. **Schedule** with Metricool `createScheduledPost` (same fields as E01: `providers:[{network:"youtube"}]`,
    `youtubeData` {title, type:"video", privacy:"public", tags, category:"SCIENCE_TECHNOLOGY", madeForKids:false,
    isAiGeneratedContent:true}, `text` = `youtube_description.txt`, `media` = [raw url], `autoPublish:true`).
-   **Slots** (US afternoon = 2:15 PM ET): **Wed, Fri, Sun 00:15 Asia/Karachi**. Use `getScheduledPosts` and take the
-   earliest free slot that is **at least 24 hours away**, so the owner can still stop it in Metricool.
+   **Slots** (US afternoon = 2:15 PM ET): **every day 00:15 Asia/Karachi** (one long video per day; owner asked for
+   daily uploads, Nov 2026). Use `getScheduledPosts` and take the earliest free day that is **at least 2 hours away**.
    **Then schedule the Short** the same way with its own file `EXX_short.mp4` (also via the repo raw URL):
    `youtubeData.type: "short"`, title = the short headline (+ " #Shorts"), same tags, `isAiGeneratedContent: true`,
    text = 2 lines about the clip + "Full video: search 'Future Money Lab' or visit https://www.youtube.com/@TheFutureMoneyLabAI"
