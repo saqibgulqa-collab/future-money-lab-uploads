@@ -15,32 +15,34 @@ Videos themselves are in English for a US/UK audience.
 | Scheduling | Metricool connector, brand/blogId `7939426`, timezone `Asia/Karachi` |
 | Upload hand-off | this repo's root on `main`: raw URL `https://raw.githubusercontent.com/saqibgulqa-collab/future-money-lab-uploads/main/<file>` |
 
-## Publishing plan (owner's standing order, Nov 2026 — keep going until Saqib says stop)
-- `plan/mix.json` holds `perDay` (long videos per day), `stockTarget` and the niche mix. Read it every run.
-- **Phase 1 (now): `perDay: 1`, `stockTarget: 60`.** One long video a day at **00:15 PKT** (= 2:15 PM ET). Owner's order:
-  keep building stock as far as usage allows, not just to 20 (Nov 2026).
-- **Phase 2:** the 9 AM report switches to `perDay: 2` the first time 20 or more long videos are
-  scheduled. Then the long slots are **00:15 and 05:15 PKT** (= 2:15 PM and 7:15 PM ET).
-- **3 Shorts per long video.** Short slots (PKT): phase 1 → 02:45, 06:45, 21:15 (= 4:45 PM, 8:45 PM, 11:15 AM ET);
-  phase 2 → 19:15, 21:15, 23:15, 02:45, 06:45, 08:15. A Short always goes out **after** its own long video:
-  take the earliest free Short slots after it.
-- When the US switches to daylight time (2nd Sunday of March) move every slot 1 hour earlier; back in November.
+## Publishing plan (owner's order, 9 Nov 2026 — replaces the Metricool auto-schedule for new videos)
+- **Claude's job ends at Google Drive.** Every new video (long + 3 Shorts) goes into its own Google Drive folder with
+  everything needed to upload it. **Saqib uploads to YouTube himself.** Do NOT create Metricool posts for new videos.
+- Posts already scheduled in Metricool before 9 Nov 2026 (E02–E07 and their Shorts) stay as they are and publish on
+  their own; never cancel or edit them.
+- **Stock target: 20 ready videos per channel** (Video Library rows with `status:"Stock"`). `plan/mix.json`
+  `stockTarget` holds this number.
+- Suggested publish times written into `upload.txt` (advice for Saqib, US audience): long video 00:15 PKT
+  (= 2:15 PM ET), Shorts after it at 02:45, 06:45 and 21:15 PKT. One long video a day per channel. When the US switches
+  to daylight time (2nd Sunday of March) suggest 1 hour earlier; back in November.
 - **Niche mix:** `mix.A` / `mix.B` = share of new videos for pillar A (AI tools) vs B (money). The 9 AM report updates it
   from real analytics. Production follows it; never decide the mix from guesses.
 - **Use as little as possible:** keep runs lean. Read only the files you need, no extra drafts or re-renders unless a
   check fails, no messages to Saqib except real problems.
 
-## Stock rule
-Each run starts with this check: call `getScheduledPosts` (brand 7939426, Asia/Karachi, from now to now + 45 days)
-and count future YouTube posts whose `youtubeData.type` is `video`. **If the count is at or above `stockTarget`, stop
-immediately** (no build, no message). Otherwise make exactly ONE new long video **and its 3 Shorts** in this run.
-Runs fire every 4 hours. If Metricool refuses a post because of a plan limit, stop, note it in the tracker and tell Saqib. Two runs may overlap: always claim a video in the tracker before working on it, and re-check
-`getScheduledPosts` right before you schedule so two runs never take one slot.
+## Stock rule (start of every run)
+1. **Drive check:** load the Google Drive connector tools (ToolSearch "google drive"). If they are not available,
+   **stop immediately** (no build; nothing could be saved). Do not message Saqib; the 9 AM report says it.
+2. **Clean up:** in the Video Library, for each row with `status:"Uploaded"` whose Drive folder still exists, delete
+   that Drive folder and set `driveDeleted: true` on the row.
+3. **Count:** rows with `status:"Stock"` for the channel. **If at or above `stockTarget` (20), stop** (no build, no
+   message). Otherwise make exactly ONE new long video **and its 3 Shorts** in this run.
+Runs fire every 4 hours. Two runs may overlap: always claim a video in the tracker before working on it.
 
 ## One production run (do these in order)
 1. `bash pipeline/setup.sh` (installs Chatterbox voice, Whisper, Remotion, music/SFX; ~10–15 min first time).
 2. **Pick the video.** Read `plan/mix.json` and the tracker `videos` collection. Look at the last 10 videos that are
-   Scheduled/Published: if pillar A's share is below `mix.A`, take A, else take B. Then pick the lowest `num` of that
+   Stock/Scheduled/Published: if pillar A's share is below `mix.A`, take A, else take B. Then pick the lowest `num` of that
    pillar whose `stage` is `Idea` (skip ones another run moved to `Script`/`Voice`/`Edit`). Set its stage to `Script`
    (always pin writes with `if_version`).
    **Idea refill:** if fewer than 6 `Idea` rows remain for a pillar, research 10 new topics for it first (search demand,
@@ -64,41 +66,39 @@ Runs fire every 4 hours. If Metricool refuses a post because of a plan limit, st
    Read `contact_sheet.png`, both thumbnails, and one frame of each Short before going on. Update tracker stage as you go (Voice → Edit).
    **Memory:** the machine has ~7 GB. Never run two heavy jobs at once (voice generation, a Remotion render, the
    57-input audio mix). A SIGKILL means out of memory: wait for the other job, then re-run the stage (stages resume).
-6. **Upload hand-off**: copy `EXX_upload.mp4` (<95 MB) and the 3 Shorts into the repo root, commit, push to `main`,
-   then confirm `curl -sI <raw url>` returns 200 with the right content-length for each file.
-7. **Schedule** with Metricool `createScheduledPost` (same fields as E01: `providers:[{network:"youtube"}]`,
-   `youtubeData` {title, type:"video", privacy:"public", tags, category:"SCIENCE_TECHNOLOGY", madeForKids:false,
-   isAiGeneratedContent:true}, `text` = `youtube_description.txt`, `media` = [raw url], `autoPublish:true`).
-   Long video: the earliest free **long slot** for the current phase, at least 2 hours away.
-   **Then each Short** with its own file (also via the repo raw URL): `youtubeData.type: "short"`, title = the short
-   headline (+ " #Shorts"), same tags, `isAiGeneratedContent: true`, text = 2 lines about the clip +
-   "Full video: search 'Future Money Lab' or visit https://www.youtube.com/@TheFutureMoneyLabAI" + the disclaimer line.
-   Each Short takes the earliest free **Short slot** after the long video's time.
-8. When the posts are created (Metricool copies media to static.metricool.com), `git rm` the mp4 files and push.
-   Commit `episode.json` with `"status":"scheduled"` and `metricool.postId/publishAt` (+ `shortPosts`).
-9. Tracker: video `stage: "Scheduled"`, `day` = slot; add a short note to the matching task if useful.
-   **Library:** `set` `videos/<channel>-EXX` in the Video Library (`channel` "fml", `ep`, `title`, `pillar`, `pillarName`,
-   `publishAt`, `status:"Scheduled"`, `shorts:[{title, publishAt, status}]`). If a thumbnail jpg exists, upload it with
-   Artifact `asset: true` to the library url and store the returned url as `thumb`.
-10. Do not message Saqib per video; the 9 AM report covers it. Message him only if something needs him.
+6. **Google Drive folder:** in Drive folder `YouTube Stock/<Channel name>/` create `EXX - <title>` and upload:
+   `EXX_upload.mp4` (long video), `EXX_short1.mp4`, `EXX_short2.mp4`, `EXX_short3.mp4`, both thumbnails (A and B), and
+   `upload.txt` with: channel name, long-video title, full description (`youtube_description.txt`), tags (comma
+   separated), category Science & Technology, "Made for kids: No", "Altered or synthetic content: Yes", suggested publish
+   time; then for each Short: title (headline + " #Shorts"), description (2 lines about the clip + "Full video: search
+   '<Channel name>' or visit <channel url>" + disclaimer line), tags, and suggested time. Confirm every file is in Drive
+   with the right size before going on. If an upload fails twice, stop and tell Saqib.
+7. Commit `episode.json` with `"status":"stock"` and `drive.folderUrl`. Never commit mp4 files.
+8. Tracker: video `stage: "Stock"`.
+   **Library:** `set` `videos/<channel>-EXX` (`channel` e.g. "fml", `ep`, `title`, `pillar`, `pillarName`,
+   `status:"Stock"`, `driveUrl` = folder link, `suggestedAt` = suggested publish time,
+   `shorts:[{title, status:"Stock"}]`). Upload thumbnail A with Artifact `asset: true` to the library url and store the
+   returned url as `thumb`.
+9. Do not message Saqib per video; the 9 AM report covers it. Message him only if something needs him.
 
 If a stage fails twice, stop, write the reason in the tracker task note, and tell Saqib. Never loop endlessly.
 
 ## Daily 9 AM report (separate scheduled task)
 Every day at 09:00 PKT, in Roman Urdu, short:
 1. Published since yesterday's report (long + Shorts, with links if Metricool gives them) and what failed.
-2. Stock: long videos and Shorts scheduled ahead, next 4 publish times.
+2. Stock: per channel, ready videos in Drive (Library `Stock` rows) vs the 20 target; videos Saqib marked `Uploaded`
+   since the last report; Metricool posts still scheduled (old flow) and their next publish times.
 3. Production: videos made in the last 24 h, ones stuck in Script/Voice/Edit (and why).
 4. Numbers per pillar from Metricool YouTube analytics (`getAnalyticsAvailableMetrics` then `getAnalyticsDataByMetrics`):
    views, watch time / average view duration, subscribers gained, best and worst video. Say clearly when data is missing.
-5. **Phase switch:** if `perDay` is 1 and 20 or more long videos are scheduled, set `perDay: 2` (keep `stockTarget: 60`)
-   in `plan/mix.json`, commit, and tell Saqib in the report.
-6. **Mix update:** once each pillar has ≥ 5 long videos published ≥ 3 days ago, compare views per video and average view
+5. **Mix update:** once each pillar has ≥ 5 long videos published ≥ 3 days ago, compare views per video and average view
    duration. Move `plan/mix.json` toward the stronger pillar by at most 0.10 per day, staying between 0.20 and 0.80;
    write the reason in it and commit. Before that, keep 0.5 / 0.5.
-7. **Library:** for every long video or Short Metricool shows as published, set `status:"Published"` and `url`
-   (YouTube link) on its `videos` row in the Video Library; failed ones get `status:"Failed"`.
-8. **Needs from Saqib** (or "Kuch nahi chahiye"): e.g. phone verification, an expired connection, a failed upload.
+6. **Library:** for every long video or Short Metricool shows as published, set `status:"Published"` and `url`
+   (YouTube link) on its `videos` row in the Video Library; failed ones get `status:"Failed"`. For `Uploaded` rows,
+   add the YouTube link if Metricool analytics lists the video (match by title).
+7. **Needs from Saqib** (or "Kuch nahi chahiye"): e.g. Google Drive not connected, Drive almost full,
+   phone verification, an expired connection, a failed upload.
 Save the report as `reports/YYYY-MM-DD.md` in this repo (commit + push) and send it as the final message.
 
 ## Content rules (non-negotiable)
@@ -146,12 +146,7 @@ the clip URL. The CDN still works: `https://assets.mixkit.co/videos/<id>/<id>-10
 Commit as yourself; end messages with the session attribution lines the system gives you. Never commit video files
 except the temporary `*_upload.mp4` hand-off, and remove it right after Metricool accepts the post.
 
-## New channels: Drive stock mode (owner's order, 9 Nov 2026)
-Future Money Lab stays on the Metricool flow above. Every **new** channel works differently:
-- Keep **20 ready videos per channel** in Google Drive, one folder per video with the long mp4, the 3 Shorts, both
-  thumbnails and an `upload.txt` (title, description, tags, Short titles/descriptions, suggested publish time).
-- **Saqib uploads them himself** in YouTube Studio and clicks "Uploaded mark karein" in the Video Library.
-- Each run: rows with `status:"Uploaded"` → delete that Drive folder; then if the channel has fewer than 20 rows with
-  `status:"Stock"`, make one new video and add its row (`status:"Stock"`, `driveUrl`).
-- Not live yet: needs the Google Drive connector connected and a test that it can upload ~90 MB files.
-  Storage: ~150 MB per video → ~3 GB per channel; the free 15 GB Drive holds about 4 channels.
+## New channels
+Same Drive flow for every channel. Each channel gets its own folder under `YouTube Stock/` and its own row in the
+Library `channels` collection. Storage: ~150 MB per video → ~3 GB per channel at 20 in stock; the free 15 GB Drive
+holds about 4 channels. Warn Saqib in the report when Drive is over 80% full.
