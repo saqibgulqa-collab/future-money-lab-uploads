@@ -1,8 +1,8 @@
 {
   "A": 0.5,
   "B": 0.5,
-  "updated": "2026-11-09",
+  "updated": "2026-11-08",
   "reason": "Start: no published data yet, 50/50 test.",
-  "stockTarget": 20,
-  "stockNote": "20 ready videos per channel in Google Drive; Saqib uploads himself (owner, 9 Nov 2026)"
+  "perDay": 1,
+  "stockTarget": 60
 }
