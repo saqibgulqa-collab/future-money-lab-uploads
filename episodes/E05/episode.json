@@ -1,0 +1,501 @@
+{
+  "id": "E05",
+  "num": 6,
+  "status": "scheduled",
+  "pillar": "B",
+  "title": "Index Funds Explained: Why Most Pros Never Beat Them",
+  "music": "music_744.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "Index funds",
+      "chapterTitle": "Intro: the 79% problem",
+      "broll": [
+        "47214",
+        "9607"
+      ],
+      "badge": "Active large-cap funds that trailed the S&P 500 in 2025",
+      "numberValue": 79,
+      "unit": "%",
+      "sub": "Source: S&P Dow Jones Indices SPIVA",
+      "big": {
+        "at": "seventy"
+      },
+      "chips": [
+        {
+          "text": "Pros with big research budgets",
+          "at": "these"
+        },
+        {
+          "text": "Over 20 years: even worse",
+          "at": "twenty",
+          "nth": 2
+        }
+      ],
+      "text": "In twenty twenty five, seventy nine percent of professionally managed large company stock funds in the US did worse than a simple index fund that just tracks the S&P five hundred. These are full time managers with research teams and huge budgets. And over twenty years, the number gets even worse. In this video, I'll explain what an index fund actually is, what the long term scorecard says, why fees matter so much, the real downsides nobody mentions, and a simple checklist for comparing index funds yourself."
+    },
+    {
+      "id": "s02",
+      "kind": "hero",
+      "chapter": "The basics",
+      "chapterTitle": "What an index fund actually is",
+      "broll": [
+        "46990",
+        "42648"
+      ],
+      "badge": "The basics",
+      "title": "Own the whole list",
+      "sub": "One fund = a small slice of hundreds of companies",
+      "accent": [
+        2
+      ],
+      "text": "So what is an index fund? An index is just a list of companies picked by a set of rules. The S&P five hundred, for example, follows about five hundred of the largest public companies in the US. An index fund simply buys everything on that list, in the same proportions, and holds it. Nobody is trying to guess which stock will win next month. When a company gets bigger, it takes up more of the fund. When it leaves the index, the fund sells it. That's it. One purchase gives you a small slice of hundreds of companies at once."
+    },
+    {
+      "id": "s03",
+      "kind": "rows",
+      "chapter": "Types",
+      "chapterTitle": "Common types of index funds",
+      "broll": [
+        "47796",
+        "47793"
+      ],
+      "items": [
+        {
+          "name": "S&P 500",
+          "desc": "Large US companies",
+          "at": "famous"
+        },
+        {
+          "name": "Total market",
+          "desc": "Large, mid and small US companies",
+          "at": "total"
+        },
+        {
+          "name": "International",
+          "desc": "Companies outside the US",
+          "at": "international"
+        },
+        {
+          "name": "Bond index",
+          "desc": "Loans to governments and companies",
+          "at": "bond"
+        },
+        {
+          "name": "Mutual fund or ETF",
+          "desc": "Same idea, two wrappers",
+          "at": "mutual"
+        }
+      ],
+      "footer": {
+        "text": "Own the segment. Keep costs low.",
+        "at": "underneath"
+      },
+      "text": "There isn't just one kind of index fund. The most famous ones track the S&P five hundred, which is large US companies. Total market funds go wider and include small and mid sized companies too. International funds hold companies outside the US. And bond index funds hold loans to governments and companies instead of stocks. You can buy most of these as a mutual fund or as an exchange traded fund, called an ETF, which trades during the day like a stock. The idea underneath is always the same: own the whole market segment, keep costs low, and don't try to be clever."
+    },
+    {
+      "id": "s04",
+      "kind": "cards",
+      "chapter": "Active vs passive",
+      "chapterTitle": "Active vs passive funds",
+      "broll": [
+        "42664",
+        "13218"
+      ],
+      "items": [
+        {
+          "title": "Active fund",
+          "value": "Picks",
+          "sub": "a manager chooses stocks",
+          "at": "actively"
+        },
+        {
+          "title": "Index fund",
+          "value": "Follows",
+          "sub": "buys the whole list",
+          "at": "passive"
+        }
+      ],
+      "chips": [
+        {
+          "text": "You pay through a yearly fee",
+          "at": "yearly"
+        },
+        {
+          "text": "The scorecard: S&P SPIVA",
+          "at": "spiva"
+        }
+      ],
+      "footer": {
+        "text": "Is the extra effort worth the cost?",
+        "at": "worth"
+      },
+      "text": "The alternative is an actively managed fund. Here, a manager picks the stocks they think will beat the market, buying some, avoiding others, and trading as the news changes. That takes analysts, research and lots of trading, and you pay for all of it through a yearly fee. An index fund is called passive. It doesn't pick, it just follows the list. So the real question is simple. Is all that extra skill and effort worth what it costs? Luckily, we don't have to guess. S&P Dow Jones Indices has tracked this for more than twenty years in a report called SPIVA."
+    },
+    {
+      "id": "s05",
+      "kind": "cards",
+      "chapter": "The scorecard",
+      "chapterTitle": "The scorecard: 1, 10, 15 and 20 years",
+      "broll": [
+        "30873",
+        "9330"
+      ],
+      "items": [
+        {
+          "title": "1 year",
+          "value": "79%",
+          "sub": "trailed the S&P 500",
+          "at": "seventy"
+        },
+        {
+          "title": "10 years",
+          "value": "86%",
+          "sub": "trailed",
+          "at": "eighty"
+        },
+        {
+          "title": "15 years",
+          "value": "90%",
+          "sub": "trailed",
+          "at": "ninety",
+          "nth": 0
+        },
+        {
+          "title": "20 years",
+          "value": "93%",
+          "sub": "trailed",
+          "at": "ninety",
+          "nth": 1
+        }
+      ],
+      "chips": [
+        {
+          "text": "SPIVA U.S. Year-End 2025",
+          "at": "scorecard"
+        }
+      ],
+      "footer": {
+        "text": "The longer you look, the worse active funds do",
+        "at": "longer"
+      },
+      "text": "Here's what the SPIVA scorecard found, using data up to the end of twenty twenty five. Over one year, seventy nine percent of active large company funds trailed the S&P five hundred. Over ten years, about eighty six percent fell behind. Over fifteen years, about ninety percent. And over twenty years, almost ninety three percent of these funds did worse than the plain index. Notice the pattern. The longer you look, the worse active funds do. A manager can have a lucky year. Staying ahead for decades, after fees, turns out to be very rare."
+    },
+    {
+      "id": "s06",
+      "kind": "stat",
+      "chapter": "Survivors",
+      "chapterTitle": "Most funds don't even survive",
+      "broll": [
+        "45923",
+        "46768"
+      ],
+      "badge": "Large-cap funds still open after 20 years",
+      "numberValue": 35,
+      "unit": "%",
+      "sub": "SPIVA, 20 years to Dec 2025",
+      "big": {
+        "at": "thirty"
+      },
+      "chips": [
+        {
+          "text": "The rest: merged or closed",
+          "at": "merged"
+        },
+        {
+          "text": "You only see the survivors",
+          "at": "survivors"
+        }
+      ],
+      "text": "Here's a twist most people miss. Many active funds don't even survive long enough to be judged. According to the same SPIVA data, only about thirty five percent of large company funds that existed twenty years ago were still around at the end of twenty twenty five. The rest were merged into other funds or closed down, often after a bad run. That matters because a fund company can quietly close its losers and advertise its winners. When you see a fund with a great long term record, remember you're only seeing the survivors."
+    },
+    {
+      "id": "s07",
+      "kind": "compare",
+      "chapter": "The fee gap",
+      "chapterTitle": "How fees decide the winner",
+      "broll": [
+        "18302",
+        "18263"
+      ],
+      "cards": [
+        {
+          "title": "Index stock funds",
+          "sub": "0.05% a year",
+          "at": "index"
+        },
+        {
+          "title": "Active US stock funds",
+          "sub": "≈0.64% a year",
+          "at": "actively"
+        }
+      ],
+      "big": {
+        "value": "−$11,500",
+        "sub": "lost to fees over 30 years on $10K",
+        "at": "eleven"
+      },
+      "bars": [
+        {
+          "label": "Index cost",
+          "value": "$75K",
+          "fill": 1.0,
+          "tone": "good",
+          "at": "seventy"
+        },
+        {
+          "label": "Active cost",
+          "value": "$63.6K",
+          "fill": 0.85,
+          "tone": "bad",
+          "at": "sixty"
+        }
+      ],
+      "footer": {
+        "text": "Assumes 7% a year before fees. Illustration only.",
+        "at": "assuming"
+      },
+      "text": "The biggest reason active funds fall behind is cost. According to the Investment Company Institute, index stock mutual funds charged an average of just zero point zero five percent a year in twenty twenty five. Actively managed US stock funds averaged about zero point six four percent. That gap sounds tiny. But look at ten thousand dollars over thirty years, assuming a seven percent return before fees. At the index fund cost, you'd end up with about seventy five thousand dollars. At the active fund cost, about sixty three thousand six hundred. That's about eleven thousand five hundred dollars gone, just to fees."
+    },
+    {
+      "id": "s08",
+      "kind": "steps",
+      "chapter": "Why it's so hard",
+      "chapterTitle": "Why beating the index is so hard",
+      "broll": [
+        "5461",
+        "221"
+      ],
+      "items": [
+        {
+          "text": "Together, investors ARE the market",
+          "at": "together"
+        },
+        {
+          "text": "Every winner needs someone behind",
+          "at": "every"
+        },
+        {
+          "text": "Fees and trading costs come off the top",
+          "at": "subtract"
+        },
+        {
+          "text": "Cash on the side drags returns",
+          "at": "cash"
+        },
+        {
+          "text": "Winners are hard to pick in advance",
+          "at": "picking"
+        }
+      ],
+      "footer": {
+        "text": "The math:",
+        "highlight": "average active dollar trails",
+        "tone": "bad",
+        "at": "average"
+      },
+      "text": "Why is beating the index so hard? Think of it this way. Before costs, all investors together own the whole market, so together they earn the market's return. Every manager who beats it needs someone else who falls behind. After you subtract fees and trading costs, the average active dollar has to come out behind the index. On top of that, active funds trade more, keep some cash on the side, and need a manager who is right again and again. A few do it. The hard part is picking them in advance."
+    },
+    {
+      "id": "s09",
+      "kind": "rows",
+      "chapter": "The downsides",
+      "chapterTitle": "The downsides nobody mentions",
+      "broll": [
+        "26758",
+        "4908"
+      ],
+      "items": [
+        {
+          "name": "Drops in crashes",
+          "desc": "No manager to step aside in a crash",
+          "at": "first"
+        },
+        {
+          "name": "Concentrated",
+          "desc": "A few giant companies can dominate",
+          "at": "second"
+        },
+        {
+          "name": "Not all cheap",
+          "desc": "Always check the yearly cost",
+          "at": "third"
+        },
+        {
+          "name": "Can't beat it",
+          "desc": "Market return minus a small fee",
+          "at": "fourth"
+        }
+      ],
+      "footer": {
+        "text": "Know the trade-offs",
+        "at": "design"
+      },
+      "text": "Index funds aren't magic, though, and it's fair to know the downsides. First, they fall with the market. If the S&P five hundred drops thirty percent, your S&P five hundred fund drops about thirty percent too. There's no manager to step aside. Second, big indexes can be concentrated. A few giant companies can make up a large share of the fund. Third, not every index fund is cheap, so you still have to check the cost. And fourth, they won't ever beat the market. By design, you get the market's return, minus a small fee."
+    },
+    {
+      "id": "s10",
+      "kind": "steps",
+      "chapter": "Checklist",
+      "chapterTitle": "A 5-point checklist for comparing index funds",
+      "broll": [
+        "4806",
+        "4907"
+      ],
+      "items": [
+        {
+          "text": "Which index does it track?",
+          "at": "one"
+        },
+        {
+          "text": "Check the expense ratio",
+          "at": "two"
+        },
+        {
+          "text": "Return vs its index: small gap",
+          "at": "three"
+        },
+        {
+          "text": "Mutual fund or ETF?",
+          "at": "four",
+          "nth": 1
+        },
+        {
+          "text": "Invest regularly, hold for years",
+          "at": "five",
+          "nth": 1
+        }
+      ],
+      "footer": {
+        "text": "Education, not financial advice.",
+        "at": "plan"
+      },
+      "text": "If you're comparing index funds, here's a simple checklist. One, look at what index it tracks, so you know exactly what you own. Two, check the expense ratio, the yearly cost as a percentage. For reference, the Investment Company Institute says index stock ETFs averaged zero point one four percent in twenty twenty five. Three, compare the fund's return to its index over several years. The gap should be small. Four, decide between a mutual fund and an ETF based on your broker and how you like to buy. And five, plan to invest regularly and hold for years."
+    },
+    {
+      "id": "s11",
+      "kind": "verdict",
+      "chapterTitle": "The big idea",
+      "broll": [
+        "26923",
+        "50759"
+      ],
+      "badge": "The big idea",
+      "title": "Own the market",
+      "sub": "Low cost and time beat guessing for most people",
+      "text": "Here's the big idea. Most professional fund managers, with all their resources, fail to beat a simple index over the long run, largely because of costs. An index fund flips that. You accept the market's return, pay very little for it, and let time do the heavy lifting. It won't make you rich overnight, and it will drop when the market drops. But for many people, it's a hard approach to beat. This is education, not financial advice, so think about your own goals and timeline before you invest."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "41541",
+        "13218"
+      ],
+      "title": "Keep it simple",
+      "accent": [
+        2
+      ],
+      "next": "ChatGPT vs Claude vs Gemini: Which AI Is Best for Work?",
+      "text": "Now I want to hear from you. Do you use index funds, or do you prefer picking stocks yourself? Tell me why in the comments. If this helped, subscribe to Future Money Lab, and share it with a friend who's just starting to invest. In the next video, I'll compare ChatGPT, Claude and Gemini to see which AI is best for work."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "BEAT THE PROS",
+      "line2": "INDEX FUNDS",
+      "tag": "What the data says"
+    },
+    "b": {
+      "kicker": "ACTIVE FUNDS THAT TRAILED THE S&P 500",
+      "from": "79%",
+      "to": "93%",
+      "line2": "1 YEAR VS 20 YEARS",
+      "tag": "Index funds"
+    }
+  },
+  "youtube": {
+    "title": "Index Funds Explained: Why Most Pros Never Beat Them",
+    "summary": "Most professionally managed stock funds trail a simple index fund, and the longer you look, the worse it gets. This is a plain-English guide to index funds: what they are, the main types, active vs passive, what the S&P SPIVA scorecard shows over 1, 10, 15 and 20 years, why so many funds quietly disappear, how fees decide the winner, the real downsides of index funds, and a 5-point checklist for comparing them.",
+    "details": "Numbers mentioned (checked November 2026):\n- Active US large-cap funds that trailed the S&P 500: 79% in 2025; about 86% over 10 years, about 90% over 15 years, about 93% over 20 years (S&P Dow Jones Indices, SPIVA U.S. Year-End 2025, periods ending Dec 31, 2025, as reported by InvestmentNews and Walnut). First half of 2026: 67% (SPIVA U.S. Mid-Year 2026, as reported by The Idea Farm).\n- Large-cap funds that survived the full 20 years to 2025: about 35% (SPIVA Year-End 2025, survivorship table, as reported by Walnut).\n- Asset-weighted average expense ratios, 2025: index equity mutual funds 0.05%, index equity ETFs 0.14%, all equity mutual funds 0.40%; actively managed domestic equity funds about 0.64% (ICI, Trends in the Expenses and Fees of Funds, 2025, March 2026).\n- Fee example: $10,000 for 30 years at an assumed 7% a year before fees: about $75,063 at a 0.05% cost vs about $63,584 at 0.64% (illustration only, not a prediction or promise).",
+    "sources": [
+      {
+        "name": "ICI: Trends in the Expenses and Fees of Funds, 2025 (March 2026)",
+        "url": "https://www.ici.org/system/files/2026-03/per32-01.pdf"
+      },
+      {
+        "name": "InvestmentNews: Active managers stumble again in 2025 (Mar 2026)",
+        "url": "https://www.investmentnews.com/equities/active-managers-stumble-again-in-2025-as-large-caps-dominate/265541"
+      },
+      {
+        "name": "Walnut: Active fund underperformance (SPIVA) statistics (Oct 2026)",
+        "url": "https://walnutinvest.com/stats/active-fund-underperformance-spiva"
+      },
+      {
+        "name": "The Idea Farm: SPIVA U.S. Mid-Year 2026 (Sep 2026)",
+        "url": "https://theideafarm.com/portfolio-management/spiva-u-s-mid-year-2026/"
+      }
+    ],
+    "tags": [
+      "index funds",
+      "index funds explained",
+      "what is an index fund",
+      "active vs passive investing",
+      "SPIVA",
+      "S&P 500 index fund",
+      "expense ratio",
+      "ETF vs mutual fund",
+      "investing for beginners",
+      "personal finance",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#indexfunds",
+      "#investing",
+      "#personalfinance"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s05"
+      ],
+      "headline": "93% of pro funds lost to this simple fund",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s06"
+      ],
+      "headline": "Most funds quietly disappear",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s07"
+      ],
+      "headline": "A tiny fee that costs $11,500",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 421428387,
+    "publishAt": "2026-11-13T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 421428532,
+        "publishAt": "2026-11-13T02:45:00+05:00"
+      },
+      {
+        "postId": 421428544,
+        "publishAt": "2026-11-13T06:45:00+05:00"
+      },
+      {
+        "postId": 421428556,
+        "publishAt": "2026-11-13T21:15:00+05:00"
+      }
+    ]
+  }
+}
