@@ -10,6 +10,7 @@ Videos themselves are in English for a US/UK audience.
 | Video pipeline (this repo) | `pipeline/` — `setup.sh`, `make_episode.py`, `remotion/`, `thumbnail.py` |
 | Episodes | `episodes/EXX/episode.json` (E01 is the reference example) |
 | Progress tracker (shared db) | https://claude.ai/artifact/56kVmW6SbxCiMWS7RCBFeJ — collections `tasks`, `videos` (use the ArtifactData tool) |
+| Video Library (all channels) | https://claude.ai/artifact/HJc4Sp1hqt41eFjvrEUqjz — collections `channels`, `videos` (ArtifactData) |
 | Channel playbook (doc) | https://claude.ai/artifact/GwhSx6Vq1uddShiJ6zged1 — strategy, 30-video plan, upload defaults |
 | Scheduling | Metricool connector, brand/blogId `7939426`, timezone `Asia/Karachi` |
 | Upload hand-off | this repo's root on `main`: raw URL `https://raw.githubusercontent.com/saqibgulqa-collab/future-money-lab-uploads/main/<file>` |
@@ -76,6 +77,9 @@ Runs fire every 4 hours. If Metricool refuses a post because of a plan limit, st
 8. When the posts are created (Metricool copies media to static.metricool.com), `git rm` the mp4 files and push.
    Commit `episode.json` with `"status":"scheduled"` and `metricool.postId/publishAt` (+ `shortPosts`).
 9. Tracker: video `stage: "Scheduled"`, `day` = slot; add a short note to the matching task if useful.
+   **Library:** `set` `videos/<channel>-EXX` in the Video Library (`channel` "fml", `ep`, `title`, `pillar`, `pillarName`,
+   `publishAt`, `status:"Scheduled"`, `shorts:[{title, publishAt, status}]`). If a thumbnail jpg exists, upload it with
+   Artifact `asset: true` to the library url and store the returned url as `thumb`.
 10. Do not message Saqib per video; the 9 AM report covers it. Message him only if something needs him.
 
 If a stage fails twice, stop, write the reason in the tracker task note, and tell Saqib. Never loop endlessly.
@@ -92,7 +96,9 @@ Every day at 09:00 PKT, in Roman Urdu, short:
 6. **Mix update:** once each pillar has ≥ 5 long videos published ≥ 3 days ago, compare views per video and average view
    duration. Move `plan/mix.json` toward the stronger pillar by at most 0.10 per day, staying between 0.20 and 0.80;
    write the reason in it and commit. Before that, keep 0.5 / 0.5.
-7. **Needs from Saqib** (or "Kuch nahi chahiye"): e.g. phone verification, an expired connection, a failed upload.
+7. **Library:** for every long video or Short Metricool shows as published, set `status:"Published"` and `url`
+   (YouTube link) on its `videos` row in the Video Library; failed ones get `status:"Failed"`.
+8. **Needs from Saqib** (or "Kuch nahi chahiye"): e.g. phone verification, an expired connection, a failed upload.
 Save the report as `reports/YYYY-MM-DD.md` in this repo (commit + push) and send it as the final message.
 
 ## Content rules (non-negotiable)
