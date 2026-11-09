@@ -1,0 +1,597 @@
+{
+  "id": "E09",
+  "num": 9,
+  "status": "scheduled",
+  "pillar": "A",
+  "title": "The Best Free AI Tools (No Credit Card Needed)",
+  "music": "music_744.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "Free AI tools",
+      "chapterTitle": "Intro: the $804 a year question",
+      "broll": [
+        "18302",
+        "4907"
+      ],
+      "badge": "Paid plans of the 6 tools in this video",
+      "numberValue": 804,
+      "prefix": "$",
+      "unit": "/yr",
+      "sub": "Entry paid plans, prices checked November 2026",
+      "big": {
+        "at": "eight"
+      },
+      "chips": [
+        {
+          "text": "Free plans: $0",
+          "at": "zero"
+        },
+        {
+          "text": "No credit card",
+          "at": "card"
+        }
+      ],
+      "text": "If you paid for the upgraded plans of the six AI tools in this video, you'd spend about sixty seven dollars a month. That's around eight hundred and four dollars a year. But every one of them has a version you can use for zero dollars, with no credit card on file. I compared the free plans: what you actually get, where the limits hit, and what the catch is. Because free is never completely free. By the end, you'll know which free tools are worth keeping, and the one moment when paying starts to make sense."
+    },
+    {
+      "id": "s02",
+      "kind": "questions",
+      "chapter": "The rules",
+      "chapterTitle": "Free plan vs free trial: my 3 rules",
+      "broll": [
+        "46768",
+        "4806"
+      ],
+      "items": [
+        {
+          "text": "Free plan, not a free trial",
+          "at": "plan"
+        },
+        {
+          "text": "No card needed to sign up",
+          "at": "card"
+        },
+        {
+          "text": "Useful for real work, every week",
+          "at": "useful"
+        }
+      ],
+      "footer": {
+        "text": "The trial trap:",
+        "highlight": "card on file → auto-renew",
+        "tone": "bad",
+        "at": "renew"
+      },
+      "text": "First, how I picked them. Every tool had to pass three rules. One, it's a free plan, not a free trial. A trial ends after a few days. A free plan keeps working. Two, you can sign up without a credit card. That matters, because a trial with your card on file usually turns into a paid plan the day you forget to cancel, and it may auto renew for a full year. Three, it has to be useful for real work, every week, not just a fun demo. Six tools passed."
+    },
+    {
+      "id": "s03",
+      "kind": "cards",
+      "chapter": "Tool 1",
+      "chapterTitle": "1. Microsoft Copilot: the free all-rounder",
+      "broll": [
+        "4915",
+        "1730"
+      ],
+      "items": [
+        {
+          "title": "Price",
+          "value": "$0",
+          "sub": "with a Microsoft account",
+          "at": "free"
+        },
+        {
+          "title": "Voice & Think Deeper",
+          "value": "Free",
+          "sub": "made unlimited Feb 2025",
+          "at": "voice"
+        },
+        {
+          "title": "Paid option",
+          "value": "$19.99",
+          "sub": "Microsoft 365 Premium /mo",
+          "at": "nineteen"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Some usage limits apply",
+          "at": "limits"
+        },
+        {
+          "text": "Web, Windows, phone",
+          "at": "phone"
+        }
+      ],
+      "footer": {
+        "text": "Best for:",
+        "highlight": "everyday questions and drafts",
+        "tone": "good",
+        "at": "everyday"
+      },
+      "text": "Tool number one is Microsoft Copilot. All you need is a free Microsoft account. You can chat, draft emails, summarize text, and talk to it out loud. In February twenty twenty five, Microsoft made Copilot Voice and its Think Deeper reasoning mode free and unlimited for everyone, though Microsoft says some features still have usage limits when demand is high. It works on the web, in Windows, and on your phone. If you want more inside Word and Excel, Microsoft 365 Premium costs nineteen ninety nine a month. For everyday questions and drafts, the free version goes a long way."
+    },
+    {
+      "id": "s04",
+      "kind": "compare",
+      "chapter": "Tool 2",
+      "chapterTitle": "2. Perplexity: research with sources",
+      "broll": [
+        "221",
+        "45923"
+      ],
+      "cards": [
+        {
+          "title": "Free",
+          "sub": "$0 · unlimited basic searches",
+          "at": "free"
+        },
+        {
+          "title": "Pro",
+          "sub": "$20/mo or $200/yr",
+          "at": "pro"
+        }
+      ],
+      "big": {
+        "value": "Sources",
+        "sub": "on every answer",
+        "at": "sources"
+      },
+      "bars": [
+        {
+          "label": "Free: Pro Searches/day",
+          "value": "3–5",
+          "fill": 0.15,
+          "tone": "bad",
+          "at": "handful"
+        },
+        {
+          "label": "Basic searches",
+          "value": "Unlimited",
+          "fill": 1.0,
+          "tone": "good",
+          "at": "unlimited"
+        }
+      ],
+      "footer": {
+        "text": "Best for: quick research you can check",
+        "at": "check"
+      },
+      "text": "Tool number two is Perplexity. Think of it as a search engine that writes the answer for you, and then shows the sources it used, so you can click and check them. On the free plan you get unlimited basic searches. You also get a small handful of deeper Pro Searches each day. Reviews in twenty twenty six put it at about three to five. The Pro plan costs twenty dollars a month, or two hundred a year, and mainly adds more deep searches and better models. For quick research that you can check yourself, the free plan is plenty."
+    },
+    {
+      "id": "s05",
+      "kind": "rows",
+      "chapter": "Tool 3",
+      "chapterTitle": "3. Google AI Studio: Google's models for free",
+      "broll": [
+        "1730",
+        "4907"
+      ],
+      "items": [
+        {
+          "name": "Cost",
+          "desc": "Free in your browser, no billing set up",
+          "at": "browser"
+        },
+        {
+          "name": "Models",
+          "desc": "Google's Gemini models, side by side",
+          "at": "models"
+        },
+        {
+          "name": "Uses",
+          "desc": "Long documents, images, quick prototypes",
+          "at": "long"
+        },
+        {
+          "name": "The catch",
+          "desc": "Free-tier chats can help improve Google products",
+          "at": "catch"
+        }
+      ],
+      "footer": {
+        "text": "Never paste private or client data",
+        "at": "private"
+      },
+      "text": "Tool number three is Google AI Studio. It's built for developers, but anyone can use it in the browser with a Google account, and you don't need to set up billing. You can try Google's Gemini models side by side, upload long documents or images, and even sketch a small app. Here's the catch, and it's an important one. Google says that on unpaid services, it can use what you submit and the responses to improve its products. So it's great for learning and public information, but never paste private or client data into it."
+    },
+    {
+      "id": "s06",
+      "kind": "compare",
+      "chapter": "Tool 4",
+      "chapterTitle": "4. Napkin AI: text into visuals",
+      "broll": [
+        "42664",
+        "46990"
+      ],
+      "cards": [
+        {
+          "title": "Free",
+          "sub": "$0 · 500 credits a week",
+          "at": "free"
+        },
+        {
+          "title": "Plus",
+          "sub": "$9/mo · 10,000 credits",
+          "at": "plus"
+        }
+      ],
+      "big": {
+        "value": "Weekly",
+        "sub": "free credits refresh",
+        "at": "refresh"
+      },
+      "bars": [
+        {
+          "label": "Free exports",
+          "value": "PNG · PDF",
+          "fill": 0.5,
+          "tone": "good",
+          "at": "png"
+        },
+        {
+          "label": "Napkin branding",
+          "value": "On free",
+          "fill": 0.5,
+          "tone": "bad",
+          "at": "branding"
+        }
+      ],
+      "footer": {
+        "text": "Best for: slides and reports that need a diagram",
+        "at": "diagram"
+      },
+      "text": "Tool number four is Napkin AI. You paste in a paragraph, and it turns your text into a diagram, a flow chart or a simple infographic that you can edit. The free plan gives you five hundred AI credits a week, and they refresh every week, so it keeps working. You can export as PNG or PDF as often as you like. The catch is that free visuals carry Napkin branding. The Plus plan is nine dollars a month and removes it. If your slides or reports need a diagram, this saves a lot of fiddling."
+    },
+    {
+      "id": "s07",
+      "kind": "stamp",
+      "chapter": "Tool 5",
+      "chapterTitle": "5. Gamma: the credits that never refresh",
+      "broll": [
+        "42648",
+        "4907"
+      ],
+      "title": "Gamma",
+      "value": "400",
+      "sub": "free AI credits, given once at sign-up. They never refresh.",
+      "stamp": "Once",
+      "stampAt": "once",
+      "footer": {
+        "text": "Pro: $18/month · free decks carry Gamma branding",
+        "at": "pro"
+      },
+      "text": "Tool number five is Gamma, which builds a full presentation, document or web page from a short prompt. It's fast, and the first draft often looks good. But read the free plan carefully. You get four hundred credits once, when you sign up, and they don't refresh. Reviews in twenty twenty six put a ten card deck at roughly forty to fifty credits. So plan for a handful of decks, not one every week. Free exports also carry Gamma branding. The Pro plan is eighteen dollars a month. Use your free credits on decks that matter."
+    },
+    {
+      "id": "s08",
+      "kind": "cards",
+      "chapter": "Tool 6",
+      "chapterTitle": "6. LM Studio: AI on your own computer",
+      "broll": [
+        "221",
+        "1730"
+      ],
+      "items": [
+        {
+          "title": "Price",
+          "value": "$0",
+          "sub": "at home and at work",
+          "at": "home"
+        },
+        {
+          "title": "Since",
+          "value": "July 2025",
+          "sub": "free for work use",
+          "at": "july"
+        },
+        {
+          "title": "Runs",
+          "value": "Locally",
+          "sub": "on your own machine",
+          "at": "machine"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Needs a decent computer",
+          "at": "decent"
+        },
+        {
+          "text": "Smaller models",
+          "at": "smaller"
+        }
+      ],
+      "footer": {
+        "text": "Best for:",
+        "highlight": "privacy-first tasks",
+        "tone": "good",
+        "at": "privacy"
+      },
+      "text": "Tool number six is LM Studio, and it's different from the rest. Instead of sending your text to someone's server, it downloads open AI models and runs them on your own machine. Since July twenty twenty five, LM Studio has been free to use both at home and at work, with no form to fill in. The trade offs are real. You need a decent computer, and the models you can run locally are usually smaller and slower than the big cloud ones. But for privacy first tasks, like rewriting notes you'd never upload, it's a strong free option."
+    },
+    {
+      "id": "s09",
+      "kind": "pricelist",
+      "chapter": "The real cost",
+      "chapterTitle": "What the paid plans would cost",
+      "broll": [
+        "18296",
+        "46990"
+      ],
+      "prefix": "$",
+      "items": [
+        {
+          "label": "Microsoft 365 Premium",
+          "value": "$19.99",
+          "num": 19.99,
+          "at": "microsoft"
+        },
+        {
+          "label": "Perplexity Pro",
+          "value": "$20",
+          "num": 20,
+          "at": "perplexity"
+        },
+        {
+          "label": "Google AI Studio",
+          "value": "$0",
+          "num": 0,
+          "at": "google"
+        },
+        {
+          "label": "Napkin Plus",
+          "value": "$9",
+          "num": 9,
+          "at": "napkin"
+        },
+        {
+          "label": "Gamma Pro",
+          "value": "$18",
+          "num": 18,
+          "at": "gamma"
+        },
+        {
+          "label": "LM Studio",
+          "value": "$0",
+          "num": 0,
+          "at": "studio"
+        }
+      ],
+      "total": {
+        "label": "Every month",
+        "yearly": {
+          "text": "≈ $804 a year",
+          "at": "eight",
+          "tone": "bad"
+        },
+        "callout": {
+          "text": "Start free. Upgrade one.",
+          "at": "upgrade"
+        }
+      },
+      "text": "So what would it cost to upgrade everything? Microsoft three sixty five Premium is nineteen ninety nine a month. Perplexity Pro is twenty. Google AI Studio stays free for browser use. Napkin Plus is nine. Gamma Pro is eighteen. And LM Studio is free. That's about sixty seven dollars a month, or roughly eight hundred and four dollars a year. Most people don't need all of that. The smarter move is to start free with everything, notice which limit you hit first, and then upgrade only that one tool."
+    },
+    {
+      "id": "s10",
+      "kind": "rows",
+      "chapter": "The catch",
+      "chapterTitle": "The hidden price of free AI",
+      "broll": [
+        "4908",
+        "221"
+      ],
+      "items": [
+        {
+          "name": "Your data",
+          "desc": "Free chats may be used to improve products",
+          "at": "data"
+        },
+        {
+          "name": "Limits",
+          "desc": "Caps hit at the worst moment",
+          "at": "caps"
+        },
+        {
+          "name": "Branding",
+          "desc": "Watermarks on free exports",
+          "at": "watermarks"
+        },
+        {
+          "name": "Changes",
+          "desc": "Free plans shrink or change without notice",
+          "at": "shrink"
+        },
+        {
+          "name": "Ads",
+          "desc": "Some free AI now shows ads",
+          "at": "ads"
+        }
+      ],
+      "footer": {
+        "text": "Free costs you something. Know what.",
+        "at": "know"
+      },
+      "text": "Now, the hidden price of free AI. First, your data. Some free plans may use your chats to improve their products, so check the privacy settings. Second, limits. Caps tend to hit at the worst moment, like the night before a deadline. Third, branding. Watermarks on free exports can look unprofessional to a client. Fourth, changes. Free plans can shrink or change without notice, so don't build your whole workflow on one. And fifth, ads. Some free AI tools now show ads. None of this is a reason to avoid them. Just know what free costs you."
+    },
+    {
+      "id": "s11",
+      "kind": "steps",
+      "chapter": "Your free stack",
+      "chapterTitle": "How to build your free AI stack",
+      "broll": [
+        "46768",
+        "42653"
+      ],
+      "items": [
+        {
+          "text": "One assistant for daily questions",
+          "at": "assistant"
+        },
+        {
+          "text": "One research tool with sources",
+          "at": "research"
+        },
+        {
+          "text": "One visual tool for slides",
+          "at": "visual"
+        },
+        {
+          "text": "One private, local option",
+          "at": "local"
+        }
+      ],
+      "footer": {
+        "text": "Hit the same limit 3 weeks in a row?",
+        "highlight": "Then upgrade that one",
+        "tone": "good",
+        "at": "upgrade"
+      },
+      "text": "Here's a simple way to build your free stack. Pick one assistant for daily questions, like Copilot. Add one research tool with sources, like Perplexity. Add one visual tool for slides and reports, Napkin or Gamma. And keep one private, local option, like LM Studio, for anything sensitive. Use them for a month and keep a note every time a limit stops you. If you hit the same limit three weeks in a row, that's your signal. Then upgrade that one tool, and keep everything else free."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "26923",
+        "13218"
+      ],
+      "title": "Start free. Upgrade one.",
+      "accent": [
+        2,
+        3
+      ],
+      "next": "How to Plan Your Entire Week with AI in 15 Minutes",
+      "text": "So that's the list. Six AI tools you can start using today for zero dollars, with no credit card. Prices and limits change often, so check each pricing page before you rely on them. Now I want to hear from you. Which free AI tool do you use the most, and what limit annoys you most? Tell me in the comments. If this helped, subscribe to Future Money Lab, and share it with a friend who's paying for tools they barely use. In the next video, I'll show you how to plan your entire week with AI in fifteen minutes."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "FREE AI TOOLS",
+      "line2": "NO CARD NEEDED",
+      "tag": "6 tools compared"
+    },
+    "b": {
+      "kicker": "PAID PLANS COST",
+      "from": "$804",
+      "to": "$0",
+      "line2": "FREE VERSIONS",
+      "tag": "No credit card"
+    }
+  },
+  "youtube": {
+    "title": "The Best Free AI Tools in 2026 (No Credit Card Needed)",
+    "summary": "Upgrading the six AI tools in this video would cost about $67 a month, roughly $804 a year, but each one has a free version you can use with no credit card. I compared the free plans of Microsoft Copilot, Perplexity, Google AI Studio, Napkin AI, Gamma and LM Studio: what you get, where the limits hit, what the catch is, and how to build a free AI stack and upgrade only the one tool you actually outgrow.",
+    "details": "Numbers mentioned (checked November 2026; free plans change often, always confirm on the official pricing page):\n- Microsoft Copilot: free with a Microsoft account; Copilot Voice and Think Deeper made free and unlimited in February 2025 (Microsoft notes possible limits at high demand); Microsoft 365 Premium $19.99/month\n- Perplexity: free plan with unlimited basic searches and a few Pro Searches a day (about 3–5 in 2026 reviews); Pro $20/month or $200/year\n- Google AI Studio: free plan in the browser without setting up paid billing; on unpaid services Google can use submitted content to improve products\n- Napkin AI: free 500 AI credits a week, PNG and PDF export, Napkin branding; Plus $9/month (10,000 credits), Pro $22/month\n- Gamma: free 400 credits once at sign-up (no refresh), Gamma branding; Pro $18/month\n- LM Studio: free for home and work use since July 8, 2025; runs models on your own computer\n- Some free AI plans now show ads, for example ChatGPT Free in the US (Notebookcheck, Nov 2026)\n- Total of the paid plans shown: $66.99/month, about $804/year",
+    "sources": [
+      {
+        "name": "Is Microsoft Copilot free in 2026? (Dupple, Nov 2026)",
+        "url": "https://dupple.com/learn/is-microsoft-copilot-free"
+      },
+      {
+        "name": "Microsoft makes Copilot Voice and Think Deeper free and unlimited (ITdaily, Feb 2025)",
+        "url": "https://itdaily.com/news/cloud/microsoft-makes-copilot-voice-and-think-deeper-free-and-unlimited-for-all-users"
+      },
+      {
+        "name": "Perplexity pricing in 2026 (Finout, Apr 2026)",
+        "url": "https://www.finout.io/blog/perplexity-pricing-in-2026"
+      },
+      {
+        "name": "Perplexity pricing 2026 (eesel, Jun 2026)",
+        "url": "https://www.eesel.ai/blog/perplexity-pricing"
+      },
+      {
+        "name": "Google AI Studio pricing (nocode.mba, Nov 2026)",
+        "url": "https://www.nocode.mba/articles/google-ai-studio-pricing"
+      },
+      {
+        "name": "Napkin AI pricing",
+        "url": "https://www.napkin.ai/pricing"
+      },
+      {
+        "name": "Napkin AI credits (help center)",
+        "url": "https://help.napkin.ai/en/articles/12108746-what-are-ai-credits-and-how-can-i-check-how-many-i-have-left"
+      },
+      {
+        "name": "Gamma pricing in 2026 (eesel, Jun 2026)",
+        "url": "https://www.eesel.ai/en/blog/gamma-pricing"
+      },
+      {
+        "name": "Gamma pricing (Toolradar, Sep 2026)",
+        "url": "https://toolradar.com/tools/gamma-app/pricing"
+      },
+      {
+        "name": "LM Studio is free for use at work (LM Studio, Jul 2025)",
+        "url": "https://www.lmstudio.ai/blog/free-for-work"
+      },
+      {
+        "name": "ChatGPT vs Gemini vs Claude: what AI subscriptions cost now (Notebookcheck, Nov 2026)",
+        "url": "https://www.notebookcheck.net/ChatGPT-vs-Gemini-vs-Claude-What-AI-subscriptions-cost-now.1439605.0.html"
+      }
+    ],
+    "tags": [
+      "free AI tools",
+      "best free AI tools",
+      "free AI tools 2026",
+      "AI tools no credit card",
+      "Microsoft Copilot free",
+      "Perplexity AI",
+      "Google AI Studio",
+      "Napkin AI",
+      "Gamma AI",
+      "LM Studio",
+      "AI tools",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#AItools",
+      "#FreeAI",
+      "#productivity"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s07"
+      ],
+      "headline": "This AI tool's free credits never refresh",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s08"
+      ],
+      "headline": "Free AI that runs on your own computer",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s10"
+      ],
+      "headline": "The hidden price of free AI",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 422273975,
+    "publishAt": "2026-11-17T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 422274274,
+        "publishAt": "2026-11-17T02:45:00+05:00"
+      },
+      {
+        "postId": 422274296,
+        "publishAt": "2026-11-17T06:45:00+05:00"
+      },
+      {
+        "postId": 422274329,
+        "publishAt": "2026-11-17T21:15:00+05:00"
+      }
+    ]
+  }
+}
