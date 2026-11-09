@@ -145,3 +145,13 @@ the clip URL. The CDN still works: `https://assets.mixkit.co/videos/<id>/<id>-10
 ## Git
 Commit as yourself; end messages with the session attribution lines the system gives you. Never commit video files
 except the temporary `*_upload.mp4` hand-off, and remove it right after Metricool accepts the post.
+
+## New channels: Drive stock mode (owner's order, 9 Nov 2026)
+Future Money Lab stays on the Metricool flow above. Every **new** channel works differently:
+- Keep **20 ready videos per channel** in Google Drive, one folder per video with the long mp4, the 3 Shorts, both
+  thumbnails and an `upload.txt` (title, description, tags, Short titles/descriptions, suggested publish time).
+- **Saqib uploads them himself** in YouTube Studio and clicks "Uploaded mark karein" in the Video Library.
+- Each run: rows with `status:"Uploaded"` → delete that Drive folder; then if the channel has fewer than 20 rows with
+  `status:"Stock"`, make one new video and add its row (`status:"Stock"`, `driveUrl`).
+- Not live yet: needs the Google Drive connector connected and a test that it can upload ~90 MB files.
+  Storage: ~150 MB per video → ~3 GB per channel; the free 15 GB Drive holds about 4 channels.
