@@ -1,0 +1,523 @@
+{
+  "id": "E10",
+  "num": 11,
+  "status": "scheduled",
+  "pillar": "B",
+  "title": "ETFs vs Mutual Funds vs Stocks: Which Should Beginners Choose?",
+  "music": "music_759.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "Stocks vs funds",
+      "chapterTitle": "Intro: most stocks lose to cash",
+      "broll": [
+        "47214",
+        "47796"
+      ],
+      "badge": "US stocks that failed to beat Treasury bills over their lifetime",
+      "numberValue": 58,
+      "unit": "%",
+      "sub": "Bessembinder study, US stocks 1926 to 2016",
+      "big": {
+        "at": "fifty"
+      },
+      "chips": [
+        {
+          "text": "Not a crash. Their whole life.",
+          "at": "entire"
+        },
+        {
+          "text": "Three ways to own stocks",
+          "at": "three"
+        }
+      ],
+      "text": "Here's a number that surprises most new investors. A finance professor studied every US stock from nineteen twenty six to twenty sixteen, and fifty eight percent of them failed to beat one month Treasury bills over their entire life. That's basically cash. So if you pick one stock at random, the odds are not on your side. In this video, I'll compare the three main ways beginners own stocks: single stocks, mutual funds and ETFs. We'll look at how they're bought, what they cost, how they're taxed, and a simple way to decide."
+    },
+    {
+      "id": "s02",
+      "kind": "hero",
+      "chapter": "The basics",
+      "chapterTitle": "One share vs a basket",
+      "broll": [
+        "46990",
+        "42648"
+      ],
+      "badge": "The basics",
+      "title": "One share or a basket",
+      "sub": "A stock is one company. A fund holds many.",
+      "accent": [
+        4
+      ],
+      "text": "Let's start simple. A stock is a small piece of one company. If that company does well, your share can rise. If it struggles, your share falls, and nothing else is there to cushion it. A fund is different. It pools money from lots of investors and buys a basket of many stocks or bonds. Mutual funds and ETFs are both funds. The main difference between them isn't what they own. It's the wrapper: how you buy them, how they're priced, and how they're taxed."
+    },
+    {
+      "id": "s03",
+      "kind": "rows",
+      "chapter": "The three options",
+      "chapterTitle": "Stocks, mutual funds and ETFs in plain English",
+      "broll": [
+        "47793",
+        "9607"
+      ],
+      "items": [
+        {
+          "name": "Single stock",
+          "desc": "Part of one company, traded all day",
+          "at": "single"
+        },
+        {
+          "name": "Mutual fund",
+          "desc": "A basket, priced once a day after close",
+          "at": "mutual"
+        },
+        {
+          "name": "ETF",
+          "desc": "A basket that trades all day like a stock",
+          "at": "exchange"
+        },
+        {
+          "name": "Index or active",
+          "desc": "Follow a list, or a manager picks",
+          "at": "either"
+        }
+      ],
+      "footer": {
+        "text": "Same baskets, different wrappers",
+        "at": "wrapper"
+      },
+      "text": "Here are the three side by side. A single stock is part of one company, and you can buy or sell it whenever the market is open. A mutual fund holds a basket, but you buy it at one price per day, calculated after the market closes. An exchange traded fund, or ETF, also holds a basket, but it trades all day like a stock. And both kinds of fund can be either index funds, which follow a fixed list, or active funds, where a manager picks. Same baskets, different wrapper."
+    },
+    {
+      "id": "s04",
+      "kind": "cards",
+      "chapter": "Single stocks",
+      "chapterTitle": "The problem with picking single stocks",
+      "broll": [
+        "26758",
+        "30873"
+      ],
+      "items": [
+        {
+          "title": "Stocks studied",
+          "value": "~26,000",
+          "sub": "US stocks, 1926 to 2016",
+          "at": "twenty"
+        },
+        {
+          "title": "Created all net wealth",
+          "value": "4.3%",
+          "sub": "about 1,092 companies",
+          "at": "four"
+        },
+        {
+          "title": "Made half of it",
+          "value": "86",
+          "sub": "stocks",
+          "at": "eighty"
+        }
+      ],
+      "chips": [
+        {
+          "text": "A fund owns the few big winners",
+          "at": "fund"
+        }
+      ],
+      "footer": {
+        "text": "Finding the winners early is the hard part",
+        "at": "hard"
+      },
+      "text": "A long study of US stocks found that out of nearly twenty six thousand US stocks, just four point three percent, about one thousand ninety two companies, created all of the stock market's net wealth above Treasury bills. Only eighty six stocks produced half of it. The market's long term gains came from a small group of huge winners. A broad fund owns those winners automatically, along with everything else. If you hold a handful of single stocks, you need to find the winners early. That's the hard part."
+    },
+    {
+      "id": "s05",
+      "kind": "compare",
+      "chapter": "How you buy",
+      "chapterTitle": "How you buy: once a day vs all day",
+      "broll": [
+        "4915",
+        "4907"
+      ],
+      "cards": [
+        {
+          "title": "Mutual fund",
+          "sub": "One price a day, after close",
+          "at": "mutual"
+        },
+        {
+          "title": "ETF or stock",
+          "sub": "Live price while market is open",
+          "at": "ETF"
+        }
+      ],
+      "big": {
+        "value": "Same basket",
+        "sub": "different way to buy it",
+        "at": "same"
+      },
+      "bars": [
+        {
+          "label": "Exact dollar amounts",
+          "value": "Mutual fund",
+          "fill": 0.9,
+          "tone": "good",
+          "at": "dollar"
+        },
+        {
+          "label": "Trade during the day",
+          "value": "ETF",
+          "fill": 0.9,
+          "tone": "good",
+          "at": "while"
+        }
+      ],
+      "footer": {
+        "text": "Check your broker's minimums and fractional shares",
+        "at": "check"
+      },
+      "text": "Now, how you actually buy them. With a mutual fund, you place an order and everyone gets the same price, set once after the market closes. You can usually invest an exact dollar amount, which makes automatic monthly investing easy, though many funds ask for a minimum first investment. An ETF or a stock has a live price while the market is open. You buy shares, and many brokers now offer fractional shares, so you can invest smaller amounts. Same basket, different way to buy it. Check your own broker for minimums and fractional shares."
+    },
+    {
+      "id": "s06",
+      "kind": "compare",
+      "chapter": "Where money goes",
+      "chapterTitle": "Where investors are moving their money",
+      "broll": [
+        "47214",
+        "5461"
+      ],
+      "text": "Here's where investors are putting their money. At the end of twenty twenty five, US mutual funds still held about thirty one point four trillion dollars, according to the Investment Company Institute. ETFs held about thirteen point four trillion. But the direction is clear. In twenty twenty five, ETFs took in a record of about one and a half trillion dollars of new money, while mutual funds saw about six hundred ninety two billion dollars flow out. Mutual funds are still the bigger pile, especially in retirement plans, but money is moving toward ETFs.",
+      "cards": [
+        {
+          "title": "Mutual funds",
+          "sub": "$31.4T in assets, end of 2025",
+          "at": "thirty"
+        },
+        {
+          "title": "ETFs",
+          "sub": "$13.4T in assets, end of 2025",
+          "at": "ETFs",
+          "nth": 0
+        }
+      ],
+      "big": {
+        "value": "$1.5T",
+        "sub": "record inflow to ETFs, 2025",
+        "at": "record"
+      },
+      "bars": [
+        {
+          "label": "Into ETFs, 2025",
+          "value": "+$1.5T",
+          "fill": 1.0,
+          "tone": "good",
+          "at": "half"
+        },
+        {
+          "label": "Out of mutual funds",
+          "value": "−$692B",
+          "fill": 0.46,
+          "tone": "bad",
+          "at": "six"
+        }
+      ],
+      "footer": {
+        "text": "The money is moving toward ETFs",
+        "at": "moving"
+      }
+    },
+    {
+      "id": "s07",
+      "kind": "cards",
+      "chapter": "Taxes",
+      "chapterTitle": "The tax difference most beginners miss",
+      "broll": [
+        "45923",
+        "18296"
+      ],
+      "items": [
+        {
+          "title": "ETFs",
+          "value": "7%",
+          "sub": "paid a capital gain in 2025",
+          "at": "seven"
+        },
+        {
+          "title": "Mutual funds",
+          "value": "52%",
+          "sub": "paid a capital gain in 2025",
+          "at": "fifty"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Taxable accounts only",
+          "at": "taxable"
+        },
+        {
+          "text": "No difference inside an IRA or 401(k)",
+          "at": "retirement"
+        }
+      ],
+      "footer": {
+        "text": "Source: Morningstar data via State Street",
+        "at": "morningstar"
+      },
+      "text": "This next part is the difference most beginners miss: taxes. When a fund sells holdings at a profit, it can pass that gain to you as a capital gains distribution, and you may owe tax on it even if you never sold a share. According to Morningstar data reported by State Street, only seven percent of ETFs paid a capital gain in twenty twenty five, compared with fifty two percent of mutual funds. This matters in a regular taxable account. Inside a retirement account, like an IRA or a four oh one k, these payouts aren't taxed each year."
+    },
+    {
+      "id": "s08",
+      "kind": "cards",
+      "chapter": "Costs",
+      "chapterTitle": "What each one costs per year",
+      "broll": [
+        "18302",
+        "18263"
+      ],
+      "text": "What about cost? The Investment Company Institute says that in twenty twenty five, index stock mutual funds charged an average of just zero point zero five percent a year. Index stock ETFs averaged zero point one four percent. All stock mutual funds, including active ones, averaged zero point four zero percent. And a single stock has no yearly fee at all, but you carry all the risk. Notice the bigger lesson here. The gap between index and active funds is larger than the gap between ETFs and mutual funds. Low cost index funds exist in both wrappers.",
+      "items": [
+        {
+          "title": "Index stock mutual funds",
+          "value": "0.05%",
+          "sub": "a year, average",
+          "at": "index"
+        },
+        {
+          "title": "Index stock ETFs",
+          "value": "0.14%",
+          "sub": "a year, average",
+          "at": "ETFs"
+        },
+        {
+          "title": "All stock mutual funds",
+          "value": "0.40%",
+          "sub": "incl. active funds",
+          "at": "all"
+        },
+        {
+          "title": "Single stock",
+          "value": "$0",
+          "sub": "no yearly fee, all the risk",
+          "at": "single"
+        }
+      ],
+      "chips": [
+        {
+          "text": "ICI, 2025 averages",
+          "at": "institute"
+        },
+        {
+          "text": "Index vs active matters more",
+          "at": "bigger"
+        }
+      ],
+      "footer": {
+        "text": "Low-cost index funds exist in both wrappers",
+        "at": "both"
+      }
+    },
+    {
+      "id": "s09",
+      "kind": "rows",
+      "chapter": "Who it fits",
+      "chapterTitle": "Which one fits which beginner",
+      "broll": [
+        "42664",
+        "46768"
+      ],
+      "items": [
+        {
+          "name": "Mutual fund",
+          "desc": "Auto-investing exact amounts, 401(k)",
+          "at": "mutual"
+        },
+        {
+          "name": "ETF",
+          "desc": "Taxable account, low minimum, any broker",
+          "at": "ETF"
+        },
+        {
+          "name": "Single stocks",
+          "desc": "Small slice you're willing to lose",
+          "at": "single"
+        },
+        {
+          "name": "Your 401(k)",
+          "desc": "Use the low-cost options on the menu",
+          "at": "four"
+        }
+      ],
+      "footer": {
+        "text": "Match the wrapper to the account",
+        "at": "match"
+      },
+      "text": "So which fits which beginner? A mutual fund can suit you if you like automatic investing in exact dollar amounts, and it's often what a workplace plan offers. An ETF can suit a regular taxable account, because of the lower tax payouts, and you can buy it at almost any broker. Single stocks can make sense as a small slice you're willing to lose while you learn. And if your four oh one k only offers mutual funds, that's fine. Look for the low cost index options on the menu. Match the wrapper to the account."
+    },
+    {
+      "id": "s10",
+      "kind": "steps",
+      "chapter": "Checklist",
+      "chapterTitle": "A 5-step beginner checklist",
+      "broll": [
+        "4806",
+        "221"
+      ],
+      "items": [
+        {
+          "text": "Which account? Taxable or retirement",
+          "at": "one"
+        },
+        {
+          "text": "Broad index fund as the core",
+          "at": "two"
+        },
+        {
+          "text": "Compare expense ratios",
+          "at": "three"
+        },
+        {
+          "text": "ETF or mutual fund: what fits",
+          "at": "four"
+        },
+        {
+          "text": "Single stocks: a small slice only",
+          "at": "five"
+        }
+      ],
+      "footer": {
+        "text": "Education, not financial advice.",
+        "highlight": "",
+        "at": "goals"
+      },
+      "text": "Here's a simple checklist. One, decide which account you're using, a taxable account or a retirement account, because that changes how much taxes matter. Two, consider a broad, low cost index fund as the core, so you own the whole market instead of guessing. Three, compare expense ratios, the yearly cost. Four, pick the ETF or mutual fund version based on your broker, your account, and how you like to invest. And five, if you want single stocks, keep them a small slice. Then think about your own goals and timeline."
+    },
+    {
+      "id": "s11",
+      "kind": "verdict",
+      "chapterTitle": "The big idea",
+      "broll": [
+        "26923",
+        "50759"
+      ],
+      "badge": "The big idea",
+      "title": "Own the basket first",
+      "sub": "The wrapper matters less than cost and spread",
+      "text": "Here's the big idea. For most beginners, the question isn't really ETF versus mutual fund. It's one company versus the whole basket, and high cost versus low cost. History shows that most single stocks lag cash over their lifetime, while a broad fund holds the rare winners for you. ETFs tend to be more tax efficient in a taxable account, and mutual funds are great for automatic investing. Either way, all of them can drop in a bad market. This is education, not financial advice."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "41541",
+        "13218"
+      ],
+      "title": "Start with the basket",
+      "accent": [
+        3
+      ],
+      "next": "AI Email Workflow: Clear Your Inbox in 10 Minutes a Day",
+      "text": "Now I'd love to hear from you. Did you start with single stocks, a mutual fund, or an ETF, and would you choose the same again? Tell me in the comments. If this helped, subscribe to Future Money Lab and share it with a friend who's just starting to invest. Next up, I'll show you an AI email workflow to clear your inbox in about ten minutes a day."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "ETF OR FUND?",
+      "line2": "OR STOCKS",
+      "tag": "Beginner guide"
+    },
+    "b": {
+      "kicker": "58% OF US STOCKS LOST TO CASH",
+      "from": "STOCK",
+      "to": "FUND",
+      "line2": "WHICH TO CHOOSE",
+      "tag": "ETFs vs funds vs stocks"
+    }
+  },
+  "youtube": {
+    "title": "ETFs vs Mutual Funds vs Stocks: Which Should Beginners Choose?",
+    "summary": "58% of US stocks failed to beat Treasury bills over their lifetime. This is a plain-English comparison of the three main ways beginners own stocks: single stocks, mutual funds and ETFs. We cover how each is bought and priced, where investors moved their money in 2025, the capital gains tax difference between ETFs and mutual funds, what each costs per year, which one fits which kind of account, and a 5-step beginner checklist.",
+    "details": "Numbers mentioned (checked November 2026):\n- 58% of US common stocks failed to beat one-month Treasury bills over their lifetime; about 1,092 companies (4.3% of nearly 26,000 stocks) accounted for all net wealth creation above T-bills, and 86 stocks for half of it, 1926 to 2016 (Hendrik Bessembinder, 'Do Stocks Outperform Treasury Bills?', via ASU W. P. Carey, Sept 2018).\n- US mutual funds about $31.4 trillion and ETFs about $13.4 trillion in net assets at year-end 2025 (ICI 2026 Fact Book, as reported by Walnut, Oct 2026). ETF net share issuance a record ~$1.5 trillion in 2025 (ICI via PlanSponsor, Apr 2026); US mutual funds about $692 billion of outflows in 2025 (State Street, Feb 2026).\n- 7% of ETFs vs 52% of mutual funds paid a capital gains distribution in 2025 (Morningstar data, reported by State Street Global Advisors, Feb 2026).\n- Average yearly costs in 2025: index equity mutual funds 0.05%, index equity ETFs 0.14%, all equity mutual funds 0.40% (ICI, Trends in the Expenses and Fees of Funds, 2025, March 2026).\n- Capital gains distributions are generally not taxed each year inside tax-advantaged retirement accounts. Tax rules depend on your situation and country; this video uses US examples.",
+    "sources": [
+      {
+        "name": "ASU W. P. Carey: Do stocks outperform Treasury bills? (Sept 2018)",
+        "url": "https://news.wpcarey.asu.edu/20180917-do-stocks-outperform-treasury-bills"
+      },
+      {
+        "name": "State Street: Tax efficiency is structural (Feb 2026)",
+        "url": "https://www.ssga.com/us/en/individual/insights/tax-efficiency-is-structural-etfs-continue-to-issue-fewer-capital-gains-than-mutual-funds"
+      },
+      {
+        "name": "PlanSponsor: ICI Fact Book names 2025 market milestones (Apr 2026)",
+        "url": "https://www.plansponsor.com/ici-fact-book-names-2025-market-milestones/"
+      },
+      {
+        "name": "Walnut: ETF vs mutual fund statistics (Oct 2026)",
+        "url": "https://walnutinvest.com/stats/etf-vs-mutual-fund-statistics"
+      },
+      {
+        "name": "ICI: Trends in the Expenses and Fees of Funds, 2025 (March 2026)",
+        "url": "https://www.ici.org/system/files/2026-03/per32-01.pdf"
+      }
+    ],
+    "tags": [
+      "ETF vs mutual fund",
+      "ETFs vs mutual funds vs stocks",
+      "what is an ETF",
+      "mutual funds explained",
+      "investing for beginners",
+      "index funds",
+      "capital gains distributions",
+      "expense ratio",
+      "single stocks vs funds",
+      "personal finance",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#investing",
+      "#ETF",
+      "#personalfinance"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s04"
+      ],
+      "headline": "Just 4% of stocks made all the gains",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s07"
+      ],
+      "headline": "The ETF tax edge most beginners miss",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s08"
+      ],
+      "headline": "What ETFs and mutual funds really cost",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 422506454,
+    "publishAt": "2026-11-18T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 422506716,
+        "publishAt": "2026-11-18T02:45:00+05:00"
+      },
+      {
+        "postId": 422506746,
+        "publishAt": "2026-11-18T06:45:00+05:00"
+      },
+      {
+        "postId": 422506769,
+        "publishAt": "2026-11-18T21:15:00+05:00"
+      }
+    ]
+  }
+}
