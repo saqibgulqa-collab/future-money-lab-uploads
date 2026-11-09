@@ -1,0 +1,517 @@
+{
+  "id": "E08",
+  "num": 7,
+  "status": "scheduled",
+  "pillar": "A",
+  "title": "How to Plan Your Entire Week with AI in 15 Minutes",
+  "music": "music_744.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "Plan with AI",
+      "chapterTitle": "Intro: interrupted every 2 minutes",
+      "broll": [
+        "4908",
+        "221"
+      ],
+      "badge": "Interruptions in a single workday",
+      "numberValue": 275,
+      "prefix": "",
+      "unit": "",
+      "sub": "Up to 275 a day · Microsoft Work Trend Index 2025",
+      "big": {
+        "at": "two"
+      },
+      "chips": [
+        {
+          "text": "≈ every 2 minutes",
+          "at": "every"
+        },
+        {
+          "text": "80% lack time or energy",
+          "at": "eighty"
+        }
+      ],
+      "text": "According to Microsoft's Work Trend Index from twenty twenty five, office workers can be interrupted up to two hundred and seventy five times a day. That's a meeting, an email or a notification roughly every two minutes. In the same report, eighty percent of workers said they lack the time or energy to do their job well. A to-do list won't fix that. A plan for the week might. In this video, I'll show you a fifteen minute method to plan your entire week with any AI chatbot, the exact prompts to use, and the places where AI planning goes wrong."
+    },
+    {
+      "id": "s02",
+      "kind": "hero",
+      "chapter": "The method",
+      "chapterTitle": "The 15-minute method in 5 steps",
+      "broll": [
+        "4806",
+        "46768"
+      ],
+      "badge": "The method",
+      "title": "Plan once. Protect the week.",
+      "sub": "5 steps · 15 minutes · any AI chatbot",
+      "accent": [
+        2,
+        3
+      ],
+      "text": "Here's the whole idea. You plan once, on Sunday evening or Monday morning, and then you protect that plan for the rest of the week. The method has five steps, and each one takes about three minutes. First, a brain dump. Second, let AI help you sort priorities. Third, a reality check on time. Fourth, turn it into calendar blocks. Fifth, add a few guardrails. It works with ChatGPT, Claude, Gemini, Copilot, or any other chatbot you like, on a free plan. The AI does the sorting and the arithmetic. You make the decisions."
+    },
+    {
+      "id": "s03",
+      "kind": "cards",
+      "chapter": "The problem",
+      "chapterTitle": "Why most weeks fall apart",
+      "broll": [
+        "42664",
+        "4915"
+      ],
+      "items": [
+        {
+          "title": "Time on work about work",
+          "value": "60%",
+          "sub": "Asana, 13,123 workers (2021)",
+          "at": "sixty"
+        },
+        {
+          "title": "Interrupted",
+          "value": "Every 2 min",
+          "sub": "Microsoft, 2025",
+          "at": "interrupt"
+        },
+        {
+          "title": "Meetings after 8 pm",
+          "value": "+16%",
+          "sub": "Microsoft, year over year",
+          "at": "meetings",
+          "nth": 1
+        }
+      ],
+      "chips": [
+        {
+          "text": "No plan = other people's priorities",
+          "at": "default"
+        }
+      ],
+      "footer": {
+        "text": "The fix starts before Monday",
+        "at": "fix"
+      },
+      "text": "First, why do so many weeks fall apart? In Asana's Anatomy of Work study, which surveyed more than thirteen thousand knowledge workers, people said about sixty percent of their time went to work about work, things like chasing updates, switching apps and status meetings. Microsoft's data shows people are interrupted every two minutes, and meetings after eight in the evening were up sixteen percent from the year before. Without a plan, your week runs by default on other people's priorities. So the fix starts before Monday, not in the middle of Wednesday."
+    },
+    {
+      "id": "s04",
+      "kind": "compare",
+      "chapter": "The trap",
+      "chapterTitle": "The planning fallacy (33.9 vs 55.5 days)",
+      "broll": [
+        "45923",
+        "46768"
+      ],
+      "cards": [
+        {
+          "title": "37 students",
+          "sub": "Senior thesis, 1994 study",
+          "at": "thirty",
+          "nth": 0
+        }
+      ],
+      "big": {
+        "value": "~30%",
+        "sub": "finished within their own estimate",
+        "at": "only"
+      },
+      "bars": [
+        {
+          "label": "Their estimate",
+          "value": "33.9 days",
+          "fill": 0.61,
+          "tone": "good",
+          "at": "guessed"
+        },
+        {
+          "label": "Worst-case guess",
+          "value": "48.6 days",
+          "fill": 0.88,
+          "at": "worst"
+        },
+        {
+          "label": "Actual",
+          "value": "55.5 days",
+          "fill": 1.0,
+          "tone": "bad",
+          "at": "actually"
+        }
+      ],
+      "footer": {
+        "text": "We plan for the best case",
+        "at": "best",
+        "nth": 0
+      },
+      "text": "There's a second reason, and it lives in our heads. Psychologists call it the planning fallacy. In a classic nineteen ninety four study, thirty seven students guessed how long their senior thesis would take. On average they guessed about thirty four days. Even their worst case guess was about forty nine days. It actually took them about fifty five and a half days, and only about thirty percent finished within their own estimate. We plan for the best case, even when we know better. That's exactly why step three of this method exists."
+    },
+    {
+      "id": "s05",
+      "kind": "steps",
+      "chapter": "Step 1",
+      "chapterTitle": "Step 1: the 3-minute brain dump",
+      "broll": [
+        "4806",
+        "4907"
+      ],
+      "items": [
+        {
+          "text": "Every task, errand and deadline",
+          "at": "every"
+        },
+        {
+          "text": "Fixed events: meetings, school, gym",
+          "at": "fixed"
+        },
+        {
+          "text": "One or two goals for the week",
+          "at": "goals"
+        },
+        {
+          "text": "Messy is fine: no order needed",
+          "at": "messy"
+        }
+      ],
+      "footer": {
+        "text": "Leave out:",
+        "highlight": "names, addresses, private details",
+        "tone": "accent",
+        "at": "leave"
+      },
+      "text": "Step one is a brain dump, and you get three minutes. Open a note or the chat window and type out every task, errand and deadline on your mind for the week. Then add your fixed events, like meetings, school runs, or the gym. Add one or two goals that would make this week feel like a win. Messy is fine. Don't sort anything yet, because sorting is the AI's job. One rule here: leave out names, addresses, and anything private. Write call the client, not the client's full name and phone number."
+    },
+    {
+      "id": "s06",
+      "kind": "questions",
+      "chapter": "Step 2",
+      "chapterTitle": "Step 2: the prioritizing prompt",
+      "broll": [
+        "1730",
+        "221"
+      ],
+      "items": [
+        {
+          "text": "Group my tasks by project",
+          "at": "group"
+        },
+        {
+          "text": "Mark each: urgent, important, or both",
+          "at": "urgent"
+        },
+        {
+          "text": "Pick the top 3 for this week",
+          "at": "pick"
+        },
+        {
+          "text": "What can I delete or delegate?",
+          "at": "delete"
+        }
+      ],
+      "footer": {
+        "text": "Then ask:",
+        "highlight": "\"What am I missing?\"",
+        "tone": "accent",
+        "at": "missing"
+      },
+      "text": "Step two is the prioritizing prompt. Paste your brain dump and ask the AI for four things. One, group my tasks by project or area of life. Two, mark each one as urgent, important, or both. Three, pick the top three outcomes for this week, the ones that matter most if everything else slips. Four, tell me what I could delete, delay or delegate. Then ask one more question: what am I missing? It often spots a deadline with no prep time, or a task that depends on someone else. You can disagree with any of it. That's the point."
+    },
+    {
+      "id": "s07",
+      "kind": "rows",
+      "chapter": "Step 3",
+      "chapterTitle": "Step 3: the reality check on time",
+      "broll": [
+        "4907",
+        "42653"
+      ],
+      "items": [
+        {
+          "name": "Estimate each task",
+          "desc": "Ask AI for a realistic time per task",
+          "at": "estimate"
+        },
+        {
+          "name": "Add a buffer",
+          "desc": "About 50% extra on anything new",
+          "at": "buffer"
+        },
+        {
+          "name": "Count free hours",
+          "desc": "Hours left after fixed events",
+          "at": "count"
+        },
+        {
+          "name": "Compare the two",
+          "desc": "Too much work? Cut, don't cram",
+          "at": "compare"
+        }
+      ],
+      "footer": {
+        "text": "Plan 70% of your free time, not 100%",
+        "at": "seventy"
+      },
+      "text": "Step three is the reality check, and it's where most plans fail. Ask the AI to estimate how long each task really takes. Then add a buffer. A simple rule of thumb is about fifty percent extra for anything you haven't done before, because of the planning fallacy we just saw. Next, count your free hours, meaning the hours left after fixed events. Ask the AI to compare the two numbers. If the work doesn't fit, cut tasks instead of cramming them in. A good target is to plan around seventy percent of your free time and leave the rest for surprises."
+    },
+    {
+      "id": "s08",
+      "kind": "steps",
+      "chapter": "Step 4",
+      "chapterTitle": "Step 4: turn it into calendar blocks",
+      "broll": [
+        "42897",
+        "1730"
+      ],
+      "items": [
+        {
+          "text": "Deep work in your best hours",
+          "at": "focused"
+        },
+        {
+          "text": "Batch email and messages, twice a day",
+          "at": "batch"
+        },
+        {
+          "text": "Small tasks grouped into one block",
+          "at": "small"
+        },
+        {
+          "text": "Ask for a table you can copy",
+          "at": "table"
+        }
+      ],
+      "footer": {
+        "text": "Then copy the blocks into",
+        "highlight": "your real calendar",
+        "tone": "good",
+        "at": "real"
+      },
+      "text": "Step four turns the list into a week. Ask the AI to place your top three outcomes into blocks of focused time, during the hours when you usually have the most energy. Tell it when that is, because it can't know. Then ask it to batch email and messages into two short slots a day, instead of checking all day long. Small tasks like bills, calls and errands get grouped into one block, so they stop scattering across the week. Ask for the result as a simple table, day by day. Then copy those blocks into your real calendar, where you'll actually see them."
+    },
+    {
+      "id": "s09",
+      "kind": "rows",
+      "chapter": "Step 5",
+      "chapterTitle": "Step 5: three guardrails",
+      "broll": [
+        "4915",
+        "221"
+      ],
+      "items": [
+        {
+          "name": "Focus blocks are meetings",
+          "desc": "Treat them like one: don't double-book",
+          "at": "treat"
+        },
+        {
+          "name": "One empty block a day",
+          "desc": "Room for the surprises that always come",
+          "at": "empty"
+        },
+        {
+          "name": "Notifications off",
+          "desc": "During focus blocks, at least",
+          "at": "notification"
+        },
+        {
+          "name": "A hard stop",
+          "desc": "Pick an end time for each workday",
+          "at": "hard"
+        }
+      ],
+      "footer": {
+        "text": "A plan you protect beats a perfect plan",
+        "at": "protect"
+      },
+      "text": "Step five adds guardrails, so the plan survives contact with real life. Treat each focus block like a meeting with yourself, and don't double book it. Leave one empty block every day for the surprises that always come. Turn notifications off during focus blocks, at least. Remember, those interruptions every two minutes don't stop on their own. And pick a hard stop for each workday, so evening meetings and late emails don't quietly take over. A plan you protect beats a perfect plan you abandon by Tuesday."
+    },
+    {
+      "id": "s10",
+      "kind": "rows",
+      "chapter": "Watch out",
+      "chapterTitle": "Where AI planning goes wrong",
+      "broll": [
+        "42648",
+        "4908"
+      ],
+      "items": [
+        {
+          "name": "Overpacked days",
+          "desc": "AI often fills every hour; push back",
+          "at": "overpack"
+        },
+        {
+          "name": "Invented details",
+          "desc": "It may guess deadlines you never gave",
+          "at": "invent"
+        },
+        {
+          "name": "Wrong dates",
+          "desc": "Check days and dates against a calendar",
+          "at": "dates"
+        },
+        {
+          "name": "No sense of energy",
+          "desc": "It can't feel a draining meeting",
+          "at": "energy"
+        },
+        {
+          "name": "Privacy",
+          "desc": "Share tasks, not personal details",
+          "at": "privacy"
+        }
+      ],
+      "footer": {
+        "text": "AI drafts the week. You own it.",
+        "at": "own"
+      },
+      "text": "Now the honest part. AI is a helpful planner, not a perfect one. It often overpacks the day, filling every hour, so push back and ask for breaks. It can invent details, like a deadline you never gave it. It can also get days and dates wrong, so check the plan against a real calendar. It has no sense of your energy, and it can't feel how draining a long meeting is. And keep the privacy rule from step one: share tasks, not personal details. In short, AI drafts the week. You own it."
+    },
+    {
+      "id": "s11",
+      "kind": "steps",
+      "chapter": "The review",
+      "chapterTitle": "The 5-minute Friday review",
+      "broll": [
+        "42653",
+        "26923"
+      ],
+      "items": [
+        {
+          "text": "Paste the plan and what actually happened",
+          "at": "paste"
+        },
+        {
+          "text": "Ask: which estimates were off?",
+          "at": "estimates"
+        },
+        {
+          "text": "Move unfinished tasks forward or delete them",
+          "at": "move"
+        },
+        {
+          "text": "Save the prompt for next week",
+          "at": "save"
+        }
+      ],
+      "footer": {
+        "text": "Each week,",
+        "highlight": "your estimates get better",
+        "tone": "good",
+        "at": "better"
+      },
+      "text": "The last piece is a five minute review on Friday afternoon. Paste in the plan and a quick note of what actually happened. Ask the AI which estimates were off, and by how much. Over a few weeks, you'll see your own pattern, like emails always taking twice as long as you think. Move unfinished tasks to next week, or delete them if they no longer matter. Then save your prompts in a note, so next Sunday's planning starts from a template. Each week, your estimates get better, and the fifteen minutes gets easier."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "26923",
+        "13218"
+      ],
+      "title": "Plan once. Protect the week.",
+      "accent": [
+        2,
+        3
+      ],
+      "next": "ETFs vs Mutual Funds vs Stocks: Which Should Beginners Choose?",
+      "text": "So that's the method. A three minute brain dump, a prioritizing prompt, a reality check with a buffer, calendar blocks, and a few guardrails, then a short review on Friday. Now I want to hear from you. What's the one thing that wrecks your week most often? Meetings, messages, or your own optimism? Tell me in the comments. If this helped, subscribe to Future Money Lab, and try the method this Sunday. In the next video, we'll compare ETFs, mutual funds and stocks, and which one makes sense for beginners."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "PLAN YOUR WEEK",
+      "line2": "IN 15 MINUTES",
+      "tag": "With any AI chatbot"
+    },
+    "b": {
+      "kicker": "LET AI SORT YOUR WEEK",
+      "from": "CHAOS",
+      "to": "PLAN",
+      "line2": "IN 15 MINUTES",
+      "tag": "5 simple steps"
+    }
+  },
+  "youtube": {
+    "title": "How to Plan Your Entire Week with AI in 15 Minutes",
+    "summary": "Office workers can be interrupted up to 275 times a day, roughly every two minutes (Microsoft Work Trend Index 2025). This is a simple 15-minute method to plan your whole week with any AI chatbot (ChatGPT, Claude, Gemini, Copilot): a brain dump, a prioritizing prompt, a reality check that beats the planning fallacy, calendar blocks, three guardrails, where AI planning goes wrong, and a 5-minute Friday review.",
+    "details": "Numbers mentioned (checked November 2026):\n- Workers interrupted up to 275 times a day, about every 2 minutes; 80% say they lack the time or energy to do their job effectively (Microsoft 2025 Work Trend Index, as reported by Allwork.Space, April 2025).\n- Meetings after 8 pm up 16% year over year; interruptions every 2 minutes for Microsoft 365 users (Microsoft Work Trend Index special report, as reported by TechSpot, 2025).\n- 60% of time spent on 'work about work'; survey of 13,123 knowledge workers in 7 countries (Asana Anatomy of Work Index 2021).\n- Planning fallacy: 37 students estimated 33.9 days for their thesis (worst case 48.6), it took 55.5 days on average, about 30% finished within their estimate (Buehler, Griffin & Ross, 1994).\n- The 50% buffer and 70% rule are rules of thumb, not research findings.",
+    "sources": [
+      {
+        "name": "Allwork.Space: 80% of workers are interrupted too often (Microsoft 2025 Work Trend Index)",
+        "url": "https://allwork.space/2025/04/80-of-workers-are-interrupted-too-often-to-be-effective-new-microsoft-report-reveals/"
+      },
+      {
+        "name": "TechSpot: Microsoft study finds 'infinite workday' is hurting productivity",
+        "url": "https://www.techspot.com/news/108343-microsoft-study-finds-infinite-workday-hurting-productivity.html"
+      },
+      {
+        "name": "Asana Anatomy of Work Index 2021 (Business Wire)",
+        "url": "https://www.businesswire.com/news/home/20210114005374/en/Asana-Anatomy-of-Work-Index-2021-Work-About-Work-Is-Dominating-in-a-Distributed-World"
+      },
+      {
+        "name": "Planning fallacy (Buehler, Griffin & Ross 1994 summary)",
+        "url": "https://en.wikipedia.org/wiki/Planning_fallacy"
+      }
+    ],
+    "tags": [
+      "plan your week with AI",
+      "weekly planning",
+      "AI productivity",
+      "ChatGPT planning",
+      "time blocking",
+      "planning fallacy",
+      "productivity tips",
+      "AI tools",
+      "how to plan your week",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#productivity",
+      "#AItools",
+      "#weeklyplanning"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s04"
+      ],
+      "headline": "Why your plans always take longer",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s07"
+      ],
+      "headline": "The planning rule most people skip",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s10"
+      ],
+      "headline": "5 ways AI messes up your schedule",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 422234136,
+    "publishAt": "2026-11-16T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 422234412,
+        "publishAt": "2026-11-16T02:45:00+05:00"
+      },
+      {
+        "postId": 422234454,
+        "publishAt": "2026-11-16T06:45:00+05:00"
+      },
+      {
+        "postId": 422234501,
+        "publishAt": "2026-11-16T21:15:00+05:00"
+      }
+    ]
+  }
+}
