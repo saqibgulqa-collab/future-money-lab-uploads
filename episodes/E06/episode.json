@@ -1,0 +1,560 @@
+{
+  "id": "E06",
+  "num": 4,
+  "status": "scheduled",
+  "pillar": "A",
+  "title": "ChatGPT vs Claude vs Gemini: Which AI Is Best for Work?",
+  "music": "music_759.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "AI at work",
+      "chapterTitle": "Intro: the $240 question",
+      "broll": [
+        "13218",
+        "4907"
+      ],
+      "badge": "US employees who use AI at work at least weekly",
+      "numberValue": 30,
+      "unit": "%",
+      "sub": "Gallup Panel, Q2 2026",
+      "big": {
+        "at": "three"
+      },
+      "chips": [
+        {
+          "text": "4 in 10 never use it",
+          "at": "four"
+        },
+        {
+          "text": "The $20 plans: ≈$240 a year",
+          "at": "hundred"
+        }
+      ],
+      "text": "Three in ten US employees now use AI at work at least once a week, according to Gallup. Four in ten still never use it. If you're in the middle, wondering which assistant to pay for, the choice usually comes down to three names: ChatGPT, Claude and Gemini. Their main paid plans cost about twenty dollars a month each, so roughly two hundred and forty dollars a year. In this video, I compared the three side by side: the free plans, the prices, the work features, and a simple test to pick the right one for your job."
+    },
+    {
+      "id": "s02",
+      "kind": "questions",
+      "chapter": "How I compared",
+      "chapterTitle": "How I compared them",
+      "broll": [
+        "4806",
+        "46768"
+      ],
+      "items": [
+        {
+          "text": "What does the free plan really give you?",
+          "at": "free"
+        },
+        {
+          "text": "What does each price tier add?",
+          "at": "tier"
+        },
+        {
+          "text": "Does it live inside the apps you already use?",
+          "at": "apps"
+        },
+        {
+          "text": "Which work features stand out?",
+          "at": "features"
+        }
+      ],
+      "footer": {
+        "text": "Prices checked",
+        "highlight": "November 2026",
+        "tone": "accent",
+        "at": "november"
+      },
+      "text": "I didn't rank these by vibes. I asked the same four questions about each one. First, what does the free plan really give you? Second, what does each price tier add, and is there anything cheaper than twenty dollars? Third, does it live inside the apps you already use every day, like your email and your documents? And fourth, which work features actually stand out? All prices come from the official pricing pages and recent comparisons, checked in November twenty twenty six. Plans change often, so always confirm before you pay."
+    },
+    {
+      "id": "s03",
+      "kind": "rows",
+      "chapter": "The three",
+      "chapterTitle": "The three assistants at a glance",
+      "broll": [
+        "42664",
+        "221"
+      ],
+      "items": [
+        {
+          "name": "ChatGPT",
+          "desc": "OpenAI · about 900M weekly users",
+          "at": "chatgpt"
+        },
+        {
+          "name": "Claude",
+          "desc": "Anthropic · projects, long documents, code",
+          "at": "claude"
+        },
+        {
+          "name": "Gemini",
+          "desc": "Google · built into Gmail, Docs and Sheets",
+          "at": "gemini"
+        }
+      ],
+      "footer": {
+        "text": "Same price, different strengths",
+        "at": "different"
+      },
+      "text": "Here's the quick picture. ChatGPT, from OpenAI, is the biggest. OpenAI reported about nine hundred million weekly users in February twenty twenty six, so it's the one your coworkers most likely already know. Claude, from Anthropic, is built around projects, long documents and coding, and its pricing page lists context windows of up to one million tokens. Gemini, from Google, is built into Gmail, Docs and Sheets, and its plans come bundled with Google storage. Same price range, but different strengths, and that's what decides which one fits your work."
+    },
+    {
+      "id": "s04",
+      "kind": "cards",
+      "chapter": "Free plans",
+      "chapterTitle": "What the free plans give you",
+      "broll": [
+        "4915",
+        "4908"
+      ],
+      "items": [
+        {
+          "title": "ChatGPT Free",
+          "value": "$0",
+          "sub": "shows ads in the US",
+          "at": "chatgpt"
+        },
+        {
+          "title": "Claude Free",
+          "value": "$0",
+          "sub": "projects, connectors, memory",
+          "at": "claude"
+        },
+        {
+          "title": "Gemini Free",
+          "value": "$0",
+          "sub": "15 GB Google storage",
+          "at": "gemini"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Limits reset over time",
+          "at": "limits"
+        }
+      ],
+      "footer": {
+        "text": "Test all three free first",
+        "at": "test"
+      },
+      "text": "All three have a free plan, and they're more useful than you might think. ChatGPT Free now shows ads in the US, and runs a lighter model than the paid plans. Claude Free includes web search, memory, connectors to other apps, and up to five projects, with usage limits that reset every five hours. Gemini Free comes with fifteen gigabytes of Google storage, and since October it runs a lighter Flash model. None of these limits is a deal breaker for a test. That's why my first tip is simple: test all three free before you pay for anything."
+    },
+    {
+      "id": "s05",
+      "kind": "cards",
+      "chapter": "The $20 tier",
+      "chapterTitle": "The $20 plans compared",
+      "broll": [
+        "18302",
+        "46990"
+      ],
+      "items": [
+        {
+          "title": "ChatGPT Plus",
+          "value": "$20",
+          "sub": "monthly only",
+          "at": "plus"
+        },
+        {
+          "title": "Claude Pro",
+          "value": "$20",
+          "sub": "$17/mo if paid yearly",
+          "at": "pro",
+          "nth": 0
+        },
+        {
+          "title": "Google AI Pro",
+          "value": "$19.99",
+          "sub": "includes 5 TB storage",
+          "at": "google"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Cheaper: ChatGPT Go $8",
+          "at": "eight"
+        },
+        {
+          "text": "Google AI Plus $4.99",
+          "at": "four"
+        },
+        {
+          "text": "Claude: nothing below Pro",
+          "at": "nothing"
+        }
+      ],
+      "footer": {
+        "text": "Checked November 2026",
+        "at": "budget"
+      },
+      "text": "Now the main paid plans. ChatGPT Plus is twenty dollars a month, and consumers can only pay monthly. Claude Pro is twenty dollars a month, or seventeen a month if you pay for the year up front. Google AI Pro is nineteen ninety nine, and it includes five terabytes of storage. Below that, there are cheaper options. ChatGPT Go costs eight dollars a month, and Google AI Plus costs four ninety nine. Anthropic has nothing between Free and Pro. So if your budget is tight, ChatGPT and Gemini give you a cheaper step up."
+    },
+    {
+      "id": "s06",
+      "kind": "compare",
+      "chapter": "ChatGPT",
+      "chapterTitle": "ChatGPT: the all-rounder",
+      "broll": [
+        "1730",
+        "4907"
+      ],
+      "cards": [
+        {
+          "title": "ChatGPT Go",
+          "sub": "$8/mo · cheapest paid step",
+          "at": "go"
+        },
+        {
+          "title": "ChatGPT Plus",
+          "sub": "$20/mo · more Deep Research",
+          "at": "plus"
+        }
+      ],
+      "big": {
+        "value": "900M",
+        "sub": "weekly users (OpenAI, Feb 2026)",
+        "at": "nine"
+      },
+      "bars": [
+        {
+          "label": "Go",
+          "value": "$8",
+          "fill": 0.4,
+          "tone": "good",
+          "at": "eight"
+        },
+        {
+          "label": "Plus",
+          "value": "$20",
+          "fill": 1.0,
+          "tone": "accent",
+          "at": "twenty"
+        }
+      ],
+      "footer": {
+        "text": "Best for: a general all-rounder",
+        "at": "rounder"
+      },
+      "text": "ChatGPT's strength is breadth. With around nine hundred million weekly users, it's the one most teams already share prompts and tips for. The eight dollar Go plan is the cheapest paid step of the three big brands. Plus, at twenty dollars, adds more Deep Research for longer research reports, projects to keep your files and chats together, and scheduled tasks that run on their own. Its Codex coding agent is available on every plan, even free. If you want one general all rounder that most people around you already know, ChatGPT is the safe default."
+    },
+    {
+      "id": "s07",
+      "kind": "cards",
+      "chapter": "Claude",
+      "chapterTitle": "Claude: documents, projects and code",
+      "broll": [
+        "221",
+        "45923"
+      ],
+      "items": [
+        {
+          "title": "Projects",
+          "value": "Free+",
+          "sub": "your files, one place",
+          "at": "projects"
+        },
+        {
+          "title": "Microsoft 365",
+          "value": "Pro",
+          "sub": "Outlook and Office",
+          "at": "microsoft"
+        },
+        {
+          "title": "Claude Code",
+          "value": "Pro",
+          "sub": "coding agent",
+          "at": "code"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Research on Pro",
+          "at": "research"
+        },
+        {
+          "text": "Up to 1M-token context",
+          "at": "million"
+        }
+      ],
+      "footer": {
+        "text": "Best for: long documents and Office users",
+        "at": "office"
+      },
+      "text": "Claude leans into documents and focused work. Projects let you keep the files for one client or one report in one place, and even the free plan gets five. Pro adds Research for longer reports, Claude Code for programming, and Claude in Chrome. A big one for office workers: Pro also includes Claude for Microsoft three sixty five and Outlook. And the pricing page lists context windows of up to one million tokens, depending on the model, so long contracts or reports fit in one go. If your day lives in long documents or Microsoft Office, Claude deserves a test."
+    },
+    {
+      "id": "s08",
+      "kind": "stat",
+      "chapter": "Gemini",
+      "chapterTitle": "Gemini: the Google Workspace pick",
+      "broll": [
+        "42653",
+        "4915"
+      ],
+      "badge": "Google storage included in Google AI Pro",
+      "numberValue": 5,
+      "unit": " TB",
+      "sub": "$19.99 a month, checked November 2026",
+      "big": {
+        "at": "five"
+      },
+      "chips": [
+        {
+          "text": "Gemini in Gmail, Docs and Sheets",
+          "at": "gmail"
+        },
+        {
+          "text": "Deep Research",
+          "at": "deep"
+        },
+        {
+          "text": "AI Plus: $4.99 with 400 GB",
+          "at": "plus"
+        }
+      ],
+      "text": "Gemini's advantage is where it lives. If your work runs on Gmail, Google Docs and Sheets, Google AI Pro puts Gemini right inside them, so you can draft a reply or summarize a long thread without copying anything. It also includes Deep Research, and Chrome auto browse for small web tasks. Then there's the bundle. The same nineteen ninety nine plan includes five terabytes of Google storage, which you might be paying for separately already. And the four ninety nine AI Plus plan gives you four hundred gigabytes plus more Gemini access. For Google users, that's hard to ignore."
+    },
+    {
+      "id": "s09",
+      "kind": "rows",
+      "chapter": "Bigger plans",
+      "chapterTitle": "Power plans and team plans",
+      "broll": [
+        "42648",
+        "47214"
+      ],
+      "items": [
+        {
+          "name": "ChatGPT Pro",
+          "desc": "$100, $200 or $500 a month",
+          "at": "chatgpt"
+        },
+        {
+          "name": "Claude Max / Ultra",
+          "desc": "$100 (5× Pro) or $200 (10× Pro)",
+          "at": "max"
+        },
+        {
+          "name": "Google AI Ultra",
+          "desc": "$99.99 or $199.99 a month",
+          "at": "ultra",
+          "nth": 1
+        },
+        {
+          "name": "Teams",
+          "desc": "ChatGPT Business, Claude Team: $20–25/seat",
+          "at": "team"
+        }
+      ],
+      "footer": {
+        "text": "Most people don't need these",
+        "at": "most"
+      },
+      "text": "What about the expensive plans? ChatGPT Pro comes in one hundred, two hundred and five hundred dollar versions. Claude Max is one hundred dollars for five times Pro usage, and Claude Ultra is two hundred for ten times. Google AI Ultra is ninety nine ninety nine or one ninety nine ninety nine. These are for people who hit limits all day, like heavy coders. For teams, Claude Team and ChatGPT Business both start around twenty dollars a seat per month billed yearly, or twenty five monthly. Most people never need any of these, so start small."
+    },
+    {
+      "id": "s10",
+      "kind": "questions",
+      "chapter": "Pick by job",
+      "chapterTitle": "Which one fits your work",
+      "broll": [
+        "42664",
+        "4806"
+      ],
+      "items": [
+        {
+          "text": "Live in Gmail and Google Docs? Try Gemini",
+          "at": "gmail"
+        },
+        {
+          "text": "Long documents or Microsoft Office? Try Claude",
+          "at": "long"
+        },
+        {
+          "text": "Want an all-rounder or the cheapest step? Try ChatGPT",
+          "at": "rounder"
+        }
+      ],
+      "footer": {
+        "text": "The best AI is the one",
+        "highlight": "you'll actually use",
+        "tone": "accent",
+        "at": "actually"
+      },
+      "text": "So which one is best for work? Here's the honest answer: it depends on where your work happens. If you live in Gmail and Google Docs, start with Gemini, because it's already inside your tools and the storage bundle adds value. If your days are full of long documents, contracts or Microsoft Office files, start with Claude. If you want an all rounder that most of your coworkers already know, or the cheapest paid step, start with ChatGPT. The best AI for work is the one you'll actually open every day."
+    },
+    {
+      "id": "s11",
+      "kind": "steps",
+      "chapter": "The test",
+      "chapterTitle": "The 2-week test before you pay",
+      "broll": [
+        "4907",
+        "46768"
+      ],
+      "items": [
+        {
+          "text": "Pick 3 real tasks from your week",
+          "at": "pick"
+        },
+        {
+          "text": "Run the same prompt in all three free plans",
+          "at": "same"
+        },
+        {
+          "text": "Count the edits each answer needed",
+          "at": "count"
+        },
+        {
+          "text": "Pay for one, the winner only",
+          "at": "pay",
+          "nth": 1
+        },
+        {
+          "text": "Re-check in six months",
+          "at": "six"
+        }
+      ],
+      "footer": {
+        "text": "Prices and limits change often",
+        "at": "change"
+      },
+      "text": "Before you pay, run this two week test. First, pick three real tasks from your week, like an email reply, a report summary and a spreadsheet question. Second, run the same prompt in all three free plans. Third, count how many edits each answer needed before you'd actually use it, because fewer edits means more time saved. Fourth, pay for one, the winner only, not all three. And fifth, check again in six months, because these plans and models change all the time. That's how you spend twenty dollars instead of sixty."
+    },
+    {
+      "id": "s12",
+      "kind": "verdict",
+      "chapterTitle": "The big idea",
+      "broll": [
+        "26923",
+        "50759"
+      ],
+      "badge": "The big idea",
+      "title": "Fit beats hype",
+      "sub": "Pick the AI that lives where your work lives",
+      "text": "Here's the big idea. ChatGPT, Claude and Gemini are all strong, and at twenty dollars a month they cost almost the same. The real difference is fit. Which apps you use, how long your documents are, and whether a cheaper tier or a storage bundle matters to you. Ignore the hype, test them on your own tasks, and pay for only the one that saves you the most time. You can always switch later."
+    },
+    {
+      "id": "s13",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "41541",
+        "13218"
+      ],
+      "title": "Which one do you use?",
+      "accent": [
+        1
+      ],
+      "next": "How to Plan Your Entire Week with AI in 15 Minutes",
+      "text": "Now I want to hear from you. Which AI do you use at work right now, and what do you use it for? Tell me in the comments. If this helped, subscribe to Future Money Lab, and share it with a coworker who's still choosing. In the next video, I'll show you how to plan your entire week with AI in fifteen minutes."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "WHICH AI?",
+      "line2": "FOR WORK",
+      "tag": "ChatGPT · Claude · Gemini"
+    },
+    "b": {
+      "kicker": "THE MAIN PAID PLANS",
+      "from": "$0",
+      "to": "$20",
+      "line2": "WHAT YOU REALLY GET",
+      "tag": "ChatGPT vs Claude vs Gemini"
+    }
+  },
+  "youtube": {
+    "title": "ChatGPT vs Claude vs Gemini: Which AI Is Best for Work?",
+    "summary": "ChatGPT, Claude and Gemini all charge about $20 a month for their main plan, so which one is worth it for work? I compared the three side by side: what the free plans include, the full price ladder from $4.99 to $500, the work features that stand out for each (ChatGPT's breadth, Claude's projects and Microsoft 365 support, Gemini inside Gmail and Docs), team plans, and a simple 2-week test to pick the right one for your job.",
+    "details": "Numbers mentioned (checked November 2026; plans change often, always confirm on the official pricing page):\n- US employees using AI at work at least weekly: 3 in 10; never: 4 in 10 (Gallup Panel, Q2 2026)\n- ChatGPT: about 900 million weekly users (OpenAI, February 2026, as reported by DemandSage)\n- ChatGPT: Free (ads in the US), Go $8/month, Plus $20/month (monthly billing), Pro $100, $200 or $500/month; Business $20/user/month yearly or $25 monthly (Notebookcheck, Nov 2026; Morph, Oct 2026)\n- Claude: Free (web search, memory, connectors, up to 5 projects), Pro $20/month or $17/month billed yearly ($200), Max $100/month (5x Pro usage), Ultra $200/month (10x Pro usage); Team standard seat $20/month yearly or $25 monthly; context up to 1M tokens depending on model (claude.com/pricing)\n- Gemini: Free (15 GB storage), Google AI Plus $4.99/month (400 GB), Google AI Pro $19.99/month (5 TB, Gemini in Gmail, Docs and Sheets), Google AI Ultra $99.99 or $199.99/month (Google One AI plans page; Notebookcheck, Nov 2026)",
+    "sources": [
+      {
+        "name": "Claude pricing (Anthropic)",
+        "url": "https://claude.com/pricing"
+      },
+      {
+        "name": "Google AI plans (Google One)",
+        "url": "https://one.google.com/about/google-ai-plans/"
+      },
+      {
+        "name": "ChatGPT vs Gemini vs Claude: what AI subscriptions cost now (Notebookcheck, Nov 2026)",
+        "url": "https://www.notebookcheck.net/ChatGPT-vs-Gemini-vs-Claude-What-AI-subscriptions-cost-now.1439605.0.html"
+      },
+      {
+        "name": "ChatGPT vs Claude vs Gemini: plans, limits, models (Morph, Oct 2026)",
+        "url": "https://www.morphllm.com/comparisons/chatgpt-vs-claude-vs-gemini"
+      },
+      {
+        "name": "AI adoption at work (Gallup)",
+        "url": "https://www.gallup.com/workplace/650153/ai-adoption.aspx"
+      },
+      {
+        "name": "ChatGPT statistics (DemandSage, Sep 2026)",
+        "url": "https://www.demandsage.com/chatgpt-statistics/"
+      }
+    ],
+    "tags": [
+      "ChatGPT vs Claude vs Gemini",
+      "best AI for work",
+      "ChatGPT Plus",
+      "Claude Pro",
+      "Google AI Pro",
+      "Gemini",
+      "AI tools",
+      "AI productivity tools",
+      "best AI tools 2026",
+      "AI subscriptions",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#ChatGPT",
+      "#Claude",
+      "#Gemini"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s05"
+      ],
+      "headline": "The $20 AI plans compared",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s08"
+      ],
+      "headline": "The AI plan with 5 TB of storage",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s11"
+      ],
+      "headline": "Test this before paying for any AI",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 421659691,
+    "publishAt": "2026-11-14T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 421660005,
+        "publishAt": "2026-11-14T02:45:00+05:00"
+      },
+      {
+        "postId": 421660032,
+        "publishAt": "2026-11-14T06:45:00+05:00"
+      },
+      {
+        "postId": 421660056,
+        "publishAt": "2026-11-14T21:15:00+05:00"
+      }
+    ]
+  }
+}
