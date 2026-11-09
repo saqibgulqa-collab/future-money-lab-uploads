@@ -1,0 +1,605 @@
+{
+  "id": "E04",
+  "num": 3,
+  "status": "scheduled",
+  "pillar": "A",
+  "title": "7 AI Tools That Can Save You Hours Every Week",
+  "music": "music_744.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "AI time savings",
+      "chapterTitle": "Intro: the 2.2 hours a week",
+      "broll": [
+        "4907",
+        "42653"
+      ],
+      "badge": "Time saved by people using AI at work",
+      "numberValue": 2.2,
+      "unit": " hrs",
+      "sub": "per 40-hour week (St. Louis Fed survey)",
+      "big": {
+        "at": "two"
+      },
+      "chips": [
+        {
+          "text": "5.4% of work hours",
+          "at": "five"
+        },
+        {
+          "text": "1 in 5 weekly users: 4+ hours",
+          "at": "one"
+        }
+      ],
+      "text": "People who use generative AI at work save about five point four percent of their hours. That's according to a St. Louis Fed survey. On a forty hour week, that's roughly two point two hours back. And about one in five weekly users said they saved four hours or more. But here's the catch. A third of users saved an hour or less. The difference isn't the chatbot. It's using the right tool for the boring, repeated parts of your week. So in this video, I compared seven AI tools that each target one specific time sink, with what the free plan gets you and what the paid plan costs."
+    },
+    {
+      "id": "s02",
+      "kind": "questions",
+      "chapter": "How I picked",
+      "chapterTitle": "How I picked the 7 tools",
+      "broll": [
+        "4806",
+        "46768"
+      ],
+      "items": [
+        {
+          "text": "Does it kill one repeated task?",
+          "at": "repeat"
+        },
+        {
+          "text": "Is there a free plan to test it?",
+          "at": "free"
+        },
+        {
+          "text": "Does it work inside tools you already use?",
+          "at": "inside"
+        }
+      ],
+      "footer": {
+        "text": "Not on the list:",
+        "highlight": "the big chatbots",
+        "tone": "accent",
+        "at": "chatbots"
+      },
+      "text": "Here's how I picked them. First, each tool has to remove one task you repeat every week, like scheduling, writing, or editing. Second, there has to be a free plan, so you can test it before paying anything. Third, it should work inside the apps you already use, so you don't have to change your whole workflow. I left out the big chatbots like ChatGPT, Claude and Gemini on purpose. I covered those in my last comparison. This list is about the specialist tools that sit next to them. Prices are what I found when I checked in November twenty twenty six."
+    },
+    {
+      "id": "s03",
+      "kind": "cards",
+      "chapter": "Tool 1",
+      "chapterTitle": "1. NotebookLM: research and reading",
+      "broll": [
+        "45923",
+        "221"
+      ],
+      "items": [
+        {
+          "title": "Notebooks",
+          "value": "100",
+          "sub": "on the free plan",
+          "at": "hundred"
+        },
+        {
+          "title": "Sources each",
+          "value": "50",
+          "sub": "PDFs, docs, links",
+          "at": "fifty"
+        },
+        {
+          "title": "Price",
+          "value": "$0",
+          "sub": "Plus from $4.99/mo",
+          "at": "free",
+          "nth": 1
+        }
+      ],
+      "chips": [
+        {
+          "text": "Answers cite your sources",
+          "at": "points"
+        },
+        {
+          "text": "Audio overviews",
+          "at": "audio"
+        }
+      ],
+      "footer": {
+        "text": "Saves time on:",
+        "highlight": "reading long documents",
+        "tone": "good",
+        "at": "hours"
+      },
+      "text": "Tool number one is NotebookLM from Google. You upload your own documents, like PDFs, reports, or web links, and then ask questions about them. The answers point back to the exact part of your sources, so you can check them. On the free plan, you get up to one hundred notebooks with fifty sources each. It can even turn your documents into an audio overview you listen to on a walk. The free plan covers most people. A Plus tier starts at four ninety nine a month. If you spend hours reading long documents to find a few answers, start here."
+    },
+    {
+      "id": "s04",
+      "kind": "rows",
+      "chapter": "Tool 2",
+      "chapterTitle": "2. Reclaim: your calendar on autopilot",
+      "broll": [
+        "42897",
+        "4915"
+      ],
+      "items": [
+        {
+          "name": "What it does",
+          "desc": "Auto-books tasks, habits and focus time",
+          "at": "automatically"
+        },
+        {
+          "name": "Lite (free)",
+          "desc": "1 habit, 1 scheduling link, unlimited tasks",
+          "at": "lite"
+        },
+        {
+          "name": "Starter",
+          "desc": "$10/mo yearly, $12 monthly",
+          "at": "starter"
+        },
+        {
+          "name": "Business",
+          "desc": "$15/mo yearly, $18 monthly",
+          "at": "business"
+        }
+      ],
+      "footer": {
+        "text": "Saves time on:",
+        "highlight": "planning your week",
+        "tone": "good",
+        "at": "lose"
+      },
+      "text": "Tool number two is Reclaim. It connects to your calendar and automatically finds time for your tasks, habits and focus blocks. When a meeting moves, it moves your plans around it, so you stop rebuilding your week by hand. The free Lite plan gives you one habit, one scheduling link and unlimited tasks. The Starter plan is ten dollars a month billed yearly, or twelve monthly. Business is fifteen dollars yearly, or eighteen monthly. If you lose time every Monday deciding when to do things, this is the tool that does it for you."
+    },
+    {
+      "id": "s05",
+      "kind": "cards",
+      "chapter": "Tool 3",
+      "chapterTitle": "3. Wispr Flow: talk instead of type",
+      "broll": [
+        "4907",
+        "1730"
+      ],
+      "items": [
+        {
+          "title": "Free plan",
+          "value": "Weekly cap",
+          "sub": "about 2,000 words on desktop",
+          "at": "weekly"
+        },
+        {
+          "title": "Pro",
+          "value": "$12/mo",
+          "sub": "billed yearly ($144)",
+          "at": "twelve"
+        },
+        {
+          "title": "Pro monthly",
+          "value": "$15/mo",
+          "sub": "no yearly commitment",
+          "at": "fifteen"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Works in any app",
+          "at": "any"
+        },
+        {
+          "text": "Cleans up filler words",
+          "at": "cleans"
+        }
+      ],
+      "footer": {
+        "text": "Saves time on:",
+        "highlight": "emails, notes and messages",
+        "tone": "good",
+        "at": "emails"
+      },
+      "text": "Tool number three is Wispr Flow. It's voice dictation that works in almost any app. You hold a key, talk, and it types clean text for you, and it cleans up the ums and repeated words along the way. Most of us can talk faster than we type, so long emails and notes go much quicker. The free plan has a weekly word allowance, with a notice after about two thousand words on desktop. Pro is twelve dollars a month billed yearly, or fifteen dollars month to month. If you write a lot of emails, notes and messages, try this one."
+    },
+    {
+      "id": "s06",
+      "kind": "compare",
+      "chapter": "Tool 4",
+      "chapterTitle": "4. Grammarly: faster, cleaner writing",
+      "broll": [
+        "4907",
+        "46768"
+      ],
+      "cards": [
+        {
+          "title": "Free",
+          "sub": "$0 · 100 AI prompts/mo",
+          "at": "free"
+        },
+        {
+          "title": "Pro",
+          "sub": "$12/mo · 2,000 prompts",
+          "at": "pro"
+        }
+      ],
+      "big": {
+        "value": "20×",
+        "sub": "more AI prompts on Pro",
+        "at": "twenty"
+      },
+      "bars": [
+        {
+          "label": "Free",
+          "value": "100",
+          "fill": 0.05,
+          "tone": "bad",
+          "at": "hundred"
+        },
+        {
+          "label": "Pro",
+          "value": "2,000",
+          "fill": 1.0,
+          "tone": "good",
+          "at": "thousand"
+        }
+      ],
+      "footer": {
+        "text": "Saves time on: proofreading and rewrites",
+        "at": "proof"
+      },
+      "text": "Tool number four is Grammarly. Most people know it for spelling, but now it can also rewrite a paragraph, change the tone, or shorten an email in one click, right where you type. The free plan includes one hundred AI prompts a month, which is enough to see if it helps. Grammarly Pro is about twelve dollars a month and gives you two thousand prompts, twenty times more, plus plagiarism and AI text checks. If you spend time rewriting the same email three times before you hit send, this saves real minutes every day, especially on proofreading."
+    },
+    {
+      "id": "s07",
+      "kind": "rows",
+      "chapter": "Tool 5",
+      "chapterTitle": "5. Descript: edit video by editing text",
+      "broll": [
+        "221",
+        "1730"
+      ],
+      "items": [
+        {
+          "name": "How it works",
+          "desc": "Delete words in the transcript, video cuts too",
+          "at": "delete"
+        },
+        {
+          "name": "Free",
+          "desc": "60 media minutes a month, watermarked",
+          "at": "free"
+        },
+        {
+          "name": "Hobbyist",
+          "desc": "$16/mo yearly, filler-word removal",
+          "at": "hobbyist"
+        },
+        {
+          "name": "Creator",
+          "desc": "$24/mo billed yearly",
+          "at": "creator"
+        },
+        {
+          "name": "Business",
+          "desc": "$50/mo billed yearly",
+          "at": "business"
+        }
+      ],
+      "text": "Tool number five is Descript, for anyone who records video, podcasts or training clips. It transcribes your recording, and then you edit the video by editing the text. You delete a sentence in the transcript, and it's gone from the video too. Paid plans can also remove filler words like um and uh automatically. The free plan gives you sixty media minutes a month, with a watermark. Hobbyist is sixteen dollars a month billed yearly, Creator is twenty four, and Business is fifty. If editing takes you longer than recording, this is where your hours come back.",
+      "footer": {
+        "text": "Saves time on:",
+        "highlight": "editing video and audio",
+        "tone": "good",
+        "at": "longer"
+      }
+    },
+    {
+      "id": "s08",
+      "kind": "compare",
+      "chapter": "Tool 6",
+      "chapterTitle": "6. Canva: designs and resizing",
+      "broll": [
+        "42664",
+        "4915"
+      ],
+      "cards": [
+        {
+          "title": "Canva Free",
+          "sub": "$0 · 50 AI credits/mo",
+          "at": "free"
+        },
+        {
+          "title": "Canva Pro",
+          "sub": "$180/yr or $18/mo",
+          "at": "pro"
+        }
+      ],
+      "big": {
+        "value": "10×",
+        "sub": "more AI credits on Pro",
+        "at": "ten"
+      },
+      "bars": [
+        {
+          "label": "Free",
+          "value": "50",
+          "fill": 0.1,
+          "tone": "bad",
+          "at": "fifty"
+        },
+        {
+          "label": "Pro",
+          "value": "500",
+          "fill": 1.0,
+          "tone": "good",
+          "at": "five"
+        }
+      ],
+      "footer": {
+        "text": "Saves time on: social posts, slides, flyers",
+        "at": "social"
+      },
+      "text": "Tool number six is Canva. It's not new, but its AI features make simple design work much faster. You can remove a background, generate a first draft of a design, or turn one post into several sizes. The free plan gets fifty AI credits a month, shared across those features. Canva Pro is one hundred eighty dollars a year, or eighteen dollars month to month, and gives you five hundred credits, ten times more, plus brand kits and premium templates. If you make social posts, slides or flyers every week, the free plan is the place to start."
+    },
+    {
+      "id": "s09",
+      "kind": "steps",
+      "chapter": "Tool 7",
+      "chapterTitle": "7. Zapier: automate the copy-paste",
+      "broll": [
+        "1730",
+        "42653"
+      ],
+      "items": [
+        {
+          "text": "Trigger: a new form reply arrives",
+          "at": "form"
+        },
+        {
+          "text": "Action: add it to a spreadsheet",
+          "at": "spreadsheet"
+        },
+        {
+          "text": "Action: send yourself an alert",
+          "at": "alert"
+        }
+      ],
+      "footer": {
+        "text": "Free: 100 tasks a month, 2-step Zaps.",
+        "highlight": "Pro from $19.99/mo",
+        "tone": "accent",
+        "at": "professional"
+      },
+      "text": "Tool number seven is Zapier. It connects your apps so the copy and paste work happens on its own. For example, when a new form reply arrives, Zapier can add it to a spreadsheet and send you an alert, without you touching anything. Think of it as simple if this, then that rules for your work apps. The free plan allows one hundred tasks a month, but only simple two step automations. The Professional plan starts at nineteen ninety nine a month and unlocks multi step automations. Any task you do the same way every week is a candidate."
+    },
+    {
+      "id": "s10",
+      "kind": "pricelist",
+      "chapter": "The real cost",
+      "chapterTitle": "What all 7 would cost you",
+      "broll": [
+        "18302",
+        "46990"
+      ],
+      "items": [
+        {
+          "label": "NotebookLM",
+          "value": "$0",
+          "num": 0,
+          "at": "notebook"
+        },
+        {
+          "label": "Reclaim Starter",
+          "value": "$10",
+          "num": 10,
+          "at": "reclaim"
+        },
+        {
+          "label": "Wispr Flow Pro",
+          "value": "$12",
+          "num": 12,
+          "at": "wispr"
+        },
+        {
+          "label": "Grammarly Pro",
+          "value": "$12",
+          "num": 12,
+          "at": "grammarly"
+        },
+        {
+          "label": "Descript Hobbyist",
+          "value": "$16",
+          "num": 16,
+          "at": "descript"
+        },
+        {
+          "label": "Canva Pro",
+          "value": "$15",
+          "num": 15,
+          "at": "canva"
+        },
+        {
+          "label": "Zapier Professional",
+          "value": "$19.99",
+          "num": 19.99,
+          "at": "zapier"
+        }
+      ],
+      "prefix": "$",
+      "total": {
+        "label": "Every month",
+        "yearly": {
+          "text": "≈ $1,000 a year",
+          "at": "thousand",
+          "tone": "bad"
+        },
+        "callout": {
+          "text": "Start free. Pay for 1–2.",
+          "at": "start"
+        }
+      },
+      "text": "So what would all seven cost? Using the cheapest paid plan for each, and yearly billing where it's offered, NotebookLM stays free. Reclaim is about ten dollars, Wispr Flow twelve, Grammarly twelve, Descript sixteen, Canva about fifteen, and Zapier about twenty. That's around eighty five dollars a month, or about a thousand dollars a year. And you don't need all of them. Every tool on this list has a free plan. Start free, and only pay for the one or two that clearly save you an hour or more each week."
+    },
+    {
+      "id": "s11",
+      "kind": "steps",
+      "chapter": "Your 2-week test",
+      "chapterTitle": "How to pick yours: the 2-week test",
+      "broll": [
+        "46768",
+        "4806"
+      ],
+      "items": [
+        {
+          "text": "Write down your biggest weekly time sink",
+          "at": "write"
+        },
+        {
+          "text": "Pick the ONE tool that targets it",
+          "at": "pick"
+        },
+        {
+          "text": "Use the free plan for two weeks",
+          "at": "use"
+        },
+        {
+          "text": "Note the minutes saved each day",
+          "at": "note"
+        }
+      ],
+      "footer": {
+        "text": "Saves an hour a week?",
+        "highlight": "Then it's worth paying for",
+        "tone": "good",
+        "at": "hour"
+      },
+      "text": "Here's a simple way to choose. First, write down the one task that eats the most of your week. Second, pick the one tool from this list that targets it. Don't install all seven at once, or you'll spend more time learning tools than saving it. Third, use the free plan for two weeks. Fourth, note roughly how many minutes it saves you each day. If it saves you an hour a week or more, it's probably worth paying for. If not, cancel it and try the next one. That's how you end up in the group that saves four hours, not one."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "41541",
+        "13218"
+      ],
+      "title": "Win back your week",
+      "accent": [
+        2
+      ],
+      "next": "ChatGPT vs Claude vs Gemini: Which AI Is Best for Work?",
+      "text": "Now I want to hear from you. Which task eats most of your week right now? Tell me in the comments, and I'll point you to a tool for it. If this helped, subscribe to Future Money Lab for more AI tools and smart money, explained with real numbers. In the next video, I'll compare ChatGPT, Claude and Gemini to see which AI is best for everyday work."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "7 AI TOOLS",
+      "line2": "THAT SAVE HOURS",
+      "tag": "Free plans first"
+    },
+    "b": {
+      "kicker": "AI USERS SAVE",
+      "from": "0 hrs",
+      "to": "2.2 hrs",
+      "line2": "EVERY WEEK",
+      "tag": "7 AI tools"
+    }
+  },
+  "youtube": {
+    "title": "7 AI Tools That Can Save You Hours Every Week (Free Plans First)",
+    "summary": "People who use generative AI at work save about 2.2 hours a week on average, but a third save an hour or less. I compared 7 specialist AI tools that each target one weekly time sink: NotebookLM, Reclaim, Wispr Flow, Grammarly, Descript, Canva and Zapier. For each one you'll see what it does, what the free plan includes, what the paid plan costs, and a simple 2-week test to pick the one worth paying for.",
+    "details": "Numbers mentioned (checked November 2026, always confirm on the official pricing page):\n- Gen AI users saved 5.4% of work hours, about 2.2 hours in a 40-hour week; 20.5% of weekly users saved 4+ hours, 33% saved an hour or less (St. Louis Fed, November 2024 survey, published Feb 2025)\n- NotebookLM: free plan 100 notebooks, 50 sources each; Plus from $4.99/month\n- Reclaim: Lite free; Starter $10/month yearly or $12 monthly; Business $15 yearly or $18 monthly\n- Wispr Flow: free weekly word allowance; Pro $144/year ($12/month) or $15 monthly\n- Grammarly: free 100 AI prompts/month; Pro about $12/month with 2,000 prompts\n- Descript: free 60 media minutes/month (watermark); Hobbyist $16, Creator $24, Business $50 per month billed yearly\n- Canva: free 50 AI credits/month; Pro $180/year or $18 monthly, 500 credits\n- Zapier: free 100 tasks/month, 2-step Zaps; Professional from $19.99/month",
+    "sources": [
+      {
+        "name": "The Impact of Generative AI on Work Productivity (St. Louis Fed, Feb 2025)",
+        "url": "https://www.stlouisfed.org/on-the-economy/2025/feb/impact-generative-ai-work-productivity"
+      },
+      {
+        "name": "NotebookLM pricing by plan (Elephas, updated Sep 2026)",
+        "url": "https://elephas.app/blog/notebooklm-free-vs-plus"
+      },
+      {
+        "name": "Reclaim pricing (Morgen, May 2026)",
+        "url": "https://www.morgen.so/blog-posts/reclaim-pricing"
+      },
+      {
+        "name": "Wispr Flow pricing (Voicy, updated Nov 2026)",
+        "url": "https://usevoicy.com/blog/wispr-flow-pricing"
+      },
+      {
+        "name": "Grammarly pricing (CostBench)",
+        "url": "https://costbench.com/software/ai-writing-tools/grammarly/"
+      },
+      {
+        "name": "Descript pricing (Sonix, Aug 2026)",
+        "url": "https://sonix.ai/resources/descript-pricing/"
+      },
+      {
+        "name": "Canva pricing 2026 (Piktochart)",
+        "url": "https://piktochart.com/blog/canva-pricing-2026-costs-raised/"
+      },
+      {
+        "name": "Zapier pricing (CostBench, Nov 2026)",
+        "url": "https://costbench.com/software/no-code/zapier/"
+      }
+    ],
+    "tags": [
+      "AI tools",
+      "AI productivity tools",
+      "best AI tools 2026",
+      "save time with AI",
+      "NotebookLM",
+      "Reclaim AI",
+      "Wispr Flow",
+      "Grammarly",
+      "Descript",
+      "Canva AI",
+      "Zapier",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#AItools",
+      "#productivity",
+      "#AI"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s01"
+      ],
+      "headline": "AI users save 2.2 hours a week. Here's how",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s07"
+      ],
+      "headline": "Edit a video by deleting text",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s11"
+      ],
+      "headline": "The 2-week test before paying for any AI tool",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 421315565,
+    "publishAt": "2026-11-12T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 421315858,
+        "publishAt": "2026-11-12T02:45:00+05:00"
+      },
+      {
+        "postId": 421315868,
+        "publishAt": "2026-11-12T06:45:00+05:00"
+      },
+      {
+        "postId": 421315878,
+        "publishAt": "2026-11-12T21:15:00+05:00"
+      }
+    ]
+  }
+}
