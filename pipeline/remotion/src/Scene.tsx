@@ -298,7 +298,7 @@ const Stat: Body = ({ scene, timing }) => {
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", paddingBottom: 150 }}>
       {scene.badge ? <div style={{ fontFamily: FONT, fontSize: 40, color: C.text, fontWeight: 700, letterSpacing: 6, opacity: s }}>{scene.badge.toUpperCase()}</div> : null}
       <div style={{ display: "flex", alignItems: "baseline", gap: 20, transform: `scale(${0.7 + 0.3 * s})` }}>
-        <span style={{ fontFamily: DISPLAY, fontSize: 280, fontWeight: 700, color: C.gold, letterSpacing: -10, textShadow: "0 12px 50px rgba(0,0,0,0.6)" }}>{scene.prefix ?? ""}{n.toFixed(dec)}</span>
+        <span style={{ fontFamily: DISPLAY, fontSize: 280, fontWeight: 700, color: C.gold, letterSpacing: -10, textShadow: "0 12px 50px rgba(0,0,0,0.6)" }}>{scene.prefix ?? ""}{dec ? n.toFixed(dec) : Math.round(n).toLocaleString("en-US")}</span>
         <span style={{ fontFamily: DISPLAY, fontSize: 100, fontWeight: 700, color: C.text }}>{scene.unit}</span>
       </div>
       {scene.sub ? <div style={{ fontFamily: FONT, fontSize: 46, color: C.text, fontWeight: 600, marginTop: -10 }}>{scene.sub}</div> : null}

@@ -1,0 +1,517 @@
+{
+  "id": "E07",
+  "num": 8,
+  "status": "scheduled",
+  "pillar": "B",
+  "title": "How to Build a Budget with AI (Free, Step by Step)",
+  "music": "music_744.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "Budget with AI",
+      "chapterTitle": "Intro: where $81,905 goes",
+      "broll": [
+        "18296",
+        "47214"
+      ],
+      "badge": "Average US household spending in 2025",
+      "numberValue": 81905,
+      "prefix": "$",
+      "sub": "BLS Consumer Expenditures, per consumer unit (Oct 2026)",
+      "big": {
+        "at": "eighty"
+      },
+      "chips": [
+        {
+          "text": "≈ $6,800 a month",
+          "at": "six"
+        },
+        {
+          "text": "3 in 4: never used AI for money",
+          "at": "three"
+        }
+      ],
+      "text": "In twenty twenty five, the average American household spent eighty one thousand, nine hundred and five dollars. That's about six thousand eight hundred dollars every single month, according to the Bureau of Labor Statistics. Most of us couldn't say exactly where it all went. A free AI chatbot can sort a messy month of spending in minutes. Yet three in four Americans say they've never used AI for their money. In this video, I'll show you a step by step way to build a budget with AI, what to never paste into a chatbot, and where AI gets the math wrong."
+    },
+    {
+      "id": "s02",
+      "kind": "hero",
+      "chapter": "The plan",
+      "chapterTitle": "The rule: AI drafts, you decide",
+      "broll": [
+        "4907",
+        "46768"
+      ],
+      "badge": "The plan",
+      "title": "AI drafts. You decide.",
+      "sub": "A budget in 3 steps, plus a safety rule",
+      "accent": [
+        3
+      ],
+      "text": "Here's the idea behind this whole video. AI is great at the boring parts of budgeting: sorting transactions into categories, adding them up, spotting repeat charges, and turning your goals into a draft plan. But it doesn't know your life, and it can make mistakes with numbers. So the rule is simple. AI drafts, you decide. We'll go through three steps. First, collect your spending safely. Second, let AI sort and summarize it. Third, turn that into a plan you'll actually follow. Then I'll show you a fifteen minute monthly check in that keeps it working."
+    },
+    {
+      "id": "s03",
+      "kind": "cards",
+      "chapter": "The data",
+      "chapterTitle": "How many people use AI for money",
+      "broll": [
+        "42664",
+        "4915"
+      ],
+      "items": [
+        {
+          "title": "Never used AI for money",
+          "value": "75%",
+          "sub": "Verasight, Mar 2026",
+          "at": "seventy"
+        },
+        {
+          "title": "Budget decision via AI",
+          "value": "9%",
+          "sub": "same survey",
+          "at": "nine"
+        },
+        {
+          "title": "Expect AI to help",
+          "value": "48%",
+          "sub": "NerdWallet/Harris, Oct 2025",
+          "at": "forty"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Younger adults most positive",
+          "at": "younger"
+        }
+      ],
+      "footer": {
+        "text": "Curious, but cautious",
+        "at": "curious"
+      },
+      "text": "First, where do people stand? In a Verasight survey of one thousand US adults in March twenty twenty six, about seventy five percent said they had never used AI to manage money or investments. Only about nine percent had made a saving, budgeting or spending decision based on AI. Still, interest is real. In a NerdWallet and Harris Poll survey from October twenty twenty five, forty eight percent of Americans said AI will have a positive impact on their personal finances, with younger adults far more positive than older ones. So people are curious, but cautious. And caution is the right instinct."
+    },
+    {
+      "id": "s04",
+      "kind": "steps",
+      "chapter": "Step 1",
+      "chapterTitle": "Step 1: collect your spending safely",
+      "broll": [
+        "4907",
+        "45923"
+      ],
+      "items": [
+        {
+          "text": "Download 2–3 months of transactions",
+          "at": "download"
+        },
+        {
+          "text": "Delete names, account numbers, balances",
+          "at": "delete"
+        },
+        {
+          "text": "Paste only date, merchant, amount",
+          "at": "paste"
+        }
+      ],
+      "footer": {
+        "text": "Three columns are enough:",
+        "highlight": "date · merchant · amount",
+        "tone": "accent",
+        "at": "three",
+        "nth": 1
+      },
+      "text": "Step one is collecting your spending. Most banks and card apps let you download your transactions as a spreadsheet file, often called a CSV. Grab two or three months, so one odd month doesn't fool you. Before you share anything, delete the columns you don't need, like your name, account numbers and balances. Then paste just the date, the merchant and the amount into the chat, or upload the cleaned file if your chatbot allows files. Those three columns are enough. If you're worried about privacy, you can even round the amounts or rename the merchants. The AI only needs the pattern."
+    },
+    {
+      "id": "s05",
+      "kind": "rows",
+      "chapter": "Safety rule",
+      "chapterTitle": "What to never paste into a chatbot",
+      "broll": [
+        "221",
+        "4915"
+      ],
+      "items": [
+        {
+          "name": "Account numbers",
+          "desc": "Nobody needs them to sort spending",
+          "at": "account"
+        },
+        {
+          "name": "Passwords, PINs",
+          "desc": "Never, to any chat or app",
+          "at": "passwords"
+        },
+        {
+          "name": "SSN",
+          "desc": "It has nothing to do with a budget",
+          "at": "social"
+        },
+        {
+          "name": "Bank logins",
+          "desc": "Never type them into a chat window",
+          "at": "login"
+        },
+        {
+          "name": "Privacy settings",
+          "desc": "Turn off chat training if you can",
+          "at": "settings"
+        }
+      ],
+      "footer": {
+        "text": "Share the pattern, not your identity",
+        "at": "pattern"
+      },
+      "text": "Here's the safety rule, and it matters more than any prompt. Never paste full account numbers or card numbers into a chatbot. Nobody needs them to sort your spending. Never share passwords or PINs, with any chat or app. Your Social Security number has nothing to do with a budget, so leave it out. Don't type your bank login into a chat window either. And check your chatbot's privacy settings. Some let you stop your chats from being used to train their models. Treat the chat like a conversation with a helpful stranger. Share the pattern of your spending, not your identity."
+    },
+    {
+      "id": "s06",
+      "kind": "questions",
+      "chapter": "Step 2",
+      "chapterTitle": "Step 2: the prompt that sorts it",
+      "broll": [
+        "1730",
+        "4806"
+      ],
+      "items": [
+        {
+          "text": "Sort each line into categories",
+          "at": "sort"
+        },
+        {
+          "text": "Total each category per month",
+          "at": "total"
+        },
+        {
+          "text": "Flag repeat charges and subscriptions",
+          "at": "flag"
+        },
+        {
+          "text": "Mark each one: need or want",
+          "at": "need",
+          "nth": 1
+        }
+      ],
+      "footer": {
+        "text": "Then ask:",
+        "highlight": "\"What surprised you?\"",
+        "tone": "accent",
+        "at": "surprised"
+      },
+      "text": "Step two is the prompt. You don't need anything fancy. Ask it to do four jobs. One, sort each line into simple categories like housing, groceries, eating out, transport and subscriptions. Two, total each category for each month. Three, flag every repeat charge, because forgotten subscriptions hide in plain sight. Four, mark each category as a need or a want, and let you correct it. Then ask one more question: what surprised you in this data? You'll often get a useful answer, like eating out costing more than you thought. Ask for the result as a table, so it's easy to check."
+    },
+    {
+      "id": "s07",
+      "kind": "pricelist",
+      "chapter": "Benchmark",
+      "chapterTitle": "Benchmark: the average US budget",
+      "broll": [
+        "18302",
+        "41541"
+      ],
+      "prefix": "$",
+      "items": [
+        {
+          "label": "Housing",
+          "value": "$2,316",
+          "num": 2316,
+          "at": "housing"
+        },
+        {
+          "label": "Transportation",
+          "value": "$1,124",
+          "num": 1124,
+          "at": "transport"
+        },
+        {
+          "label": "Food",
+          "value": "$886",
+          "num": 886,
+          "at": "food"
+        },
+        {
+          "label": "Insurance & pensions",
+          "value": "$848",
+          "num": 848,
+          "at": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "$539",
+          "num": 539,
+          "at": "health"
+        },
+        {
+          "label": "Entertainment",
+          "value": "$340",
+          "num": 340,
+          "at": "entertainment"
+        }
+      ],
+      "total": {
+        "label": "Top 6 categories / month",
+        "yearly": {
+          "text": "All spending: $81,905/yr",
+          "at": "year",
+          "nth": 1,
+          "tone": "accent"
+        },
+        "callout": {
+          "text": "Housing ≈ 34%",
+          "at": "third"
+        }
+      },
+      "text": "Once you have your totals, it helps to compare them with a benchmark. Here's how the average US household spent its money each month in twenty twenty five, based on the government's yearly figures. Housing, about two thousand three hundred dollars. Transportation, about eleven hundred. Food, about nine hundred. Insurance and pensions, which includes social security taxes, about eight hundred and fifty. Healthcare, about five hundred and forty. And entertainment, about three hundred and forty. These six add up to about six thousand dollars a month, and total spending was nearly eighty two thousand dollars for the year. Housing alone is about a third. Your numbers will differ, and that's fine. Look for the category that's way off for you."
+    },
+    {
+      "id": "s08",
+      "kind": "steps",
+      "chapter": "Step 3",
+      "chapterTitle": "Step 3: turn the numbers into a plan",
+      "broll": [
+        "4806",
+        "46768"
+      ],
+      "items": [
+        {
+          "text": "Start with fixed bills",
+          "at": "fixed"
+        },
+        {
+          "text": "Set a savings goal, pay it first",
+          "at": "saving"
+        },
+        {
+          "text": "Give every category a limit",
+          "at": "limit"
+        },
+        {
+          "text": "Ask for 3 versions: easy, medium, strict",
+          "at": "version"
+        }
+      ],
+      "footer": {
+        "text": "You pick.",
+        "highlight": "AI drafts, you decide.",
+        "tone": "good",
+        "at": "decide",
+        "nth": 1
+      },
+      "text": "Step three is turning the numbers into a plan. Start with your fixed bills, like rent and insurance, because those barely move. Next, decide on a savings goal, and treat it like a bill you pay first. Then give every other category a monthly limit. Here's where AI really helps. Ask it for three versions of the plan, an easy one, a medium one, and a strict one, each showing exactly what changes. You might see that the easy version only trims eating out, while the strict one pauses three subscriptions. Then you pick. Remember the rule: AI drafts, you decide."
+    },
+    {
+      "id": "s09",
+      "kind": "rows",
+      "chapter": "Watch out",
+      "chapterTitle": "Where AI gets budgets wrong",
+      "broll": [
+        "42648",
+        "221"
+      ],
+      "items": [
+        {
+          "name": "Math slips",
+          "desc": "Re-add totals in a spreadsheet",
+          "at": "math"
+        },
+        {
+          "name": "Invented data",
+          "desc": "It may fill gaps instead of asking",
+          "at": "made"
+        },
+        {
+          "name": "Wrong labels",
+          "desc": "One store can mean groceries or gifts",
+          "at": "category"
+        },
+        {
+          "name": "Generic tips",
+          "desc": "It doesn't know your debts or goals",
+          "at": "generic"
+        },
+        {
+          "name": "Old info",
+          "desc": "Check rates and rules at the source",
+          "at": "rates"
+        }
+      ],
+      "footer": {
+        "text": "Trust the draft, verify the totals",
+        "at": "verify"
+      },
+      "text": "Now the honest part. AI is not a calculator you can blindly trust. Chatbots can make math slips when adding long lists, so re-add the totals in a spreadsheet or ask the AI to show its working. They can also fill gaps with made up numbers instead of asking you. They'll sometimes put a purchase in the wrong category, because one store can mean groceries or gifts. The advice can be generic, since it doesn't know your debts or goals unless you say so. And interest rates or tax rules it mentions may be out of date. So trust the draft, but verify the totals."
+    },
+    {
+      "id": "s10",
+      "kind": "stat",
+      "chapter": "The payoff",
+      "chapterTitle": "Why the first sort pays off",
+      "broll": [
+        "18263",
+        "4908"
+      ],
+      "badge": "Example: $50 a month in forgotten charges",
+      "numberValue": 600,
+      "prefix": "$",
+      "unit": "/yr",
+      "sub": "Illustration only",
+      "big": {
+        "at": "six"
+      },
+      "chips": [
+        {
+          "text": "Cancel, don't just pause",
+          "at": "cancel"
+        },
+        {
+          "text": "Send it to your savings goal",
+          "at": "goal"
+        }
+      ],
+      "text": "Here's why that first sort is worth doing. Small repeat charges add up quietly. Say the AI flags fifty dollars a month in subscriptions and charges you forgot about. That's just an example, but cancel them and you free up six hundred dollars a year. The key is to cancel, not just pause or ignore them. Then point that money straight at your savings goal, ideally with an automatic transfer on payday, so it never sits in your checking account waiting to be spent. One sorting session can pay for itself many times over."
+    },
+    {
+      "id": "s11",
+      "kind": "steps",
+      "chapter": "Monthly check-in",
+      "chapterTitle": "The 15-minute monthly check-in",
+      "broll": [
+        "42653",
+        "45923"
+      ],
+      "items": [
+        {
+          "text": "Export last month's transactions",
+          "at": "export"
+        },
+        {
+          "text": "Same prompt, same categories",
+          "at": "same"
+        },
+        {
+          "text": "Compare each category with your limits",
+          "at": "compare"
+        },
+        {
+          "text": "Adjust one thing only",
+          "at": "adjust"
+        }
+      ],
+      "footer": {
+        "text": "15 minutes a month.",
+        "highlight": "Consistency beats perfection.",
+        "tone": "good",
+        "at": "consistency"
+      },
+      "text": "A budget only works if you look at it again. So here's a fifteen minute monthly check in. On the first weekend of each month, export last month's transactions and remove private details. Paste them in with the same prompt and the same categories, so the months are comparable. Ask the AI to compare each category with your limits and show what went over. Then adjust just one thing for next month, not ten. Small, steady changes stick far better than a dramatic plan you drop in week two. Consistency beats perfection."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "26923",
+        "13218"
+      ],
+      "title": "AI drafts. You decide.",
+      "accent": [
+        3
+      ],
+      "next": "How to Plan Your Entire Week with AI in 15 Minutes",
+      "text": "So that's the method. Collect safely, let AI sort and summarize, build a plan with three versions, then check in once a month. Now I want to hear from you. Which category surprised you most when you looked at your own spending? Tell me in the comments. If this helped, subscribe to Future Money Lab, and share it with someone who keeps saying they'll start a budget next month. In the next video, I'll show you how to plan your entire week with AI in fifteen minutes. Remember, this is education, not financial advice."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "AI BUDGET",
+      "line2": "IN 3 STEPS",
+      "tag": "Free, step by step"
+    },
+    "b": {
+      "kicker": "LET AI SORT YOUR SPENDING",
+      "from": "MESS",
+      "to": "PLAN",
+      "line2": "FREE, IN 3 STEPS",
+      "tag": "Budget with AI"
+    }
+  },
+  "youtube": {
+    "title": "How to Build a Budget with AI (Free, Step by Step)",
+    "summary": "The average US household spent $81,905 in 2025, about $6,800 a month, yet most people can't say where it went. This is a step-by-step guide to building a budget with a free AI chatbot: how to collect your spending safely, what to never paste into a chatbot, a simple prompt that sorts and totals your transactions, how your numbers compare with the average US household, how to turn them into a plan, where AI gets budgets wrong, and a 15-minute monthly check-in.",
+    "details": "Numbers mentioned (checked November 2026):\n- Average annual expenditures per US consumer unit, 2025: $81,905 (about $6,825 a month); housing $27,790 (33.9%), transportation $13,492, food $10,633, personal insurance and pensions $10,175, healthcare $6,470, entertainment $4,084 (BLS Consumer Expenditures 2025, released October 29, 2026). Monthly figures in the video are these yearly figures divided by 12.\n- 74.7% of US adults have not used AI to manage money or investments; 8.9% made a saving, budgeting or spending decision based on AI (Verasight, n=1,000, March 2026).\n- 48% of Americans say AI will have a positive impact on their personal finances (NerdWallet / The Harris Poll, n=2,084, October 2025).\n- $50 a month = $600 a year is an illustration only.",
+    "sources": [
+      {
+        "name": "BLS: Consumer Expenditures 2025 (Oct 29, 2026)",
+        "url": "https://www.bls.gov/news.release/archives/cesan_10292026.htm"
+      },
+      {
+        "name": "Verasight: Three-quarters of Americans haven't used AI to manage money (Mar 2026)",
+        "url": "https://data.verasight.io/ai/three-quarters-of-americans-havent-used-ai-to-manage-money-or-investments"
+      },
+      {
+        "name": "NerdWallet via CPA Practice Advisor: Americans split on using AI for personal finances (Jan 2026)",
+        "url": "https://www.cpapracticeadvisor.com/2026/01/26/americans-split-on-using-ai-for-personal-finances/176868/"
+      }
+    ],
+    "tags": [
+      "budget with AI",
+      "how to make a budget",
+      "AI budgeting",
+      "ChatGPT budget",
+      "budgeting for beginners",
+      "personal finance",
+      "money management",
+      "save money",
+      "AI tools",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#budgeting",
+      "#personalfinance",
+      "#AItools"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s05"
+      ],
+      "headline": "Never paste these into an AI chatbot",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s07"
+      ],
+      "headline": "Where the average US household's money goes",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s09"
+      ],
+      "headline": "5 things AI gets wrong about your budget",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 421975825,
+    "publishAt": "2026-11-15T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 421976157,
+        "publishAt": "2026-11-15T02:45:00+05:00"
+      },
+      {
+        "postId": 421976192,
+        "publishAt": "2026-11-15T06:45:00+05:00"
+      },
+      {
+        "postId": 421976232,
+        "publishAt": "2026-11-15T21:15:00+05:00"
+      }
+    ]
+  }
+}
