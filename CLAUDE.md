@@ -34,7 +34,7 @@ Videos themselves are in English for a US/UK audience.
 Each run starts with this check: call `getScheduledPosts` (brand 7939426, Asia/Karachi, from now to now + 45 days)
 and count future YouTube posts whose `youtubeData.type` is `video`. **If the count is at or above `stockTarget`, stop
 immediately** (no build, no message). Otherwise make exactly ONE new long video **and its 3 Shorts** in this run.
-Runs fire every 4 hours. If Metricool refuses a post because of a plan limit, stop, note it in the tracker and tell Saqib. Two runs may overlap: always claim a video in the tracker before working on it, and re-check
+Runs fire **once a day at 09:37 PKT** (owner's order, 10 Nov 2026: slow down to save weekly usage; he runs other channels too). If Metricool refuses a post because of a plan limit, stop, note it in the tracker and tell Saqib. Two runs may overlap: always claim a video in the tracker before working on it, and re-check
 `getScheduledPosts` right before you schedule so two runs never take one slot.
 
 ## One production run (do these in order)
