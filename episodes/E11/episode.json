@@ -1,0 +1,538 @@
+{
+  "id": "E11",
+  "num": 12,
+  "status": "scheduled",
+  "pillar": "B",
+  "title": "Inflation Explained: Why Your Money Loses Value Every Year",
+  "music": "music_744.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "The hidden tax",
+      "chapterTitle": "Intro: $100 is now worth $76",
+      "broll": [
+        "18296",
+        "18302"
+      ],
+      "badge": "What $100 of 2019 cash buys today, in 2019 dollars",
+      "numberValue": 76,
+      "prefix": "$",
+      "unit": "",
+      "sub": "BLS CPI-U: 2019 average vs September 2026",
+      "big": {
+        "at": "seventy"
+      },
+      "chips": [
+        {
+          "text": "Prices up about 32%",
+          "at": "thirty"
+        },
+        {
+          "text": "Nobody took a single dollar",
+          "at": "nobody"
+        }
+      ],
+      "text": "Imagine you put one hundred dollars in a drawer in twenty nineteen. It's still there, every bill. But according to the government's own price data, that hundred dollars now buys only what about seventy six dollars bought back then. Prices rose about thirty two percent in under seven years. Nobody took a single dollar, yet you lost a quarter of its value. That's inflation. In this video, I'll explain what it is, how it's measured, what's driving it right now, why the Fed actually wants some of it, and five ways to protect your money."
+    },
+    {
+      "id": "s02",
+      "kind": "hero",
+      "chapter": "The basics",
+      "chapterTitle": "What inflation really is",
+      "broll": [
+        "18263",
+        "4915"
+      ],
+      "badge": "The basics",
+      "title": "Same money, fewer things",
+      "sub": "Inflation is the general rise in prices over time",
+      "accent": [
+        3
+      ],
+      "text": "Inflation is the general rise in prices across the economy over time. Not one product getting more expensive, but the overall cost of living going up. The flip side is what matters for you. When prices rise, each dollar buys fewer things. Economists call that a loss of purchasing power. Your paycheck might say the same number, your savings balance might say the same number, but what those numbers can actually buy keeps shrinking. That's why inflation is often called a hidden tax."
+    },
+    {
+      "id": "s03",
+      "kind": "rows",
+      "chapter": "How it's measured",
+      "chapterTitle": "How inflation is measured: CPI, core and PCE",
+      "broll": [
+        "45923",
+        "46990"
+      ],
+      "items": [
+        {
+          "name": "CPI",
+          "desc": "Price of a basket of goods and services",
+          "at": "consumer"
+        },
+        {
+          "name": "Headline",
+          "desc": "Everything, including food and energy",
+          "at": "headline"
+        },
+        {
+          "name": "Core",
+          "desc": "Leaves out food and energy, less noisy",
+          "at": "core"
+        },
+        {
+          "name": "PCE",
+          "desc": "The index the Fed's 2% target uses",
+          "at": "personal"
+        }
+      ],
+      "footer": {
+        "text": "One basket, priced every month",
+        "at": "month"
+      },
+      "text": "So how is it measured? In the US, the Bureau of Labor Statistics publishes the Consumer Price Index, or CPI. It tracks the price of a big basket of things people buy, like food, rent, gas, cars, medical care and airline tickets. The headline number includes everything. Core inflation leaves out food and energy, because those prices jump around a lot. And the Federal Reserve targets a different measure, the personal consumption expenditures index, or PCE. Different baskets, same idea: price the basket every month and compare it to a year ago."
+    },
+    {
+      "id": "s04",
+      "kind": "cards",
+      "chapter": "Right now",
+      "chapterTitle": "The latest numbers (September 2026)",
+      "broll": [
+        "47793",
+        "9607"
+      ],
+      "items": [
+        {
+          "title": "All items",
+          "value": "3.7%",
+          "sub": "12 months to Sept 2026",
+          "at": "three"
+        },
+        {
+          "title": "Core",
+          "value": "2.6%",
+          "sub": "without food and energy",
+          "at": "two"
+        },
+        {
+          "title": "Energy",
+          "value": "20.4%",
+          "sub": "the big driver",
+          "at": "energy"
+        },
+        {
+          "title": "Food at home",
+          "value": "1.8%",
+          "sub": "groceries",
+          "at": "groceries"
+        }
+      ],
+      "chips": [
+        {
+          "text": "BLS, released Oct 14, 2026",
+          "at": "labor"
+        }
+      ],
+      "footer": {
+        "text": "Energy is doing most of the damage",
+        "at": "damage"
+      },
+      "text": "Here are the latest numbers I could check. In the twelve months to September twenty twenty six, US consumer prices rose three point seven percent, according to the Bureau of Labor Statistics. But look underneath. Core inflation, without food and energy, was two point six percent. Energy prices were up twenty point four percent. Groceries rose just one point eight percent. So the headline number is being pushed up mostly by one category. Energy is doing most of the damage, and that's why your experience of inflation depends so much on what you buy."
+    },
+    {
+      "id": "s05",
+      "kind": "compare",
+      "chapter": "Winners and losers",
+      "chapterTitle": "Gas up 34%, used cars down",
+      "broll": [
+        "4907",
+        "42648"
+      ],
+      "cards": [
+        {
+          "title": "Rising fast",
+          "sub": "Gas, flights, electricity",
+          "at": "rising"
+        },
+        {
+          "title": "Falling",
+          "sub": "Used cars, medical goods",
+          "at": "fell"
+        }
+      ],
+      "big": {
+        "value": "+34.2%",
+        "sub": "gasoline, 12 months to Sept 2026",
+        "at": "gasoline"
+      },
+      "bars": [
+        {
+          "label": "Gasoline",
+          "value": "+34.2%",
+          "fill": 1.0,
+          "tone": "bad",
+          "at": "thirty"
+        },
+        {
+          "label": "Airline fares",
+          "value": "+22.4%",
+          "fill": 0.65,
+          "tone": "bad",
+          "at": "airline"
+        },
+        {
+          "label": "Electricity",
+          "value": "+4.4%",
+          "fill": 0.13,
+          "tone": "bad",
+          "at": "electricity"
+        },
+        {
+          "label": "Used cars",
+          "value": "−1.5%",
+          "fill": 0.05,
+          "tone": "good",
+          "at": "used"
+        }
+      ],
+      "footer": {
+        "text": "Your personal inflation rate is your own basket",
+        "at": "personal"
+      },
+      "text": "Inside that basket, prices don't move together. Some are rising fast. Over the same twelve months, gasoline jumped thirty four point two percent. Airline fares rose twenty two point four percent, and electricity four point four percent. Meanwhile, some prices fell. Used cars and trucks were down one point five percent, and medical care goods dropped three point three percent. So someone who drives a lot and flies often feels much more than three point seven percent. Someone who works from home might feel less. Your personal inflation rate depends on your own basket."
+    },
+    {
+      "id": "s06",
+      "kind": "rows",
+      "chapter": "Why prices rise",
+      "chapterTitle": "The four main causes of inflation",
+      "broll": [
+        "47214",
+        "5461"
+      ],
+      "items": [
+        {
+          "name": "Demand-pull",
+          "desc": "More spending than the economy can supply",
+          "at": "demand"
+        },
+        {
+          "name": "Cost-push",
+          "desc": "Inputs like oil and wages get pricier",
+          "at": "cost"
+        },
+        {
+          "name": "Expectations",
+          "desc": "People expect higher prices, so set them",
+          "at": "expectations"
+        },
+        {
+          "name": "Money and credit",
+          "desc": "Cheap borrowing fuels more spending",
+          "at": "money"
+        }
+      ],
+      "footer": {
+        "text": "Usually it's a mix, not one cause",
+        "at": "mix"
+      },
+      "text": "Why do prices rise in the first place? Economists usually point to four forces. Demand pull: people and businesses want to spend more than the economy can produce, so sellers raise prices. Cost push: the cost of making things goes up, like oil, shipping or wages, and that gets passed on to you. Expectations: if everyone expects higher prices, workers ask for raises and companies raise prices in advance. And money and credit: when borrowing is cheap and easy, spending grows faster. In real life, it's usually a mix, not one cause."
+    },
+    {
+      "id": "s07",
+      "kind": "steps",
+      "chapter": "Why 2%",
+      "chapterTitle": "Why the Fed wants 2% inflation, not zero",
+      "broll": [
+        "13218",
+        "42664"
+      ],
+      "items": [
+        {
+          "text": "Price indexes slightly overstate inflation",
+          "at": "first"
+        },
+        {
+          "text": "Room to cut rates in a recession",
+          "at": "second"
+        },
+        {
+          "text": "A buffer against deflation",
+          "at": "third"
+        }
+      ],
+      "footer": {
+        "text": "Official target since",
+        "highlight": "2012",
+        "tone": "accent",
+        "at": "twenty"
+      },
+      "text": "Here's what surprises people. The Federal Reserve doesn't want zero inflation. Its target is two percent a year, measured by the PCE index. The St. Louis Fed gives three reasons. First, price indexes tend to overstate inflation a little, so two percent measured is closer to zero in reality. Second, a bit of inflation keeps interest rates higher, which leaves the Fed room to cut them in a recession. Third, it's a buffer against deflation, falling prices, which can make people delay spending and hurt the economy. The Fed made that two percent target official in twenty twelve."
+    },
+    {
+      "id": "s08",
+      "kind": "stat",
+      "chapter": "The math",
+      "chapterTitle": "How fast inflation halves your money",
+      "broll": [
+        "9330",
+        "18263"
+      ],
+      "badge": "Years for cash to lose half its buying power at 3.7% inflation",
+      "numberValue": 19,
+      "unit": " yrs",
+      "sub": "Rule of 72: 72 / 3.7 = about 19.5 years. At 2%, it's 36 years.",
+      "big": {
+        "at": "nineteen"
+      },
+      "chips": [
+        {
+          "text": "72 / inflation rate",
+          "at": "seventy"
+        },
+        {
+          "text": "At 2%: 36 years",
+          "at": "thirty"
+        }
+      ],
+      "text": "Let's put a time on it with a simple trick called the rule of seventy two. Divide seventy two by the inflation rate, and you get roughly how many years it takes for cash to lose half its buying power. At three point seven percent, that's about nineteen and a half years. So money sitting in a drawer today could buy only half as much by the late twenty forties. Even at the Fed's target of two percent, it's thirty six years. Slow, quiet, and very real. That's why long term money usually can't just sit in cash."
+    },
+    {
+      "id": "s09",
+      "kind": "compare",
+      "chapter": "Real return",
+      "chapterTitle": "Real return: the number that actually matters",
+      "broll": [
+        "46990",
+        "47796"
+      ],
+      "cards": [
+        {
+          "title": "Nominal rate",
+          "sub": "What your account says it pays",
+          "at": "nominal"
+        },
+        {
+          "title": "Real return",
+          "sub": "Rate minus inflation",
+          "at": "real"
+        }
+      ],
+      "big": {
+        "value": "1% − 3.7%",
+        "sub": "≈ −2.7% real return (example)",
+        "at": "minus"
+      },
+      "bars": [
+        {
+          "label": "Account pays",
+          "value": "1%",
+          "fill": 0.27,
+          "tone": "good",
+          "at": "pays",
+          "nth": 1
+        },
+        {
+          "label": "Prices rise",
+          "value": "3.7%",
+          "fill": 1.0,
+          "tone": "bad",
+          "at": "prices"
+        }
+      ],
+      "footer": {
+        "text": "Always compare your rate to inflation",
+        "at": "compare"
+      },
+      "text": "This brings us to the number that actually matters, your real return. The nominal rate is what your account says it pays. The real return is that rate minus inflation. Here's a simple example. Say your savings account pays one percent, and prices rise three point seven percent. Your balance grows, but your buying power shrinks by about two point seven percent a year. That's minus two point seven percent in real terms. So whenever you look at a savings rate, a bond or a raise at work, compare it to inflation first."
+    },
+    {
+      "id": "s10",
+      "kind": "cards",
+      "chapter": "The long view",
+      "chapterTitle": "Twenty years of inflation in one chart",
+      "broll": [
+        "26758",
+        "30873"
+      ],
+      "items": [
+        {
+          "title": "Peak",
+          "value": "9.1%",
+          "sub": "12 months to June 2022",
+          "at": "nine"
+        },
+        {
+          "title": "Today",
+          "value": "3.7%",
+          "sub": "12 months to Sept 2026",
+          "at": "today"
+        },
+        {
+          "title": "$100 of 2006 stuff",
+          "value": "$166",
+          "sub": "costs this in Sept 2026",
+          "at": "hundred"
+        }
+      ],
+      "chips": [
+        {
+          "text": "BLS CPI-U data",
+          "at": "price"
+        }
+      ],
+      "footer": {
+        "text": "Small yearly numbers add up",
+        "at": "add"
+      },
+      "text": "Now zoom out. Inflation in the US hit about nine point one percent in the twelve months to June twenty twenty two, the highest in decades. It's lower today, at three point seven percent, but notice that prices didn't go back down. They just rise more slowly. Over twenty years, it adds up. Using the same price index, things that cost one hundred dollars in September two thousand six cost about one hundred sixty six dollars in September twenty twenty six. Small yearly numbers add up to a big change."
+    },
+    {
+      "id": "s11",
+      "kind": "steps",
+      "chapter": "Protect your money",
+      "chapterTitle": "5 ways to protect your money from inflation",
+      "broll": [
+        "4806",
+        "46768"
+      ],
+      "items": [
+        {
+          "text": "Find your personal inflation rate",
+          "at": "one"
+        },
+        {
+          "text": "Make your savings earn interest",
+          "at": "two"
+        },
+        {
+          "text": "Don't park long-term money in cash",
+          "at": "three"
+        },
+        {
+          "text": "Learn about TIPS and I bonds",
+          "at": "four"
+        },
+        {
+          "text": "Raise your income, not just cut costs",
+          "at": "five"
+        }
+      ],
+      "footer": {
+        "text": "Education, not financial advice.",
+        "highlight": "",
+        "at": "goals"
+      },
+      "text": "So what can you do? One, find your personal inflation rate. Check which of your spending categories rose the most this year. Two, make your emergency savings earn interest, and compare rates instead of leaving it at zero. Three, don't park long term money in cash for decades. Historically, a diversified mix of investments has been one way people tried to outpace inflation, though it can drop in the short run. Four, learn about inflation linked US government bonds, called TIPS and I bonds. And five, work on your income, like asking for a raise. Then match these to your own goals."
+    },
+    {
+      "id": "s12",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "26923",
+        "41541"
+      ],
+      "title": "Beat the hidden tax",
+      "accent": [
+        2
+      ],
+      "next": "AI Email Workflow: Clear Your Inbox in 10 Minutes a Day",
+      "text": "Inflation is slow, quiet and easy to ignore, but now you know how to measure it and how to fight back. Which price has gone up the most in your life this year? Tell me in the comments. I read them. If this helped, subscribe to Future Money Lab, and share it with someone who keeps all their savings in cash. This is education, not financial advice. Next up, I'll show you an AI email workflow to clear your inbox in about ten minutes a day."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "YOUR $100 = $76",
+      "line2": "SINCE 2019",
+      "tag": "Inflation explained"
+    },
+    "b": {
+      "kicker": "PRICES UP 32% SINCE 2019",
+      "from": "$100",
+      "to": "$76",
+      "line2": "WHERE IT WENT",
+      "tag": "Inflation explained"
+    }
+  },
+  "youtube": {
+    "title": "Inflation Explained: Why Your Money Loses Value Every Year",
+    "summary": "$100 kept in cash since 2019 now buys only what about $76 bought then. This is a plain-English guide to inflation: what it is, how CPI, core and PCE measure it, the latest US numbers (September 2026), which prices are rising and falling, the four main causes, why the Federal Reserve targets 2% instead of zero, the rule of 72, real returns, and five practical ways to protect your money.",
+    "details": "Numbers mentioned (checked November 2026):\n- US CPI-U rose 3.7% in the 12 months to September 2026; core (less food and energy) 2.6%; energy 20.4%; gasoline 34.2%; airline fares 22.4%; electricity 4.4%; food at home 1.8%; used cars and trucks -1.5%; medical care commodities -3.3% (BLS Consumer Price Index news release, Oct 14, 2026).\n- $100 → about $76: CPI-U annual average 2019 (255.657) vs September 2026 (336.940), prices up about 32% (BLS CPI-U series CUUR0000SA0).\n- 9.1%: CPI-U 12-month change to June 2022 (296.311 vs 271.696). $100 → about $166: September 2006 (202.9) vs September 2026 (336.940) (BLS series CUUR0000SA0).\n- Fed 2% target measured by PCE (Federal Reserve FAQ); adopted January 2012 and reasons for a positive target (St. Louis Fed, Jan 2019).\n- Rule of 72 is an approximation: 72 / 3.7 ≈ 19.5 years; 72 / 2 = 36 years.\n- The 1% savings example is illustrative, not a quoted rate. Check current TIPS and I bond terms at TreasuryDirect.",
+    "sources": [
+      {
+        "name": "BLS: Consumer Price Index – September 2026 (Oct 14, 2026)",
+        "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+      },
+      {
+        "name": "BLS Public Data API: CPI-U series CUUR0000SA0",
+        "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0"
+      },
+      {
+        "name": "Federal Reserve: Why does the Fed aim for 2% inflation?",
+        "url": "https://www.federalreserve.gov/faqs/economy_14400.htm"
+      },
+      {
+        "name": "St. Louis Fed: The Fed's inflation target – why 2 percent? (Jan 2019)",
+        "url": "https://www.stlouisfed.org/open-vault/2019/january/fed-inflation-target-2-percent"
+      }
+    ],
+    "tags": [
+      "inflation explained",
+      "what is inflation",
+      "inflation 2026",
+      "CPI explained",
+      "purchasing power",
+      "why prices keep rising",
+      "rule of 72",
+      "real return",
+      "Federal Reserve 2 percent target",
+      "protect money from inflation",
+      "personal finance",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#inflation",
+      "#personalfinance",
+      "#money"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s08"
+      ],
+      "headline": "How fast inflation halves your cash",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s07"
+      ],
+      "headline": "Why the Fed wants 2% inflation, not 0",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s05"
+      ],
+      "headline": "Gas up 34% while used cars got cheaper",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 422664017,
+    "publishAt": "2026-11-19T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 422664115,
+        "publishAt": "2026-11-19T02:45:00+05:00"
+      },
+      {
+        "postId": 422664130,
+        "publishAt": "2026-11-19T06:45:00+05:00"
+      },
+      {
+        "postId": 422664140,
+        "publishAt": "2026-11-19T21:15:00+05:00"
+      }
+    ]
+  }
+}
