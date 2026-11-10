@@ -1,0 +1,583 @@
+{
+  "id": "E12",
+  "num": 10,
+  "status": "scheduled",
+  "pillar": "A",
+  "title": "AI Email Workflow: Tame Your Inbox in 10-Minute Blocks",
+  "music": "music_759.mp3",
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "stat",
+      "chapter": "The inbox problem",
+      "chapterTitle": "Intro: 117 emails a day",
+      "broll": [
+        "4907",
+        "221"
+      ],
+      "badge": "Emails the average worker receives every day",
+      "numberValue": 117,
+      "prefix": "",
+      "unit": "",
+      "sub": "Microsoft Work Trend Index, June 2025",
+      "big": {
+        "at": "seventeen"
+      },
+      "chips": [
+        {
+          "text": "Plus 153 Teams messages",
+          "at": "fifty"
+        },
+        {
+          "text": "≈ 1 hour a day at 30 s each",
+          "at": "almost"
+        }
+      ],
+      "text": "The average office worker now receives one hundred seventeen emails a day. That's according to Microsoft's twenty twenty five Work Trend Index, and it doesn't even count the one hundred fifty three chat messages on top. If each email took just thirty seconds, that would be almost an hour a day, just reading. In this video, I'll show you a simple workflow that uses free AI tools to get your inbox under control in short, ten minute sessions. I'll cover the method, the exact prompts, what's free and what costs money, and where AI gets email wrong."
+    },
+    {
+      "id": "s02",
+      "kind": "hero",
+      "chapter": "The rule",
+      "chapterTitle": "The one rule: AI drafts, you decide",
+      "broll": [
+        "46768",
+        "1730"
+      ],
+      "badge": "The rule",
+      "title": "AI drafts, you decide",
+      "sub": "Speed up the boring parts. Keep the judgment.",
+      "accent": [
+        3
+      ],
+      "text": "Before we start, one rule runs through this whole video. AI drafts, you decide. AI is great at the boring parts of email: reading long threads, sorting, and writing a first draft. But it doesn't know your relationships, your promises, or what your boss really meant. So in this workflow, AI never sends anything on its own. It saves you the typing and the reading, and you keep the judgment. Also, I'm not promising a magic number of hours saved. I researched the tools and the method, and your results will depend on your inbox."
+    },
+    {
+      "id": "s03",
+      "kind": "cards",
+      "chapter": "The infinite workday",
+      "chapterTitle": "Why email feels endless",
+      "broll": [
+        "4908",
+        "42653"
+      ],
+      "items": [
+        {
+          "title": "Emails",
+          "value": "117",
+          "sub": "per worker, per day",
+          "at": "seventeen"
+        },
+        {
+          "title": "Teams messages",
+          "value": "153",
+          "sub": "per worker, per day",
+          "at": "teams"
+        },
+        {
+          "title": "Interruptions",
+          "value": "Every 2 min",
+          "sub": "meeting, email or ping",
+          "at": "interrupted"
+        },
+        {
+          "title": "Online at 6 am",
+          "value": "40%",
+          "sub": "are reviewing email",
+          "at": "forty"
+        }
+      ],
+      "chips": [
+        {
+          "text": "29% check email at 10 pm",
+          "at": "twenty"
+        }
+      ],
+      "footer": {
+        "text": "The problem is the constant checking",
+        "at": "constant"
+      },
+      "text": "Here's why email feels endless. Microsoft looked at how people use its work apps and called it the infinite workday. The average worker gets one hundred seventeen emails and one hundred fifty three Teams messages daily. People are interrupted by a meeting, email or notification about every two minutes. Forty percent of people online at six in the morning are already reviewing email. And by ten at night, twenty nine percent of active workers are checking their inbox again. The problem isn't one email. It's the constant checking."
+    },
+    {
+      "id": "s04",
+      "kind": "steps",
+      "chapter": "The method",
+      "chapterTitle": "The 10-minute workflow in 5 steps",
+      "broll": [
+        "4806",
+        "45923"
+      ],
+      "items": [
+        {
+          "text": "Batch: check email at set times",
+          "at": "batch"
+        },
+        {
+          "text": "Sort every email with 4 decisions",
+          "at": "sort"
+        },
+        {
+          "text": "Summarize long threads with AI",
+          "at": "summarize"
+        },
+        {
+          "text": "Draft replies with AI, then edit",
+          "at": "draft"
+        },
+        {
+          "text": "Automate the repeats with filters",
+          "at": "automate"
+        }
+      ],
+      "footer": {
+        "text": "10-minute sessions",
+        "highlight": "Not all day.",
+        "tone": "good",
+        "at": "session"
+      },
+      "text": "Here's the whole method in five steps. One, batch: open email two or three times a day at set times, instead of all day. Two, sort everything with four quick decisions. Three, summarize long threads with AI, so you don't read every message. Four, draft replies with AI, then edit them in your own voice. And five, automate the repeats with filters, so the same kinds of email stop landing in front of you. Each session should take about ten minutes. Let's go through them one by one."
+    },
+    {
+      "id": "s05",
+      "kind": "rows",
+      "chapter": "Step 2: sort",
+      "chapterTitle": "Sort every email with the 4 Ds",
+      "broll": [
+        "42897",
+        "4806"
+      ],
+      "items": [
+        {
+          "name": "Delete",
+          "desc": "Won't need it? Archive it right away",
+          "at": "delete"
+        },
+        {
+          "name": "Do",
+          "desc": "Under 2 minutes? Answer it now",
+          "at": "do"
+        },
+        {
+          "name": "Delegate",
+          "desc": "Someone else's job? Forward with one line",
+          "at": "delegate"
+        },
+        {
+          "name": "Defer",
+          "desc": "Real work? Make it a dated task, then archive",
+          "at": "defer"
+        }
+      ],
+      "footer": {
+        "text": "One decision per email, once",
+        "at": "decisions"
+      },
+      "text": "Step one is simple: close the inbox between sessions. Step two is where the time goes, so use the four Ds. Delete: if you won't need it, archive it right away. Do: if a reply takes under two minutes, answer it now. Delegate: if someone else should handle it, forward it with one clear line. Defer: if it needs real work, turn it into a task with a date, and archive the email. Every message gets one of those four decisions, once. You stop rereading the same email five times."
+    },
+    {
+      "id": "s06",
+      "kind": "compare",
+      "chapter": "What's free",
+      "chapterTitle": "Gemini in Gmail: free vs paid",
+      "broll": [
+        "4915",
+        "221"
+      ],
+      "cards": [
+        {
+          "title": "Free Gmail (US)",
+          "sub": "Summaries, Help me write, replies",
+          "at": "free"
+        },
+        {
+          "title": "Google AI Plus / Pro",
+          "sub": "Side panel, Proofread, AI Inbox",
+          "at": "paid"
+        }
+      ],
+      "big": {
+        "value": "$0",
+        "sub": "AI summaries + drafts",
+        "at": "zero"
+      },
+      "bars": [
+        {
+          "label": "Free Gmail",
+          "value": "$0",
+          "fill": 0.03,
+          "tone": "good",
+          "at": "zero"
+        },
+        {
+          "label": "Google AI Plus",
+          "value": "$4.99/mo",
+          "fill": 0.25,
+          "tone": "bad",
+          "at": "plus"
+        },
+        {
+          "label": "Google AI Pro",
+          "value": "$19.99/mo",
+          "fill": 1.0,
+          "tone": "bad",
+          "at": "nineteen"
+        }
+      ],
+      "footer": {
+        "text": "Plans checked November 2026",
+        "at": "checked"
+      },
+      "text": "Good news: in Gmail, the core AI tools are now free. In January twenty twenty six, Google made thread summaries, Help me write and suggested replies free for personal accounts, starting in the US in English. That's zero dollars for steps three and four. The paid features come with Google AI Plus, at four ninety nine a month, which adds the Gemini side panel, Proofread and the AI Inbox. Google AI Pro, at nineteen ninety nine, adds smarter search across your email. Outside the US, any chatbot can do the same steps. Prices checked November twenty twenty six."
+    },
+    {
+      "id": "s07",
+      "kind": "steps",
+      "chapter": "Step 3: summarize",
+      "chapterTitle": "Summarize long threads in seconds",
+      "broll": [
+        "221",
+        "4907"
+      ],
+      "items": [
+        {
+          "text": "Open the longest threads first",
+          "at": "longest"
+        },
+        {
+          "text": "Ask for decisions, questions, my to-dos",
+          "at": "ask"
+        },
+        {
+          "text": "Check it against the latest message",
+          "at": "check"
+        }
+      ],
+      "footer": {
+        "text": "A 40-message thread, read in 30 seconds",
+        "highlight": "Verify before you act.",
+        "tone": "accent",
+        "at": "verify"
+      },
+      "text": "Step three: summarize. Start with your longest threads, because that's where reading time hides. In Gmail, tap the summary at the top of the conversation. In any other chatbot, ask this: summarize this thread in three bullets, list any decisions made, any open questions, and anything I'm expected to do, with dates. Then check the summary against the latest message, because summaries can miss a late change of plan. Verify before you act. A forty message thread becomes a thirty second read, and you only open the original when something looks important."
+    },
+    {
+      "id": "s08",
+      "kind": "steps",
+      "chapter": "Step 4: draft",
+      "chapterTitle": "Draft replies with one prompt formula",
+      "broll": [
+        "4907",
+        "1730"
+      ],
+      "items": [
+        {
+          "text": "Who it's for, and the goal",
+          "at": "who"
+        },
+        {
+          "text": "The key facts, in your words",
+          "at": "facts"
+        },
+        {
+          "text": "Tone and length",
+          "at": "tone"
+        },
+        {
+          "text": "Edit: cut fluff, fix guesses",
+          "at": "edit"
+        }
+      ],
+      "footer": {
+        "text": "Never send an AI draft unread",
+        "highlight": "Your name is on it.",
+        "tone": "bad",
+        "at": "unread"
+      },
+      "text": "Step four: draft replies. A vague request gets a vague email, so give the AI three things. Who the reply is for, and the goal. The key facts, written in your own words, like dates, prices or a yes or no. And the tone and length, for example friendly, under eighty words. In Gmail, that's Help me write. Then edit it: cut the fluff, fix any detail the AI guessed, and make it sound like you. One rule here. Never send an AI draft unread. Your name is on it, not the tool's."
+    },
+    {
+      "id": "s09",
+      "kind": "rows",
+      "chapter": "Step 5: automate",
+      "chapterTitle": "Automate the repeats with filters",
+      "broll": [
+        "1730",
+        "4908"
+      ],
+      "items": [
+        {
+          "name": "Unsubscribe",
+          "desc": "Newsletters you never open? Leave them",
+          "at": "unsubscribe"
+        },
+        {
+          "name": "Filters",
+          "desc": "Receipts and alerts skip the inbox",
+          "at": "filters"
+        },
+        {
+          "name": "Labels",
+          "desc": "Group senders: bills, team, clients",
+          "at": "labels"
+        },
+        {
+          "name": "Templates",
+          "desc": "Save replies you send every week",
+          "at": "templates"
+        }
+      ],
+      "footer": {
+        "text": "Every rule removes a type of email for good",
+        "at": "forever"
+      },
+      "text": "Step five: automate the repeats. This step costs nothing and keeps paying off. First, unsubscribe from newsletters you never open. Second, create filters, so receipts, shipping updates and app alerts skip the inbox and go straight to a folder. Third, use labels for the senders that matter, like bills, your team or clients. And fourth, save templates for replies you send every week. If you don't know how to set up a filter, ask a chatbot to explain the steps for your email app. Every rule you set removes a type of email forever."
+    },
+    {
+      "id": "s10",
+      "kind": "cards",
+      "chapter": "Paid tools",
+      "chapterTitle": "What AI email tools cost",
+      "broll": [
+        "18302",
+        "46990"
+      ],
+      "items": [
+        {
+          "title": "Gmail AI (US)",
+          "value": "$0",
+          "sub": "summaries + drafts",
+          "at": "gmail"
+        },
+        {
+          "title": "Google AI Plus",
+          "value": "$4.99",
+          "sub": "per month",
+          "at": "plus"
+        },
+        {
+          "title": "Shortwave",
+          "value": "$0",
+          "sub": "free plan, adds a signature",
+          "at": "shortwave"
+        },
+        {
+          "title": "Superhuman",
+          "value": "$25–30",
+          "sub": "per user / month",
+          "at": "superhuman"
+        }
+      ],
+      "chips": [
+        {
+          "text": "Start free",
+          "at": "start"
+        },
+        {
+          "text": "Upgrade only if you outgrow it",
+          "at": "outgrow"
+        }
+      ],
+      "footer": {
+        "text": "Prices checked November 2026",
+        "at": "live"
+      },
+      "text": "Do you need a paid email app? For most people, probably not. Here's the ladder, checked November twenty twenty six. Gmail's built-in AI is free in the US. Google AI Plus is four ninety nine a month. Dedicated apps cost more. Shortwave has a free plan with basic AI summaries, but it adds a sent with Shortwave signature to your emails. Superhuman, a premium email app, costs about twenty five to thirty dollars per user a month. Those apps are built for people who live in email all day. Start free, and upgrade only if you outgrow it."
+    },
+    {
+      "id": "s11",
+      "kind": "rows",
+      "chapter": "Watch out",
+      "chapterTitle": "Where AI gets email wrong",
+      "broll": [
+        "42648",
+        "221"
+      ],
+      "items": [
+        {
+          "name": "Invented",
+          "desc": "Dates, prices or promises that aren't real",
+          "at": "invent"
+        },
+        {
+          "name": "Wrong tone",
+          "desc": "Too stiff, too cheerful or too long",
+          "at": "tone"
+        },
+        {
+          "name": "No context",
+          "desc": "Doesn't know your history with people",
+          "at": "context"
+        },
+        {
+          "name": "Privacy",
+          "desc": "Never paste passwords or client secrets",
+          "at": "privacy"
+        },
+        {
+          "name": "Auto-send",
+          "desc": "You can't unsend a mistake",
+          "at": "automatically"
+        }
+      ],
+      "footer": {
+        "text": "AI drafts, you decide",
+        "at": "decide"
+      },
+      "text": "Now the honest part. Here's where AI gets email wrong. It can invent details, like a date, a price or a promise you never made. It can get the tone wrong, too stiff for a friend or too cheerful for bad news. It misses context, like your history with that person. Privacy matters too: don't paste passwords, client secrets or other people's personal data into a chatbot, and check your company's AI policy for work email. And be careful with anything that sends automatically, because you can't unsend a mistake. AI drafts, you decide."
+    },
+    {
+      "id": "s12",
+      "kind": "steps",
+      "chapter": "Your routine",
+      "chapterTitle": "The 10-minute routine",
+      "broll": [
+        "42653",
+        "26923"
+      ],
+      "items": [
+        {
+          "text": "2 min: read AI summaries",
+          "at": "first"
+        },
+        {
+          "text": "3 min: sort with the 4 Ds",
+          "at": "next",
+          "nth": 0
+        },
+        {
+          "text": "4 min: draft and edit replies",
+          "at": "next",
+          "nth": 1
+        },
+        {
+          "text": "1 min: one new filter or unsubscribe",
+          "at": "last"
+        }
+      ],
+      "footer": {
+        "text": "Close the inbox in between",
+        "highlight": "Try it for 2 weeks.",
+        "tone": "good",
+        "at": "try"
+      },
+      "text": "Here's how it fits into ten minutes. First two minutes: read the AI summaries of your longest threads. Next three minutes: sort everything else with the four Ds. Next four minutes: draft and edit your replies with AI. Last minute: add one new filter, or unsubscribe from one sender. Do this two or three times a day, at set times, and close the inbox in between. The filters add up, so the inbox gets lighter over time. Try it for two weeks and notice how often you still open email between sessions."
+    },
+    {
+      "id": "s13",
+      "kind": "outro",
+      "chapterTitle": "Your turn",
+      "broll": [
+        "26923",
+        "41541"
+      ],
+      "title": "Own your inbox",
+      "accent": [
+        2
+      ],
+      "next": "Dollar-Cost Averaging: The Boring Strategy That Works",
+      "text": "Email won't disappear, but it doesn't have to run your day. Batch it, sort it with the four Ds, let AI summarize and draft, and automate the repeats. Which part of your inbox wastes the most time right now? Tell me in the comments. I read them. If this helped, subscribe to Future Money Lab, and share it with a coworker who's drowning in email. Next up, dollar cost averaging, the boring investing strategy that works."
+    }
+  ],
+  "thumbnail": {
+    "a": {
+      "big": "117 EMAILS A DAY?",
+      "line2": "10-MIN AI ROUTINE",
+      "tag": "AI email workflow"
+    },
+    "b": {
+      "kicker": "FREE AI EMAIL WORKFLOW",
+      "from": "∞",
+      "to": "10",
+      "line2": "MINUTE BLOCKS",
+      "tag": "AI email workflow"
+    }
+  },
+  "youtube": {
+    "title": "AI Email Workflow: Tame Your Inbox in 10-Minute Blocks",
+    "summary": "The average worker receives 117 emails a day (Microsoft Work Trend Index, June 2025). This is a simple, 5-step workflow to handle email in short 10-minute sessions with free AI tools: batching, the 4 Ds for sorting, AI thread summaries, a 3-part prompt formula for drafting replies, filters and templates for the repeats, what Gmail's AI features cost (free vs Google AI Plus and Pro), paid apps like Shortwave and Superhuman, and where AI gets email wrong.",
+    "details": "Numbers mentioned (checked November 2026; plans change often, always confirm on the official pricing page):\n- Average worker receives 117 emails and 153 Teams messages a day; Microsoft 365 users interrupted about every 2 minutes; 40% of people online at 6 am are reviewing email; 29% of active workers check their inbox by 10 pm (Microsoft Work Trend Index special report, June 2025, as reported by TechSpot).\n- '30 seconds per email ≈ almost an hour a day' is an illustration, not a measured figure.\n- Gmail: conversation summaries, Help me write and Suggested Replies made free for personal accounts, first in the US in English (Jan 2026). Google AI Plus $4.99/month adds the Gemini side panel, Proofread and AI Inbox; Google AI Pro $19.99/month adds AI Overviews in Gmail search (Dupple, Nov 2026, citing Google's plan pages).\n- Shortwave: free plan with basic AI summaries and a 'Sent with Shortwave' signature. Superhuman: about $25–30 per user per month (CostBench, 2026; third-party figures vary, check the official sites).\n- No hours-saved figure is claimed; results depend on your inbox.",
+    "sources": [
+      {
+        "name": "TechSpot: Microsoft study finds 'infinite workday' is hurting productivity (Work Trend Index, June 2025)",
+        "url": "https://www.techspot.com/news/108343-microsoft-study-finds-infinite-workday-hurting-productivity.html"
+      },
+      {
+        "name": "iPhone in Canada: Gmail users just got a surprise free AI upgrade (Jan 8, 2026)",
+        "url": "https://www.iphoneincanada.ca/2026/01/08/gmail-users-just-got-a-surprise-free-ai-upgrade-whats-new/"
+      },
+      {
+        "name": "Dupple: How to use Gemini in Gmail in 2026 and which plan you need (Nov 2026)",
+        "url": "https://dupple.com/learn/how-to-use-gemini-in-gmail"
+      },
+      {
+        "name": "CostBench: SaneBox vs Superhuman pricing (2026)",
+        "url": "https://www.costbench.com/compare/sanebox-vs-superhuman/"
+      },
+      {
+        "name": "CostBench: Shortwave vs SaneBox pricing (2026)",
+        "url": "https://costbench.com/compare/sanebox-vs-shortwave/"
+      }
+    ],
+    "tags": [
+      "AI email workflow",
+      "inbox zero",
+      "email productivity",
+      "Gemini in Gmail",
+      "Gmail AI",
+      "Help me write",
+      "email management tips",
+      "AI productivity",
+      "AI tools",
+      "Superhuman",
+      "Shortwave",
+      "Future Money Lab"
+    ],
+    "hashtags": [
+      "#AItools",
+      "#productivity",
+      "#email"
+    ]
+  },
+  "shorts": [
+    {
+      "scenes": [
+        "s05"
+      ],
+      "headline": "Sort any email with the 4 Ds",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s11"
+      ],
+      "headline": "5 ways AI gets your email wrong",
+      "cta": "Full video on our channel"
+    },
+    {
+      "scenes": [
+        "s03"
+      ],
+      "headline": "117 emails a day is the real problem",
+      "cta": "Full video on our channel"
+    }
+  ],
+  "metricool": {
+    "postId": 422798570,
+    "publishAt": "2026-11-20T00:15:00+05:00",
+    "shortPosts": [
+      {
+        "postId": 422798599,
+        "publishAt": "2026-11-20T02:45:00+05:00"
+      },
+      {
+        "postId": 422798621,
+        "publishAt": "2026-11-20T06:45:00+05:00"
+      },
+      {
+        "postId": 422798653,
+        "publishAt": "2026-11-20T21:15:00+05:00"
+      }
+    ]
+  }
+}
