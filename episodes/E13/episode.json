@@ -1,7 +1,7 @@
 {
  "id": "E13",
  "num": 14,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "Dollar-Cost Averaging vs Lump Sum: What 46 Years of Data Say",
  "music": "music_759.mp3",
@@ -497,5 +497,23 @@
    "headline": "When investing slowly actually wins",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 424067323,
+  "publishAt": "2026-11-21T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 424067546,
+    "publishAt": "2026-11-21T02:45:00+05:00"
+   },
+   {
+    "postId": 424067574,
+    "publishAt": "2026-11-21T06:45:00+05:00"
+   },
+   {
+    "postId": 424067588,
+    "publishAt": "2026-11-21T21:15:00+05:00"
+   }
+  ]
+ }
 }
