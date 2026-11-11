@@ -1,0 +1,501 @@
+{
+ "id": "E13",
+ "num": 14,
+ "status": "draft",
+ "pillar": "B",
+ "title": "Dollar-Cost Averaging vs Lump Sum: What 46 Years of Data Say",
+ "music": "music_759.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "The question",
+   "chapterTitle": "Intro: all at once or a little each month?",
+   "broll": [
+    "18296",
+    "47214"
+   ],
+   "badge": "How often lump sum beat cost averaging",
+   "numberValue": 67,
+   "unit": "%",
+   "sub": "Vanguard research, global markets, 1976 to 2022",
+   "big": {
+    "at": "thirds"
+   },
+   "chips": [
+    {
+     "text": "Range by market: 61.6% to 73.7%",
+     "at": "depending"
+    },
+    {
+     "text": "So why drip money in?",
+     "at": "why"
+    }
+   ],
+   "text": "Say you have ten thousand dollars to invest. Do you put it all in today, or a little each month? Vanguard studied market data from nineteen seventy six to twenty twenty two and found that investing everything at once came out ahead about two thirds of the time, depending on the market. So why do so many careful investors still drip their money in slowly? In this video, I'll explain how dollar cost averaging works, what the data really says, what it costs you, and the cases where the boring strategy is still the smart one."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The basics",
+   "chapterTitle": "What dollar-cost averaging is",
+   "broll": [
+    "4806",
+    "46990"
+   ],
+   "badge": "The basics",
+   "title": "Same amount, same schedule",
+   "sub": "Equal portions, regular intervals, whatever the market does",
+   "accent": [
+    1
+   ],
+   "text": "Dollar cost averaging means investing a fixed amount of money at regular intervals, no matter what the market is doing. FINRA, the US brokerage regulator, describes it as investing your money in equal portions, at regular intervals, regardless of current market conditions. For example, instead of putting ten thousand dollars in today, you invest one thousand dollars a month for ten months. The amount stays the same. The schedule stays the same. The only thing that changes is the price you pay each time."
+  },
+  {
+   "id": "s03",
+   "kind": "cards",
+   "chapter": "How it works",
+   "chapterTitle": "A simple example: $100 a month",
+   "broll": [
+    "18263",
+    "4907"
+   ],
+   "items": [
+    {
+     "title": "Month 1",
+     "value": "10 shares",
+     "sub": "$100 at $10",
+     "at": "first"
+    },
+    {
+     "title": "Month 2",
+     "value": "20 shares",
+     "sub": "$100 at $5",
+     "at": "crashes"
+    },
+    {
+     "title": "Month 3",
+     "value": "10 shares",
+     "sub": "$100 at $10",
+     "at": "third"
+    }
+   ],
+   "chips": [
+    {
+     "text": "$300 in, 40 shares",
+     "at": "total"
+    },
+    {
+     "text": "Example numbers, not a real fund",
+     "at": "made"
+    }
+   ],
+   "footer": {
+    "text": "Your money buys more when prices are low",
+    "at": "automatically"
+   },
+   "text": "Here's a simple example with made up numbers. You invest one hundred dollars a month. In the first month, the fund costs ten dollars a share, so you get ten shares. In month two, the market crashes and the price falls to five dollars. Your same one hundred dollars now buys twenty shares. In the third month, the price is back to ten dollars, and you get ten shares again. In total, you put in three hundred dollars and own forty shares. You bought more automatically when prices were low."
+  },
+  {
+   "id": "s04",
+   "kind": "compare",
+   "chapter": "The math",
+   "chapterTitle": "Why your average cost ends up lower",
+   "broll": [
+    "9330",
+    "46768"
+   ],
+   "cards": [
+    {
+     "title": "Avg price",
+     "sub": "$10, $5, $10",
+     "at": "average"
+    },
+    {
+     "title": "Your cost",
+     "sub": "$300 / 40 shares",
+     "at": "cost"
+    }
+   ],
+   "big": {
+    "value": "$7.50",
+    "sub": "your average cost per share",
+    "at": "seven"
+   },
+   "bars": [
+    {
+     "label": "Average market price",
+     "value": "$8.33",
+     "fill": 1.0,
+     "tone": "bad",
+     "at": "eight"
+    },
+    {
+     "label": "Your average cost",
+     "value": "$7.50",
+     "fill": 0.9,
+     "tone": "good",
+     "at": "seven"
+    }
+   ],
+   "footer": {
+    "text": "Lower average cost is not the same as higher returns",
+    "at": "lower"
+   },
+   "text": "Now look at the math. The average price over those three months was about eight dollars and thirty three cents. But your cost per share was three hundred dollars divided by forty shares, which is seven dollars and fifty cents. Because a fixed amount buys more shares when prices drop, your average cost ends up below the average price. That's the famous benefit. But careful. A lower average cost is not the same as a higher return, and that's where the real debate begins."
+  },
+  {
+   "id": "s05",
+   "kind": "rows",
+   "chapter": "Two situations",
+   "chapterTitle": "Two very different kinds of DCA",
+   "broll": [
+    "42653",
+    "45923"
+   ],
+   "items": [
+    {
+     "name": "From your paycheck",
+     "desc": "You invest money as you earn it, like a 401(k)",
+     "at": "paycheck"
+    },
+    {
+     "name": "Splitting a lump sum",
+     "desc": "You already have the cash but feed it in slowly",
+     "at": "splitting"
+    }
+   ],
+   "footer": {
+    "text": "The debate is only about the second one",
+    "at": "whole"
+   },
+   "text": "There are two very different situations people call dollar cost averaging. The first is investing from your paycheck, like contributions to a 401k. You don't have the money yet, so investing it as you earn it is simply the earliest you can invest. FINRA points out that the usual criticism doesn't apply here. The second is splitting a lump sum, like a bonus, an inheritance or savings, that you already have, and feeding it in slowly. The whole lump sum versus averaging debate is only about the second one."
+  },
+  {
+   "id": "s06",
+   "kind": "stat",
+   "chapter": "What the data says",
+   "chapterTitle": "Vanguard's study: lump sum usually wins",
+   "broll": [
+    "47793",
+    "26758"
+   ],
+   "badge": "Lump sum beat 3-month cost averaging, by market",
+   "numberValue": 74,
+   "unit": "%",
+   "sub": "Top of the range; lowest market 61.6%. Rolling 1-year periods, 1976 to 2022.",
+   "big": {
+    "at": "won"
+   },
+   "chips": [
+    {
+     "text": "7 markets, incl. US and UK",
+     "at": "markets"
+    },
+    {
+     "text": "Longer drip, bigger gap",
+     "at": "longer"
+    }
+   ],
+   "text": "So what does the data say? Vanguard's research looked at seven markets, including the US, the UK, Europe and emerging markets, using rolling one year periods from nineteen seventy six to twenty twenty two. The base case split the money into three parts, one month apart. Lump sum won between sixty one point six and seventy three point seven percent of the time, depending on the market. And the longer it took to get fully invested, the more often lump sum came out ahead. The reason is simple. Markets have risen more often than they've fallen, so cash waiting on the sidelines usually misses gains."
+  },
+  {
+   "id": "s07",
+   "kind": "compare",
+   "chapter": "How big the gap is",
+   "chapterTitle": "The average gap by portfolio mix",
+   "broll": [
+    "47796",
+    "9607"
+   ],
+   "cards": [
+    {
+     "title": "Lump sum",
+     "sub": "invested on day one",
+     "at": "invested"
+    },
+    {
+     "title": "Averaging",
+     "sub": "spread over 3 months",
+     "at": "spread"
+    }
+   ],
+   "big": {
+    "value": "+2.2%",
+    "sub": "lump sum's median lead",
+    "at": "stocks"
+   },
+   "bars": [
+    {
+     "label": "100% stocks",
+     "value": "+2.2%",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "two"
+    },
+    {
+     "label": "60/40 mix",
+     "value": "+1.8%",
+     "fill": 0.82,
+     "tone": "good",
+     "at": "sixty"
+    },
+    {
+     "label": "40/60 mix",
+     "value": "+1.2%",
+     "fill": 0.55,
+     "tone": "good",
+     "at": "only"
+    }
+   ],
+   "footer": {
+    "text": "Riskier mix, bigger cost of waiting",
+    "at": "riskier"
+   },
+   "text": "How big is the gap? In the same study, compared with money spread over three months, money invested on day one ended the year with a typical lead of about two point two percent for a portfolio of all stocks. With sixty percent stocks and forty percent bonds, the lead was about one point eight percent. And with only forty percent stocks, about one point two percent. So the riskier and more stock heavy your mix, the more waiting tends to cost you. These are medians across history, not a promise for next year."
+  },
+  {
+   "id": "s08",
+   "kind": "cards",
+   "chapter": "In dollars",
+   "chapterTitle": "What waiting cost on $100,000",
+   "broll": [
+    "18302",
+    "42648"
+   ],
+   "items": [
+    {
+     "title": "Drip over 3 months",
+     "value": "$504 less",
+     "sub": "vs investing at once",
+     "at": "three"
+    },
+    {
+     "title": "Drip over 6 months",
+     "value": "$1,491 less",
+     "sub": "vs investing at once",
+     "at": "six"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Vanguard simulation, $100,000 start",
+     "at": "simulation"
+    }
+   ],
+   "footer": {
+    "text": "The longer you wait, the more you give up",
+    "at": "longer"
+   },
+   "text": "Here's what waiting costs in dollars. Vanguard ran a simulation starting with one hundred thousand dollars. Spreading the money over three months left the investor with about five hundred and four dollars less than investing it all at once. Spreading it over six months left them with about one thousand four hundred and ninety one dollars less. Not a disaster, but not nothing. The pattern is clear. On average, the longer you wait to invest money you already have, the more you give up."
+  },
+  {
+   "id": "s09",
+   "kind": "compare",
+   "chapter": "The other side",
+   "chapterTitle": "When cost averaging wins: the bad years",
+   "broll": [
+    "5461",
+    "221"
+   ],
+   "cards": [
+    {
+     "title": "Worst 5%",
+     "sub": "averaging was ahead",
+     "at": "worst"
+    },
+    {
+     "title": "Best 5%",
+     "sub": "lump sum was far ahead",
+     "at": "best"
+    }
+   ],
+   "big": {
+    "value": "+3.6%",
+    "sub": "averaging's edge, worst 5%",
+    "at": "three"
+   },
+   "bars": [
+    {
+     "label": "Bad years: averaging ahead",
+     "value": "3.6%",
+     "fill": 0.56,
+     "tone": "good",
+     "at": "three"
+    },
+    {
+     "label": "Great years: lump sum ahead",
+     "value": "6.4%",
+     "fill": 1.0,
+     "tone": "bad",
+     "at": "six"
+    }
+   ],
+   "footer": {
+    "text": "It's insurance against regret, and insurance costs money",
+    "at": "insurance"
+   },
+   "text": "Here's the other side of the data. In the worst five percent of periods, when markets fell hard right after the money went in, cost averaging was ahead by about three point six percent for an all stock portfolio. In the best five percent, lump sum was ahead by about six point four percent. So cost averaging works like insurance. It protects you in the rare years when you invest right before a crash. Vanguard says investors who hate losses may be better off drip feeding. Just remember, insurance costs money."
+  },
+  {
+   "id": "s10",
+   "kind": "steps",
+   "chapter": "When it makes sense",
+   "chapterTitle": "4 times dollar-cost averaging still makes sense",
+   "broll": [
+    "42664",
+    "13218"
+   ],
+   "items": [
+    {
+     "text": "You invest from every paycheck",
+     "at": "paycheck"
+    },
+    {
+     "text": "A drop would make you sell in panic",
+     "at": "panic"
+    },
+    {
+     "text": "The sum is huge compared to your savings",
+     "at": "huge"
+    },
+    {
+     "text": "Otherwise you'd never invest at all",
+     "at": "never"
+    }
+   ],
+   "footer": {
+    "text": "Watch for per-trade fees and cash drag",
+    "at": "fees"
+   },
+   "text": "So when does the boring strategy still make sense? One, when you invest from every paycheck. That's not a choice, it's just how money arrives. Two, when a drop right after investing would make you panic and sell. A plan you stick with beats a perfect plan you abandon. Three, when the sum is huge compared to everything else you own, like an inheritance. And four, when waiting for the perfect moment means you'd never invest at all. Two catches. FINRA warns that more trades can mean more fees, and money sitting in cash can miss gains."
+  },
+  {
+   "id": "s11",
+   "kind": "steps",
+   "chapter": "Do it right",
+   "chapterTitle": "How to set up DCA the right way",
+   "broll": [
+    "1730",
+    "4915"
+   ],
+   "items": [
+    {
+     "text": "Pick a fixed amount and date",
+     "at": "fixed"
+    },
+    {
+     "text": "Automate it",
+     "at": "automate"
+    },
+    {
+     "text": "Use a low-cost, diversified fund",
+     "at": "diversified"
+    },
+    {
+     "text": "Set an end date for a lump sum",
+     "at": "end"
+    },
+    {
+     "text": "Don't pause when prices fall",
+     "at": "pause"
+    }
+   ],
+   "footer": {
+    "text": "Education, not financial advice.",
+    "highlight": "",
+    "at": "situation"
+   },
+   "text": "If you choose dollar cost averaging, do it properly. Pick a fixed amount and a fixed date, like the day after payday. Automate it, so you're not deciding every month. Use a low cost, diversified fund, so fees don't eat the benefit. If you're splitting a lump sum, set an end date, like three or six months, and keep the waiting money somewhere safe that pays interest. And most important, don't pause when prices fall. That's exactly when your fixed amount buys the most. Then match all this to your own situation."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "41541"
+   ],
+   "title": "Boring can still win",
+   "accent": [
+    2
+   ],
+   "next": "Build a Second Brain with AI and Notion (Step by Step)",
+   "text": "So, lump sum usually wins on paper, and dollar cost averaging wins on peace of mind. The best choice is the one you'll actually stick with. If you suddenly got ten thousand dollars, would you invest it all at once or spread it out? Tell me in the comments. I read them. If this helped, subscribe to Future Money Lab. This is education, not financial advice. Next up, I'll show you how to build a second brain with AI and Notion, step by step."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "ALL AT ONCE?",
+   "line2": "OR EVERY MONTH",
+   "tag": "Dollar-cost averaging"
+  },
+  "b": {
+   "kicker": "WHAT 46 YEARS OF DATA SAY",
+   "from": "DCA",
+   "to": "LUMP",
+   "line2": "WON ~2 IN 3 TIMES",
+   "tag": "DCA vs lump sum"
+  }
+ },
+ "youtube": {
+  "title": "Dollar-Cost Averaging vs Lump Sum: What 46 Years of Data Say",
+  "summary": "Should you invest a lump sum all at once or a little each month? This is a plain-English guide to dollar-cost averaging (DCA): how it works with a simple example, why your average cost ends up below the average price, the difference between investing from your paycheck and splitting a lump sum, what Vanguard's research on 1976–2022 market data found, what waiting cost in dollars, when cost averaging wins, four situations where it still makes sense, and how to set it up properly.",
+  "details": "Numbers mentioned (checked November 2026):\n- Lump sum beat a 3-month cost-averaging approach in 61.6% to 73.7% of rolling one-year periods, 1976–2022, depending on the market (about two-thirds of the time); the longer the drip, the higher the lump sum 'hit ratio' (Vanguard UK, 'The truth about cost averaging', Jan 2026, citing Vanguard Research, Feb 2023).\n- Median one-year lead for lump sum: 2.2% (100% equity), 1.8% (60/40), 1.2% (40/60). Worst 5% of periods: cost averaging ahead by 3.6% (100% equity); best 5%: lump sum ahead by 6.4% (same source).\n- $100,000 simulation: 3-month cost averaging ended $504 lower, 6-month $1,491 lower than investing at once (same source).\n- DCA definition, benefits, limitations, fees and the paycheck/401(k) point: FINRA, 'The Benefits and Limitations of Dollar-Cost Averaging' (May 2026).\n- The $100/month, $10/$5/$10 example uses made-up numbers to show the math.\n- Past results don't guarantee future returns.",
+  "sources": [
+   {
+    "name": "Vanguard UK: The truth about cost averaging (Jan 2026)",
+    "url": "https://www.vanguard.co.uk/professional/vanguard-365/financial-planning/financial-well-being/cost-averaging"
+   },
+   {
+    "name": "FINRA: The Benefits and Limitations of Dollar-Cost Averaging (May 2026)",
+    "url": "https://www.finra.org/investors/insights/three-things-know-about-dollar-cost-averaging"
+   },
+   {
+    "name": "BenefitsPRO: Lump-sum investing vs. dollar-cost averaging (on Vanguard's 2012 study)",
+    "url": "https://benefitspro.com/2012/10/31/lump-sum-investing-vs-dollar-cost-averaging"
+   }
+  ],
+  "tags": [
+   "dollar cost averaging",
+   "DCA explained",
+   "lump sum vs dollar cost averaging",
+   "lump sum investing",
+   "how to invest a lump sum",
+   "investing for beginners",
+   "Vanguard research",
+   "401k investing",
+   "index fund investing",
+   "personal finance",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#investing",
+   "#personalfinance",
+   "#money"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s03"
+   ],
+   "headline": "Why a crash helps monthly investors",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "What waiting cost on $100,000",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s09"
+   ],
+   "headline": "When investing slowly actually wins",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
