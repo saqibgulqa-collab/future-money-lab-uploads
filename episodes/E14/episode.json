@@ -1,7 +1,7 @@
 {
  "id": "E14",
  "num": 17,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "How Netflix Makes Money: Where Every $100 You Pay Goes",
  "music": "music_744.mp3",
@@ -540,5 +540,23 @@
    "headline": "Netflix's ad business, in numbers",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 425342079,
+  "publishAt": "2026-11-22T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 425342215,
+    "publishAt": "2026-11-22T02:45:00+05:00"
+   },
+   {
+    "postId": 425342233,
+    "publishAt": "2026-11-22T06:45:00+05:00"
+   },
+   {
+    "postId": 425342252,
+    "publishAt": "2026-11-22T21:15:00+05:00"
+   }
+  ]
+ }
 }
