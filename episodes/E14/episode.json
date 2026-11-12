@@ -1,0 +1,544 @@
+{
+ "id": "E14",
+ "num": 17,
+ "status": "draft",
+ "pillar": "B",
+ "title": "How Netflix Makes Money: Where Every $100 You Pay Goes",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "Netflix",
+   "chapterTitle": "Intro: $12.9 billion in three months",
+   "broll": [
+    "48357",
+    "9252"
+   ],
+   "badge": "Netflix operating margin, July to September 2026",
+   "numberValue": 34.6,
+   "unit": "%",
+   "sub": "Netflix Q3 2026 shareholder letter (Oct 20, 2026)",
+   "big": {
+    "at": "thirty"
+   },
+   "chips": [
+    {
+     "text": "Revenue: $12.9B in 3 months",
+     "at": "twelve"
+    },
+    {
+     "text": "Up from 28.2% a year earlier",
+     "at": "dream"
+    }
+   ],
+   "text": "Between July and September twenty twenty six, Netflix brought in about twelve point nine billion dollars, and kept thirty four point six percent of it as operating profit. That's a margin most media companies can only dream of. But Netflix doesn't sell DVDs anymore, and it doesn't own movie theaters. So where does all that money come from, and where does it go? In this video, I'll break down Netflix's business model using its own latest shareholder letter: how it earns, what it spends, and the risks that could change the story."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The model",
+   "chapterTitle": "The business model in one sentence",
+   "broll": [
+    "33312",
+    "44588"
+   ],
+   "badge": "The model in one sentence",
+   "title": "Pay once, sell it millions of times",
+   "sub": "Fixed content costs, spread over a giant audience",
+   "accent": [
+    1,
+    4
+   ],
+   "text": "Here's the whole model in one sentence. Netflix pays for a show or a film once, by making it or licensing it, and then sells access to it to millions of members every single month. The cost of a show is mostly fixed. Whether ten million people watch it or a hundred million, the bill is about the same. So every extra member makes each show cheaper per viewer. At the end of twenty twenty five, Netflix said it had more than three hundred and twenty five million paid subscribers. Now its letter talks about an audience approaching one billion people."
+  },
+  {
+   "id": "s03",
+   "kind": "cards",
+   "chapter": "Where money comes from",
+   "chapterTitle": "Where the revenue comes from",
+   "broll": [
+    "44589",
+    "18302"
+   ],
+   "items": [
+    {
+     "title": "2026 revenue",
+     "value": "$51.1B",
+     "sub": "Netflix forecast, +13%",
+     "at": "fifty"
+    },
+    {
+     "title": "Ads",
+     "value": "~$2.7B",
+     "sub": "expected for 2026",
+     "at": "advertising"
+    },
+    {
+     "title": "Everything else",
+     "value": "~$48B",
+     "sub": "mostly memberships",
+     "at": "rest"
+    }
+   ],
+   "chips": [
+    {
+     "text": "2025 revenue: $45.2B",
+     "at": "forty"
+    },
+    {
+     "text": "Ads ≈ 5% of revenue",
+     "at": "only"
+    }
+   ],
+   "footer": {
+    "text": "Memberships are still the engine",
+    "at": "engine"
+   },
+   "text": "So where does the money come from? In twenty twenty five, Netflix made forty five point two billion dollars in revenue. For twenty twenty six, it now forecasts about fifty one point one billion, up around thirteen percent. Advertising is the newer stream. Netflix expects about two point seven billion dollars from ads this year. That's only about five percent of revenue. The rest, roughly forty eight billion dollars, comes mostly from memberships, people paying a monthly fee. Live events and games exist, but subscriptions are still the engine."
+  },
+  {
+   "id": "s04",
+   "kind": "pricelist",
+   "chapter": "Where money goes",
+   "chapterTitle": "Where every $100 goes",
+   "broll": [
+    "47214",
+    "42648"
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "Content (amortization)",
+     "value": "$33",
+     "num": 33,
+     "at": "content"
+    },
+    {
+     "label": "Marketing, tech, staff, delivery",
+     "value": "$32",
+     "num": 32,
+     "at": "everything"
+    },
+    {
+     "label": "Operating profit",
+     "value": "$35",
+     "num": 35,
+     "at": "operating"
+    }
+   ],
+   "total": {
+    "label": "Per $100 of revenue, Q3 2026",
+    "yearly": {
+     "text": "Operating margin: 34.6%",
+     "at": "margin",
+     "tone": "good"
+    },
+    "callout": {
+     "text": "Content ≈ one third",
+     "at": "roughly"
+    }
+   },
+   "text": "Now let's follow one hundred dollars of Netflix revenue, using the numbers from its third quarter statement. About thirty three dollars went to content, the cost of shows and films spread over time. About thirty two dollars covered everything else: marketing, technology, staff, streaming delivery and administration. And about thirty five dollars was left as operating profit, before interest and taxes. That is the thirty four point six percent operating margin from the start. Content alone eats roughly a third of every dollar, which is why it's the number to watch."
+  },
+  {
+   "id": "s05",
+   "kind": "compare",
+   "chapter": "The content trick",
+   "chapterTitle": "Cash spent vs cost on paper",
+   "broll": [
+    "9330",
+    "45923"
+   ],
+   "cards": [
+    {
+     "title": "Cash out",
+     "sub": "paid when the show is made",
+     "at": "cash"
+    },
+    {
+     "title": "Expense",
+     "sub": "spread over several years",
+     "at": "spread"
+    }
+   ],
+   "big": {
+    "value": "1.1x",
+    "sub": "cash content spend vs amortization",
+    "at": "times"
+   },
+   "bars": [
+    {
+     "label": "Cash paid (9 months)",
+     "value": "$14.9B",
+     "fill": 1.0,
+     "tone": "bad",
+     "at": "fourteen"
+    },
+    {
+     "label": "Expense (9 months)",
+     "value": "$12.8B",
+     "fill": 0.86,
+     "tone": "good",
+     "at": "twelve"
+    }
+   ],
+   "footer": {
+    "text": "Profit on paper ≠ cash in the bank",
+    "at": "paper"
+   },
+   "text": "Here's an accounting detail most people miss. When Netflix makes a series, it pays the cash up front, but the expense is spread over several years. That's called amortization. In the first nine months of twenty twenty six, Netflix paid about fourteen point nine billion dollars in cash for content, while its income statement showed about twelve point eight billion of content expense. Netflix says its yearly cash spend runs at about one point one times amortization. So profit on paper and cash in the bank are not the same thing."
+  },
+  {
+   "id": "s06",
+   "kind": "rows",
+   "chapter": "Around the world",
+   "chapterTitle": "Revenue by region",
+   "broll": [
+    "41541",
+    "13218"
+   ],
+   "items": [
+    {
+     "name": "US & Canada  $5.6B",
+     "desc": "+11% year over year, about 44% of revenue",
+     "at": "canada"
+    },
+    {
+     "name": "Europe, Mid. East, Africa  $4.1B",
+     "desc": "+11% year over year",
+     "at": "europe"
+    },
+    {
+     "name": "Latin America  $1.6B",
+     "desc": "+17%, the fastest growth this quarter",
+     "at": "latin"
+    },
+    {
+     "name": "Asia-Pacific  $1.5B",
+     "desc": "+12% (+15% excluding currency moves)",
+     "at": "asia"
+    }
+   ],
+   "footer": {
+    "text": "Q3 2026, Netflix shareholder letter",
+    "at": "still"
+   },
+   "text": "Where in the world does the money come from? In the third quarter, the United States and Canada brought in about five point six billion dollars, around forty four percent of the total, growing eleven percent. Europe, the Middle East and Africa added four point one billion, also up eleven percent. Latin America made one point six billion and grew fastest, at seventeen percent. And Asia Pacific brought in one point five billion, up twelve percent. North America is still the biggest wallet, but the growth is spread around the world."
+  },
+  {
+   "id": "s07",
+   "kind": "compare",
+   "chapter": "Ads",
+   "chapterTitle": "The ad business: growing, but slower than planned",
+   "broll": [
+    "4908",
+    "46990"
+   ],
+   "cards": [
+    {
+     "title": "2025",
+     "sub": "first big ad year",
+     "at": "grew"
+    },
+    {
+     "title": "2026",
+     "sub": "still growing fast",
+     "at": "expected"
+    }
+   ],
+   "big": {
+    "value": "~$2.7B",
+    "sub": "ad revenue expected in 2026",
+    "at": "seven"
+   },
+   "bars": [
+    {
+     "label": "2025 ad revenue",
+     "value": "$1.5B",
+     "fill": 0.5,
+     "tone": "accent",
+     "at": "one"
+    },
+    {
+     "label": "Earlier 2026 goal",
+     "value": "~$3B",
+     "fill": 1.0,
+     "tone": "bad",
+     "at": "three"
+    },
+    {
+     "label": "2026 now expected",
+     "value": "~$2.7B",
+     "fill": 0.9,
+     "tone": "good",
+     "at": "seven"
+    }
+   ],
+   "footer": {
+    "text": "Ad plans come to 15 more countries from March 2027",
+    "at": "fifteen"
+   },
+   "text": "Ads are Netflix's newest money machine. In twenty twenty five, ad revenue grew more than two and a half times, to about one point five billion dollars. In January, Netflix said it expected to roughly double that again, to around three billion dollars. In October, it lowered the goal to about two point seven billion, because some ad products are rolling out more slowly than planned. Still, that's strong growth. And the ad plan is coming to fifteen more countries, starting in March twenty twenty seven."
+  },
+  {
+   "id": "s08",
+   "kind": "steps",
+   "chapter": "Growth levers",
+   "chapterTitle": "The four ways Netflix grows",
+   "broll": [
+    "42664",
+    "44588"
+   ],
+   "items": [
+    {
+     "text": "More members, especially outside the US",
+     "at": "members"
+    },
+    {
+     "text": "Higher prices over time",
+     "at": "prices"
+    },
+    {
+     "text": "More ad revenue per viewer",
+     "at": "ads"
+    },
+    {
+     "text": "Live events and games to keep people watching",
+     "at": "live"
+    }
+   ],
+   "footer": {
+    "text": "Pricing power is the quiet superpower",
+    "at": "superpower",
+    "highlight": true,
+    "tone": "accent"
+   },
+   "text": "So how does Netflix keep growing? There are four main levers. First, more members, especially outside the United States. Second, higher prices. Netflix raised prices in twenty twenty six and says members reacted about as it expected. Third, ads, which let it earn from people on cheaper plans. And fourth, live events and games that give people new reasons to open the app, like NFL games and a big boxing night this quarter. When customers stay after a price increase, that's called pricing power, and it's the quiet superpower of this business."
+  },
+  {
+   "id": "s09",
+   "kind": "compare",
+   "chapter": "Margins",
+   "chapterTitle": "Why profit is growing faster than revenue",
+   "broll": [
+    "9607",
+    "47793"
+   ],
+   "cards": [
+    {
+     "title": "Revenue",
+     "sub": "+12% in Q3 2026",
+     "at": "revenue"
+    },
+    {
+     "title": "Operating profit",
+     "sub": "+37% in Q3 2026",
+     "at": "profit"
+    }
+   ],
+   "big": {
+    "value": "31.5%",
+    "sub": "full-year 2026 margin forecast",
+    "at": "full"
+   },
+   "bars": [
+    {
+     "label": "2025 operating margin",
+     "value": "29.5%",
+     "fill": 0.86,
+     "tone": "accent",
+     "at": "twenty"
+    },
+    {
+     "label": "2026 forecast",
+     "value": "31.5%",
+     "fill": 0.92,
+     "tone": "good",
+     "at": "thirty",
+     "nth": 1
+    },
+    {
+     "label": "Q4 2026 forecast",
+     "value": "26.0%",
+     "fill": 0.75,
+     "tone": "bad",
+     "at": "twenty",
+     "nth": 3
+    }
+   ],
+   "footer": {
+    "text": "Fixed costs + more revenue = wider margins",
+    "at": "widen"
+   },
+   "text": "This is where the fixed cost model pays off. In the third quarter, revenue grew twelve percent, but operating profit grew thirty seven percent. When costs don't rise as fast as sales, margins widen. For the full year, Netflix forecasts an operating margin of thirty one point five percent, up from twenty nine point five percent in twenty twenty five. The fourth quarter will look lower, around twenty six percent, partly because of heavier spending and job cuts. Margins move around by quarter, so watch the yearly number."
+  },
+  {
+   "id": "s10",
+   "kind": "stat",
+   "chapter": "Cash",
+   "chapterTitle": "Free cash flow: the money left over",
+   "broll": [
+    "18296",
+    "26758"
+   ],
+   "badge": "Free cash flow Netflix expects for 2026",
+   "numberValue": 12,
+   "prefix": "$",
+   "unit": "B",
+   "sub": "Lowered from about $12.5B, mainly due to a real estate deal",
+   "big": {
+    "at": "twelve"
+   },
+   "chips": [
+    {
+     "text": "Q3 2026 alone: $2.9B",
+     "at": "quarter"
+    },
+    {
+     "text": "Cash after content and investment",
+     "at": "after"
+    }
+   ],
+   "text": "Profit is nice, but cash is what pays the bills. Free cash flow is the money left after paying for operations, content and investments. Netflix now expects about twelve billion dollars of free cash flow in twenty twenty six, down from an earlier estimate of about twelve and a half billion, mainly because of a real estate transaction it expects to close. In the third quarter alone, it generated about two point nine billion. That cash is what lets Netflix fund new shows, sports rights and buy back its own shares."
+  },
+  {
+   "id": "s11",
+   "kind": "questions",
+   "chapter": "Risks",
+   "chapterTitle": "The risks to watch",
+   "broll": [
+    "221",
+    "47796"
+   ],
+   "items": [
+    {
+     "text": "Viewing time growing slowly",
+     "at": "viewing"
+    },
+    {
+     "text": "Ads growing slower than planned",
+     "at": "ads"
+    },
+    {
+     "text": "Rising costs for sports and big shows",
+     "at": "sports"
+    },
+    {
+     "text": "Competition for your screen time",
+     "at": "competition"
+    }
+   ],
+   "footer": {
+    "text": "Education, not a stock tip",
+    "at": "education",
+    "tone": "bad"
+   },
+   "text": "No business is risk free, so here's what to watch. First, viewing time. In the second half of twenty twenty five, members watched ninety six billion hours, only two percent more than a year before, and Netflix's own letter addresses investor worries about this. Second, ads, which just came in below the earlier goal. Third, costs. Sports rights and big shows are expensive. And fourth, competition for your screen time, from other streamers to free video apps. To be clear, this is education, not a stock tip."
+  },
+  {
+   "id": "s12",
+   "kind": "verdict",
+   "chapterTitle": "The big idea",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "badge": "The big idea",
+   "title": "Make once, sell forever",
+   "sub": "Recurring revenue + fixed costs = rising margins",
+   "text": "So here's the big idea. Netflix is a machine that makes something once and sells it again and again, every month, to a huge audience. Recurring revenue plus mostly fixed costs means that every new member and every price increase drops a big share straight to profit. The same lesson works for your own money: income that repeats, like a subscription, is worth far more than a one time sale. And costs that stay flat while income grows are how margins, and savings, get bigger."
+  },
+  {
+   "id": "s13",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "9252",
+    "41541"
+   ],
+   "title": "Follow the money",
+   "accent": [
+    2
+   ],
+   "next": "Build a Second Brain with AI and Notion (Step by Step)",
+   "text": "So that's how Netflix makes money: memberships first, ads second, and a cost structure that rewards scale. Which company's business model should I break down next? Tell me in the comments. I read them. If this helped, subscribe to Future Money Lab. This is education, not financial advice. Next up, I'll show you how to build a second brain with AI and Notion, step by step."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "WHERE $100 GOES",
+   "line2": "NETFLIX, EXPLAINED",
+   "tag": "Business model breakdown"
+  },
+  "b": {
+   "big": "$4.5B PROFIT",
+   "line2": "IN JUST 3 MONTHS",
+   "tag": "Netflix Q3 2026"
+  }
+ },
+ "youtube": {
+  "title": "How Netflix Makes Money: Where Every $100 You Pay Goes",
+  "summary": "How does Netflix actually make money? This is a plain-English breakdown of Netflix's business model using its latest shareholder letter (Q3 2026): the pay-once, sell-millions-of-times model, where revenue comes from (memberships vs ads), where every $100 of revenue goes, why content cash spend and content expense differ, revenue by region, the ad business, the four growth levers, why profit is growing faster than revenue, free cash flow, and the risks to watch.",
+  "details": "Numbers mentioned (checked November 2026):\n- Q3 2026 (July to September): revenue $12.87B (+12% YoY), operating income $4.46B (+37%), operating margin 34.6% vs 28.2% a year earlier, net income $3.66B, free cash flow $2.88B (Netflix Q3 2026 shareholder letter, Oct 20, 2026).\n- 'Where $100 goes' is our calculation from the Q3 2026 statement of operations: content amortization $4.24B ≈ 33%, operating income ≈ 35%, all other operating costs ≈ 32% (rounded).\n- Content: cash additions to content assets $14.93B vs content amortization $12.76B, Jan–Sep 2026; Netflix targets a cash spend to amortization ratio of about 1.1x (same letter).\n- Q3 2026 revenue by region: US & Canada $5.63B (+11%), EMEA $4.11B (+11%), Latin America $1.60B (+17%), Asia-Pacific $1.54B (+12%, +15% FX-neutral) (same letter).\n- 2026 forecasts: revenue $51.1B (+13%), operating margin 31.5% vs 29.5% in 2025, Q4 margin 26.0%, free cash flow about $12.0B (lowered from about $12.5B, mainly due to a real estate transaction), ad revenue about $2.7B (previously about $3B); ad plan to launch in 15 more countries starting March 2027 (same letter).\n- 2025: revenue $45.2B, more than 325 million paid subscribers at year end, ad revenue more than 2.5x to over $1.5B (Advanced Television and AdExchanger, Jan 2026, reporting Netflix's Q4 2025 results).\n- 96 billion viewing hours in H2 2025, +2% YoY (TheWrap, Jan 2026).\n- '~$48B mostly memberships' is our estimate: $51.1B forecast minus ~$2.7B ads.\n- This video does not recommend buying or selling any stock.",
+  "sources": [
+   {
+    "name": "Netflix: Q3 2026 Shareholder Letter (Oct 20, 2026)",
+    "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf"
+   },
+   {
+    "name": "Advanced Television: Netflix 2025 revenue at $45.2bn; over 325m subs (Jan 2026)",
+    "url": "https://www.advanced-television.com/2026/01/20/netflix-2025-revenue-at-45-2bn/"
+   },
+   {
+    "name": "AdExchanger: Netflix doubled its ad revenue last year and expects to do the same in 2026 (Jan 2026)",
+    "url": "https://www.adexchanger.com/streaming/netflix-doubled-its-ad-revenue-last-year-and-expects-to-do-the-same-in-2026/"
+   },
+   {
+    "name": "TheWrap: Netflix teases price increase in 2026, predicts ad revenue will double (Jan 2026)",
+    "url": "https://www.thewrap.com/industry-news/business/netflix-pricing-increase-2026-ad-doubling/"
+   }
+  ],
+  "tags": [
+   "how Netflix makes money",
+   "Netflix business model",
+   "Netflix earnings 2026",
+   "Netflix Q3 2026",
+   "Netflix ad revenue",
+   "streaming business model",
+   "subscription business model",
+   "operating margin explained",
+   "free cash flow explained",
+   "business model breakdown",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#Netflix",
+   "#business",
+   "#money"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s04"
+   ],
+   "headline": "Where every $100 you pay Netflix goes",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s05"
+   ],
+   "headline": "Why Netflix's profit isn't its cash",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s07"
+   ],
+   "headline": "Netflix's ad business, in numbers",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
