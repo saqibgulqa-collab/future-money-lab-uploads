@@ -1,7 +1,7 @@
 {
  "id": "E15",
  "num": 13,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "A",
  "title": "Build a Second Brain with AI and Notion (Step by Step)",
  "music": "music_744.mp3",
@@ -534,5 +534,23 @@
    "headline": "What Notion AI really costs",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 426612058,
+  "publishAt": "2026-11-23T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 426612074,
+    "publishAt": "2026-11-23T02:45:00+05:00"
+   },
+   {
+    "postId": 426612088,
+    "publishAt": "2026-11-23T06:45:00+05:00"
+   },
+   {
+    "postId": 426612110,
+    "publishAt": "2026-11-23T21:15:00+05:00"
+   }
+  ]
+ }
 }
