@@ -1,0 +1,538 @@
+{
+ "id": "E15",
+ "num": 13,
+ "status": "draft",
+ "pillar": "A",
+ "title": "Build a Second Brain with AI and Notion (Step by Step)",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "The search problem",
+   "chapterTitle": "Intro: up to 2 hours a day, just searching",
+   "broll": [
+    "4907",
+    "221"
+   ],
+   "badge": "Workers who waste up to 2 hours a day finding information",
+   "numberValue": 53,
+   "prefix": "",
+   "unit": "%",
+   "sub": "Lucid poll of 2,000+ knowledge workers (UK), May 2025",
+   "big": {
+    "at": "fifty"
+   },
+   "chips": [
+    {
+     "text": "Up to 2 hours a day",
+     "at": "up"
+    },
+    {
+     "text": "One trusted place",
+     "at": "trusted"
+    }
+   ],
+   "text": "More than half of office workers, fifty three percent, say they waste up to two hours a day just trying to find the information they need for their job. That's from a poll of more than two thousand knowledge workers by the software company Lucid, reported in May twenty twenty five. The fix isn't a better memory. It's a second brain: one trusted place for your notes, ideas and files. In this video, I'll show you how to build one in Notion with AI, step by step. The structure, the setup, the exact prompts, what's free, and the mistakes to avoid."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The promise",
+   "chapterTitle": "The plan: Notion stores, AI sorts, you decide",
+   "broll": [
+    "46768",
+    "1730"
+   ],
+   "badge": "The promise",
+   "title": "Your second brain in one afternoon",
+   "sub": "Notion stores it. AI does the busy work. You decide.",
+   "accent": [
+    1,
+    2
+   ],
+   "text": "Here's the promise. By the end of this video, you'll know how to set up a working second brain in one afternoon. Notion is the storage: pages and databases where everything lives. AI does the busy work: sorting, summarizing and finding things. And you make the decisions. One honest note before we start: a second brain only helps if you use it. So we'll keep the system small, simple, and built around the work you're doing right now, not around collecting more stuff."
+  },
+  {
+   "id": "s03",
+   "kind": "questions",
+   "chapter": "What it is",
+   "chapterTitle": "What a second brain really is",
+   "broll": [
+    "4806",
+    "45923"
+   ],
+   "items": [
+    {
+     "text": "Where do I put this?",
+     "at": "put"
+    },
+    {
+     "text": "Where did I save that?",
+     "at": "save"
+    },
+    {
+     "text": "What do I do with it?",
+     "at": "actually"
+    }
+   ],
+   "footer": {
+    "text": "Most apps fail question one",
+    "highlight": "Structure fixes it.",
+    "tone": "accent",
+    "at": "structure"
+   },
+   "text": "So what is a second brain, really? It's a system that answers three questions without you thinking hard. One: where do I put this new idea, link or file? Two: where did I save that thing I need right now? Three: what do I actually do with it? Most note apps fail on the first question. Everything goes into one giant list, and finding it later becomes the two hour problem. The structure we'll use fixes that, and it's called PARA."
+  },
+  {
+   "id": "s04",
+   "kind": "rows",
+   "chapter": "The structure",
+   "chapterTitle": "PARA: the 4 folders for everything",
+   "broll": [
+    "42664",
+    "4806"
+   ],
+   "items": [
+    {
+     "name": "Projects",
+     "desc": "Short-term, with a goal and an end",
+     "at": "projects"
+    },
+    {
+     "name": "Areas",
+     "desc": "Ongoing: health, money, a client",
+     "at": "areas"
+    },
+    {
+     "name": "Resources",
+     "desc": "Topics you're learning about",
+     "at": "resources"
+    },
+    {
+     "name": "Archives",
+     "desc": "Inactive, kept for later",
+     "at": "archives"
+    }
+   ],
+   "footer": {
+    "text": "Sort by what it's for, not by subject",
+    "at": "trick"
+   },
+   "text": "PARA comes from productivity writer Tiago Forte, the author of Building a Second Brain. It sorts everything into four groups, based on how actionable it is. Projects are short-term efforts with a clear goal and an end, like launching a website. Areas are parts of your life or work that need ongoing attention, like health, finances or a client. Resources are topics you're interested in or learning about. And Archives hold anything that's no longer active but that you might want later. The trick is to sort by what you're using it for, not by subject."
+  },
+  {
+   "id": "s05",
+   "kind": "steps",
+   "chapter": "Setup",
+   "chapterTitle": "Set it up in Notion in 4 steps",
+   "broll": [
+    "1730",
+    "4907"
+   ],
+   "items": [
+    {
+     "text": "Inbox page: everything lands here",
+     "at": "inbox"
+    },
+    {
+     "text": "One Notes database + a Type property",
+     "at": "database"
+    },
+    {
+     "text": "Status: new, in use, done",
+     "at": "status"
+    },
+    {
+     "text": "Link notes to projects",
+     "at": "link"
+    }
+   ],
+   "footer": {
+    "text": "One database beats four folders",
+    "highlight": "Easier to search.",
+    "tone": "good",
+    "at": "skeleton"
+   },
+   "text": "Now let's build it in Notion. Step one: create a page called Inbox. Everything new lands here first, with no sorting. Step two: create one database called Notes, with a property called Type that has four options: Project, Area, Resource and Archive. One database is easier to search than four separate pages. Step three: add a Status property, so you can mark each note as new, in use, or done. Step four: create a Projects database and link each note to the project it supports. That's the whole skeleton, and you can build it in one sitting."
+  },
+  {
+   "id": "s06",
+   "kind": "steps",
+   "chapter": "Capture",
+   "chapterTitle": "Capture anything in 10 seconds",
+   "broll": [
+    "4915",
+    "4908"
+   ],
+   "items": [
+    {
+     "text": "Computer: Notion Web Clipper",
+     "at": "computer"
+    },
+    {
+     "text": "Phone: Share, then pick Notion",
+     "at": "phone"
+    },
+    {
+     "text": "Ideas: one line, no tags",
+     "at": "ideas"
+    }
+   ],
+   "footer": {
+    "text": "Under 10 seconds per capture",
+    "highlight": "Sort later.",
+    "tone": "accent",
+    "at": "sorting"
+   },
+   "text": "Next, capture. The rule is simple: saving something should take less than ten seconds, or you won't do it. On a computer, use the free Notion Web Clipper to send any article straight to your Inbox. On your phone, use the share button and pick Notion. For your own ideas, keep a quick note open and type one line. Don't sort while you capture. Don't add tags yet. Just get it in. Sorting is a separate job, and that's where AI comes in."
+  },
+  {
+   "id": "s07",
+   "kind": "steps",
+   "chapter": "Sort with AI",
+   "chapterTitle": "Let AI sort your inbox (the prompt)",
+   "broll": [
+    "221",
+    "1730"
+   ],
+   "items": [
+    {
+     "text": "Give AI your projects and areas",
+     "at": "here"
+    },
+    {
+     "text": "Paste the Inbox titles",
+     "at": "below"
+    },
+    {
+     "text": "Ask: which PARA group + one-line reason",
+     "at": "suggest"
+    },
+    {
+     "text": "Check, then move each note",
+     "at": "check"
+    }
+   ],
+   "footer": {
+    "text": "AI suggests",
+    "highlight": "You decide.",
+    "tone": "good",
+    "at": "decide"
+   },
+   "text": "Once a week, let AI sort your Inbox. If you pay for Notion AI, open the Inbox and ask it there. If you don't, copy the titles into any free chatbot, like ChatGPT, Claude or Gemini. Use this prompt: here are my current projects and areas. For each item below, suggest Project, Area, Resource or Archive, and give a one line reason. Then check the list and move each note yourself. AI suggests, you decide. It's fast, because AI does the thinking you'd normally put off, and you still catch the ones it gets wrong."
+  },
+  {
+   "id": "s08",
+   "kind": "steps",
+   "chapter": "Distill",
+   "chapterTitle": "Turn long notes into 30-second summaries",
+   "broll": [
+    "46768",
+    "45923"
+   ],
+   "items": [
+    {
+     "text": "3-bullet summary",
+     "at": "three"
+    },
+    {
+     "text": "1 action I could take",
+     "at": "action"
+    },
+    {
+     "text": "1 open question",
+     "at": "question"
+    },
+    {
+     "text": "Check numbers against the source",
+     "at": "numbers"
+    }
+   ],
+   "footer": {
+    "text": "Summary on top, original below",
+    "highlight": "Read in 30 seconds.",
+    "tone": "accent",
+    "at": "months"
+   },
+   "text": "Saving an article isn't the same as learning from it. So for anything long, ask AI for a short summary you can read in thirty seconds. Here's a prompt that works: summarize this in three bullet points, list one action I could take, and one question it leaves open. Paste the answer at the top of the note, above the original. Months later, you'll read the summary instead of the whole page. One warning: AI summaries can miss things or get details wrong, so check numbers and quotes against the source before you use them."
+  },
+  {
+   "id": "s09",
+   "kind": "compare",
+   "chapter": "The cost",
+   "chapterTitle": "What Notion AI costs (and the free route)",
+   "broll": [
+    "18302",
+    "46990"
+   ],
+   "cards": [
+    {
+     "title": "Free / Plus",
+     "sub": "Limited Notion AI trial only",
+     "at": "free"
+    },
+    {
+     "title": "Business",
+     "sub": "Notion AI + monthly credits",
+     "at": "business"
+    }
+   ],
+   "big": {
+    "value": "$240/yr",
+    "sub": "Notion AI, one person",
+    "at": "hundred"
+   },
+   "bars": [
+    {
+     "label": "Free",
+     "value": "$0",
+     "fill": 0.03,
+     "tone": "good",
+     "at": "zero"
+    },
+    {
+     "label": "Plus",
+     "value": "$10/mo",
+     "fill": 0.42,
+     "tone": "bad",
+     "at": "plus"
+    },
+    {
+     "label": "Business",
+     "value": "$20/mo",
+     "fill": 0.83,
+     "tone": "bad",
+     "at": "business"
+    }
+   ],
+   "footer": {
+    "text": "Prices checked November 2026, billed yearly",
+    "at": "checked"
+   },
+   "text": "What does this cost? Notion's Free plan costs zero dollars, but it only includes a limited trial of Notion AI. Plus is ten dollars per member a month on a yearly plan, or twelve billed monthly, and it still only gets the AI trial. Business is twenty dollars a month yearly, or twenty four monthly, and that's the plan that includes Notion AI, with monthly AI credits for each member. So for one person, Notion AI means about two hundred forty dollars a year. Or you can stay free and use a free chatbot instead. Prices checked November twenty twenty six."
+  },
+  {
+   "id": "s10",
+   "kind": "cards",
+   "chapter": "The free plan",
+   "chapterTitle": "Is Notion's free plan enough?",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "items": [
+    {
+     "title": "Pages",
+     "value": "Unlimited",
+     "sub": "for one person",
+     "at": "pages"
+    },
+    {
+     "title": "File uploads",
+     "value": "5 MB",
+     "sub": "per file",
+     "at": "files"
+    },
+    {
+     "title": "Page history",
+     "value": "7 days",
+     "sub": "on the Free plan",
+     "at": "history"
+    },
+    {
+     "title": "Guests",
+     "value": "10",
+     "sub": "outside people",
+     "at": "guests"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Big files: paste a cloud link",
+     "at": "store"
+    },
+    {
+     "text": "Free chatbot for the AI part",
+     "at": "route"
+    }
+   ],
+   "footer": {
+    "text": "Free plan limits, checked November 2026",
+    "at": "upgrade"
+   },
+   "text": "And for most people, the Free plan is enough to start. For one person, pages and blocks are unlimited. The limits: files you upload can be up to five megabytes each, page history only goes back seven days, and you can invite up to ten guests. For a personal second brain, that's usually fine. Store big files, like videos, in your cloud drive and paste the link into Notion. So the free route is Notion Free plus a free chatbot for sorting and summaries. Upgrade only if copying and pasting starts costing you real time."
+  },
+  {
+   "id": "s11",
+   "kind": "rows",
+   "chapter": "Watch out",
+   "chapterTitle": "5 mistakes that kill a second brain",
+   "broll": [
+    "4908",
+    "42648"
+   ],
+   "items": [
+    {
+     "name": "Perfect first",
+     "desc": "Start simple, improve later",
+     "at": "building"
+    },
+    {
+     "name": "Hoarding",
+     "desc": "A note that never helps is clutter",
+     "at": "collecting"
+    },
+    {
+     "name": "Tag overload",
+     "desc": "4 types and a status are enough",
+     "at": "tags"
+    },
+    {
+     "name": "Private data",
+     "desc": "No passwords, client data, medical info",
+     "at": "private"
+    },
+    {
+     "name": "Blind trust",
+     "desc": "Summaries can sound sure and be wrong",
+     "at": "trusting"
+    }
+   ],
+   "footer": {
+    "text": "Save time, don't create a second job",
+    "at": "job"
+   },
+   "text": "Now the five mistakes that kill most second brains. One: building the perfect system before saving anything. Start simple. Two: collecting without using. If a note never helps a project, it's clutter. Three: too many tags. Four types and a status are enough. Four: pasting private things into AI, like passwords, client data or medical details. Check your company's rules first. And five: trusting AI summaries blindly. They can sound sure and still be wrong. Your second brain should save you time, not become a second job."
+  },
+  {
+   "id": "s12",
+   "kind": "steps",
+   "chapter": "Your routine",
+   "chapterTitle": "The 15-minute weekly review",
+   "broll": [
+    "42653",
+    "26923"
+   ],
+   "items": [
+    {
+     "text": "Empty the Inbox with AI",
+     "at": "first"
+    },
+    {
+     "text": "Update your projects",
+     "at": "second"
+    },
+    {
+     "text": "Archive finished projects",
+     "at": "third"
+    },
+    {
+     "text": "Use one saved note this week",
+     "at": "last"
+    }
+   ],
+   "footer": {
+    "text": "15 minutes a week",
+    "highlight": "Use one note.",
+    "tone": "good",
+    "at": "point"
+   },
+   "text": "Finally, the habit that keeps it alive: a fifteen minute weekly review. First, empty your Inbox: let AI suggest where each note goes, then move it. Second, update your projects: mark what's done and add what's new. Third, move finished projects and their notes to Archive, so your active lists stay short. And last, pick one saved note and actually use it this week, in an email, a plan or a decision. That last step is the whole point. A second brain isn't a library. It's a tool for getting work done."
+  },
+  {
+   "id": "s13",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "41541"
+   ],
+   "title": "Build it this weekend",
+   "accent": [
+    3
+   ],
+   "next": "Emergency Fund: How Much You Really Need",
+   "text": "So that's the system. Capture fast into an Inbox, sort with PARA, let AI suggest and summarize, and review once a week. Start with the free plan and a free chatbot, and upgrade only if you need to. What's the one thing you always lose and have to search for? Tell me in the comments. I read them. If this helped, subscribe to Future Money Lab. Next up, emergency funds: how much you really need, and where to keep it."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "BUILD A SECOND BRAIN",
+   "line2": "NOTION + AI",
+   "tag": "Second brain with AI"
+  },
+  "b": {
+   "kicker": "NOTION + AI SYSTEM",
+   "from": "CHAOS",
+   "to": "PARA",
+   "line2": "IN ONE AFTERNOON",
+   "tag": "Second brain with AI"
+  }
+ },
+ "youtube": {
+  "title": "Build a Second Brain with AI and Notion (Step by Step)",
+  "summary": "53% of workers say they waste up to two hours a day looking for information (Lucid poll, May 2025). This is a step-by-step guide to building a second brain in Notion with AI: Tiago Forte's PARA structure (Projects, Areas, Resources, Archives), a simple 4-step Notion setup with one database, capturing in under 10 seconds, prompts to let AI sort your inbox and summarize long notes, what Notion AI costs vs the free route, the Free plan limits, 5 mistakes to avoid, and a 15-minute weekly review.",
+  "details": "Numbers mentioned (checked November 2026; plans change often, always confirm on Notion's official pricing page):\n- 53% of workers waste up to two hours a day trying to find information they need for their job; poll of more than 2,000 knowledge workers by Lucid (UK-focused), reported by Personnel Today, May 6, 2025.\n- PARA (Projects, Areas, Resources, Archives) is a framework by Tiago Forte, author of Building a Second Brain; definitions paraphrased from Taskade's guide.\n- Notion plans per member: Free $0; Plus $10/month billed yearly or $12 monthly; Business $20/month billed yearly or $24 monthly; Enterprise custom. Free and Plus get only a limited Notion AI trial; Business includes Notion AI with monthly credits per member (1,500 Standard + 500 Select per the sources) (Breeze, Sep 2026; Dupple, Oct 2026).\n- '$240 a year' = $20 x 12 months for one Business member, billed yearly.\n- Notion Free plan: unlimited pages and blocks for one person, files up to 5 MB each, 7 days of page history, up to 10 guests (Dupple, Oct 2026).\n- The prompts and the weekly review are our own suggested workflow, not measured results.",
+  "sources": [
+   {
+    "name": "Personnel Today: Half of workers waste two hours a day just looking for stuff (Lucid poll, May 2025)",
+    "url": "https://www.personneltoday.com/hr/half-of-workers-waste-two-hours-a-day-just-looking-for-stuff"
+   },
+   {
+    "name": "Taskade: The PARA Method (Tiago Forte's framework explained, updated Oct 2026)",
+    "url": "https://taskade.com/blog/the-para-method"
+   },
+   {
+    "name": "Breeze: Notion AI pricing in 2026: plans, credits and Workers (Sep 2026)",
+    "url": "https://www.breeze.pm/articles/notion-ai-pricing"
+   },
+   {
+    "name": "Dupple: Is Notion free in 2026? (Oct 2026)",
+    "url": "https://dupple.com/learn/is-notion-free"
+   }
+  ],
+  "tags": [
+   "second brain",
+   "build a second brain",
+   "Notion second brain",
+   "PARA method",
+   "Notion AI",
+   "Notion tutorial",
+   "note taking system",
+   "personal knowledge management",
+   "AI productivity",
+   "Tiago Forte",
+   "AI tools",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#AItools",
+   "#productivity",
+   "#Notion"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s04"
+   ],
+   "headline": "The 4 folders that organize everything",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s11"
+   ],
+   "headline": "5 mistakes that kill a second brain",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s09"
+   ],
+   "headline": "What Notion AI really costs",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
