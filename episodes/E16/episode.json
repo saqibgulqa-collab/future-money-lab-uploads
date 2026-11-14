@@ -1,0 +1,520 @@
+{
+ "id": "E16",
+ "num": 18,
+ "status": "draft",
+ "pillar": "B",
+ "title": "Emergency Fund: How Much You Really Need and Where to Keep It",
+ "music": "music_759.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "The $400 test",
+   "chapterTitle": "Intro: the $400 test",
+   "broll": [
+    "18296",
+    "46768"
+   ],
+   "badge": "Adults who'd cover a $400 surprise with cash or its equivalent",
+   "numberValue": 63,
+   "unit": "%",
+   "sub": "Federal Reserve survey of US households, October 2025",
+   "big": {
+    "at": "sixty"
+   },
+   "chips": [
+    {
+     "text": "Unchanged for 3 years",
+     "at": "unchanged"
+    },
+    {
+     "text": "Only 46% have 3 months saved",
+     "at": "forty"
+    }
+   ],
+   "text": "Imagine a four hundred dollar bill lands tomorrow. A car repair, a vet visit, a broken phone. In the Federal Reserve's latest survey of US households, sixty three percent of adults said they'd cover it with cash or its equivalent. That share has been unchanged for three years. And in Bankrate's survey, only forty six percent of Americans had enough emergency savings to cover three months of expenses. In this video, I'll show you how to work out your own number, how fast to build it, and exactly where to keep it."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The basics",
+   "chapterTitle": "What an emergency fund really is",
+   "broll": [
+    "4806",
+    "45923"
+   ],
+   "badge": "The basics",
+   "title": "Money with one job",
+   "sub": "Cash set aside only for surprises, so a bad month doesn't become debt",
+   "accent": [
+    2
+   ],
+   "text": "An emergency fund is money with one job. It sits there, ready, so a surprise expense or a lost paycheck doesn't turn into credit card debt or a panic sale of your investments. It's not your vacation fund, and it's not an investment. Its value is that it's boring, safe and there when you need it. Think of it as insurance you pay to yourself. The goal isn't to grow rich with it. The goal is to make sure one bad month can't knock your whole plan off course."
+  },
+  {
+   "id": "s03",
+   "kind": "cards",
+   "chapter": "Where people stand",
+   "chapterTitle": "How much Americans actually have saved",
+   "broll": [
+    "42648",
+    "18302"
+   ],
+   "items": [
+    {
+     "title": "No emergency savings",
+     "value": "24%",
+     "sub": "nothing set aside",
+     "at": "nothing"
+    },
+    {
+     "title": "3 months or more",
+     "value": "46%",
+     "sub": "of Americans",
+     "at": "three"
+    },
+    {
+     "title": "6 months or more",
+     "value": "27%",
+     "sub": "of Americans",
+     "at": "six",
+     "nth": 1
+    }
+   ],
+   "chips": [
+    {
+     "text": "Bankrate survey, May 2025",
+     "at": "bankrate"
+    },
+    {
+     "text": "60% feel uncomfortable",
+     "at": "uncomfortable"
+    }
+   ],
+   "footer": {
+    "text": "Most people know they're short",
+    "at": "short"
+   },
+   "text": "So where do most people stand? Bankrate's twenty twenty six emergency savings report, based on a survey from May twenty twenty five, found that nearly one in four Americans have nothing set aside at all. Forty six percent could cover three months of expenses or more, and only twenty seven percent could cover six months or more. Sixty percent said they feel uncomfortable with how much they have saved. So if you're short, you're not alone, and most people know they're short. The good news is that the fix is simple, even if it takes time."
+  },
+  {
+   "id": "s04",
+   "kind": "rows",
+   "chapter": "What counts",
+   "chapterTitle": "What counts as an emergency",
+   "broll": [
+    "4915",
+    "42897"
+   ],
+   "items": [
+    {
+     "name": "Job loss",
+     "desc": "Covers essentials while you find work",
+     "at": "job"
+    },
+    {
+     "name": "Medical bill",
+     "desc": "Unplanned costs after insurance",
+     "at": "medical"
+    },
+    {
+     "name": "Urgent repair",
+     "desc": "Things you need to keep working and living",
+     "at": "repair"
+    },
+    {
+     "name": "Not urgent",
+     "desc": "Sales, trips, gifts: plan for those instead",
+     "at": "sale"
+    }
+   ],
+   "footer": {
+    "text": "37% used emergency savings in the past year",
+    "at": "thirty"
+   },
+   "text": "Before you set a number, decide what the money is for. A real emergency is unexpected, necessary and urgent. Losing your job or getting your hours cut. A medical or dental bill. An urgent car or home repair you need to keep working and living. A great sale, a trip or a holiday gift is not an emergency, because you can plan for it. And these surprises are common. In a Bankrate survey from February twenty twenty five, thirty seven percent of US adults said they'd used their emergency savings in the past twelve months."
+  },
+  {
+   "id": "s05",
+   "kind": "pricelist",
+   "chapter": "Your number",
+   "chapterTitle": "Work out your number in 2 minutes",
+   "broll": [
+    "4806",
+    "46990"
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "Rent or mortgage",
+     "value": "$1,400",
+     "num": 1400,
+     "at": "rent"
+    },
+    {
+     "label": "Utilities and phone",
+     "value": "$200",
+     "num": 200,
+     "at": "utilities"
+    },
+    {
+     "label": "Groceries",
+     "value": "$450",
+     "num": 450,
+     "at": "groceries"
+    },
+    {
+     "label": "Transport",
+     "value": "$300",
+     "num": 300,
+     "at": "transport"
+    },
+    {
+     "label": "Insurance",
+     "value": "$250",
+     "num": 250,
+     "at": "insurance"
+    },
+    {
+     "label": "Minimum debt payments",
+     "value": "$200",
+     "num": 200,
+     "at": "minimum"
+    }
+   ],
+   "total": {
+    "label": "Essentials per month",
+    "yearly": {
+     "text": "3 months = $8,400",
+     "at": "eight",
+     "tone": "accent",
+     "nth": 1
+    },
+    "callout": {
+     "text": "6 months = $16,800",
+     "at": "sixteen"
+    }
+   },
+   "text": "Here's how to work out your number. Don't use your total spending. Use only the essentials you'd still have to pay if your income stopped. Here's an example with made up numbers. Rent or mortgage, fourteen hundred dollars. Utilities and phone, two hundred. Groceries, four hundred fifty. Transport, three hundred. Insurance, two hundred fifty. And minimum debt payments, two hundred. That's two thousand eight hundred dollars a month. Three months is eight thousand four hundred dollars. Six months is sixteen thousand eight hundred. Grab your last three bank statements and do the same with your own bills."
+  },
+  {
+   "id": "s06",
+   "kind": "rows",
+   "chapter": "3 or 6 months?",
+   "chapterTitle": "3 months or 6 months? It depends",
+   "broll": [
+    "42664",
+    "13218"
+   ],
+   "items": [
+    {
+     "name": "Closer to 3 months",
+     "desc": "Two steady incomes, secure job, low fixed costs",
+     "at": "closer"
+    },
+    {
+     "name": "Aim for 6 months",
+     "desc": "One income, or kids or others who depend on you",
+     "at": "aim"
+    },
+    {
+     "name": "6 months or more",
+     "desc": "Freelance, commission or seasonal pay",
+     "at": "freelance"
+    },
+    {
+     "name": "Add a buffer",
+     "desc": "Older car, a home to maintain, health costs",
+     "at": "buffer"
+    }
+   ],
+   "footer": {
+    "text": "Riskier income, bigger cushion",
+    "at": "risky"
+   },
+   "text": "So, three months or six? The usual rule of thumb is somewhere in that range, and where you land depends on how risky your income is. If your household has two steady incomes, a secure job and low fixed costs, you might be fine closer to three months. If you live on one income, or kids or others depend on you, aim for six. If you're freelance or paid on commission or by season, six months or more makes sense. And add a buffer if you have an older car, a home to maintain or regular health costs."
+  },
+  {
+   "id": "s07",
+   "kind": "stat",
+   "chapter": "The comfort gap",
+   "chapterTitle": "What people say they need vs what they have",
+   "broll": [
+    "47214",
+    "221"
+   ],
+   "badge": "Say they'd need 6+ months saved to feel comfortable",
+   "numberValue": 63,
+   "unit": "%",
+   "sub": "Only 27% actually have that much (Bankrate, May 2025)",
+   "big": {
+    "at": "sixty"
+   },
+   "chips": [
+    {
+     "text": "85% want at least 3 months",
+     "at": "eighty"
+    },
+    {
+     "text": "54% save less due to inflation",
+     "at": "inflation"
+    }
+   ],
+   "text": "Here's the gap in one number. In the same Bankrate survey, sixty three percent of Americans said they'd need at least six months of expenses saved to feel comfortable. But only twenty seven percent actually have that much. Eighty five percent said they'd want at least three months. And fifty four percent said they're saving less because of inflation and rising prices. So the target isn't the problem. Most people already agree on it. The hard part is getting there from where you are today, and that's what the next part is about."
+  },
+  {
+   "id": "s08",
+   "kind": "steps",
+   "chapter": "Build it in stages",
+   "chapterTitle": "Build it in 4 milestones",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "Starter: $500 to $1,000",
+     "at": "starter"
+    },
+    {
+     "text": "One month of essentials",
+     "at": "one",
+     "nth": 1
+    },
+    {
+     "text": "Three months of essentials",
+     "at": "three"
+    },
+    {
+     "text": "Six months, if your income is risky",
+     "at": "six",
+     "nth": 1
+    }
+   ],
+   "footer": {
+    "text": "Each step makes the next surprise smaller",
+    "at": "each"
+   },
+   "text": "Don't stare at sixteen thousand dollars and give up. Build it in milestones. First, a starter fund of five hundred to a thousand dollars, enough for many common surprises. In Bankrate's survey, about a quarter of people who used their emergency savings took out between one thousand and two thousand five hundred dollars. Second, one month of essentials. Third, three months. Fourth, six months if your income is risky. Each step makes the next surprise smaller, and you'll feel the difference long before you hit the final number."
+  },
+  {
+   "id": "s09",
+   "kind": "compare",
+   "chapter": "Where to keep it",
+   "chapterTitle": "Big bank savings vs high-yield savings",
+   "broll": [
+    "9607",
+    "18263"
+   ],
+   "cards": [
+    {
+     "title": "National average",
+     "sub": "0.56% APY",
+     "at": "national"
+    },
+    {
+     "title": "Top high-yield",
+     "sub": "up to 4.35% APY",
+     "at": "top"
+    }
+   ],
+   "big": {
+    "value": "$435 vs $56",
+    "sub": "a year on $10,000 (before tax)",
+    "at": "ten"
+   },
+   "bars": [
+    {
+     "label": "Top high-yield savings",
+     "value": "$435",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "four"
+    },
+    {
+     "label": "Average savings account",
+     "value": "$56",
+     "fill": 0.13,
+     "tone": "bad",
+     "at": "fifty"
+    }
+   ],
+   "footer": {
+    "text": "Rates checked November 2026; they change often",
+    "at": "change"
+   },
+   "text": "Now, where should it live? Not under the mattress, and probably not in a basic savings account either. According to Bankrate, the national average savings rate is about zero point five six percent, while the top high yield savings accounts it tracked paid up to four point three five percent in November twenty twenty six. On ten thousand dollars over a year, that's roughly four hundred thirty five dollars versus about fifty six dollars, before tax. Same safety, same access, very different interest. Rates change often, so check the current ones before you open anything."
+  },
+  {
+   "id": "s10",
+   "kind": "cards",
+   "chapter": "3 rules",
+   "chapterTitle": "The 3 rules for where to keep it",
+   "broll": [
+    "5461",
+    "4908"
+   ],
+   "items": [
+    {
+     "title": "Safe",
+     "value": "Insured",
+     "sub": "FDIC bank or NCUA credit union",
+     "at": "safe"
+    },
+    {
+     "title": "Liquid",
+     "value": "1-2 days",
+     "sub": "reach it without penalties",
+     "at": "liquid"
+    },
+    {
+     "title": "Separate",
+     "value": "Own account",
+     "sub": "away from everyday spending",
+     "at": "separate"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Not in stocks",
+     "at": "stocks"
+    },
+    {
+     "text": "Not a credit card limit",
+     "at": "credit"
+    }
+   ],
+   "footer": {
+    "text": "High-yield savings or money market account",
+    "at": "money"
+   },
+   "text": "Use three rules. Safe: keep it at a bank insured by the FDIC or a credit union insured by the NCUA. Liquid: you should be able to reach it within a day or two without penalties. Separate: give it its own account, away from your everyday checking, so you don't spend it by accident. That's why it shouldn't be in stocks, which can be down exactly when you lose your job. And a credit card limit is not an emergency fund. For most people, a high yield savings or money market account ticks all three boxes."
+  },
+  {
+   "id": "s11",
+   "kind": "steps",
+   "chapter": "Make it automatic",
+   "chapterTitle": "5 ways to build it faster",
+   "broll": [
+    "1730",
+    "31407"
+   ],
+   "items": [
+    {
+     "text": "Automatic transfer on payday",
+     "at": "automatic"
+    },
+    {
+     "text": "Send windfalls straight in",
+     "at": "windfalls"
+    },
+    {
+     "text": "Cancel one subscription, redirect it",
+     "at": "cancel"
+    },
+    {
+     "text": "Raise the transfer with every raise",
+     "at": "raise"
+    },
+    {
+     "text": "Refill it after you use it",
+     "at": "refill"
+    }
+   ],
+   "footer": {
+    "text": "Education, not financial advice.",
+    "at": "situation"
+   },
+   "text": "Here's how to build it faster. Set up an automatic transfer on payday, so saving happens before spending. Send windfalls straight in, like a tax refund or a work bonus. Cancel one subscription you don't use and redirect that amount. Raise your transfer every time you get a raise. And when you do use the fund, refill it before going back to other goals. Bankrate found twenty nine percent of Americans have more credit card debt than emergency savings, so the right balance depends on your situation."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "41541"
+   ],
+   "title": "Boring money, real freedom",
+   "accent": [
+    3
+   ],
+   "next": "5 AI Prompts Every Professional Should Save",
+   "text": "So, work out your essentials, pick three or six months based on how risky your income is, build it in milestones, and keep it safe, liquid and separate. How many months of expenses do you think you need to sleep well at night? Tell me in the comments. I read them. If this helped, subscribe to Future Money Lab. This is education, not financial advice. Coming up on the channel, five AI prompts every professional should save."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "HOW MUCH?",
+   "line2": "YOUR EMERGENCY FUND",
+   "tag": "Emergency fund"
+  },
+  "b": {
+   "kicker": "3 MONTHS OR 6?",
+   "from": "0.56%",
+   "to": "4.35%",
+   "line2": "WHERE TO KEEP IT",
+   "tag": "Emergency fund"
+  }
+ },
+ "youtube": {
+  "title": "Emergency Fund: How Much You Really Need and Where to Keep It",
+  "summary": "How big should your emergency fund be, and where should you keep it? This is a plain-English guide: the $400 test from the Federal Reserve's latest household survey, how much Americans actually have saved, what counts as an emergency, how to work out your own number from essential costs, when 3 months is enough and when to aim for 6, a 4-milestone plan to build it, high-yield savings vs a basic savings account, the 3 rules for where to keep it, and 5 ways to build it faster.",
+  "details": "Numbers mentioned (checked November 2026):\n- 63% of US adults would cover a hypothetical $400 emergency expense with cash or its equivalent, unchanged from the previous three years (Federal Reserve, Economic Well-Being of U.S. Households in 2025, survey fielded October 2025, published May 2026).\n- 46% of Americans have enough emergency savings for 3 months of expenses; 27% for 6 months or more; 24% have none; 60% feel uncomfortable with their savings; 85% say they'd need at least 3 months and 63% at least 6 months to feel comfortable; 54% save less due to inflation; 29% have more credit card debt than emergency savings (Bankrate 2026 Emergency Savings Report, Feb 2026, survey May 2025).\n- 37% of US adults used emergency savings in the past 12 months; 26% of those withdrew $1,000 to $2,499 (same report, survey Feb 2025).\n- Top high-yield savings APY up to 4.35% and national average savings rate 0.56% APY, per Bankrate (November 2026). Rates change often.\n- '$435 vs $56' is our calculation: simple interest on $10,000 for one year at 4.35% and 0.56%, before tax.\n- The $2,800/month essentials example uses made-up numbers to show the method.\n- The 3-to-6-month range and the milestones are common guidelines, not personal advice.",
+  "sources": [
+   {
+    "name": "Federal Reserve: Economic Well-Being of U.S. Households in 2025, Executive Summary (May 2026)",
+    "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm"
+   },
+   {
+    "name": "Bankrate: 2026 Annual Emergency Savings Report (Feb 2026)",
+    "url": "https://www.bankrate.com/banking/savings/emergency-savings-report/"
+   },
+   {
+    "name": "Bankrate: Best High-Yield Savings Accounts of November 2026",
+    "url": "https://www.bankrate.com/banking/savings/best-high-yield-interests-savings-accounts/"
+   }
+  ],
+  "tags": [
+   "emergency fund",
+   "how much emergency fund",
+   "emergency savings",
+   "where to keep emergency fund",
+   "high yield savings account",
+   "3 to 6 months expenses",
+   "personal finance",
+   "money tips",
+   "budgeting for beginners",
+   "saving money",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#personalfinance",
+   "#money",
+   "#saving"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s05"
+   ],
+   "headline": "Work out your emergency fund in 2 minutes",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s09"
+   ],
+   "headline": "$435 vs $56 on the same $10,000",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s10"
+   ],
+   "headline": "3 rules for where to keep emergency cash",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
