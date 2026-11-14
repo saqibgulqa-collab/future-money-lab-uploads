@@ -1,7 +1,7 @@
 {
  "id": "E16",
  "num": 18,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "Emergency Fund: How Much You Really Need and Where to Keep It",
  "music": "music_759.mp3",
@@ -516,5 +516,23 @@
    "headline": "3 rules for where to keep emergency cash",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 427789706,
+  "publishAt": "2026-11-24T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 427789839,
+    "publishAt": "2026-11-24T02:45:00+05:00"
+   },
+   {
+    "postId": 427789850,
+    "publishAt": "2026-11-24T06:45:00+05:00"
+   },
+   {
+    "postId": 427789862,
+    "publishAt": "2026-11-24T21:15:00+05:00"
+   }
+  ]
+ }
 }
