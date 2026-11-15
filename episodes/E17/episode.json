@@ -1,0 +1,556 @@
+{
+ "id": "E17",
+ "num": 15,
+ "status": "scheduled",
+ "pillar": "A",
+ "title": "5 AI Prompts Every Professional Should Save",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "The 9-word problem",
+   "chapterTitle": "Intro: why short prompts fail",
+   "broll": [
+    "4907",
+    "221"
+   ],
+   "badge": "Average length of the most successful prompts",
+   "numberValue": 21,
+   "unit": " words",
+   "sub": "Google's Gemini for Workspace Prompting Guide 101 (April 2024)",
+   "big": {
+    "at": "twenty"
+   },
+   "chips": [
+    {
+     "text": "Most people type fewer than 9",
+     "at": "nine"
+    },
+    {
+     "text": "5 copy-paste templates inside",
+     "at": "five"
+    }
+   ],
+   "text": "Here's a number that explains a lot about bad AI answers. Google's prompting guide for Gemini in Workspace says the most successful prompts average around twenty one words. But the prompts people usually try are short, often less than nine words. That gap is why so many AI answers feel generic. In this video, I'll give you five prompts every professional should save, built from the official prompting guides from Google, OpenAI and Anthropic. Each one is a template you can copy, fill in, and reuse every week, whichever chatbot you use."
+  },
+  {
+   "id": "s02",
+   "kind": "cards",
+   "chapter": "Who uses AI",
+   "chapterTitle": "How often people really use AI at work",
+   "broll": [
+    "42664",
+    "13218"
+   ],
+   "items": [
+    {
+     "title": "Use AI daily",
+     "value": "12%",
+     "sub": "of US workers",
+     "at": "twelve"
+    },
+    {
+     "title": "A few times a week+",
+     "value": "~1 in 4",
+     "sub": "frequent users",
+     "at": "quarter"
+    },
+    {
+     "title": "A few times a year+",
+     "value": "~1 in 2",
+     "sub": "of US workers",
+     "at": "half"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Gallup, 22,368 workers",
+     "at": "twenty"
+    },
+    {
+     "text": "Oct-Nov 2025, via AP",
+     "at": "associated"
+    }
+   ],
+   "footer": {
+    "text": "Most people are still occasional users",
+    "at": "occasional"
+   },
+   "text": "First, some context. In a Gallup survey of more than twenty two thousand US workers, reported by the Associated Press in January twenty twenty six, twelve percent said they use AI daily in their job. Roughly a quarter use it at least a few times a week, and nearly half use it at least a few times a year. So most people are still occasional users. And when you only use a tool now and then, you start from a blank box every time. Saved prompts fix that."
+  },
+  {
+   "id": "s03",
+   "kind": "steps",
+   "chapter": "The formula",
+   "chapterTitle": "The 4-part prompt formula",
+   "broll": [
+    "4806",
+    "46768"
+   ],
+   "items": [
+    {
+     "text": "Persona: who the AI should act as",
+     "at": "persona"
+    },
+    {
+     "text": "Task: the exact job, as a verb",
+     "at": "task"
+    },
+    {
+     "text": "Context: facts it can't guess",
+     "at": "context"
+    },
+    {
+     "text": "Format: length, layout, tone",
+     "at": "format"
+    }
+   ],
+   "footer": {
+    "text": "Brief it like a new hire",
+    "highlight": "Every template uses this.",
+    "tone": "accent",
+    "at": "brilliant"
+   },
+   "text": "All five templates use the same simple formula. Google's guide names four areas: persona, task, context and format. Persona is who the AI should act as. Task is the exact job, written as a verb, like summarize or draft. Context is the facts it can't guess, like who the audience is. Format is the length, layout and tone you want. Anthropic's guide puts it another way: treat the AI like a brilliant but new employee who lacks context on your norms. If a new colleague would be confused by your request, the AI will be too."
+  },
+  {
+   "id": "s04",
+   "kind": "rows",
+   "chapter": "Prompt 1",
+   "chapterTitle": "Prompt 1: The Briefing",
+   "broll": [
+    "45923",
+    "221"
+   ],
+   "items": [
+    {
+     "name": "Persona",
+     "desc": "You are my chief of staff",
+     "at": "chief"
+    },
+    {
+     "name": "Task",
+     "desc": "Summarize the document below",
+     "at": "summarize"
+    },
+    {
+     "name": "Format",
+     "desc": "3 key points, decisions, deadlines, questions",
+     "at": "three"
+    },
+    {
+     "name": "Limit",
+     "desc": "Under 150 words; flag anything unclear",
+     "at": "under"
+    }
+   ],
+   "footer": {
+    "text": "Turns a long read into a 1-minute brief",
+    "at": "minute"
+   },
+   "text": "Prompt one is the Briefing. Use it for long reports, contracts, or email threads. Here it is. You are my chief of staff. Summarize the document below for a busy manager. Give me three key points, any decisions I need to make, every deadline mentioned, and open questions. Keep it under one hundred fifty words. If something is unclear or missing, say so instead of guessing. Then paste the document. That last line matters, because it gives the AI permission to admit gaps rather than fill them in. You get a one minute brief instead of a twenty minute read."
+  },
+  {
+   "id": "s05",
+   "kind": "rows",
+   "chapter": "Prompt 2",
+   "chapterTitle": "Prompt 2: The Reply Drafter",
+   "broll": [
+    "4915",
+    "42653"
+   ],
+   "items": [
+    {
+     "name": "Persona",
+     "desc": "Act as a clear, polite professional",
+     "at": "act"
+    },
+    {
+     "name": "Task",
+     "desc": "Draft a reply to the email below",
+     "at": "draft"
+    },
+    {
+     "name": "Context",
+     "desc": "My goal, my answer, the relationship",
+     "at": "goal"
+    },
+    {
+     "name": "Format",
+     "desc": "Under 120 words, friendly, one clear ask",
+     "at": "hundred"
+    }
+   ],
+   "footer": {
+    "text": "You still read it before you hit send",
+    "at": "send"
+   },
+   "text": "Prompt two is the Reply Drafter, for the emails you keep putting off. Act as a clear, polite professional. Draft a reply to the email below. My goal is, and then one line, like decline the meeting but offer Thursday. My answer is, and the key facts. The relationship is, for example a client I want to keep. Keep it under one hundred twenty words, friendly but direct, with one clear ask at the end. OpenAI's own guide suggests naming the tone with descriptive words, like friendly or firm. And always read the draft before you hit send."
+  },
+  {
+   "id": "s06",
+   "kind": "questions",
+   "chapter": "Prompt 3",
+   "chapterTitle": "Prompt 3: Interview Me First",
+   "broll": [
+    "4806",
+    "1730"
+   ],
+   "items": [
+    {
+     "text": "Who is this for?",
+     "at": "who"
+    },
+    {
+     "text": "What does a great result look like?",
+     "at": "great"
+    },
+    {
+     "text": "What must it include or avoid?",
+     "at": "include"
+    }
+   ],
+   "footer": {
+    "text": "Ask up to 5 questions first",
+    "highlight": "Then write.",
+    "tone": "good",
+    "at": "only"
+   },
+   "text": "Prompt three is the most underrated: Interview Me First. Use it when you don't know what context to give. Here it is. I need help with, and then the task, like a project proposal. Before you write anything, ask me up to five questions, one at a time, about what you need to know to do this well. Only then write the first draft. The AI will ask things like who is this for, what does a great result look like, and what must it include or avoid. Instead of you guessing what context matters, the AI pulls it out of you."
+  },
+  {
+   "id": "s07",
+   "kind": "steps",
+   "chapter": "Prompt 4",
+   "chapterTitle": "Prompt 4: The Critic",
+   "broll": [
+    "42648",
+    "45923"
+   ],
+   "items": [
+    {
+     "text": "Act as a skeptical decision-maker",
+     "at": "skeptical"
+    },
+    {
+     "text": "List the 5 weakest points",
+     "at": "weakest"
+    },
+    {
+     "text": "Say what is missing or unclear",
+     "at": "missing"
+    },
+    {
+     "text": "Suggest one fix for each",
+     "at": "fix"
+    }
+   ],
+   "footer": {
+    "text": "Get the hard questions before your boss asks",
+    "at": "boss"
+   },
+   "text": "Prompt four is the Critic. Most people ask AI to write. Fewer ask it to push back, and that's often more useful. Act as a skeptical decision maker who has to approve this. Review my draft below. List the five weakest points, say what is missing or unclear, and suggest one specific fix for each. Don't rewrite the whole thing. Use it on a pitch, a report, or a slide outline before it goes out. You'll hear the hard questions before your boss or client asks them, while there's still time to fix them."
+  },
+  {
+   "id": "s08",
+   "kind": "rows",
+   "chapter": "Prompt 5",
+   "chapterTitle": "Prompt 5: Notes to Actions",
+   "broll": [
+    "42664",
+    "4806"
+   ],
+   "items": [
+    {
+     "name": "Task",
+     "desc": "Turn these meeting notes into actions",
+     "at": "turn"
+    },
+    {
+     "name": "Table",
+     "desc": "Action, owner, deadline, status",
+     "at": "table"
+    },
+    {
+     "name": "Flag",
+     "desc": "Any task with no owner or no date",
+     "at": "flag"
+    },
+    {
+     "name": "Extra",
+     "desc": "Write a 3-line follow-up email",
+     "at": "follow"
+    }
+   ],
+   "footer": {
+    "text": "Messy notes in, clear next steps out",
+    "at": "messy"
+   },
+   "text": "Prompt five is Notes to Actions. Paste in rough meeting notes or a transcript and use this. Turn these meeting notes into a table with four columns: action, owner, deadline, and status. Use only what's written in the notes. Flag any task that has no owner or no date. Then write a three line follow up email I can send to the team. The words use only what's written are important, because they stop the AI from inventing owners or dates that nobody agreed to. Messy notes go in, clear next steps come out."
+  },
+  {
+   "id": "s09",
+   "kind": "compare",
+   "chapter": "Before vs after",
+   "chapterTitle": "Weak prompt vs saved template",
+   "broll": [
+    "4907",
+    "1730"
+   ],
+   "cards": [
+    {
+     "title": "Weak prompt",
+     "sub": "\"Summarize this report\"",
+     "at": "summarize"
+    },
+    {
+     "title": "Saved template",
+     "sub": "Persona + task + context + format",
+     "at": "template"
+    }
+   ],
+   "big": {
+    "value": "3 vs 40+",
+    "sub": "words in the prompt",
+    "at": "three"
+   },
+   "bars": [
+    {
+     "label": "Weak: 3 words",
+     "value": "3",
+     "fill": 0.07,
+     "tone": "bad",
+     "at": "three"
+    },
+    {
+     "label": "Template: 40+ words",
+     "value": "40+",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "forty"
+    }
+   ],
+   "footer": {
+    "text": "You type it once, then reuse it",
+    "at": "once"
+   },
+   "text": "Here's the difference side by side. A typical prompt is, summarize this report. Three words. The AI has to guess who you are, what you care about, and how long the answer should be. The Briefing template is over forty words, and it answers all of those questions up front. That's well above the twenty one word average Google saw in successful prompts. And here's the point of saving them: you only type it once. After that, it takes about five seconds to paste, fill in the brackets, and go."
+  },
+  {
+   "id": "s10",
+   "kind": "rows",
+   "chapter": "Make them better",
+   "chapterTitle": "4 tips from the official guides",
+   "broll": [
+    "221",
+    "4907"
+   ],
+   "items": [
+    {
+     "name": "Iterate",
+     "desc": "Review the answer, then refine the prompt",
+     "at": "refine"
+    },
+    {
+     "name": "Show examples",
+     "desc": "Anthropic suggests 3 to 5 for best results",
+     "at": "examples"
+    },
+    {
+     "name": "Say what to do",
+     "desc": "Not only what to avoid",
+     "at": "instead"
+    },
+    {
+     "name": "Question last",
+     "desc": "Paste long docs first, ask at the end",
+     "at": "end"
+    }
+   ],
+   "footer": {
+    "text": "Treat it like a conversation",
+    "at": "conversation"
+   },
+   "text": "Four tips from the official guides make these templates even better. One, iterate. OpenAI and Google both say to review the answer and refine your prompt, like a conversation. Two, show examples. If you want a certain style, paste a sample. Anthropic's guide suggests three to five examples for best results. Three, tell the AI what to do instead of only what not to do. Write in short paragraphs works better than don't use bullet points. Four, with long documents, paste the document first and put your question at the end."
+  },
+  {
+   "id": "s11",
+   "kind": "rows",
+   "chapter": "Guardrails",
+   "chapterTitle": "3 rules before you paste anything",
+   "broll": [
+    "13218",
+    "42648"
+   ],
+   "items": [
+    {
+     "name": "Check your policy",
+     "desc": "Follow your company's rules on AI tools",
+     "at": "policy"
+    },
+    {
+     "name": "Protect private data",
+     "desc": "Remove names, numbers and client details",
+     "at": "remove"
+    },
+    {
+     "name": "Verify facts",
+     "desc": "AI can sound sure and still be wrong",
+     "at": "verify"
+    }
+   ],
+   "footer": {
+    "text": "The AI drafts. You decide.",
+    "at": "decide"
+   },
+   "text": "Before you use these at work, three rules. First, check your company's policy on AI tools. Many employers say which tools are approved and what you can paste into them. Second, protect private data. Remove names, account numbers and client details unless your company's approved tool allows them. Third, verify facts. AI can sound confident and still be wrong, especially with numbers, dates and quotes. That's why two of the templates tell the AI to flag gaps instead of guessing. The AI drafts. You decide what goes out."
+  },
+  {
+   "id": "s12",
+   "kind": "steps",
+   "chapter": "Save them",
+   "chapterTitle": "How to save your prompt library",
+   "broll": [
+    "4806",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "One note called Prompt Library",
+     "at": "library"
+    },
+    {
+     "text": "[Brackets] for the parts you change",
+     "at": "brackets"
+    },
+    {
+     "text": "A text shortcut to paste fast",
+     "at": "shortcut"
+    },
+    {
+     "text": "Improve one prompt a week",
+     "at": "improve"
+    }
+   ],
+   "footer": {
+    "text": "Your best prompts become a tool",
+    "highlight": "Not a one-off.",
+    "tone": "accent",
+    "at": "tool"
+   },
+   "text": "Finally, how to actually save them so you use them. Create one note or document called Prompt Library. Paste all five templates in, and put square brackets around the parts you change, like the document or your goal. If you want to go faster, a text expander or your phone's text replacement can paste a whole template from a short shortcut. And once a week, improve one prompt based on what went wrong. Over a month, your best prompts stop being one off messages and become a tool you trust."
+  },
+  {
+   "id": "s13",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "41541"
+   ],
+   "title": "Save these 5 today",
+   "accent": [
+    1
+   ],
+   "next": "AI for Excel and Google Sheets: Hours of Work in Minutes",
+   "text": "So, your five prompts: the Briefing, the Reply Drafter, Interview Me First, the Critic, and Notes to Actions. All of them follow one formula: persona, task, context and format. Which prompt do you use most at work? Share it in the comments. I read them, and the best ones might end up in a future video. If this helped, subscribe to Future Money Lab. Next up, AI for Excel and Google Sheets: how to turn hours of spreadsheet work into minutes."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "SAVE THESE 5",
+   "line2": "AI PROMPTS FOR WORK",
+   "tag": "AI prompts"
+  },
+  "b": {
+   "kicker": "WORDS PER PROMPT",
+   "from": "9",
+   "to": "21",
+   "line2": "5 PROMPTS TO SAVE",
+   "tag": "AI prompts"
+  }
+ },
+ "youtube": {
+  "title": "5 AI Prompts Every Professional Should Save (Free Templates)",
+  "summary": "Five copy-paste AI prompt templates for work that you can use with ChatGPT, Claude, Gemini or any chatbot: the Briefing (summarize any document), the Reply Drafter (emails), Interview Me First (let the AI ask the questions), the Critic (find weak points before your boss does) and Notes to Actions (meeting notes into an action table). All five are built on the 4-part formula from Google's prompting guide (persona, task, context, format) plus tips from OpenAI's and Anthropic's official guides, with 3 rules for using AI safely at work.",
+  "details": "Numbers and sources mentioned (checked November 2026):\n- The most successful prompts average around 21 words; prompts people often try are usually less than nine words (Google, Gemini for Google Workspace Prompting Guide 101, April 2024 edition).\n- 12% of employed US adults use AI daily in their job; roughly one-quarter at least a few times a week; nearly half at least a few times a year (Gallup Workforce survey of 22,368 US workers, Oct 30 - Nov 13, 2025, as reported by the Associated Press, January 2026).\n- Persona, task, context and format: the four areas in Google's guide.\n- 'Brilliant but new employee' and '3-5 examples for best results': Anthropic's Claude prompting best practices.\n- Iterate and refine; describe the tone with descriptive words: OpenAI Help Center, Prompt engineering best practices for ChatGPT.\n- The five templates are our own, built from these guides; they are suggestions, not measured results. '3 vs 40+ words' compares our example prompts.\n- Always follow your employer's AI policy and verify AI output.",
+  "sources": [
+   {
+    "name": "Google: Gemini for Google Workspace Prompting Guide 101 (April 2024 edition)",
+    "url": "https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf"
+   },
+   {
+    "name": "AP via WTOP: How Americans are using AI at work, according to a new Gallup poll (Jan 2026)",
+    "url": "https://wtop.com/national/2026/01/how-americans-are-using-ai-at-work-according-to-a-new-gallup-poll/"
+   },
+   {
+    "name": "Anthropic: Prompting best practices (Claude docs)",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct"
+   },
+   {
+    "name": "OpenAI Help Center: Prompt engineering best practices for ChatGPT",
+    "url": "https://help.openai.com/en/articles/10032626"
+   }
+  ],
+  "tags": [
+   "ai prompts",
+   "chatgpt prompts for work",
+   "best ai prompts",
+   "prompt engineering for beginners",
+   "ai prompt templates",
+   "claude prompts",
+   "gemini prompts",
+   "ai productivity",
+   "ai at work",
+   "how to write better prompts",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#AItools",
+   "#ChatGPT",
+   "#productivity"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s06"
+   ],
+   "headline": "Make the AI interview you first",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s07"
+   ],
+   "headline": "The AI prompt that finds your weak spots",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "Meeting notes to action list in 1 prompt",
+   "cta": "Full video on our channel"
+  }
+ ],
+ "metricool": {
+  "postId": 428650323,
+  "publishAt": "2026-11-25T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 428650486,
+    "publishAt": "2026-11-25T02:45:00+05:00"
+   },
+   {
+    "postId": 428650495,
+    "publishAt": "2026-11-25T06:45:00+05:00"
+   },
+   {
+    "postId": 428650503,
+    "publishAt": "2026-11-25T21:15:00+05:00"
+   }
+  ]
+ }
+}
