@@ -155,3 +155,6 @@ Future Money Lab stays on the Metricool flow above. Every **new** channel works 
   `status:"Stock"`, make one new video and add its row (`status:"Stock"`, `driveUrl`).
 - Not live yet: needs the Google Drive connector connected and a test that it can upload ~90 MB files.
   Storage: ~150 MB per video → ~3 GB per channel; the free 15 GB Drive holds about 4 channels.
+
+## SHARED PRODUCTION STANDARD (owner approved 2026-11-17 — applies to this channel too)
+Full text: Project doc `claude/production-standard.md`. Summary: HD real photos/footage (Unsplash 2880 px, Pixabay, Mixkit) with slow zoom/pan, never flat/cartoon; narration = Chatterbox cloned from the "Michael" reference voice (exaggeration 0.7-0.85, cfg 0.3, temp 0.8) with human pauses (0.4 s after comma, 0.6 s after sentence), every clip Whisper-checked; background music very low (~0.07) for the whole video, Mixkit/owner-supplied only; beginner-first scripts from proven reference-channel hits (original wording); CTA at the end only; send every finished video to the owner immediately, then push. Channel branding/niche/thumbnails stay specific to this channel.
