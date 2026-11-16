@@ -1,0 +1,562 @@
+{
+ "id": "E18",
+ "num": 20,
+ "status": "scheduled",
+ "pillar": "B",
+ "title": "Can AI Pick Stocks? What the Research Says vs Index Funds",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "The AI fund test",
+   "chapterTitle": "Intro: $10,000 in an AI fund vs an index fund",
+   "broll": [
+    "47214",
+    "9607"
+   ],
+   "badge": "$10,000 in a plain S&P 500 fund, Oct 2017 to Nov 2026",
+   "numberValue": 33858,
+   "prefix": "$",
+   "unit": "",
+   "sub": "SPY, dividends reinvested, before tax (checked Nov 2026)",
+   "big": {
+    "at": "thirty"
+   },
+   "chips": [
+    {
+     "text": "AI-picked fund: $22,084",
+     "at": "not"
+    },
+    {
+     "text": "Same dates, same $10,000",
+     "at": "same"
+    }
+   ],
+   "text": "In October twenty seventeen, a fund launched that let artificial intelligence pick its stocks, using IBM Watson. If you'd put ten thousand dollars into it, by November twenty twenty six you'd have about twenty two thousand. Not bad. But the same ten thousand dollars in a plain S&P five hundred fund would have grown to about thirty three thousand nine hundred. So can AI really pick stocks? In this video, I'll walk through what a real AI fund, a well known research paper and the official data say, and how to use AI with your money without getting fooled."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The question",
+   "chapterTitle": "Why this question matters now",
+   "broll": [
+    "4907",
+    "221"
+   ],
+   "badge": "The question",
+   "title": "Can AI beat the market?",
+   "sub": "A real AI fund, a research paper, the pros, and the scams",
+   "accent": [
+    1
+   ],
+   "text": "Chatbots can read a thousand news stories in seconds, and apps keep promising AI powered investing. It feels like a machine should be able to beat the market. So I researched the evidence in four parts. First, a real fund that has let an AI pick stocks for nine years. Second, a research paper where GPT-4 read news headlines. Third, how professional fund managers did last year. And fourth, the scams regulators are warning about. This is education, not financial advice, and I won't name any stock to buy."
+  },
+  {
+   "id": "s03",
+   "kind": "rows",
+   "chapter": "What it means",
+   "chapterTitle": "4 things 'AI picks stocks' can mean",
+   "broll": [
+    "4915",
+    "1730"
+   ],
+   "items": [
+    {
+     "name": "AI-run funds",
+     "desc": "A model chooses what the fund holds",
+     "at": "funds"
+    },
+    {
+     "name": "Chatbots",
+     "desc": "You ask an AI assistant for stock ideas",
+     "at": "chatbots"
+    },
+    {
+     "name": "Research models",
+     "desc": "Score news to predict short-term moves",
+     "at": "research"
+    },
+    {
+     "name": "Marketing labels",
+     "desc": "\"AI-powered\" apps, with or without much AI",
+     "at": "marketing"
+    }
+   ],
+   "footer": {
+    "text": "Different tools, different evidence",
+    "at": "different"
+   },
+   "text": "First, what does AI picking stocks even mean? It usually means one of four things. AI run funds, where a model chooses what the fund holds. Chatbots, where you ask ChatGPT, Claude, Gemini or another assistant for stock ideas. Research models, which score news and data to predict short term price moves. And marketing labels, where an app calls itself AI powered, whether or not much AI is involved. These are very different things, and the evidence is different for each. Let's start with the one that has the longest real track record."
+  },
+  {
+   "id": "s04",
+   "kind": "cards",
+   "chapter": "The AI fund",
+   "chapterTitle": "Meet the AI-picked fund (AIEQ)",
+   "broll": [
+    "47793",
+    "5461"
+   ],
+   "items": [
+    {
+     "title": "Launched",
+     "value": "Oct 2017",
+     "sub": "Amplify ETFs",
+     "at": "launched"
+    },
+    {
+     "title": "Expense ratio",
+     "value": "0.75%",
+     "sub": "per year",
+     "at": "expense"
+    },
+    {
+     "title": "Net assets",
+     "value": "$111M",
+     "sub": "Nov 13, 2026",
+     "at": "net"
+    },
+    {
+     "title": "Holdings",
+     "value": "161",
+     "sub": "US stocks",
+     "at": "hundred",
+     "nth": 1
+    }
+   ],
+   "chips": [
+    {
+     "text": "IBM Watson",
+     "at": "watson"
+    },
+    {
+     "text": "News, social media, filings",
+     "at": "news"
+    }
+   ],
+   "footer": {
+    "text": "Source: amplifyetfs.com, checked Nov 2026",
+    "at": "real"
+   },
+   "text": "The fund is the AI Powered Equity ETF, ticker A I E Q, from Amplify ETFs. It launched in October twenty seventeen. It uses IBM Watson for machine learning, sentiment analysis and natural language processing, and reads news, social media, analyst reports and financial statements. The expense ratio is zero point seven five percent a year. In November twenty twenty six it had about one hundred eleven million dollars in net assets, spread across one hundred sixty one holdings. So this is a real, nine year live test of AI stock picking."
+  },
+  {
+   "id": "s05",
+   "kind": "compare",
+   "chapter": "The scoreboard",
+   "chapterTitle": "AI fund vs S&P 500 fund: 9 years",
+   "broll": [
+    "26758",
+    "46990"
+   ],
+   "cards": [
+    {
+     "title": "AI fund",
+     "sub": "AIEQ: +9.13% a year",
+     "at": "nine"
+    },
+    {
+     "title": "S&P 500 fund",
+     "sub": "SPY: +14.39% a year",
+     "at": "fourteen"
+    }
+   ],
+   "big": {
+    "value": "$22K vs $34K",
+    "sub": "$10,000, Oct 2017 to Nov 2026",
+    "at": "ten"
+   },
+   "bars": [
+    {
+     "label": "S&P 500 fund (SPY)",
+     "value": "$33,858",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "thirty"
+    },
+    {
+     "label": "AI fund (AIEQ)",
+     "value": "$22,084",
+     "fill": 0.65,
+     "tone": "bad",
+     "at": "twenty",
+     "nth": 3
+    }
+   ],
+   "footer": {
+    "text": "Past results don't predict future ones",
+    "at": "made"
+   },
+   "text": "So how did it do? From October eighteenth, twenty seventeen to November thirteenth, twenty twenty six, with dividends reinvested, the AI fund returned about nine point one percent a year. Now compare it with SPY, a plain S&P five hundred index fund, over the exact same dates. It returned about fourteen point four percent a year. Ten thousand dollars became about twenty two thousand in the AI fund, and about thirty three thousand nine hundred in the index fund. The AI did make money. It just made less than simply owning the whole market."
+  },
+  {
+   "id": "s06",
+   "kind": "cards",
+   "chapter": "Recent years",
+   "chapterTitle": "The last 5 years and the worst drop",
+   "broll": [
+    "47796",
+    "30873"
+   ],
+   "items": [
+    {
+     "title": "AI fund, 5 years",
+     "value": "+2.4%/yr",
+     "at": "two"
+    },
+    {
+     "title": "S&P 500 fund, 5 years",
+     "value": "+11.5%/yr",
+     "at": "eleven"
+    },
+    {
+     "title": "AI fund worst drop",
+     "value": "−39%",
+     "sub": "Nov 2021 to May 2023",
+     "at": "worst"
+    },
+    {
+     "title": "Index fund worst drop",
+     "value": "−34%",
+     "sub": "COVID crash, 2020",
+     "at": "index"
+    }
+   ],
+   "chips": [
+    {
+     "text": "The gap has grown",
+     "at": "gap"
+    }
+   ],
+   "footer": {
+    "text": "Source: totalrealreturns.com, checked Nov 2026",
+    "at": "higher"
+   },
+   "text": "And the gap has grown lately. Over the five years to November twenty twenty six, the AI fund gained about two point four percent a year. The S&P five hundred fund gained about eleven and a half percent a year. The AI fund also had the deeper fall. Its worst drop was about thirty nine percent, from a peak in November twenty twenty one to a low in May twenty twenty three. The index fund's worst drop was about thirty four percent, in the COVID crash of twenty twenty. Higher fees, more risk, lower return, at least for this fund so far."
+  },
+  {
+   "id": "s07",
+   "kind": "stat",
+   "chapter": "The research",
+   "chapterTitle": "The GPT-4 news headline study",
+   "broll": [
+    "45923",
+    "221"
+   ],
+   "badge": "Average daily return of a GPT-4 news strategy, before costs",
+   "numberValue": 34,
+   "unit": " bps",
+   "sub": "Lopez-Lira & Tang, University of Florida (Oct 2025 version)",
+   "big": {
+    "at": "thirty"
+   },
+   "chips": [
+    {
+     "text": "4,123 US stocks",
+     "at": "four"
+    },
+    {
+     "text": "Headlines from Oct 2021 to May 2024",
+     "at": "headlines",
+     "nth": 1
+    }
+   ],
+   "text": "Now the research side. In a paper first released in twenty twenty three and updated in October twenty twenty five, Alejandro Lopez-Lira and Yuehua Tang at the University of Florida asked GPT-4 a simple question about company news headlines: is this good or bad for the stock? They used headlines from after the model's training data ended, across about four thousand US stocks. A strategy that bought the stocks with good news and sold short the ones with bad news earned about thirty four basis points a day, before trading costs. That's a strong result."
+  },
+  {
+   "id": "s08",
+   "kind": "steps",
+   "chapter": "The catch",
+   "chapterTitle": "Why the AI edge keeps shrinking",
+   "broll": [
+    "9330",
+    "47214"
+   ],
+   "items": [
+    {
+     "text": "Late 2021: Sharpe ratio 6.54",
+     "at": "six"
+    },
+    {
+     "text": "2022: 3.68",
+     "at": "three"
+    },
+    {
+     "text": "2023: 2.33",
+     "at": "two",
+     "nth": 1
+    },
+    {
+     "text": "Jan to May 2024: 1.22",
+     "at": "one",
+     "nth": 1
+    }
+   ],
+   "footer": {
+    "text": "The more people use an edge, the smaller it gets",
+    "at": "early",
+    "tone": "bad"
+   },
+   "text": "Here's the catch, and it's in the paper itself. The effect was strongest in small stocks and after negative news. The authors say exploiting it is only realistic for traders with very low costs, such as market makers, not for someone on a phone app. And the edge shrank as more people adopted these tools. The strategy's Sharpe ratio, a measure of return for the risk taken, fell from six point five in late twenty twenty one to three point seven in twenty twenty two, two point three in twenty twenty three, and one point two in early twenty twenty four."
+  },
+  {
+   "id": "s09",
+   "kind": "stat",
+   "chapter": "The pros",
+   "chapterTitle": "How professional stock pickers did in 2025",
+   "broll": [
+    "42648",
+    "13218"
+   ],
+   "badge": "Active large-cap US funds that lagged the S&P 500 in 2025",
+   "numberValue": 79,
+   "unit": "%",
+   "sub": "S&P Dow Jones Indices, SPIVA U.S. Year-End 2025 (Mar 2026)",
+   "big": {
+    "at": "seventy"
+   },
+   "chips": [
+    {
+     "text": "65% in 2024",
+     "at": "sixty"
+    },
+    {
+     "text": "S&P 500 up about 18% in 2025",
+     "at": "eighteen"
+    }
+   ],
+   "text": "Maybe you're thinking, fine, but surely professional stock pickers do better. S&P Dow Jones Indices tracks this in its SPIVA scorecard. In twenty twenty five, seventy nine percent of actively managed large-cap US stock funds did worse than the S&P five hundred. That was up from sixty five percent in twenty twenty four, and the index itself rose about eighteen percent. These are teams of analysts with research budgets and data, the kind of tools AI is supposed to give you. Most of them still trailed a simple index fund last year."
+  },
+  {
+   "id": "s10",
+   "kind": "cards",
+   "chapter": "AI washing",
+   "chapterTitle": "AI washing: when the AI isn't there",
+   "broll": [
+    "42664",
+    "4908"
+   ],
+   "items": [
+    {
+     "title": "Delphia",
+     "value": "$225,000",
+     "sub": "civil penalty",
+     "at": "delphia"
+    },
+    {
+     "title": "Global Predictions",
+     "value": "$175,000",
+     "sub": "civil penalty",
+     "at": "global"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Total: $400,000",
+     "at": "four",
+     "nth": 1
+    },
+    {
+     "text": "SEC, March 18, 2024",
+     "at": "march"
+    }
+   ],
+   "footer": {
+    "text": "\"AI washing hurts investors\" (SEC)",
+    "at": "washing"
+   },
+   "text": "And sometimes the AI isn't even there. In March twenty twenty four, the SEC charged two investment advisers, Delphia and Global Predictions, with making false and misleading claims about their use of artificial intelligence. Global Predictions called itself the first regulated AI financial advisor. Together they agreed to pay four hundred thousand dollars in civil penalties, without admitting or denying the findings. The SEC chair at the time, Gary Gensler, called it AI washing and said it hurts investors. So the label AI on an investing product proves nothing on its own. Ask what it actually does."
+  },
+  {
+   "id": "s11",
+   "kind": "rows",
+   "chapter": "Red flags",
+   "chapterTitle": "4 AI investing red flags from regulators",
+   "broll": [
+    "4915",
+    "46768"
+   ],
+   "items": [
+    {
+     "name": "Guaranteed returns",
+     "desc": "High returns with little or no risk",
+     "at": "promises"
+    },
+    {
+     "name": "\"Can't lose\" AI trading",
+     "desc": "No trading system wins every time",
+     "at": "pitches"
+    },
+    {
+     "name": "Unregistered platforms",
+     "desc": "Check registration before sending money",
+     "at": "unregistered"
+    },
+    {
+     "name": "Deepfakes",
+     "desc": "Fake CEO videos, fake family voices",
+     "at": "deepfakes"
+    }
+   ],
+   "footer": {
+    "text": "Don't rely only on AI for investment decisions",
+    "at": "don't"
+   },
+   "text": "In January twenty twenty four, the SEC, FINRA and the state regulators' group NASAA issued a joint alert about AI and investment fraud. Here are the red flags they describe. Promises of high guaranteed returns with little or no risk. Pitches like an AI trading system that can't lose. Unregistered platforms that claim to use AI to trade for you. And deepfakes, like fake video of a CEO announcing false news, or fake audio of a relative asking for money. Their advice is simple. Don't rely only on AI generated information to make investment decisions."
+  },
+  {
+   "id": "s12",
+   "kind": "steps",
+   "chapter": "Use AI wisely",
+   "chapterTitle": "How to use AI with your money safely",
+   "broll": [
+    "4907",
+    "4806"
+   ],
+   "items": [
+    {
+     "text": "Explain reports in plain English",
+     "at": "explain"
+    },
+    {
+     "text": "List the risks a business faces",
+     "at": "list"
+    },
+    {
+     "text": "Compare fees, then check the source",
+     "at": "compare"
+    },
+    {
+     "text": "Never paste account details",
+     "at": "never"
+    }
+   ],
+   "footer": {
+    "text": "A research assistant, not a fortune teller",
+    "at": "scoreboard",
+    "tone": "accent"
+   },
+   "text": "So how can you use AI with your money in a sensible way? Use it as a research assistant, not a fortune teller. Ask it to explain a company's annual report in plain English, or to list the main risks a business faces. Ask it to compare the fees of two funds you already found, then check the numbers on the fund's own page, because chatbots can get figures wrong. Never paste account numbers or passwords into any chatbot. And remember the scoreboard: over these nine years, simply owning the whole market beat the AI fund."
+  },
+  {
+   "id": "s13",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "41541"
+   ],
+   "title": "Owning the market still wins",
+   "accent": [
+    2
+   ],
+   "next": "AI for Excel and Google Sheets: Hours of Work in Minutes",
+   "text": "So, can AI pick stocks? A real AI fund made money but trailed a plain index fund by about five percentage points a year. The best research shows an edge that is real but small, mostly in small stocks, and shrinking as more people use it. And the label AI is sometimes just marketing. Now I want to hear from you. Would you ever let an AI choose your investments? Tell me in the comments. If this helped, subscribe to Future Money Lab, and I'll see you in the next video."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "AI vs INDEX",
+   "line2": "9 YEARS OF REAL DATA",
+   "tag": "AI stock picking"
+  },
+  "b": {
+   "kicker": "$10,000 SINCE 2017",
+   "from": "$22K",
+   "to": "$34K",
+   "line2": "AI FUND VS S&P 500",
+   "tag": "AI stock picking"
+  }
+ },
+ "youtube": {
+  "title": "Can AI Pick Stocks? What the Research Says vs Index Funds",
+  "summary": "Can AI pick stocks better than an index fund? I researched three kinds of evidence: a real AI-picked fund (the AI Powered Equity ETF, AIEQ, which uses IBM Watson) compared with an S&P 500 index fund over nine years, a University of Florida research paper where GPT-4 scored news headlines, and how professional fund managers did in 2025 according to the SPIVA scorecard. Then the AI washing case the SEC brought, 4 red flags from the joint SEC/FINRA/NASAA alert on AI investment fraud, and sensible ways to use AI as a research assistant with your money.",
+  "details": "Numbers mentioned (checked November 2026):\n- AIEQ (AI Powered Equity ETF, Amplify ETFs): launched October 2017; uses IBM Watson for machine learning, sentiment analysis and natural language processing; total expense ratio 0.75%; net assets about $111 million and 161 holdings as of Nov 13, 2026 (amplifyetfs.com).\n- AIEQ vs SPY, Oct 18, 2017 to Nov 13, 2026, dividends reinvested: AIEQ +9.13%/yr ($10,000 to $22,083.85), SPY +14.39%/yr ($10,000 to $33,858.36); rolling 5 years: AIEQ +2.41%/yr, SPY +11.54%/yr; worst drawdowns AIEQ -38.97% (Nov 2021 to May 2023), SPY -33.72% (2020) (totalrealreturns.com). Before tax; past performance does not predict future results.\n- Lopez-Lira & Tang, 'Can ChatGPT Forecast Stock Price Movements?' (University of Florida, version Oct 30, 2025): GPT-4 scored firm news headlines for 4,123 US stocks, Oct 2021 to May 2024; a long-short strategy earned 34 basis points per day on average before transaction costs; effect strongest for small stocks and negative news; feasible mainly for low-cost traders such as market makers; Sharpe ratio fell from 6.54 (2021Q4) to 3.68 (2022), 2.33 (2023) and 1.22 (Jan-May 2024).\n- 79% of active large-cap US equity funds underperformed the S&P 500 in 2025, up from 65% in 2024; the S&P 500 rose about 18% (S&P Dow Jones Indices, SPIVA U.S. Year-End 2025, March 2026).\n- SEC charged Delphia ($225,000) and Global Predictions ($175,000) for false AI claims, $400,000 total, settled without admitting or denying (SEC press release 2024-36, March 18, 2024).\n- Red flags from the SEC/NASAA/FINRA Investor Alert 'Artificial Intelligence (AI) and Investment Fraud' (January 25, 2024).\n- This video names no stock to buy and compares one AI fund only; it is education, not a recommendation.",
+  "sources": [
+   {
+    "name": "Amplify ETFs: AIEQ AI Powered Equity ETF fund page",
+    "url": "https://amplifyetfs.com/aieq/"
+   },
+   {
+    "name": "Total Real Returns: AIEQ vs SPY",
+    "url": "https://totalrealreturns.com/n/AIEQ,SPY"
+   },
+   {
+    "name": "Lopez-Lira & Tang: Can ChatGPT Forecast Stock Price Movements? (arXiv, Oct 2025 version)",
+    "url": "https://arxiv.org/abs/2304.07619v6"
+   },
+   {
+    "name": "S&P Dow Jones Indices: SPIVA U.S. Year-End 2025",
+    "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2025/"
+   },
+   {
+    "name": "SEC press release 2024-36: AI washing charges (March 2024)",
+    "url": "https://www.sec.gov/newsroom/press-releases/2024-36"
+   },
+   {
+    "name": "Investor.gov: Artificial Intelligence (AI) and Investment Fraud investor alert (Jan 2024)",
+    "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/artificial-intelligence-ai-and-investment-fraud-investor-alert"
+   }
+  ],
+  "tags": [
+   "can ai pick stocks",
+   "ai stock picking",
+   "ai vs index fund",
+   "AIEQ",
+   "ai etf",
+   "chatgpt stock predictions",
+   "index funds",
+   "investing for beginners",
+   "ai investing scams",
+   "stock market",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#investing",
+   "#AI",
+   "#indexfunds"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s05"
+   ],
+   "headline": "AI fund vs index fund: 9 years of results",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s10"
+   ],
+   "headline": "The SEC fined 2 firms for fake AI claims",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s11"
+   ],
+   "headline": "4 AI investing scams regulators warn about",
+   "cta": "Full video on our channel"
+  }
+ ],
+ "metricool": {
+  "postId": 429671590,
+  "publishAt": "2026-11-26T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 429671792,
+    "publishAt": "2026-11-26T02:45:00+05:00"
+   },
+   {
+    "postId": 429671834,
+    "publishAt": "2026-11-26T06:45:00+05:00"
+   },
+   {
+    "postId": 429671856,
+    "publishAt": "2026-11-26T21:15:00+05:00"
+   }
+  ]
+ }
+}
