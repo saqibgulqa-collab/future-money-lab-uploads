@@ -178,7 +178,7 @@ def stage_audio():
     inputs = ["-i", f"{OUT}/voice_full.wav", "-stream_loop", "-1", "-i", music]
     for _, f_, _ in ev: inputs += ["-i", f_]
     fc = ["[0]aformat=channel_layouts=stereo,highpass=f=70,acompressor=threshold=0.1:ratio=3:attack=5:release=80,asplit=2[v][sc]",
-          f"[1]atrim=0:{total},afade=t=in:d=1.5,afade=t=out:st={total-4}:d=4,volume=0.2[m]",
+          f"[1]atrim=0:{total},afade=t=in:d=1.5,afade=t=out:st={total-4}:d=4,volume=0.07[m]",
           "[m][sc]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=350[md]"]
     labels = ["[v]", "[md]"]
     for k, (ts, _, vol) in enumerate(ev):
@@ -233,7 +233,7 @@ def stage_short():
             for sid in sp["scenes"]: f.write(f"file '{OUT}/audio_n/{sid}_fit.wav'\n")
         total = off + END
         ff("-f", "concat", "-safe", "0", "-i", f"{OUT}/{tag}_voice.txt", "-stream_loop", "-1", "-i", f"{WORK}/sfx/" + EP.get("music", "music_759.mp3"),
-           "-filter_complex", f"[0]aformat=channel_layouts=stereo,apad,atrim=0:{total},asplit=2[v][sc];[1]atrim=0:{total},afade=t=in:d=0.8,afade=t=out:st={total-1.5}:d=1.5,volume=0.22[m];"
+           "-filter_complex", f"[0]aformat=channel_layouts=stereo,apad,atrim=0:{total},asplit=2[v][sc];[1]atrim=0:{total},afade=t=in:d=0.8,afade=t=out:st={total-1.5}:d=1.5,volume=0.07[m];"
            f"[m][sc]sidechaincompress=threshold=0.04:ratio=5:attack=15:release=350[md];[v][md]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[out]",
            "-map", "[out]", "-ar", "48000", f"{OUT}/{tag}_mix.wav")
         ff("-i", vid, "-i", f"{OUT}/{tag}_mix.wav", "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", final)

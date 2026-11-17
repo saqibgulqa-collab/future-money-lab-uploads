@@ -31,7 +31,7 @@ for sc in ep["scenes"]:
     chunks.append(cur)
     parts = [sil(0.3)]
     for c in chunks:
-        parts += [m.generate(c, exaggeration=0.5, cfg_weight=0.3, temperature=0.75), sil(0.45)]
+        parts += [m.generate(c, exaggeration=0.75, cfg_weight=0.3, temperature=0.8), sil(0.6)]
     parts.append(sil(0.4))
     torchaudio.save(path + ".tmp.wav", torch.cat(parts, dim=1), sr)
     os.replace(path + ".tmp.wav", path)
