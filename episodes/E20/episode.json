@@ -1,7 +1,7 @@
 {
  "id": "E20",
  "num": 19,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "A",
  "title": "How to Make a Professional Presentation with AI in 10 Minutes",
  "music": "music_744.mp3",
@@ -518,5 +518,26 @@
    "headline": "5 mistakes that make AI slides look cheap",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 432457992,
+  "publishAt": "2026-11-28T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 432458110,
+    "publishAt": "2026-11-28T02:45:00+05:00",
+    "title": "Google Slides now builds whole decks #Shorts"
+   },
+   {
+    "postId": 432458122,
+    "publishAt": "2026-11-28T06:45:00+05:00",
+    "title": "The catch in Gamma's free plan #Shorts"
+   },
+   {
+    "postId": 432458133,
+    "publishAt": "2026-11-28T21:15:00+05:00",
+    "title": "5 mistakes that make AI slides look cheap #Shorts"
+   }
+  ]
+ }
 }
