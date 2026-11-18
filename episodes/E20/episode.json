@@ -1,0 +1,522 @@
+{
+ "id": "E20",
+ "num": 19,
+ "status": "draft",
+ "pillar": "A",
+ "title": "How to Make a Professional Presentation with AI in 10 Minutes",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "10 free decks?",
+   "chapterTitle": "Intro: 10 free AI decks, then pay?",
+   "broll": [
+    "4907",
+    "42664"
+   ],
+   "badge": "Gamma's free plan: 400 credits, about 40 per AI deck",
+   "numberValue": 10,
+   "unit": " decks",
+   "sub": "Then the credits never refresh (June 2026 pricing breakdown)",
+   "big": {
+    "at": "ten"
+   },
+   "chips": [
+    {
+     "text": "PowerPoint: Copilot",
+     "at": "powerpoint"
+    },
+    {
+     "text": "Google Slides: Gemini",
+     "at": "slides"
+    }
+   ],
+   "text": "Gamma's free plan gives you four hundred credits, and creating a deck with AI costs about forty. That's roughly ten presentations, and then those credits never refresh. Meanwhile, PowerPoint now builds decks with Copilot, and Google Slides started building full presentations from a single prompt this summer. So which one should you use, and can you really make a professional presentation in ten minutes? In this video, I'll walk you through a ten minute workflow, what each tool needs, what it costs, and the mistakes that make AI decks look cheap."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The promise",
+   "chapterTitle": "What 'professional' really means",
+   "broll": [
+    "42648",
+    "13218"
+   ],
+   "badge": "Checked November 2026",
+   "title": "A real deck in 10 minutes",
+   "sub": "PowerPoint, Google Slides or Gamma: what works",
+   "accent": [
+    3,
+    4
+   ],
+   "text": "First, what does professional mean here? It doesn't mean fancy animations. It means a clear message, one idea per slide, readable text, and numbers you can defend. AI is very good at the first draft: the outline, the layout, the wording. It's not good at knowing your audience or checking your facts. So the plan is simple. You spend two minutes thinking, let the AI do the heavy lifting, and spend the rest of the time fixing what it gets wrong. Everything here was checked against Microsoft, Google and Gamma pages in November twenty twenty six."
+  },
+  {
+   "id": "s03",
+   "kind": "steps",
+   "chapter": "Minutes 0-2",
+   "chapterTitle": "Step 1: Write a 4-line brief",
+   "broll": [
+    "4806",
+    "46768"
+   ],
+   "items": [
+    {
+     "text": "Who is the audience?",
+     "at": "who"
+    },
+    {
+     "text": "What should they decide or do?",
+     "at": "decide"
+    },
+    {
+     "text": "How many slides, how long?",
+     "at": "how"
+    },
+    {
+     "text": "The one thing to remember",
+     "at": "remember"
+    }
+   ],
+   "footer": {
+    "text": "A vague prompt gives a generic deck",
+    "at": "vague",
+    "tone": "bad"
+   },
+   "text": "Step one, minutes zero to two: write a four line brief before you open any tool. Line one: who is the audience? Your boss, a client, a class? Line two: what should they decide or do after the talk? Line three: how many slides and how long you'll speak. Ten slides for a ten minute talk is a good start. Line four: the one thing they must remember. Paste this brief into whichever tool you use. A vague prompt gives you a generic deck. A clear brief gives you a draft that already sounds like your talk."
+  },
+  {
+   "id": "s04",
+   "kind": "steps",
+   "chapter": "Option 1",
+   "chapterTitle": "Copilot in PowerPoint: how it works",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "New presentation, open Copilot",
+     "at": "open"
+    },
+    {
+     "text": "Pick a Brand Kit, if you have one",
+     "at": "brand"
+    },
+    {
+     "text": "Describe the deck (your brief)",
+     "at": "paste"
+    },
+    {
+     "text": "Answer its questions",
+     "at": "questions"
+    },
+    {
+     "text": "Or start from a Word document",
+     "at": "word"
+    }
+   ],
+   "footer": {
+    "text": "Tip: Word file under 24 MB, using Word Styles",
+    "at": "tip",
+    "tone": "accent"
+   },
+   "text": "Option one: Copilot in PowerPoint. According to Microsoft's support page, updated in October, you start a new presentation and open Copilot from the icon at the bottom right. If your company set one up, you can pick a Brand Kit, with your logos, fonts and colors. Then you paste your brief. Copilot may ask follow up questions about the audience, length and imagery, and then builds the deck. You can also start from a Word document. Microsoft's tip: it works best with Word files smaller than twenty four megabytes that use proper headings, known as Word Styles."
+  },
+  {
+   "id": "s05",
+   "kind": "rows",
+   "chapter": "Copilot limits",
+   "chapterTitle": "Copilot: plans and limits",
+   "broll": [
+    "221",
+    "1730"
+   ],
+   "items": [
+    {
+     "name": "License",
+     "desc": "Not in every Microsoft 365 plan",
+     "at": "license"
+    },
+    {
+     "name": "One file",
+     "desc": "One Word file at a time on home plans",
+     "at": "one"
+    },
+    {
+     "name": "PDF too",
+     "desc": "Work accounts can also use a PDF",
+     "at": "pdf"
+    },
+    {
+     "name": "Word limit",
+     "desc": "A cap on words per prompt",
+     "at": "words"
+    },
+    {
+     "name": "English first",
+     "desc": "Best quality in English",
+     "at": "english"
+    }
+   ],
+   "footer": {
+    "text": "Source: Microsoft FAQ, Copilot in PowerPoint",
+    "at": "check"
+   },
+   "text": "A few limits from Microsoft's own FAQ. First, the license. If you don't see Copilot, it may simply not be included in your Microsoft three sixty five plan. On home plans, you can point it at one Word file at a time. Work accounts can also use a PDF. Microsoft also says Copilot is limited in the number of words it can process per prompt, but it doesn't publish the number, so very long documents may get cut short. And while many languages work, quality is expected to be highest in English. Check what your plan includes before you count on it."
+  },
+  {
+   "id": "s06",
+   "kind": "cards",
+   "chapter": "Option 2",
+   "chapterTitle": "Gemini in Google Slides",
+   "broll": [
+    "4915",
+    "46990"
+   ],
+   "items": [
+    {
+     "title": "Prompt",
+     "value": "Brief",
+     "sub": "in the side panel",
+     "at": "side"
+    },
+    {
+     "title": "Review",
+     "value": "Outline",
+     "sub": "edit before it builds",
+     "at": "outline"
+    },
+    {
+     "title": "Result",
+     "value": "Editable",
+     "sub": "normal Slides elements",
+     "at": "editable"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Business & Enterprise Std/Plus",
+     "at": "business"
+    },
+    {
+     "text": "Google AI Pro & Ultra",
+     "at": "personal"
+    },
+    {
+     "text": "English (US) only",
+     "at": "english"
+    }
+   ],
+   "text": "Option two: Gemini in Google Slides. Google announced at the end of June twenty twenty six that one prompt in the side panel can now build a full multi slide deck. It can pull in your Drive files, even match the style of a deck you attach. And here's the part I like: it shows you the outline first, so you can edit it before any slides are built. The result is normal, editable slides. Google lists it for Business and Enterprise Standard and Plus, and for personal Google AI Pro and Ultra plans. At launch, it supports English in the United States only."
+  },
+  {
+   "id": "s07",
+   "kind": "cards",
+   "chapter": "Option 3",
+   "chapterTitle": "Gamma: plans and prices",
+   "broll": [
+    "18302",
+    "47214"
+   ],
+   "items": [
+    {
+     "title": "Free",
+     "value": "$0",
+     "sub": "400 credits, once",
+     "at": "free"
+    },
+    {
+     "title": "Plus",
+     "value": "$9",
+     "sub": "per seat / month",
+     "at": "plus"
+    },
+    {
+     "title": "Pro",
+     "value": "$18",
+     "sub": "per seat / month",
+     "at": "pro"
+    },
+    {
+     "title": "Ultra",
+     "value": "$90",
+     "sub": "per seat / month",
+     "at": "ultra"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Plus ≈ $108 a year",
+     "at": "hundred"
+    },
+    {
+     "text": "Prices as of June 2026",
+     "at": "check"
+    }
+   ],
+   "footer": {
+    "text": "Free first. Pay only if you use it weekly.",
+    "at": "weekly",
+    "tone": "accent"
+   },
+   "text": "Option three: Gamma, a standalone AI presentation app. It works from a prompt, pasted notes or a document. Prices change often, so here's a pricing breakdown published in June twenty twenty six. Free is zero dollars, with four hundred starter credits that never refresh. Plus is nine dollars per seat per month. Pro is eighteen, and Ultra is ninety. So Plus works out to about one hundred eight dollars a year. My suggestion is simple: start on the free plan, and pay only if you find yourself making decks weekly. Check Gamma's own pricing page before you buy."
+  },
+  {
+   "id": "s08",
+   "kind": "cards",
+   "chapter": "Free plan",
+   "chapterTitle": "Gamma free plan: the fine print",
+   "broll": [
+    "4908",
+    "221"
+   ],
+   "items": [
+    {
+     "title": "Per AI deck",
+     "value": "40",
+     "sub": "credits",
+     "at": "forty"
+    },
+    {
+     "title": "Per prompt",
+     "value": "10",
+     "sub": "cards (slides)",
+     "at": "ten"
+    },
+    {
+     "title": "Exports",
+     "value": "PDF, PPT",
+     "sub": "and Google Slides",
+     "at": "export"
+    }
+   ],
+   "chips": [
+    {
+     "text": "'Made with Gamma' badge stays",
+     "at": "badge"
+    },
+    {
+     "text": "Can't buy extra credits",
+     "at": "buy"
+    }
+   ],
+   "text": "Now the fine print on Gamma's free plan, from the same June breakdown. Creating a deck with AI costs forty credits, and each extra card costs five more. You get up to ten cards per prompt, and in Gamma a card is basically a slide. You can export to PDF, PowerPoint or Google Slides, which is great, because you can finish the deck in the app you already use. But the made with Gamma badge stays on everything you share or export, and free users can't buy extra credits. Once the four hundred are gone, you upgrade or stop."
+  },
+  {
+   "id": "s09",
+   "kind": "steps",
+   "chapter": "Minutes 2-10",
+   "chapterTitle": "The 10-minute workflow",
+   "broll": [
+    "42664",
+    "4907"
+   ],
+   "items": [
+    {
+     "text": "0-2: Write the brief",
+     "at": "zero"
+    },
+    {
+     "text": "2-3: Generate, edit the outline",
+     "at": "generate"
+    },
+    {
+     "text": "3-6: Fix the words and numbers",
+     "at": "three",
+     "nth": 1
+    },
+    {
+     "text": "6-8: One design pass",
+     "at": "six",
+     "nth": 1
+    },
+    {
+     "text": "8-10: Click through out loud",
+     "at": "eight",
+     "nth": 1
+    }
+   ],
+   "footer": {
+    "text": "The AI drafts. You decide.",
+    "at": "decide",
+    "tone": "accent"
+   },
+   "text": "Here's the full ten minute workflow. Minutes zero to two: write the brief. Minutes two to three: generate, and fix the outline before the slides are built, if your tool shows it. Minutes three to six: go slide by slide. Cut the text to a few short lines, check every number, and replace anything vague with your real example. Minutes six to eight: one design pass. Use your company template, keep fonts consistent, and swap generic pictures for real charts or screenshots. Minutes eight to ten: click through the deck out loud once. The AI drafts. You decide."
+  },
+  {
+   "id": "s10",
+   "kind": "rows",
+   "chapter": "5 mistakes",
+   "chapterTitle": "5 mistakes that make AI decks look cheap",
+   "broll": [
+    "45923",
+    "4806"
+   ],
+   "items": [
+    {
+     "name": "Unchecked facts",
+     "desc": "AI doesn't verify numbers or claims",
+     "at": "facts"
+    },
+    {
+     "name": "Wall of text",
+     "desc": "Cut every slide to a few lines",
+     "at": "wall"
+    },
+    {
+     "name": "Image-only slides",
+     "desc": "Text baked into a picture can't be edited",
+     "at": "image"
+    },
+    {
+     "name": "Generic stock art",
+     "desc": "Use your own charts and screenshots",
+     "at": "stock"
+    },
+    {
+     "name": "Private data",
+     "desc": "Only add files you'd show on a slide",
+     "at": "private"
+    }
+   ],
+   "footer": {
+    "text": "Your name is on the deck, not the AI's",
+    "at": "name",
+    "tone": "bad"
+   },
+   "text": "Now, five mistakes that make AI decks look cheap. One: unchecked facts. These tools don't verify claims, so every number needs a source you trust. Two: a wall of text. AI loves full sentences. Cut every slide down to a few lines. Three: image only slides. Some features turn a slide into a picture, and text inside a picture can't be edited later. Four: generic stock art that has nothing to do with your point. Five: private data. Only add files you'd be comfortable showing on a slide. Remember, your name is on the deck, not the AI's."
+  },
+  {
+   "id": "s11",
+   "kind": "compare",
+   "chapter": "Which one?",
+   "chapterTitle": "Which tool should you use?",
+   "broll": [
+    "42648",
+    "41541"
+   ],
+   "cards": [
+    {
+     "title": "PPT + Copilot",
+     "sub": "If your plan has it",
+     "at": "powerpoint"
+    },
+    {
+     "title": "Slides + Gemini",
+     "sub": "Eligible plans",
+     "at": "google"
+    }
+   ],
+   "big": {
+    "value": "Use yours",
+    "sub": "Gamma free: ~10 decks",
+    "at": "neither"
+   },
+   "footer": {
+    "text": "Or ask any free AI chat for the outline, then build it yourself",
+    "at": "chat"
+   },
+   "text": "So which one should you use? If you already work in PowerPoint and your Microsoft plan includes Copilot, start there, especially if your company has a Brand Kit. If you live in Google Workspace on an eligible plan, Gemini in Slides is the smoothest, because you review the outline first. If neither plan covers it, try Gamma's free plan for your next few decks and export to PowerPoint or Slides. And with no budget at all, ask any free AI chat assistant to turn your brief into a slide by slide outline, then build it yourself. That still saves most of the time."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "title": "AI drafts, you decide",
+   "accent": [
+    2,
+    3
+   ],
+   "next": "AI Meeting Notes: Never Write Minutes Again",
+   "text": "So yes, a professional presentation in ten minutes is realistic now, as long as you treat AI as the drafter and yourself as the editor. Write a clear brief, review the outline, fix the facts, and do one design pass. Now I want to hear from you. What's the next presentation you have to make? Tell me in the comments. If this helped, subscribe to Future Money Lab, and I'll see you in the next video."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "AI SLIDES",
+   "line2": "IN 10 MINUTES",
+   "tag": "PowerPoint + Google Slides"
+  },
+  "b": {
+   "kicker": "GAMMA: 400 FREE CREDITS",
+   "from": "400",
+   "to": "10",
+   "line2": "DECKS, THEN PAY",
+   "tag": "PowerPoint + Google Slides"
+  }
+ },
+ "youtube": {
+  "title": "Make a Professional Presentation with AI in 10 Minutes (2026)",
+  "summary": "Can AI really build a professional presentation in 10 minutes? I researched Microsoft's, Google's and Gamma's pages (checked November 2026) and put together a simple 10-minute workflow: a 4-line brief, how Copilot in PowerPoint and Gemini in Google Slides build decks today, what each needs, Gamma's plans and free-plan fine print, and 5 mistakes that make AI decks look cheap.",
+  "details": "Facts mentioned (checked November 2026):\n- Copilot in PowerPoint: open Copilot from the icon at the bottom right of a new presentation, optionally pick a Brand Kit, describe the deck and answer clarifying questions; it can also start from a Word document. Microsoft's tip: works best with Word documents smaller than 24 MB that use Word Styles (Microsoft Support, updated Oct 2026).\n- Copilot may not be included in every Microsoft 365 subscription; home plans reference one Word file at a time, work accounts can also use PDF; Copilot is limited in the number of words it can process per prompt; quality is expected to be highest in English (Microsoft FAQ, Sept 2026).\n- Gemini in Google Slides builds a full, editable multi-slide deck from one prompt, can use Drive files and match an attached deck's style, and shows an outline to review first. Available on Business Standard/Plus, Enterprise Standard/Plus, Google AI Pro and Ultra; English (US) only at launch (Google Workspace Updates, June 30, 2026).\n- Gamma (pricing breakdown published June 2026): Free $0 with 400 one-time credits; Plus $9 ($108/yr), Pro $18 ($216/yr), Ultra $90 per seat per month. Free plan: 40 credits to create with AI, 5 per added card, up to 10 cards per prompt, exports to PDF/PPT/Google Slides, 'Made with Gamma' badge stays, free users can't buy credits. Check Gamma's own pricing page; prices change.\n- '~10 decks' is our estimate: 400 credits / 40 credits per AI deck.",
+  "sources": [
+   {
+    "name": "Microsoft Support: Create a new presentation with Copilot in PowerPoint",
+    "url": "https://support.microsoft.com/en-us/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d"
+   },
+   {
+    "name": "Microsoft Support: Frequently asked questions about Copilot in PowerPoint",
+    "url": "https://support.microsoft.com/powerpoint/frequently-asked-questions-about-copilot-in-powerpoint"
+   },
+   {
+    "name": "Google Workspace Updates: Create fully native and editable presentations with Gemini in Google Slides (June 2026)",
+    "url": "https://workspaceupdates.googleblog.com/2026/06/create-fully-native-and-editable-presentations-with-Gemini-in-Google-Slides.html"
+   },
+   {
+    "name": "Lead with AI: Gemini in Google Slides guide (Nov 2026)",
+    "url": "https://www.leadwithai.co/guides/gemini-in-google-slides"
+   },
+   {
+    "name": "eesel AI: Gamma pricing in 2026 (June 2026)",
+    "url": "https://www.eesel.ai/en/blog/gamma-pricing"
+   }
+  ],
+  "tags": [
+   "ai presentation",
+   "make a presentation with ai",
+   "copilot in powerpoint",
+   "gemini in google slides",
+   "gamma ai",
+   "ai slides",
+   "ai powerpoint",
+   "presentation tips",
+   "ai productivity",
+   "ai tools 2026",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#AItools",
+   "#PowerPoint",
+   "#GoogleSlides"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s06"
+   ],
+   "headline": "Google Slides now builds whole decks",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "The catch in Gamma's free plan",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s10"
+   ],
+   "headline": "5 mistakes that make AI slides look cheap",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
