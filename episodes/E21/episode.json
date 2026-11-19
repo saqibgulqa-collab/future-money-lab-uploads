@@ -1,0 +1,542 @@
+{
+ "id": "E21",
+ "num": 23,
+ "status": "draft",
+ "pillar": "B",
+ "title": "The 50/30/20 Budget Rule Explained with Real Numbers",
+ "music": "music_759.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "54% before groceries",
+   "chapterTitle": "Intro: 54% gone before groceries",
+   "broll": [
+    "18296",
+    "46768"
+   ],
+   "badge": "Typical take-home: about $6,338 a month (Census, 2025)",
+   "numberValue": 54,
+   "unit": "%",
+   "sub": "Average housing + transportation vs median take-home (BLS 2025)",
+   "big": {
+    "at": "four"
+   },
+   "chips": [
+    {
+     "text": "Housing ≈ $2,316/mo",
+     "at": "housing"
+    },
+    {
+     "text": "Transportation ≈ $1,124/mo",
+     "at": "transportation"
+    }
+   ],
+   "text": "Here's a problem with the most popular budget rule on the internet. The fifty thirty twenty rule says your needs should take half of your take-home pay. But a typical American household takes home about six thousand three hundred dollars a month. And the average household spends about two thousand three hundred on housing and eleven hundred on transportation. That's fifty four percent, gone, before a single grocery bill. So is the rule broken, or are we using it wrong? In this video, I'll run the fifty thirty twenty rule on real government numbers, show you where it breaks, and how to build a version that actually fits your life."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The rule",
+   "chapterTitle": "What the 50/30/20 rule says",
+   "broll": [
+    "4806",
+    "42664"
+   ],
+   "badge": "Checked November 2026",
+   "title": "Needs, wants, savings",
+   "sub": "Split your after-tax pay, not your salary",
+   "accent": [
+    2
+   ],
+   "text": "First, the rule itself. It was popularized by Senator Elizabeth Warren and her daughter, Amelia Warren Tyagi, in their book All Your Worth. The idea is simple. Take your after-tax income, the money that actually lands in your account, and split it three ways. Fifty percent for needs, thirty percent for wants, and twenty percent for savings and extra debt payments. That's it. No tracking every coffee, no forty spending categories. Just three buckets. And that simplicity is exactly why it's so popular. But a simple rule only works if you put the right things in the right bucket, so let's go through them one by one."
+  },
+  {
+   "id": "s03",
+   "kind": "rows",
+   "chapter": "50%: Needs",
+   "chapterTitle": "The 50%: what counts as a need",
+   "broll": [
+    "45923",
+    "4907"
+   ],
+   "items": [
+    {
+     "name": "Housing",
+     "desc": "Rent or mortgage, plus utilities",
+     "at": "rent"
+    },
+    {
+     "name": "Groceries",
+     "desc": "Food at home, not restaurants",
+     "at": "groceries"
+    },
+    {
+     "name": "Transport",
+     "desc": "Getting to work, incl. a car payment",
+     "at": "transportation"
+    },
+    {
+     "name": "Insurance & health",
+     "desc": "Premiums and medical care",
+     "at": "insurance"
+    },
+    {
+     "name": "Minimum debt payments",
+     "desc": "Credit cards, student loans",
+     "at": "minimum"
+    }
+   ],
+   "footer": {
+    "text": "Test: would skipping it get you evicted, sued or fired?",
+    "at": "test"
+   },
+   "text": "The fifty percent: needs. These are the bills you'd still have to pay if you lost your job tomorrow. Rent or mortgage, and utilities. Groceries, not restaurants. Transportation to work, including a car payment. Insurance and health care. And here's one people miss: the minimum payments on your debts, like credit cards and student loans, go in needs, because skipping them isn't optional. Child care belongs here too. A good test: if stopping this payment would get you evicted, sued, or fired, it's a need."
+  },
+  {
+   "id": "s04",
+   "kind": "rows",
+   "chapter": "30%: Wants",
+   "chapterTitle": "The 30%: wants (and the honesty trick)",
+   "broll": [
+    "4908",
+    "26923"
+   ],
+   "items": [
+    {
+     "name": "Eating out",
+     "desc": "Restaurants, takeout, coffee runs",
+     "at": "eating"
+    },
+    {
+     "name": "Subscriptions",
+     "desc": "Streaming, apps, memberships",
+     "at": "streaming"
+    },
+    {
+     "name": "Travel",
+     "desc": "Vacations and weekends away",
+     "at": "vacations"
+    },
+    {
+     "name": "Hobbies & fun",
+     "desc": "Concerts, gear, new clothes",
+     "at": "hobbies"
+    },
+    {
+     "name": "Upgrades",
+     "desc": "The premium part of any need",
+     "at": "upgrade"
+    }
+   ],
+   "footer": {
+    "text": "Wants aren't bad. Hiding them in needs is.",
+    "at": "trick"
+   },
+   "text": "The thirty percent: wants. Eating out. Streaming and other subscriptions. Vacations. Hobbies, concerts, new clothes you don't strictly need, the latest phone. A ride share when the bus would work. None of this is bad. The rule actually gives you permission to spend almost a third of your pay on things that make life enjoyable. The trick is honesty. A gym membership can be a need for one person and a want for another. And if you upgrade from a basic phone plan to the premium one, the basic part is a need, and the upgrade is a want."
+  },
+  {
+   "id": "s05",
+   "kind": "steps",
+   "chapter": "20%: Savings",
+   "chapterTitle": "The 20%: savings and extra debt payments",
+   "broll": [
+    "18263",
+    "46990"
+   ],
+   "items": [
+    {
+     "text": "Emergency fund: 3 to 6 months of essentials",
+     "at": "emergency"
+    },
+    {
+     "text": "Retirement: 401(k) or IRA",
+     "at": "retirement"
+    },
+    {
+     "text": "Extra debt payments above the minimum",
+     "at": "extra"
+    },
+    {
+     "text": "Big goals, like a home down payment",
+     "at": "goals"
+    }
+   ],
+   "footer": {
+    "text": "Pay this bucket first, on payday",
+    "at": "paycheck",
+    "tone": "accent"
+   },
+   "text": "The twenty percent: your future. First, an emergency fund. The common target is three to six months of essential expenses. Second, retirement, like a four oh one k or an I R A. Third, extra debt payments above the minimum. That surprises people, but paying down debt early saves you interest, so it counts as building your future. Fourth, big goals, like a down payment on a home. One finance site even says it could be called the twenty fifty thirty rule, because this bucket is the whole point. So pay it first, the day your paycheck arrives."
+  },
+  {
+   "id": "s06",
+   "kind": "pricelist",
+   "chapter": "On paper",
+   "chapterTitle": "The rule on a typical paycheck",
+   "broll": [
+    "18302",
+    "9330"
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "Needs (50%)",
+     "value": "$3,169",
+     "num": 3169,
+     "at": "needs"
+    },
+    {
+     "label": "Wants (30%)",
+     "value": "$1,901",
+     "num": 1901,
+     "at": "wants"
+    },
+    {
+     "label": "Savings (20%)",
+     "value": "$1,268",
+     "num": 1268,
+     "at": "savings"
+    }
+   ],
+   "total": {
+    "label": "Median take-home per month (2025)",
+    "yearly": {
+     "text": "Savings ≈ $15,200 a year",
+     "at": "fifteen",
+     "tone": "good"
+    },
+    "callout": {
+     "text": "On paper, it works",
+     "at": "paper"
+    }
+   },
+   "text": "Now let's run it on real numbers. The Census Bureau says the median American household had about seventy six thousand dollars of income after taxes in twenty twenty five. That's roughly six thousand three hundred and thirty eight dollars a month. Apply the rule: three thousand one hundred sixty nine dollars for needs, about nineteen hundred for wants, and twelve hundred sixty eight for savings. Over a year, that savings bucket is about fifteen thousand dollars. That could build a full emergency fund in a few months, or make a serious start on retirement. On paper, it looks great. Now let's see what real bills say."
+  },
+  {
+   "id": "s07",
+   "kind": "pricelist",
+   "chapter": "Real bills",
+   "chapterTitle": "What households actually spend",
+   "broll": [
+    "47214",
+    "4806"
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "Housing",
+     "value": "$2,316",
+     "num": 2316,
+     "at": "housing"
+    },
+    {
+     "label": "Transportation",
+     "value": "$1,124",
+     "num": 1124,
+     "at": "transportation"
+    },
+    {
+     "label": "Groceries",
+     "value": "$541",
+     "num": 541,
+     "at": "groceries"
+    },
+    {
+     "label": "Health care",
+     "value": "$539",
+     "num": 539,
+     "at": "health"
+    }
+   ],
+   "total": {
+    "label": "Average household, per month (BLS, 2025)",
+    "yearly": {
+     "text": "≈ 71% of a median take-home",
+     "at": "seventy",
+     "tone": "bad"
+    },
+    "callout": {
+     "text": "Debt payments not even counted",
+     "at": "debt"
+    }
+   },
+   "text": "Here's the catch. The Bureau of Labor Statistics tracks what households actually spend. In twenty twenty five, the average household spent about two thousand three hundred sixteen dollars a month on housing, eleven hundred twenty four on transportation, five hundred forty one on groceries, and five hundred thirty nine on health care. Add those up and you get about four thousand five hundred twenty dollars. Against a typical take-home of about six thousand three hundred dollars, that's roughly seventy one percent on needs, not fifty. And we haven't even counted minimum debt payments yet."
+  },
+  {
+   "id": "s08",
+   "kind": "compare",
+   "chapter": "To be fair",
+   "chapterTitle": "Why your number may differ",
+   "broll": [
+    "41541",
+    "42648"
+   ],
+   "cards": [
+    {
+     "title": "The rule",
+     "sub": "Needs ≤ 50%",
+     "at": "rule"
+    },
+    {
+     "title": "The averages",
+     "sub": "Needs ≈ 71% (rough)",
+     "at": "averages"
+    }
+   ],
+   "big": {
+    "value": "33.9%",
+    "sub": "of spending went to housing",
+    "at": "thirty"
+   },
+   "bars": [
+    {
+     "label": "Needs, by the rule",
+     "value": "50%",
+     "fill": 0.7,
+     "tone": "good",
+     "at": "fair"
+    },
+    {
+     "label": "Needs, by the averages",
+     "value": "≈71%",
+     "fill": 1.0,
+     "tone": "bad",
+     "at": "median"
+    },
+    {
+     "label": "Housing spending, one year",
+     "value": "+5.8%",
+     "fill": 0.3,
+     "tone": "bad",
+     "at": "six"
+    }
+   ],
+   "footer": {
+    "text": "Your bills will differ: run your own numbers",
+    "at": "goal"
+   },
+   "text": "Now, to be fair to the rule, these are averages across all households, and the average household in that survey earned about a hundred and eleven thousand dollars before taxes, well above the median. Transportation also includes buying cars, and many people pay health premiums straight from their paycheck. So your number could be lower. But the direction is clear. Housing alone took about thirty four cents of every dollar households spent, and housing spending rose almost six percent in a single year. For many renters, fifty percent for needs is a goal, not a starting point."
+  },
+  {
+   "id": "s09",
+   "kind": "cards",
+   "chapter": "Adjust it",
+   "chapterTitle": "Two variations when needs are over 50%",
+   "broll": [
+    "4915",
+    "42653"
+   ],
+   "items": [
+    {
+     "title": "Classic",
+     "value": "50/30/20",
+     "sub": "needs / wants / savings",
+     "at": "away"
+    },
+    {
+     "title": "High-cost area",
+     "value": "60/30/10",
+     "sub": "needs / wants / savings",
+     "at": "sixty"
+    },
+    {
+     "title": "Tight budget",
+     "value": "70/20/10",
+     "sub": "living / saving / debt",
+     "at": "seventy"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Move 1–2% a year toward savings",
+     "at": "move"
+    },
+    {
+     "text": "Variations as described by SoFi, Aug 2026",
+     "at": "describes"
+    }
+   ],
+   "footer": {
+    "text": "A direction, not a test",
+    "at": "direction"
+   },
+   "text": "So what do you do if your needs are above fifty percent? You don't throw the rule away. You adjust it. SoFi describes two common variations. Sixty, thirty, ten: sixty percent for needs, thirty for wants, ten for savings and debt, suggested for high cost areas. And seventy, twenty, ten: seventy percent for needs and wants together, twenty for saving and investing, and ten for paying off debt or giving. Here's a simple way to use them. Start with the split you have today, then move one or two percent a year from wants toward savings. The rule is a direction, not a test you pass or fail."
+  },
+  {
+   "id": "s10",
+   "kind": "steps",
+   "chapter": "Set it up",
+   "chapterTitle": "Set it up in about an hour",
+   "broll": [
+    "1730",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "Find your real take-home pay",
+     "at": "find"
+    },
+    {
+     "text": "Tag 3 months of statements",
+     "at": "pull"
+    },
+    {
+     "text": "Write down your real split",
+     "at": "calculate"
+    },
+    {
+     "text": "Automate savings the day after payday",
+     "at": "automatic"
+    },
+    {
+     "text": "Review again in 3 months",
+     "at": "check"
+    }
+   ],
+   "footer": {
+    "text": "Automation beats willpower",
+    "at": "before",
+    "tone": "accent"
+   },
+   "text": "Here's how to set it up in about an hour. Step one: find your real take-home pay from your last two paychecks, not your salary. Step two: pull the last three months of bank and card statements and tag each line as a need, a want, or savings. Step three: calculate your actual split. Don't judge it yet, just write it down. Step four: set an automatic transfer to savings for the day after payday, so the twenty percent, or whatever you can manage, leaves your account before you can spend it. Step five: check again in three months and adjust."
+  },
+  {
+   "id": "s11",
+   "kind": "questions",
+   "chapter": "Limits",
+   "chapterTitle": "When the rule doesn't fit",
+   "broll": [
+    "221",
+    "13218"
+   ],
+   "items": [
+    {
+     "text": "Lower income?",
+     "at": "lower"
+    },
+    {
+     "text": "Expensive city?",
+     "at": "cities"
+    },
+    {
+     "text": "Big family costs?",
+     "at": "family"
+    },
+    {
+     "text": "Expensive debt?",
+     "at": "expensive",
+     "nth": 1
+    },
+    {
+     "text": "401(k) taken from your pay?",
+     "at": "retirement"
+    }
+   ],
+   "footer": {
+    "text": "It's a guideline,",
+    "highlight": "not a grade",
+    "at": "count"
+   },
+   "text": "And a few honest limits. The rule can be unrealistic on a lower income, where rent alone can take half your pay. It's harder in expensive cities. Big family costs, like several kids or caring for parents, can push needs well past fifty. And if you carry expensive debt, you may want more than twenty percent going to it for a while. Also notice where your retirement money comes from. If your four oh one k contribution comes out before your paycheck, you're already saving part of that twenty percent, so count it."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "title": "Know your real split",
+   "accent": [
+    2,
+    3
+   ],
+   "next": "What Is a Recession, and How to Prepare Your Money",
+   "text": "So, is the fifty thirty twenty rule broken? Not really. The math just doesn't fit everyone on day one. Use it as a compass. Know your real split, protect your savings bucket as much as you can, and move toward the classic split over time. Remember, this is education, not financial advice. Now I'd like to hear from you. What's your real split right now, and which bucket surprised you most? Tell me in the comments. If this helped, subscribe to Future Money Lab for more money and AI explained with real data. Next up: What Is a Recession, and How to Prepare Your Money."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "50/30/20?",
+   "line2": "VS REAL BILLS",
+   "tag": "Budget rule explained"
+  },
+  "b": {
+   "kicker": "NEEDS VS A TYPICAL PAYCHECK",
+   "from": "50%",
+   "to": "71%",
+   "line2": "THE REAL MATH",
+   "tag": "50/30/20 rule"
+  }
+ },
+ "youtube": {
+  "title": "The 50/30/20 Budget Rule Explained with Real Numbers (2026)",
+  "summary": "Does the 50/30/20 budget rule still work in 2026? I ran it on real government data (checked November 2026): what counts as a need, a want and savings, the rule on a median American paycheck, what households actually spend on housing, transportation, groceries and health care, two variations for when needs go over 50%, a one-hour setup, and the limits most videos skip.",
+  "details": "Facts mentioned (checked November 2026):\n- The 50/30/20 rule was popularized by Sen. Elizabeth Warren and Amelia Warren Tyagi in their book \"All Your Worth: The Ultimate Lifetime Money Plan\". It splits take-home (after-tax) pay: 50% needs, 30% wants, 20% savings and debt payments above the minimum. Minimum debt payments count as needs (InCharge Debt Solutions; SoFi, Aug 2026).\n- Real median household income in 2025: $87,460 before taxes; post-tax median $76,060, up 3.1% from 2024 (U.S. Census Bureau, Sept 15, 2026). $76,060 / 12 = about $6,338 a month (our calculation).\n- Average annual spending per household in 2025 (BLS Consumer Expenditures, Oct 29, 2026): total $81,905; housing $27,790 (33.9% of spending, +5.8% from 2024); transportation $13,492; food at home $6,491; healthcare $6,470. Average income before taxes: $110,847.\n- Monthly figures ($2,316 housing, $1,124 transportation, $541 groceries, $539 health care = $4,520, about 71% of $6,338) are our own division by 12. They mix averages (BLS) with a median (Census), so they are a rough stress test, not anyone's actual budget. Transportation includes vehicle purchases; some health premiums are paid through payroll.\n- Variations 60/30/10 and 70/20/10 as described by SoFi (Aug 2026).\n- Emergency fund target of 3 to 6 months of expenses (InCharge).",
+  "sources": [
+   {
+    "name": "U.S. Census Bureau: Median Household Income in 2025 (Sept 2026)",
+    "url": "https://www.census.gov/library/stories/2026/09/median-household-income.html"
+   },
+   {
+    "name": "BLS: Consumer Expenditures 2025 (Oct 2026)",
+    "url": "https://www.bls.gov/news.release/cesan.htm"
+   },
+   {
+    "name": "BLS TED: Housing and transportation were 50% of household spending in 2024",
+    "url": "https://www.bls.gov/opub/ted/2026/housing-and-transportation-accounted-for-50-percent-of-household-spending-in-2024.htm"
+   },
+   {
+    "name": "InCharge Debt Solutions: The 50/30/20 rule",
+    "url": "https://www.incharge.org/financial-literacy/budgeting-saving/50-30-20-rule/"
+   },
+   {
+    "name": "SoFi: 50/30/20 budget rule (Aug 2026)",
+    "url": "https://www.sofi.com/learn/content/50-30-20-budget/"
+   }
+  ],
+  "tags": [
+   "50/30/20 rule",
+   "50 30 20 budget",
+   "budgeting for beginners",
+   "how to budget",
+   "budget rule",
+   "needs wants savings",
+   "personal finance",
+   "money tips",
+   "emergency fund",
+   "saving money",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#Budgeting",
+   "#PersonalFinance",
+   "#MoneyTips"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s07"
+   ],
+   "headline": "The 50/30/20 rule vs real US bills",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s05"
+   ],
+   "headline": "What really counts as the 20% in 50/30/20",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s09"
+   ],
+   "headline": "Needs over 50%? Try these 2 splits",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
