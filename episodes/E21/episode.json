@@ -1,7 +1,7 @@
 {
  "id": "E21",
  "num": 23,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "The 50/30/20 Budget Rule Explained with Real Numbers",
  "music": "music_759.mp3",
@@ -538,5 +538,26 @@
    "headline": "Needs over 50%? Try these 2 splits",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 433845095,
+  "publishAt": "2026-11-29T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 433845242,
+    "publishAt": "2026-11-29T02:45:00+05:00",
+    "title": "The 50/30/20 rule vs real US bills #Shorts"
+   },
+   {
+    "postId": 433845258,
+    "publishAt": "2026-11-29T06:45:00+05:00",
+    "title": "What really counts as the 20% in 50/30/20 #Shorts"
+   },
+   {
+    "postId": 433845269,
+    "publishAt": "2026-11-29T21:15:00+05:00",
+    "title": "Needs over 50%? Try these 2 splits #Shorts"
+   }
+  ]
+ }
 }
