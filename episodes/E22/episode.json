@@ -1,7 +1,7 @@
 {
  "id": "E22",
  "num": 24,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "What Is a Recession, and How to Prepare Your Money",
  "music": "music_759.mp3",
@@ -10,7 +10,7 @@
    "id": "s01",
    "kind": "stat",
    "chapter": "37% can't",
-   "chapterTitle": "Intro: 4 in 10 can't cover $400",
+   "chapterTitle": "Intro: nearly 4 in 10 can't cover $400",
    "broll": [
     "18263",
     "46768"
@@ -461,5 +461,26 @@
    "headline": "Why you need months of cash, not weeks",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 435186111,
+  "publishAt": "2026-11-30T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 435186248,
+    "publishAt": "2026-11-30T02:45:00+05:00",
+    "title": "The 'two quarters' recession rule is a myth #Shorts"
+   },
+   {
+    "postId": 435186273,
+    "publishAt": "2026-11-30T06:45:00+05:00",
+    "title": "The free signal that spots recessions early #Shorts"
+   },
+   {
+    "postId": 435186318,
+    "publishAt": "2026-11-30T21:15:00+05:00",
+    "title": "Why you need months of cash, not weeks #Shorts"
+   }
+  ]
+ }
 }
