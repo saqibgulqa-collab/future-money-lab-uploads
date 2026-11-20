@@ -1,0 +1,465 @@
+{
+ "id": "E22",
+ "num": 24,
+ "status": "draft",
+ "pillar": "B",
+ "title": "What Is a Recession, and How to Prepare Your Money",
+ "music": "music_759.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "37% can't",
+   "chapterTitle": "Intro: 4 in 10 can't cover $400",
+   "broll": [
+    "18263",
+    "46768"
+   ],
+   "badge": "Fed survey of U.S. adults, 2025 (published May 2026)",
+   "numberValue": 63,
+   "unit": "%",
+   "sub": "could cover a $400 surprise bill with cash or its equivalent",
+   "big": {
+    "at": "sixty"
+   },
+   "chips": [
+    {
+     "text": "37% could not",
+     "at": "thirty"
+    },
+    {
+     "text": "Unemployment: 4.1% (Oct 2026)",
+     "at": "unemployment"
+    }
+   ],
+   "text": "Here's a number that should worry you more than any headline about the economy. In the Federal Reserve's latest survey of American households, sixty three percent of adults said they could cover a surprise four hundred dollar bill with cash or its equivalent. That means about thirty seven percent couldn't. Now imagine that bill arrives during a recession, when hours get cut and jobs get harder to find. Right now, unemployment is around four point one percent. Nobody can tell you exactly when the next recession comes. But in this video, I'll show you what a recession really is, how economists spot one, and five steps to get your money ready before it arrives."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "Definition",
+   "chapterTitle": "What a recession really is",
+   "broll": [
+    "41541",
+    "47214"
+   ],
+   "badge": "Checked November 2026",
+   "title": "Significant, widespread, lasting",
+   "sub": "How the official U.S. recession judges define it",
+   "accent": [
+    0
+   ],
+   "text": "So what is a recession? In the United States, the official dates come from a group of economists at the National Bureau of Economic Research, or N B E R. Their definition is a significant decline in economic activity that is spread across the economy and lasts more than a few months. Three ideas matter there. Depth: how big is the drop? Diffusion: is it spread across many industries, or stuck in one? And duration: does it last, or is it a blip? A bad month for one industry is not a recession. A broad, deep, lasting slowdown is."
+  },
+  {
+   "id": "s03",
+   "kind": "questions",
+   "chapter": "The myth",
+   "chapterTitle": "The two-quarters myth",
+   "broll": [
+    "42648",
+    "9607"
+   ],
+   "items": [
+    {
+     "text": "Jobs and employment",
+     "at": "jobs"
+    },
+    {
+     "text": "Income people earn",
+     "at": "income"
+    },
+    {
+     "text": "Spending in stores",
+     "at": "spending"
+    },
+    {
+     "text": "Factory output",
+     "at": "factory"
+    },
+    {
+     "text": "GDP is only one input",
+     "at": "input"
+    }
+   ],
+   "footer": {
+    "text": "\"There is no fixed rule\"",
+    "highlight": "— NBER",
+    "tone": "accent",
+    "at": "fixed"
+   },
+   "text": "You've probably heard that a recession means two quarters in a row of shrinking G D P. That's a popular rule of thumb, but it's not how the official dates are set. The N B E R committee looks at a whole dashboard: jobs and employment, the income people earn, spending in stores, and factory output. G D P is only one input among many. In fact, their own page says there is no fixed rule about which measures they use. That's why a recession is often announced months after it already started. The data has to come in first."
+  },
+  {
+   "id": "s04",
+   "kind": "compare",
+   "chapter": "2008 vs 2020",
+   "chapterTitle": "Two very different recessions",
+   "broll": [
+    "47796",
+    "13218"
+   ],
+   "cards": [
+    {
+     "title": "Great Recession",
+     "sub": "Began December 2007",
+     "at": "great"
+    },
+    {
+     "title": "COVID recession",
+     "sub": "Feb to Apr 2020",
+     "at": "covid"
+    }
+   ],
+   "big": {
+    "value": "10.2%",
+    "sub": "unemployment, October 2009",
+    "at": "ten"
+   },
+   "bars": [
+    {
+     "label": "Unemployment, Oct 2009",
+     "value": "10.2%",
+     "fill": 1.0,
+     "tone": "bad",
+     "at": "ten"
+    },
+    {
+     "label": "Unemployment, Oct 2026",
+     "value": "4.1%",
+     "fill": 0.4,
+     "tone": "good",
+     "at": "today"
+    },
+    {
+     "label": "COVID recession length",
+     "value": "2 months",
+     "fill": 0.15,
+     "tone": "bad",
+     "at": "two"
+    }
+   ],
+   "footer": {
+    "text": "Same word, very different experiences",
+    "at": "same"
+   },
+   "text": "And recessions can look very different. The Great Recession began in December two thousand seven. By October two thousand nine, unemployment had reached ten point two percent, the highest level since nineteen eighty three. It was long and painful. The COVID recession was the opposite. The N B E R dates it from February to April twenty twenty. Just two months, but an incredibly sharp drop. For comparison, unemployment today is about four point one percent. Same word, recession, but very different experiences. So the goal isn't to predict the exact shape. It's to be ready for either one."
+  },
+  {
+   "id": "s05",
+   "kind": "rows",
+   "chapter": "Real impact",
+   "chapterTitle": "What a recession does to regular people",
+   "broll": [
+    "4908",
+    "45923"
+   ],
+   "items": [
+    {
+     "name": "Jobs",
+     "desc": "Layoffs rise, hiring slows",
+     "at": "layoffs"
+    },
+    {
+     "name": "Hours",
+     "desc": "Shifts and overtime get cut",
+     "at": "hours"
+    },
+    {
+     "name": "Job search",
+     "desc": "Finding a new job takes longer",
+     "at": "longer"
+    },
+    {
+     "name": "Investments",
+     "desc": "Stock prices often fall",
+     "at": "stock"
+    },
+    {
+     "name": "Credit",
+     "desc": "Lenders can get stricter",
+     "at": "lenders"
+    }
+   ],
+   "footer": {
+    "text": "The risk is income, not just headlines",
+    "at": "income"
+   },
+   "text": "What does a recession actually do to regular people? First, jobs. Layoffs rise and companies slow down hiring. Second, hours. Even if you keep your job, shifts and overtime can get cut. Third, the job search takes longer, because more people are applying for fewer openings. Fourth, investments. Stock prices often fall, sometimes sharply, so your retirement account can look scary. And fifth, credit. Lenders can get stricter, which makes borrowing harder exactly when you might need it. So the real risk isn't the headline. It's your income stopping while your bills keep coming."
+  },
+  {
+   "id": "s06",
+   "kind": "stat",
+   "chapter": "Sahm rule",
+   "chapterTitle": "The Sahm rule: an early warning",
+   "broll": [
+    "9607",
+    "221"
+   ],
+   "badge": "Sahm rule recession indicator (St. Louis Fed)",
+   "numberValue": 0.5,
+   "prefix": "",
+   "unit": " pts",
+   "sub": "rise in 3-month avg unemployment vs its low of the past 12 months",
+   "big": {
+    "at": "half"
+   },
+   "chips": [
+    {
+     "text": "Created by economist Claudia Sahm (2019)",
+     "at": "economist"
+    },
+    {
+     "text": "Triggered by month 4 in all 9 recessions since 1960",
+     "at": "nine"
+    }
+   ],
+   "text": "So how do economists spot a recession early? One popular signal is the Sahm rule, created by economist Claudia Sahm in twenty nineteen. Here's how it works. Take the average unemployment rate over the last three months. Compare it with its lowest three month average in the past year. If it has risen by half a percentage point or more, the rule is triggered. According to the Congressional Research Service, in all nine recessions since nineteen sixty, the Sahm rule was triggered by the fourth month. It's simple, it uses public data, and you can check it yourself for free on the St. Louis Fed's website."
+  },
+  {
+   "id": "s07",
+   "kind": "cards",
+   "chapter": "Not perfect",
+   "chapterTitle": "Why no signal is perfect",
+   "broll": [
+    "46990",
+    "42664"
+   ],
+   "items": [
+    {
+     "title": "1976",
+     "value": "False alarm",
+     "sub": "Triggered, no recession",
+     "at": "seventy"
+    },
+    {
+     "title": "July 2024",
+     "value": "0.53",
+     "sub": "Rule triggered",
+     "at": "july"
+    },
+    {
+     "title": "Oct 2026",
+     "value": "0.00",
+     "sub": "Latest reading",
+     "at": "latest"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Indicates more than predicts (CRS)",
+     "at": "indicate"
+    },
+    {
+     "text": "Next update: Dec 4, 2026",
+     "at": "signals"
+    }
+   ],
+   "footer": {
+    "text": "Signals, not guarantees",
+    "at": "guarantee"
+   },
+   "text": "But no signal is perfect. The Sahm rule gave a false alarm in nineteen seventy six, with no recession afterward. In July twenty twenty four it was triggered again, at zero point five three, and Claudia Sahm herself said she did not think the U S was in a recession at the time. The Congressional Research Service puts it well: the rule does not predict recessions so much as indicate that one is occurring. The latest reading, for October twenty twenty six, is zero. So treat these as signals, not guarantees. Which is exactly why you prepare early, instead of waiting for a headline."
+  },
+  {
+   "id": "s08",
+   "kind": "stat",
+   "chapter": "Long search",
+   "chapterTitle": "Why your cushion needs months, not weeks",
+   "broll": [
+    "4806",
+    "42653"
+   ],
+   "badge": "BLS Employment Situation, October 2026",
+   "numberValue": 27.6,
+   "unit": "%",
+   "sub": "of unemployed people had been looking for 27 weeks or more",
+   "big": {
+    "at": "twenty"
+   },
+   "chips": [
+    {
+     "text": "About 2.0 million people",
+     "at": "million"
+    },
+    {
+     "text": "And that's in a normal economy",
+     "at": "normal"
+    }
+   ],
+   "text": "Here's why preparation means months, not weeks. In October twenty twenty six, the Bureau of Labor Statistics counted about two point oh million long term unemployed people, those looking for work for twenty seven weeks or more. That's twenty seven point six percent of everyone who was unemployed. More than one in four. And that's in a normal economy, with unemployment around four percent. In a recession, with more people applying for fewer jobs, a long search becomes more likely. So the question isn't just, can I cover a four hundred dollar bill? It's, could I cover six months without a paycheck?"
+  },
+  {
+   "id": "s09",
+   "kind": "steps",
+   "chapter": "5 steps",
+   "chapterTitle": "5 steps to prepare your money",
+   "broll": [
+    "18296",
+    "4915"
+   ],
+   "items": [
+    {
+     "text": "Find your bare-bones monthly number",
+     "at": "bare"
+    },
+    {
+     "text": "Build cash: aim for 3 to 6 months",
+     "at": "cash"
+    },
+    {
+     "text": "Cut a fixed cost now",
+     "at": "fixed"
+    },
+    {
+     "text": "Attack high-interest debt",
+     "at": "high"
+    },
+    {
+     "text": "Make your income harder to lose",
+     "at": "income"
+    }
+   ],
+   "footer": {
+    "text": "Start in a calm economy, not a scary one",
+    "at": "side",
+    "tone": "accent"
+   },
+   "text": "So here are five steps to prepare. One: find your bare bones number, what you'd spend each month on rent, food, utilities, insurance and minimum debt payments if you cut everything else. Two: build cash. A common target is three to six months of that number, in a safe, easy to reach account. Three: cut one fixed cost now, like an unused subscription or a pricey phone plan. Fixed costs are hardest to cut in a hurry. Four: pay down high interest debt, so fewer bills chase you if income drops. Five: make your income harder to lose, with new skills, a strong network, or a small side income."
+  },
+  {
+   "id": "s10",
+   "kind": "questions",
+   "chapter": "Investing",
+   "chapterTitle": "What about your investments?",
+   "broll": [
+    "5461",
+    "26758"
+   ],
+   "items": [
+    {
+     "text": "Money needed soon: keep it in cash",
+     "at": "soon"
+    },
+    {
+     "text": "Long-term money: stay diversified",
+     "at": "diversified"
+    },
+    {
+     "text": "Selling after a drop locks in losses",
+     "at": "locks"
+    },
+    {
+     "text": "Keep contributions automatic",
+     "at": "automatic"
+    }
+   ],
+   "footer": {
+    "text": "Education, not advice:",
+    "highlight": "know your own timeline",
+    "at": "timeline"
+   },
+   "text": "What about your investments? This is education, not advice, but a few principles are widely taught. Money you'll need soon, say for rent or a planned purchase, usually shouldn't be in stocks, because prices can fall right when you need it. For long term money, like retirement, many people stay diversified and avoid big moves. Why? Because selling after a big drop locks in losses, and nobody can reliably time the bottom. Many investors simply keep contributions automatic and keep going. The key is knowing your own timeline before the market gets scary, not in the middle of it."
+  },
+  {
+   "id": "s11",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "title": "Prepare while it's calm",
+   "accent": [
+    2,
+    3
+   ],
+   "next": "Perplexity vs Google: Is AI Search Better for Research?",
+   "text": "So, a recession is a significant, widespread and lasting drop in the economy. It's officially dated by the N B E R, signals like the Sahm rule can warn you, and none of them are perfect. The best defense is boring: know your bare bones number, build months of cash, cut a fixed cost, and pay down expensive debt, while things are calm. Now tell me in the comments: how many months could you cover right now? One, three, or six plus? If this helped, subscribe to Future Money Lab. Next up: Perplexity versus Google, is AI search actually better for research?"
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "RECESSION?",
+   "line2": "5 STEPS TO PREPARE",
+   "tag": "Recession explained"
+  },
+  "b": {
+   "big": "37%",
+   "line2": "CAN'T COVER $400",
+   "tag": "Fed survey, 2025"
+  }
+ },
+ "youtube": {
+  "title": "What Is a Recession? How to Prepare Your Money (2026)",
+  "summary": "What actually is a recession, and how do you prepare your money for one? A plain-English guide (checked November 2026): the official NBER definition, why 'two quarters of negative GDP' is a myth, how the Great Recession and the 2020 COVID recession differed, what a recession does to regular people, how the Sahm rule early-warning signal works (and its false alarms), why long job searches mean you need months of cash, five steps to prepare, and principles for your investments.",
+  "details": "Numbers mentioned (checked November 2026):\n- 63% of adults would cover a hypothetical $400 emergency expense with cash or its equivalent (so about 37% would not); unchanged from the previous three years, down from 68% in 2021 (Federal Reserve, Economic Well-Being of U.S. Households in 2025, published May 2026).\n- U.S. unemployment rate 4.1% in October 2026; 2.0 million long-term unemployed (27 weeks or more), 27.6% of all unemployed (BLS Employment Situation, Nov 6, 2026).\n- NBER definition: 'a significant decline in economic activity that is spread across the economy and lasts more than a few months'; depth, diffusion and duration; 'There is no fixed rule' about which measures are used. COVID recession: peak February 2020, trough April 2020 (NBER Business Cycle Dating).\n- Great Recession began December 2007; unemployment reached 10.2% in October 2009, the highest since April 1983 (Center for American Progress, Nov 2009, reporting BLS data).\n- Sahm rule: signals a recession when the 3-month average unemployment rate rises 0.50 percentage points or more above its low of the previous 12 months; October 2026 reading 0.00; next update Dec 4, 2026 (FRED, St. Louis Fed).\n- Sahm rule triggered by month four in all nine recessions since 1960; false positive in 1976; triggered in July 2024 at 0.53; it 'does not predict recessions so much as indicate that one is occurring' (Congressional Research Service, Aug 2024).\n- '3 to 6 months of essential expenses' is a common emergency-fund guideline, not a rule for everyone.\n- Investing principles are general education, not personal advice.",
+  "sources": [
+   {
+    "name": "Federal Reserve: Economic Well-Being of U.S. Households in 2025, Executive Summary (May 2026)",
+    "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm"
+   },
+   {
+    "name": "BLS: The Employment Situation, October 2026",
+    "url": "https://www.bls.gov/news.release/empsit.htm"
+   },
+   {
+    "name": "NBER: Business Cycle Dating",
+    "url": "https://www.nber.org/research/business-cycle-dating"
+   },
+   {
+    "name": "FRED: Sahm Rule Recession Indicator (SAHMCURRENT)",
+    "url": "https://fred.stlouisfed.org/series/SAHMCURRENT"
+   },
+   {
+    "name": "Congressional Research Service: The Sahm Rule Trigger (Aug 2024)",
+    "url": "https://www.everycrsreport.com/reports/IN12410.html"
+   },
+   {
+    "name": "Center for American Progress: Unemployment rises above 10 percent (Nov 2009)",
+    "url": "https://www.americanprogress.org/article/unemployment-rises-above-10-percent-for-the-first-time-in-26-years/"
+   }
+  ],
+  "tags": [
+   "what is a recession",
+   "recession explained",
+   "how to prepare for a recession",
+   "recession 2026",
+   "Sahm rule",
+   "emergency fund",
+   "NBER recession",
+   "personal finance",
+   "money tips",
+   "economy explained",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#Recession",
+   "#PersonalFinance",
+   "#Money"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s03"
+   ],
+   "headline": "The 'two quarters' recession rule is a myth",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s06"
+   ],
+   "headline": "The free signal that spots recessions early",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "Why you need months of cash, not weeks",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
