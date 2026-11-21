@@ -1,0 +1,533 @@
+{
+ "id": "E23",
+ "num": 21,
+ "status": "draft",
+ "pillar": "A",
+ "title": "AI Meeting Notes: Never Write Minutes Again",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "Every 2 minutes",
+   "chapterTitle": "Intro: interrupted every 2 minutes",
+   "broll": [
+    "4907",
+    "42664"
+   ],
+   "badge": "Microsoft Work Trend Index, June 2025",
+   "numberValue": 57,
+   "unit": "%",
+   "sub": "of meetings are ad hoc calls with no calendar invite",
+   "big": {
+    "at": "fifty"
+   },
+   "chips": [
+    {
+     "text": "A ping every 2 minutes",
+     "at": "every"
+    },
+    {
+     "text": "8 pm meetings up 16%",
+     "at": "eight"
+    }
+   ],
+   "text": "Microsoft looked at anonymous work data from its own apps and found something wild. The average worker is interrupted by a meeting, an email or a chat every two minutes. Fifty seven percent of meetings are ad hoc calls with no calendar invite, and meetings after eight pm are up sixteen percent in a year. So who is writing the notes for all of that? Increasingly, AI is. In this video, I'll show you the three ways AI can take your meeting notes, what Google Meet, Zoom, Teams, Otter and Fireflies cost, the legal catch most people miss, and a simple routine so you never write minutes again."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The promise",
+   "chapterTitle": "What AI meeting notes can and can't do",
+   "broll": [
+    "42648",
+    "13218"
+   ],
+   "badge": "Checked November 2026",
+   "title": "Never write minutes again",
+   "sub": "Built-in tools first, standalone apps second",
+   "accent": [
+    2,
+    3
+   ],
+   "text": "First, let's be clear about what these tools actually do. They turn speech into a transcript, then write a summary, decisions and action items from it. That part is very good now. What they can't do is know which comment really mattered, or fix a name they misheard. Google's own help page warns that the summary can be incomplete or inaccurate. So the goal isn't zero work. It's going from thirty minutes of writing minutes to a few minutes of checking them. Everything in this video was checked against official pages and recent pricing reviews in November twenty twenty six."
+  },
+  {
+   "id": "s03",
+   "kind": "cards",
+   "chapter": "3 ways",
+   "chapterTitle": "The 3 ways AI takes notes",
+   "broll": [
+    "221",
+    "4915"
+   ],
+   "items": [
+    {
+     "title": "Built in",
+     "value": "Meet, Zoom, Teams",
+     "sub": "no bot needed",
+     "at": "built"
+    },
+    {
+     "title": "Bot joins",
+     "value": "Otter, Fireflies",
+     "sub": "any platform",
+     "at": "bot"
+    },
+    {
+     "title": "In person",
+     "value": "Phone or app",
+     "sub": "room meetings",
+     "at": "person"
+    }
+   ],
+   "footer": {
+    "text": "Start with what you already pay for",
+    "at": "already",
+    "tone": "accent"
+   },
+   "text": "There are three ways AI can take notes for you. One: built in. Google Meet, Zoom and Microsoft Teams all have their own note takers, so nothing extra joins the call. Two: a bot joins. Apps like Otter and Fireflies send an assistant into your meeting on almost any platform, which helps if you jump between Zoom, Teams and Meet every week. Three: in person. Some apps record a meeting in a real room from your phone or laptop. My rule is simple. Start with what you already pay for, and add a separate app only if it leaves a real gap."
+  },
+  {
+   "id": "s04",
+   "kind": "rows",
+   "chapter": "Google Meet",
+   "chapterTitle": "Google Meet: Take notes for me",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "items": [
+    {
+     "name": "Output",
+     "desc": "Summary, decisions, next steps in a Google Doc",
+     "at": "doc"
+    },
+    {
+     "name": "Plans",
+     "desc": "Eligible Workspace, Google AI Pro and Ultra",
+     "at": "workspace"
+    },
+    {
+     "name": "Languages",
+     "desc": "8 languages, one per meeting",
+     "at": "eight"
+    },
+    {
+     "name": "Length",
+     "desc": "Works best from 15 minutes to 8 hours",
+     "at": "fifteen"
+    },
+    {
+     "name": "In person",
+     "desc": "'Take notes with me' since August 2026",
+     "at": "august"
+    }
+   ],
+   "footer": {
+    "text": "Everyone in the call is told notes are on",
+    "at": "told",
+    "tone": "accent"
+   },
+   "text": "Let's start with Google Meet. Its feature is called Take notes for me. Gemini listens, then saves the notes to a Google Doc with a summary, decisions and next steps, and emails it after the call. It works on eligible Workspace plans and on personal Google AI Pro and Ultra plans. It supports eight languages, but only one per meeting. Google recommends meetings from fifteen minutes up to eight hours. And since August, a version called Take notes with me also works for in person meetings, with a full transcript. Everyone in the call is told when notes are being taken."
+  },
+  {
+   "id": "s05",
+   "kind": "cards",
+   "chapter": "Zoom",
+   "chapterTitle": "Zoom: AI notes on paid plans",
+   "broll": [
+    "42664",
+    "1730"
+   ],
+   "items": [
+    {
+     "title": "Paid Zoom plans",
+     "value": "$14.16",
+     "sub": "per user / month, AI included",
+     "at": "fourteen"
+    },
+    {
+     "title": "ZoomMate add-on",
+     "value": "$20",
+     "sub": "per user / month, from",
+     "at": "twenty"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Meeting summaries",
+     "at": "summaries"
+    },
+    {
+     "text": "Ask questions mid-meeting",
+     "at": "questions"
+    },
+    {
+     "text": "Prices as of June 2026",
+     "at": "june"
+    }
+   ],
+   "text": "Next, Zoom. Zoom says its core AI features, including meeting summaries, are included at no extra cost with paid Zoom Workplace plans, which start at fourteen dollars and sixteen cents per user per month, as of June twenty twenty six. You can even ask questions during the meeting, like what did I miss in the last ten minutes. In June, Zoom also launched ZoomMate, a separate add-on for more advanced agent features, starting at twenty dollars per user per month. For plain meeting notes, you don't need it. If you already pay for Zoom, try the built in summary first."
+  },
+  {
+   "id": "s06",
+   "kind": "rows",
+   "chapter": "Teams",
+   "chapterTitle": "Microsoft Teams: intelligent recap",
+   "broll": [
+    "13218",
+    "221"
+   ],
+   "items": [
+    {
+     "name": "AI notes",
+     "desc": "Plus recommended tasks",
+     "at": "notes"
+    },
+    {
+     "name": "Mentions",
+     "desc": "Where your name came up",
+     "at": "name"
+    },
+    {
+     "name": "Chapters",
+     "desc": "Jump to each topic in the recording",
+     "at": "chapters"
+    },
+    {
+     "name": "License",
+     "desc": "Teams Premium or a Copilot license",
+     "at": "premium"
+    },
+    {
+     "name": "Transcription",
+     "desc": "Must be turned on to work",
+     "at": "transcription"
+    }
+   ],
+   "footer": {
+    "text": "Not in basic Teams. Ask IT what you have.",
+    "at": "ask",
+    "tone": "bad"
+   },
+   "text": "Now Microsoft Teams. Its feature is called intelligent recap. After the meeting, you get AI notes, recommended tasks, markers showing where your name came up, and chapters to jump through the recording. But here's the catch. Microsoft's admin page says users need a Teams Premium license or a Microsoft Copilot license. Basic Teams doesn't include it. And transcription has to be turned on, or there's nothing for the AI to work from. So if you're on a company plan, ask your IT team what you have before you pay for anything else."
+  },
+  {
+   "id": "s07",
+   "kind": "cards",
+   "chapter": "Otter",
+   "chapterTitle": "Otter.ai: plans and the free-plan catch",
+   "broll": [
+    "4908",
+    "18302"
+   ],
+   "items": [
+    {
+     "title": "Basic",
+     "value": "$0",
+     "sub": "300 min / month",
+     "at": "basic"
+    },
+    {
+     "title": "Pro",
+     "value": "$8.33",
+     "sub": "per month, yearly",
+     "at": "pro"
+    },
+    {
+     "title": "Business",
+     "value": "$19.99",
+     "sub": "per user / month, yearly",
+     "at": "business"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Free: 30 min per meeting",
+     "at": "thirty"
+    },
+    {
+     "text": "Free: 3 file imports, ever",
+     "at": "three"
+    },
+    {
+     "text": "Prices checked Aug 2026",
+     "at": "august"
+    }
+   ],
+   "text": "If your meeting app doesn't include notes, the best known standalone option is Otter. According to a pricing review that checked Otter's page in August twenty twenty six, the free Basic plan gives you three hundred minutes a month. But here's the catch. Each conversation is capped at thirty minutes, and you get only three file imports, ever. Pro costs eight dollars thirty three a month billed yearly, or sixteen ninety nine monthly, with ninety minute conversations. Business is nineteen ninety nine per user per month, billed yearly. So free is fine for short calls, not hour long meetings."
+  },
+  {
+   "id": "s08",
+   "kind": "cards",
+   "chapter": "Fireflies",
+   "chapterTitle": "Fireflies.ai: plans and free tier",
+   "broll": [
+    "46990",
+    "4806"
+   ],
+   "items": [
+    {
+     "title": "Free",
+     "value": "$0",
+     "sub": "400 min storage",
+     "at": "free"
+    },
+    {
+     "title": "Pro",
+     "value": "$10",
+     "sub": "per user / month, yearly",
+     "at": "pro"
+    },
+    {
+     "title": "Business",
+     "value": "$19",
+     "sub": "per user / month, yearly",
+     "at": "business"
+    }
+   ],
+   "chips": [
+    {
+     "text": "3 transcriptions, more with Auto Join",
+     "at": "three"
+    },
+    {
+     "text": "Recordings up to 2 hours",
+     "at": "two"
+    },
+    {
+     "text": "Monthly: $18 / $29",
+     "at": "monthly"
+    }
+   ],
+   "text": "The other big name is Fireflies. Its own help pages list the free plan with three meeting transcriptions by default, or unlimited if you let its bot auto join your calls. Free includes four hundred minutes of storage per seat, and recordings up to two hours. Pro is ten dollars per user per month billed yearly, or eighteen monthly. Business is nineteen billed yearly, or twenty nine monthly. The storage limit is the one to watch. Four hundred minutes is only around seven hour long meetings, so you'll need to delete or export old ones."
+  },
+  {
+   "id": "s09",
+   "kind": "steps",
+   "chapter": "Consent",
+   "chapterTitle": "The legal catch: consent",
+   "broll": [
+    "45923",
+    "42648"
+   ],
+   "items": [
+    {
+     "text": "Say it out loud at the start",
+     "at": "say"
+    },
+    {
+     "text": "Put it in the calendar invite",
+     "at": "invite"
+    },
+    {
+     "text": "Let anyone say no",
+     "at": "anyone"
+    },
+    {
+     "text": "Skip it for sensitive talks",
+     "at": "sensitive"
+    }
+   ],
+   "footer": {
+    "text": "California, Florida, Illinois: everyone must agree",
+    "at": "california",
+    "tone": "bad"
+   },
+   "text": "Now the legal catch most people miss. A Bloomberg Law analysis from January twenty twenty six explains that some US states, including California, Florida and Illinois, require everyone on a call to agree before it's recorded. And a class action filed in twenty twenty five claims Otter's assistant recorded people who never agreed. Those are claims, not a ruling. Still, the safe habit is easy. Say it out loud at the start. Put it in the calendar invite. Let anyone say no. And skip the note taker completely for sensitive talks, like health, legal or personnel matters. This is general information, not legal advice."
+  },
+  {
+   "id": "s10",
+   "kind": "steps",
+   "chapter": "The routine",
+   "chapterTitle": "The 5-minute minutes routine",
+   "broll": [
+    "4806",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "Before: agenda in the invite",
+     "at": "before"
+    },
+    {
+     "text": "During: turn notes on, tell people",
+     "at": "during"
+    },
+    {
+     "text": "After: check names, owners, dates",
+     "at": "after"
+    },
+    {
+     "text": "Cut it to decisions and actions",
+     "at": "cut"
+    },
+    {
+     "text": "Send within the hour",
+     "at": "hour"
+    }
+   ],
+   "footer": {
+    "text": "The AI writes. You check.",
+    "at": "check",
+    "tone": "accent"
+   },
+   "text": "Here's the routine that replaces writing minutes. Before the meeting, put a short agenda in the invite, because the AI follows your structure. During the meeting, turn notes on and tell people. After the meeting, spend five minutes checking. Fix names it misheard, make sure every action item has an owner and a date, and delete anything that was said as a joke or off the record. Then cut it down to decisions and actions, because nobody reads a full transcript. Finally, send it within the hour, while people still remember. The AI writes. You check."
+  },
+  {
+   "id": "s11",
+   "kind": "compare",
+   "chapter": "Which one?",
+   "chapterTitle": "Which tool should you use?",
+   "broll": [
+    "42664",
+    "41541"
+   ],
+   "cards": [
+    {
+     "title": "Built-in first",
+     "sub": "Meet, Zoom or Teams",
+     "at": "already"
+    },
+    {
+     "title": "Standalone",
+     "sub": "Otter or Fireflies",
+     "at": "mix"
+    }
+   ],
+   "big": {
+    "value": "Free first",
+    "sub": "Pay only if you hit a limit",
+    "at": "limit"
+   },
+   "footer": {
+    "text": "Or paste a transcript into any free AI chat",
+    "at": "paste"
+   },
+   "text": "So which one should you use? If you already pay for Google Workspace, Zoom or a Teams plan that includes recap, use the built in notes. You get them with no extra bot and no extra bill. If you mix platforms every week, or your plan doesn't include notes, try the free tier of Otter or Fireflies, and pay only when you hit a limit you actually feel. And if you have zero budget, record with permission, then paste the transcript into any free AI chat and ask for decisions, owners and deadlines. That alone saves most of the time."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "title": "The AI writes, you check",
+   "accent": [
+    1,
+    2
+   ],
+   "next": "Perplexity vs Google: Is AI Search Better for Research?",
+   "text": "So yes, you really can stop writing minutes by hand. Use the note taker you already have, tell people it's on, and spend five minutes checking before you send. Now I want to hear from you. Which meeting would you hand to an AI first, and which one never? Tell me in the comments. If this helped, subscribe to Future Money Lab, and I'll see you in the next video."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "AI MEETING NOTES",
+   "line2": "NEVER WRITE MINUTES",
+   "tag": "Meet, Zoom, Teams, Otter"
+  },
+  "b": {
+   "kicker": "1-HOUR MEETING, OTTER FREE",
+   "from": "60",
+   "to": "30",
+   "line2": "MINUTES CAPTURED",
+   "tag": "Meet, Zoom, Teams, Otter"
+  }
+ },
+ "youtube": {
+  "title": "AI Meeting Notes: Never Write Minutes Again (2026 Guide)",
+  "summary": "Can AI write your meeting minutes for you? I researched the built-in note takers in Google Meet, Zoom and Microsoft Teams, plus the standalone apps Otter.ai and Fireflies.ai (checked November 2026): what each one does, which plans include it, what the free plans really allow, the recording-consent catch most people miss, and a simple 5-minute routine to check and send AI notes.",
+  "details": "Facts mentioned (checked November 2026; plans change often, always confirm on the official pricing pages):\n- Workers are interrupted by a meeting, email or chat every 2 minutes on average; 57% of meetings are ad hoc calls without a calendar invite; meetings after 8 pm are up 16% year over year (Microsoft WorkLab, Breaking down the infinite workday, June 17, 2025; Microsoft 365 telemetry plus a survey of 31,000 workers).\n- Google Meet 'Take notes for me': notes saved to a Google Doc with summary, decisions and next steps; requires an eligible Google Workspace edition or Google AI plan (Google AI Pro and Ultra for personal accounts); 8 languages, one per meeting; recommended 15 minutes to 8 hours; participants are informed; Google warns summaries can be incomplete or inaccurate (Google Meet Help; 9to5Google, June 2026).\n- Google Meet 'Take notes with me' for in-person meetings: notes summary, action items and full transcript in a Google Doc; rollout from August 2026 (Google Workspace Updates, Aug 13, 2026).\n- Zoom: core AI features, including meeting summaries, included at no extra cost with paid Zoom Workplace plans starting at $14.16/user/month; ZoomMate add-on starting at $20/user/month (Zoom comparison page, as of June 2026; Zoom blog, June 24, 2026).\n- Microsoft Teams intelligent recap: AI notes, recommended tasks, name mentions, chapters; requires a Teams Premium license or Microsoft Copilot license; transcription must be turned on (Microsoft Learn, updated July 2026).\n- Otter.ai (prices verified by Castmagic on Otter's pricing page, August 2026): Basic free, 300 minutes/month, 30 minutes max per conversation, 3 lifetime file imports; Pro $8.33/month billed yearly or $16.99 monthly, 90 minutes per conversation; Business $19.99/user/month billed yearly or $30 monthly.\n- Fireflies.ai (Fireflies help center, checked November 2026): Free with 3 meeting transcriptions by default (unlimited with Auto Join), 400 minutes of storage per seat, recordings up to 2 hours; Pro $10/user/month billed yearly or $18 monthly; Business $19 yearly or $29 monthly.\n- '~7 hour-long meetings' is our estimate: 400 minutes of storage / 60.\n- Consent: some US states, including California, Florida and Illinois, require all parties to consent to recording; a 2025 class action (In re Otter.ai Privacy Litigation, N.D. Cal.) alleges recording without consent; these are allegations, not findings (Bloomberg Law, Jan 28, 2026). General information, not legal advice.\n- The 5-minute routine is our own suggested workflow, not a measured result.",
+  "sources": [
+   {
+    "name": "Microsoft WorkLab: Breaking down the infinite workday (June 2025)",
+    "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday"
+   },
+   {
+    "name": "Google Meet Help: Take notes for me in Google Meet",
+    "url": "https://support.google.com/meet/answer/14754931"
+   },
+   {
+    "name": "9to5Google: Google Meet 'Take notes for me' for AI Pro and Ultra (June 2026)",
+    "url": "https://9to5google.com/2026/06/29/google-meet-take-notes-ai-pro-ultra/"
+   },
+   {
+    "name": "Google Workspace Updates: Take notes with me for in-person meetings (Aug 2026)",
+    "url": "https://workspaceupdates.googleblog.com/2026/08/take-notes-with-me-for-in-person-meetings-is-now-available.html"
+   },
+   {
+    "name": "Zoom: Zoom vs other AI tools (as of June 2026)",
+    "url": "https://www.zoom.com/en/compare/zoom-vs-other-ai-tools/"
+   },
+   {
+    "name": "Zoom blog: Meet ZoomMate (June 2026)",
+    "url": "https://www.zoom.com/en/blog/zoom-ai-companion-zoommate/"
+   },
+   {
+    "name": "Microsoft Learn: Intelligent recap for Teams calls and meetings",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/intelligent-recap-calls-meetings"
+   },
+   {
+    "name": "Castmagic: Otter.ai pricing 2026 (verified Aug 2026)",
+    "url": "https://www.castmagic.io/blog/otter-ai-pricing"
+   },
+   {
+    "name": "Fireflies help center: pricing plans",
+    "url": "https://guide.fireflies.ai/articles/3734844560-learn-about-the-fireflies-pricing-plans"
+   },
+   {
+    "name": "Fireflies help center: free plan features",
+    "url": "https://guide.fireflies.ai/articles/6176608577-learn-about-fireflies-free-plan-features"
+   },
+   {
+    "name": "Bloomberg Law: AI notetaking poses wiretapping, discovery and ethical pitfalls (Jan 2026)",
+    "url": "https://news.bloomberglaw.com/litigation/ai-notetaking-poses-wiretapping-discovery-and-ethical-pitfalls"
+   }
+  ],
+  "tags": [
+   "ai meeting notes",
+   "ai note taker",
+   "meeting minutes ai",
+   "otter ai",
+   "fireflies ai",
+   "google meet take notes for me",
+   "zoom ai summary",
+   "teams intelligent recap",
+   "ai productivity",
+   "ai tools 2026",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#AItools",
+   "#productivity",
+   "#meetings"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s04"
+   ],
+   "headline": "Google Meet now writes your meeting notes",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s07"
+   ],
+   "headline": "The catch in Otter's free plan",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s09"
+   ],
+   "headline": "Using an AI note taker? Check this first",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
