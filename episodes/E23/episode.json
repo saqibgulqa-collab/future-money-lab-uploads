@@ -1,7 +1,7 @@
 {
  "id": "E23",
  "num": 21,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "A",
  "title": "AI Meeting Notes: Never Write Minutes Again",
  "music": "music_744.mp3",
@@ -529,5 +529,26 @@
    "headline": "Using an AI note taker? Check this first",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 436434301,
+  "publishAt": "2026-12-01T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 436434457,
+    "publishAt": "2026-12-01T02:45:00+05:00",
+    "title": "Google Meet now writes your meeting notes #Shorts"
+   },
+   {
+    "postId": 436434469,
+    "publishAt": "2026-12-01T06:45:00+05:00",
+    "title": "The catch in Otter's free plan #Shorts"
+   },
+   {
+    "postId": 436434482,
+    "publishAt": "2026-12-01T21:15:00+05:00",
+    "title": "Using an AI note taker? Check this first #Shorts"
+   }
+  ]
+ }
 }
