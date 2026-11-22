@@ -1,0 +1,525 @@
+{
+ "id": "E24",
+ "num": 26,
+ "status": "draft",
+ "pillar": "B",
+ "title": "How Apple Makes Money",
+ "music": "music_759.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "Apple",
+   "chapterTitle": "Intro: $362 million profit a day",
+   "broll": [
+    "18302",
+    "41541"
+   ],
+   "badge": "Apple net profit, fiscal 2026",
+   "numberValue": 132,
+   "prefix": "$",
+   "unit": "B",
+   "sub": "Apple FY2026 results (year ended Sep 26, 2026)",
+   "big": {
+    "at": "one"
+   },
+   "chips": [
+    {
+     "text": "≈ $362M profit a day",
+     "at": "three"
+    },
+    {
+     "text": "Revenue: $478.8B (+15%)",
+     "at": "four"
+    }
+   ],
+   "text": "Apple made one hundred thirty two billion dollars in profit in its last fiscal year. That's about three hundred sixty two million dollars every single day, after all costs and taxes. Revenue hit four hundred seventy nine billion dollars, up fifteen percent. But here's the surprising part: the iPhone isn't the whole story anymore. In this video, I'll break down exactly where Apple's money comes from, where every hundred dollars goes, and the quiet business inside Apple that earns far higher margins than its phones. Every number comes from Apple's own filings."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The model",
+   "chapterTitle": "The business model in one sentence",
+   "broll": [
+    "4915",
+    "4908"
+   ],
+   "badge": "The model in one sentence",
+   "title": "Sell the device, then sell the services",
+   "sub": "One purchase, years of follow-on revenue",
+   "accent": [
+    2,
+    6
+   ],
+   "text": "Here's Apple's business model in one sentence. Sell a premium device once, then keep earning from it for years. You buy an iPhone. Then you might pay for iCloud storage, apps, music, AppleCare, or Apple TV. Developers pay Apple a commission on many App Store sales. Advertisers and search partners pay too. Each device becomes a small toll road. And the more Apple devices people own, the better they work together, which makes it harder to leave. Let's put real numbers on both halves."
+  },
+  {
+   "id": "s03",
+   "kind": "pricelist",
+   "chapter": "Where money comes from",
+   "chapterTitle": "Where every $100 comes from",
+   "broll": [
+    "47214",
+    "4915"
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "iPhone",
+     "value": "$53",
+     "num": 53,
+     "at": "iphone"
+    },
+    {
+     "label": "Services",
+     "value": "$26",
+     "num": 26,
+     "at": "services"
+    },
+    {
+     "label": "Mac",
+     "value": "$8",
+     "num": 8,
+     "at": "mac"
+    },
+    {
+     "label": "Wearables, Home & Accessories",
+     "value": "$7",
+     "num": 7,
+     "at": "wearables"
+    },
+    {
+     "label": "iPad",
+     "value": "$6",
+     "num": 6,
+     "at": "ipad"
+    }
+   ],
+   "total": {
+    "label": "Per $100 of revenue, fiscal 2026",
+    "yearly": {
+     "text": "iPhone: $254.1B (+21%)",
+     "at": "two",
+     "tone": "good"
+    },
+    "callout": {
+     "text": "iPhone > half of all sales",
+     "at": "half"
+    }
+   },
+   "text": "Where does Apple's money actually come from? Out of every hundred dollars Apple took in during fiscal twenty twenty six, about fifty three dollars came from the iPhone. That's two hundred fifty four billion dollars, up twenty one percent. Services brought in about twenty six dollars. Then the Mac about eight, wearables, home and accessories about seven, and the iPad about six. So the iPhone is still more than half of everything. iPad and wearables were basically flat this year, while the Mac grew thirteen percent."
+  },
+  {
+   "id": "s04",
+   "kind": "compare",
+   "chapter": "Margins",
+   "chapterTitle": "Services vs products: the margin gap",
+   "broll": [
+    "9607",
+    "47793"
+   ],
+   "cards": [
+    {
+     "title": "Products",
+     "sub": "iPhone, Mac, iPad, Watch",
+     "at": "products"
+    },
+    {
+     "title": "Services",
+     "sub": "apps, cloud, ads, AppleCare",
+     "at": "services"
+    }
+   ],
+   "big": {
+    "value": "76.2%",
+    "sub": "services gross margin",
+    "at": "seventy"
+   },
+   "bars": [
+    {
+     "label": "Products gross margin",
+     "value": "39.3%",
+     "fill": 0.52,
+     "tone": "accent",
+     "at": "thirty"
+    },
+    {
+     "label": "Services gross margin",
+     "value": "76.2%",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "seventy"
+    }
+   ],
+   "footer": {
+    "text": "~26% of sales, ~40% of gross profit",
+    "at": "forty"
+   },
+   "text": "Margins are where Apple gets interesting. Gross margin is what's left after the direct cost of making or delivering something. On products, Apple kept thirty nine point three percent. On services, it kept seventy six point two percent. Services are only about a quarter of Apple's sales, but they produced about forty percent of its gross profit: ninety four billion dollars out of two hundred thirty four billion. A song stream or an iCloud plan costs little extra to deliver once the system is built. A phone needs chips, glass and a factory every single time."
+  },
+  {
+   "id": "s05",
+   "kind": "cards",
+   "chapter": "Inside services",
+   "chapterTitle": "What's inside Apple's services",
+   "broll": [
+    "4907",
+    "221"
+   ],
+   "items": [
+    {
+     "title": "Services, fiscal 2026",
+     "value": "$123.3B",
+     "sub": "+13% year over year",
+     "at": "hundred"
+    },
+    {
+     "title": "September quarter",
+     "value": "$31.6B",
+     "sub": "an all-time high",
+     "at": "thirty"
+    }
+   ],
+   "chips": [
+    {
+     "text": "App Store",
+     "at": "store"
+    },
+    {
+     "text": "Advertising",
+     "at": "advertising"
+    },
+    {
+     "text": "iCloud",
+     "at": "cloud"
+    },
+    {
+     "text": "AppleCare",
+     "at": "applecare"
+    },
+    {
+     "text": "Subscriptions",
+     "at": "subscriptions"
+    },
+    {
+     "text": "Apple Pay & Card",
+     "at": "payment"
+    }
+   ],
+   "footer": {
+    "text": "Recurring money from devices people already own",
+    "at": "together"
+   },
+   "text": "So what's actually inside services? Apple's annual report lists the categories. The App Store, where Apple keeps a commission on many purchases. Advertising, which includes Apple's own ad platforms and third party licensing arrangements. Cloud services like iCloud. AppleCare. Subscriptions like Apple Music, Apple TV, Arcade and Fitness plus. And payment services, Apple Pay and Apple Card. Together they brought in one hundred twenty three billion dollars last year, up thirteen percent. In the September quarter alone, services hit an all time high of thirty one point six billion."
+  },
+  {
+   "id": "s06",
+   "kind": "stat",
+   "chapter": "The flywheel",
+   "chapterTitle": "2.5 billion devices: the real engine",
+   "broll": [
+    "4908",
+    "13218"
+   ],
+   "badge": "Active Apple devices worldwide",
+   "numberValue": 2.5,
+   "unit": "B",
+   "sub": "Apple, January 2026: more than 2.5 billion",
+   "big": {
+    "at": "two"
+   },
+   "chips": [
+    {
+     "text": "New all-time high in Sept 2026",
+     "at": "september"
+    },
+    {
+     "text": "Each one can earn services money",
+     "at": "each"
+    }
+   ],
+   "text": "And this is why services keep growing. In January twenty twenty six, Apple said its installed base had passed two point five billion active devices. In its September quarter report, Apple said that base reached a new all time high again. Each of those devices belongs to a customer who might pay for storage, an app, or a subscription. Apple doesn't need to win a brand new buyer to grow services. It needs the people who already own its products to keep using them. That's a very different business from just selling phones."
+  },
+  {
+   "id": "s07",
+   "kind": "rows",
+   "chapter": "Around the world",
+   "chapterTitle": "Revenue by region",
+   "broll": [
+    "41541",
+    "42648"
+   ],
+   "items": [
+    {
+     "name": "Americas",
+     "desc": "$198.1B · +11%, about 41% of sales",
+     "at": "americas"
+    },
+    {
+     "name": "Europe",
+     "desc": "$127.6B · +15% year over year",
+     "at": "europe"
+    },
+    {
+     "name": "Greater China",
+     "desc": "$82.4B · +28%, fastest-growing region",
+     "at": "china"
+    },
+    {
+     "name": "Japan",
+     "desc": "$30.9B · +8% year over year",
+     "at": "japan"
+    },
+    {
+     "name": "Rest of Asia Pac.",
+     "desc": "$39.9B · +18% year over year",
+     "at": "rest"
+    }
+   ],
+   "footer": {
+    "text": "Fiscal 2026, Apple 10-K",
+    "at": "everywhere"
+   },
+   "text": "Where in the world does the money come from? The Americas are still the biggest region, at one hundred ninety eight billion dollars, about forty one percent of sales, up eleven percent. Europe brought in one hundred twenty eight billion, up fifteen percent. Greater China was the surprise: eighty two billion, up twenty eight percent, the fastest growth of any region. Japan added thirty one billion, and the rest of Asia Pacific almost forty billion, up eighteen percent. So Apple's growth this year came from almost everywhere."
+  },
+  {
+   "id": "s08",
+   "kind": "pricelist",
+   "chapter": "Where money goes",
+   "chapterTitle": "Where every $100 goes",
+   "broll": [
+    "9330",
+    "45923"
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "Making & delivering (cost of sales)",
+     "value": "$51",
+     "num": 51,
+     "at": "making"
+    },
+    {
+     "label": "Research & development",
+     "value": "$10",
+     "num": 10,
+     "at": "research"
+    },
+    {
+     "label": "Sales, marketing & admin",
+     "value": "$6",
+     "num": 6,
+     "at": "sales"
+    },
+    {
+     "label": "Operating profit",
+     "value": "$33",
+     "num": 33,
+     "at": "operating"
+    }
+   ],
+   "total": {
+    "label": "Per $100 of revenue, fiscal 2026",
+    "yearly": {
+     "text": "Net profit after tax: ≈ $27.60",
+     "at": "taxes",
+     "tone": "good"
+    },
+    "callout": {
+     "text": "R&D up 32% to $45.8B",
+     "at": "thirty"
+    }
+   },
+   "text": "Where does every hundred dollars Apple earns actually go? About fifty one dollars covers making and delivering the products and services. Almost ten dollars goes to research and development, which jumped thirty two percent to about forty six billion dollars this year. About six dollars covers sales, marketing and admin. That leaves about thirty three dollars of operating profit. After taxes and other items, roughly twenty seven dollars and sixty cents of every hundred became net profit. Very few hardware companies come anywhere close to that."
+  },
+  {
+   "id": "s09",
+   "kind": "compare",
+   "chapter": "Cash",
+   "chapterTitle": "What Apple does with its cash",
+   "broll": [
+    "18296",
+    "46990"
+   ],
+   "cards": [
+    {
+     "title": "Cash in",
+     "sub": "from operations",
+     "at": "operations"
+    },
+    {
+     "title": "Cash back",
+     "sub": "to shareholders",
+     "at": "shareholders"
+    }
+   ],
+   "big": {
+    "value": "$101.5B",
+    "sub": "returned in fiscal 2026",
+    "at": "returned"
+   },
+   "bars": [
+    {
+     "label": "Operating cash flow",
+     "value": "$145.1B",
+     "fill": 1.0,
+     "tone": "accent",
+     "at": "generated"
+    },
+    {
+     "label": "Share buybacks",
+     "value": "$85.8B",
+     "fill": 0.59,
+     "tone": "good",
+     "at": "eighty"
+    },
+    {
+     "label": "Dividends",
+     "value": "$15.7B",
+     "fill": 0.11,
+     "tone": "good",
+     "at": "sixteen"
+    }
+   ],
+   "footer": {
+    "text": "EPS: $7.46 → $8.98 (+20%)",
+    "at": "earnings"
+   },
+   "text": "What does Apple do with all that cash? Last fiscal year, its operations generated one hundred forty five billion dollars in cash. Apple returned about one hundred one and a half billion to shareholders. About eighty six billion went to buying back its own stock, which reduces the number of shares, and almost sixteen billion went to dividends. That's why earnings per share grew faster than profit: from seven dollars forty six to eight dollars ninety eight, up about twenty percent. Fewer shares means each one owns a bigger slice."
+  },
+  {
+   "id": "s10",
+   "kind": "questions",
+   "chapter": "Risks",
+   "chapterTitle": "The risks to watch",
+   "broll": [
+    "221",
+    "47796"
+   ],
+   "items": [
+    {
+     "text": "53% of revenue from one product",
+     "at": "iphone"
+    },
+    {
+     "text": "Courts and regulators vs App Store fees",
+     "at": "courts"
+    },
+    {
+     "text": "iPad and wearables sales flat",
+     "at": "ipad"
+    },
+    {
+     "text": "R&D rising much faster than sales",
+     "at": "research"
+    }
+   ],
+   "footer": {
+    "text": "Education, not a stock tip",
+    "at": "education",
+    "tone": "bad"
+   },
+   "text": "Of course, there are risks to watch. First, concentration: the iPhone is still fifty three percent of revenue, so a weak phone year hits everything. Second, courts and regulators in the US and Europe are pushing back on App Store rules and fees, and the App Store feeds that high margin services business. Third, iPad and wearables sales were flat this year. And fourth, research spending is rising much faster than sales. This is education, not a stock tip. I'm not telling you to buy or sell anything."
+  },
+  {
+   "id": "s11",
+   "kind": "verdict",
+   "chapterTitle": "The big idea",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "badge": "The big idea",
+   "title": "Own the customer",
+   "sub": "Hardware opens the door. Services keep paying.",
+   "text": "So here's the big idea. Apple's real product isn't just the iPhone. It's the relationship that starts when you buy one. Hardware brings in most of the revenue and opens the door. Services, at a seventy six percent gross margin, keep paying long after the sale. And the same lesson works for a business of any size: a one time sale is good, but a customer who keeps coming back for something useful is worth far more."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "42653",
+    "41541"
+   ],
+   "title": "Follow the money",
+   "accent": [
+    2
+   ],
+   "next": "Perplexity vs Google: Is AI Search Better for Research?",
+   "text": "So, to recap. Apple took in four hundred seventy nine billion dollars in fiscal twenty twenty six. More than half came from the iPhone, about a quarter from services, and those services earn roughly double the gross margin of the hardware. Which Apple service do you actually pay for, if any? Tell me in the comments. If you like seeing how big companies really make money, subscribe to Future Money Lab. Next up: Perplexity versus Google. Is AI search better for research?"
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "WHERE $100 GOES",
+   "line2": "APPLE, EXPLAINED",
+   "tag": "Business model breakdown"
+  },
+  "b": {
+   "big": "$132B PROFIT",
+   "line2": "IN ONE YEAR",
+   "tag": "Apple fiscal 2026"
+  }
+ },
+ "youtube": {
+  "title": "How Apple Makes Money: Where Every $100 Goes (2026)",
+  "summary": "How does Apple make money in 2026? A plain-English breakdown of Apple's fiscal 2026 annual results: where every $100 of revenue comes from (iPhone, Services, Mac, Wearables, iPad), why Services earn a 76% gross margin vs 39% on hardware, what is inside Apple's services business, the 2.5 billion active devices behind it, revenue by region, where every $100 goes, what Apple does with $145 billion of operating cash flow, and the risks to watch. All numbers come from Apple's own filings.",
+  "details": "Numbers mentioned (checked November 2026):\n- Fiscal 2026 (year ended Sep 26, 2026): net sales $478.8B vs $416.2B in fiscal 2025 (+15%); net income $132.2B; diluted EPS $8.98 vs $7.46; operating income $158.1B; R&D $45.8B vs $34.6B (Apple 10-K and Q4 FY2026 results, 8-K Exhibit 99.1).\n- Net sales by category, fiscal 2026: iPhone $254.1B (+21%), Services $123.3B (+13%), Mac $37.9B (+13%), Wearables, Home and Accessories $35.6B (flat), iPad $27.9B (flat) (same sources).\n- Gross margin, fiscal 2026: Products $139.7B (39.3%), Services $93.9B (76.2%), total $233.6B (same sources).\n- Net sales by segment, fiscal 2026: Americas $198.1B, Europe $127.6B, Greater China $82.4B, Japan $30.9B, Rest of Asia Pacific $39.9B (same sources).\n- Cash: operating cash flow $145.1B; $85.8B of share repurchases and $15.7B of dividends and dividend equivalents in fiscal 2026 (Apple 10-K).\n- Q4 FY2026 (Jul-Sep 2026): revenue $114.5B (+12%), Services $31.6B (all-time high), net income $30.7B; installed base of active devices at a new all-time high (Apple 8-K Exhibit 99.1).\n- More than 2.5 billion active devices: Apple's Q1 FY2026 results release (Jan 29, 2026).\n- Services categories (App Store, advertising incl. third-party licensing, cloud, AppleCare, subscriptions, Apple Pay/Card): Apple 10-K, Item 1.\n- Our calculations: '$362M a day' = $132.2B / 365; 'per $100' splits = each line divided by total net sales, rounded; services share of gross profit = $93.9B / $233.6B ≈ 40%; regional growth rates vs fiscal 2025.\n- This video does not recommend buying or selling any stock.",
+  "sources": [
+   {
+    "name": "Apple Q4 FY2026 results, Form 8-K Exhibit 99.1 (SEC, Oct 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
+   },
+   {
+    "name": "Apple Form 10-K for fiscal 2026 (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000026/aapl-20260926.htm"
+   },
+   {
+    "name": "Apple Newsroom: Apple reports first quarter results (Jan 29, 2026)",
+    "url": "https://www.apple.com/si/newsroom/2026/01/apple-reports-first-quarter-results/"
+   }
+  ],
+  "tags": [
+   "how Apple makes money",
+   "Apple business model",
+   "Apple earnings 2026",
+   "Apple fiscal 2026",
+   "Apple services revenue",
+   "iPhone revenue",
+   "Apple gross margin",
+   "business model breakdown",
+   "Apple 10-K explained",
+   "how companies make money",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#Apple",
+   "#business",
+   "#investing"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s04"
+   ],
+   "headline": "Apple's 76% margin business",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s03"
+   ],
+   "headline": "Where Apple's money really comes from",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "Where every $100 Apple earns goes",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
