@@ -1,7 +1,7 @@
 {
  "id": "E24",
  "num": 26,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "How Apple Makes Money",
  "music": "music_759.mp3",
@@ -521,5 +521,23 @@
    "headline": "Where every $100 Apple earns goes",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 437316926,
+  "publishAt": "2026-12-02T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 437317027,
+    "publishAt": "2026-12-02T02:45:00+05:00"
+   },
+   {
+    "postId": 437317036,
+    "publishAt": "2026-12-02T06:45:00+05:00"
+   },
+   {
+    "postId": 437317050,
+    "publishAt": "2026-12-02T21:15:00+05:00"
+   }
+  ]
+ }
 }
