@@ -1,7 +1,7 @@
 {
  "id": "E25",
  "num": 29,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "Using AI to Research Stocks Without Getting Fooled",
  "music": "music_744.mp3",
@@ -485,5 +485,23 @@
    "headline": "4 prompt lines that stop AI guessing",
    "cta": "Full video on our channel"
   }
- ]
+ ],
+ "metricool": {
+  "postId": 439888711,
+  "publishAt": "2026-12-03T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 439888946,
+    "publishAt": "2026-12-03T02:45:00+05:00"
+   },
+   {
+    "postId": 439888971,
+    "publishAt": "2026-12-03T06:45:00+05:00"
+   },
+   {
+    "postId": 439889004,
+    "publishAt": "2026-12-03T21:15:00+05:00"
+   }
+  ]
+ }
 }
