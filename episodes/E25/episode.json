@@ -1,0 +1,489 @@
+{
+ "id": "E25",
+ "num": 29,
+ "status": "draft",
+ "pillar": "B",
+ "title": "Using AI to Research Stocks Without Getting Fooled",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "AI + stocks",
+   "chapterTitle": "Intro: 81% wrong or refused",
+   "broll": [
+    "47214",
+    "4915"
+   ],
+   "badge": "AI answers wrong or refused",
+   "numberValue": 81,
+   "unit": "%",
+   "sub": "GPT-4 Turbo + retrieval on SEC filing questions (FinanceBench, 2023)",
+   "big": {
+    "at": "eighty",
+    "nth": 1
+   },
+   "chips": [
+    {
+     "text": "3 in 4 investors use AI",
+     "at": "three"
+    },
+    {
+     "text": "86% of them acted on it",
+     "at": "eighty"
+    }
+   ],
+   "text": "Three out of four investors now use AI for investing questions, according to a SoFi survey of one thousand US adults this year. And eighty six percent of those AI users say they've made an investing decision based on it. But when researchers asked AI models questions about real company filings, one popular setup got eighty one percent of them wrong, or refused to answer. In this video, I'll show you why AI gets fooled by financial data, and a simple five step workflow to use it for stock research without getting fooled yourself."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The plan",
+   "chapterTitle": "What you'll learn",
+   "broll": [
+    "4907",
+    "221"
+   ],
+   "badge": "The plan",
+   "title": "Make AI show its work",
+   "sub": "A 5-step workflow for stock research",
+   "accent": [
+    2,
+    3,
+    4
+   ],
+   "text": "Here's the plan. You won't need to be a finance expert, and you won't need a paid tool. You'll learn where AI goes wrong with money questions, which free document to feed it, the exact prompts that force it to show its sources, how to check its numbers yourself, and the one question you should never let it answer for you. This is education, not advice, and I won't name any stock to buy. Let's start with how people actually use AI for investing today."
+  },
+  {
+   "id": "s03",
+   "kind": "cards",
+   "chapter": "The survey",
+   "chapterTitle": "How investors use AI in 2026",
+   "broll": [
+    "4915",
+    "42664"
+   ],
+   "items": [
+    {
+     "title": "Compare options",
+     "value": "47%",
+     "sub": "of AI users",
+     "at": "comparing"
+    },
+    {
+     "title": "Assess risk",
+     "value": "45%",
+     "sub": "of AI users",
+     "at": "assessing"
+    },
+    {
+     "title": "Learn terms",
+     "value": "44%",
+     "sub": "of AI users",
+     "at": "learning"
+    }
+   ],
+   "chips": [
+    {
+     "text": "ChatGPT 53%",
+     "at": "chatgpt"
+    },
+    {
+     "text": "Gemini 28%",
+     "at": "gemini"
+    },
+    {
+     "text": "74% verify often",
+     "at": "seventy"
+    },
+    {
+     "text": "~80% asked for picks",
+     "at": "nearly"
+    }
+   ],
+   "footer": {
+    "text": "SoFi survey, 1,000 US adults, Feb 2026",
+    "at": "keep"
+   },
+   "text": "In the SoFi survey, run online in February twenty twenty six, the top uses were comparing investment options, at just over forty seven percent of AI users, assessing risk at forty five percent, and learning investing terms at forty four percent. ChatGPT was the most used tool, at fifty three percent, followed by Google Gemini at twenty eight. The good news: seventy four percent say they always or often verify what the AI tells them. The worrying part: nearly eighty percent asked it for specific investment recommendations. Keep in mind, SoFi is a financial company, and this is a self reported survey."
+  },
+  {
+   "id": "s04",
+   "kind": "compare",
+   "chapter": "The test",
+   "chapterTitle": "The FinanceBench test: 29 of 150 right",
+   "broll": [
+    "9607",
+    "47793"
+   ],
+   "cards": [
+    {
+     "title": "Search a pile of filings",
+     "sub": "retrieval setup",
+     "at": "typical"
+    },
+    {
+     "title": "Hand it the document",
+     "sub": "whole filing in the prompt",
+     "at": "handed"
+    }
+   ],
+   "big": {
+    "value": "19%",
+    "sub": "right with retrieval (29 of 150)",
+    "at": "only"
+   },
+   "bars": [
+    {
+     "label": "Retrieval",
+     "value": "19%",
+     "fill": 0.19,
+     "tone": "bad",
+     "at": "refused"
+    },
+    {
+     "label": "Whole document",
+     "value": "79%",
+     "fill": 0.79,
+     "tone": "good",
+     "at": "accuracy"
+    }
+   ],
+   "footer": {
+    "text": "What you feed the AI matters",
+    "at": "lesson"
+   },
+   "text": "Now the test. In November twenty twenty three, researchers at a company called Patronus AI published FinanceBench, more than ten thousand questions about public companies, and checked models on a sample of one hundred fifty. With a typical retrieval setup, where the AI searches a pile of filings for the right passage, GPT four Turbo got only twenty nine of one hundred fifty right. Most of the rest it refused, and some it got wrong. When the researchers handed it the whole document directly, accuracy jumped to seventy nine percent. Those models are older now. But the lesson holds: what you feed the AI matters as much as the AI itself."
+  },
+  {
+   "id": "s05",
+   "kind": "rows",
+   "chapter": "Why it fails",
+   "chapterTitle": "5 reasons AI gets fooled by money questions",
+   "broll": [
+    "4908",
+    "221"
+   ],
+   "items": [
+    {
+     "name": "Old data",
+     "desc": "May not know the latest results",
+     "at": "old"
+    },
+    {
+     "name": "Wrong source",
+     "desc": "Another year, company or a random blog",
+     "at": "wrong"
+    },
+    {
+     "name": "Made-up numbers",
+     "desc": "A plausible figure instead of a real one",
+     "at": "made"
+    },
+    {
+     "name": "Confident tone",
+     "desc": "Wrong answers sound just as sure",
+     "at": "confident"
+    },
+    {
+     "name": "Wrong question",
+     "desc": "\"What will go up?\" gets a guess",
+     "at": "wrong",
+     "nth": 2
+    }
+   ],
+   "footer": {
+    "text": "Each step below fixes one",
+    "at": "every"
+   },
+   "text": "Why does AI get fooled with money questions? Five common reasons. Old data: a model may not know last quarter's results unless you give them. Wrong source: it can grab a different year, a different company, or a random blog instead of the filing. Made up numbers: when it can't find a figure, it may produce a plausible one. Confident tone: a wrong answer sounds just as sure as a right one. And the wrong question: ask what will go up, and you get a guess dressed up as analysis. Every step that follows fixes one of these."
+  },
+  {
+   "id": "s06",
+   "kind": "steps",
+   "chapter": "Step 1",
+   "chapterTitle": "Step 1: Start from the 10-K on EDGAR",
+   "broll": [
+    "4907",
+    "45923"
+   ],
+   "items": [
+    {
+     "text": "Go to EDGAR on sec.gov",
+     "at": "edgar"
+    },
+    {
+     "text": "Find the latest 10-K",
+     "at": "download"
+    },
+    {
+     "text": "Upload it to your AI tool",
+     "at": "upload"
+    }
+   ],
+   "footer": {
+    "text": "The company's own words, not memory",
+    "at": "now",
+    "tone": "accent"
+   },
+   "text": "Step one: start from the source, not the chatbot's memory. Every year, most US public companies must file an annual report called a ten K with the SEC. According to the SEC's own investor guide, all ten Ks filed with the SEC are available to the public on its EDGAR website, and most companies also post them on their own sites. Download the latest ten K, or copy the sections you need, then upload them to the AI tool you use. Now it's reading the company's own words, not guessing from old training data."
+  },
+  {
+   "id": "s07",
+   "kind": "rows",
+   "chapter": "Step 1",
+   "chapterTitle": "The 5 parts of a 10-K to feed the AI",
+   "broll": [
+    "45923",
+    "46768"
+   ],
+   "items": [
+    {
+     "name": "Item 1: Business",
+     "desc": "What it sells and where; start here",
+     "at": "business"
+    },
+    {
+     "name": "Item 1A: Risk Factors",
+     "desc": "Biggest risks, generally by importance",
+     "at": "risk"
+    },
+    {
+     "name": "Item 7: MD&A",
+     "desc": "Management's view, cash, known trends",
+     "at": "seven"
+    },
+    {
+     "name": "Item 8: Financials",
+     "desc": "Audited statements plus the notes",
+     "at": "eight"
+    },
+    {
+     "name": "Item 9: Accountants",
+     "desc": "Changes or disagreements: a red flag",
+     "at": "nine"
+    }
+   ],
+   "footer": {
+    "text": "SEC Investor Bulletin: How to Read a 10-K",
+    "at": "red"
+   },
+   "text": "A ten K is long, so feed the AI the parts that matter most. Item one, Business, explains what the company sells and where. The SEC calls it a good place to start. Item one A, Risk Factors, lists the most significant risks, generally in order of importance. Item seven, management's discussion and analysis, is management's view of the year, its cash, and known trends. Item eight holds the audited financial statements and the notes that explain them. And item nine covers changes in, and disagreements with, the accountants. The SEC says many investors see that as a red flag."
+  },
+  {
+   "id": "s08",
+   "kind": "questions",
+   "chapter": "Step 2",
+   "chapterTitle": "Step 2: 4 prompt lines that force sources",
+   "broll": [
+    "1730",
+    "4907"
+   ],
+   "items": [
+    {
+     "text": "Use only the document I uploaded",
+     "at": "answer"
+    },
+    {
+     "text": "Quote the sentence and section for every number",
+     "at": "quote"
+    },
+    {
+     "text": "Not in the document? Say \"not found\"",
+     "at": "three"
+    },
+    {
+     "text": "Show your math for every percentage",
+     "at": "four",
+     "nth": 1
+    }
+   ],
+   "footer": {
+    "text": "\"I don't know\" beats a confident guess",
+    "at": "want",
+    "tone": "accent"
+   },
+   "text": "Step two: use prompts that force the AI to show its work. Here are four lines to add to any money question. One: answer using only the document I uploaded. Two: quote the exact sentence and give the section for every number. Three: if it's not in the document, say not found instead of guessing. Four: show your math for any percentage or growth rate. These lines matter because, in the FinanceBench paper, the researchers argue that refusing to answer is arguably preferable to giving a wrong answer. You want an AI that's allowed to say I don't know."
+  },
+  {
+   "id": "s09",
+   "kind": "steps",
+   "chapter": "Step 3",
+   "chapterTitle": "Step 3: Check 3 numbers yourself",
+   "broll": [
+    "46990",
+    "4806"
+   ],
+   "items": [
+    {
+     "text": "Pick the 3 numbers that matter most",
+     "at": "pick"
+    },
+    {
+     "text": "Search for each one in the filing",
+     "at": "search"
+    },
+    {
+     "text": "Check the year and the units",
+     "at": "check",
+     "nth": 1
+    },
+    {
+     "text": "Read the auditor's opinion",
+     "at": "auditor"
+    }
+   ],
+   "footer": {
+    "text": "One mismatch = treat it as a draft",
+    "at": "if",
+    "tone": "bad"
+   },
+   "text": "Step three: check the numbers yourself. It's quicker than it sounds. Pick the three numbers the answer depends on most, like revenue, profit, and cash from operations. Use your PDF reader's search to find each one in the filing. Check the year and the units, because millions and billions are easy to mix up. Then look at the auditor's report. The SEC's guide says a clean, unqualified opinion is the norm, and anything else deserves a careful look. If even one number doesn't match, treat the whole answer as a draft."
+  },
+  {
+   "id": "s10",
+   "kind": "questions",
+   "chapter": "Step 4",
+   "chapterTitle": "Step 4: Ask for the other side",
+   "broll": [
+    "42648",
+    "9330"
+   ],
+   "items": [
+    {
+     "text": "What would have to go wrong?",
+     "at": "what",
+     "nth": 1
+    },
+    {
+     "text": "Which risk factor grew since last year?",
+     "at": "which"
+    },
+    {
+     "text": "Does management's tone match the numbers?",
+     "at": "does"
+    },
+    {
+     "text": "Which non-GAAP numbers do they use?",
+     "at": "non"
+    }
+   ],
+   "footer": {
+    "text": "Ask both ways",
+    "at": "both"
+   },
+   "text": "Step four: ask for the other side. A chatbot answers the question you ask. If you ask why a stock will rise, you'll get reasons it will rise. So ask both ways. What would have to go wrong for this business? Which risk factor grew since last year's ten K? Does management's tone in the MD and A match the actual numbers? And which non GAAP measures does the company highlight? The SEC's guide says it's up to you, as an investor, to decide how much weight to give those adjusted numbers."
+  },
+  {
+   "id": "s11",
+   "kind": "stamp",
+   "chapter": "Step 5",
+   "chapterTitle": "Step 5: Keep the final decision",
+   "broll": [
+    "4908",
+    "26923"
+   ],
+   "title": "\"Buy it?\"",
+   "value": "~80%",
+   "sub": "of AI users asked for specific picks (SoFi, 2026)",
+   "stamp": "Skip",
+   "stampAt": "never",
+   "footer": {
+    "text": "Understand with AI. Decide yourself.",
+    "at": "then"
+   },
+   "text": "Step five: never hand over the final decision. Remember, nearly eighty percent of AI users in that survey asked for specific investment recommendations. A chatbot doesn't know your goals, your timeline, your taxes, or how much risk you can live with, unless you tell it, and even then it isn't responsible for the outcome. The FinanceBench team's chief executive told Fortune that many general purpose models weren't trained on this kind of information. So use AI to understand a company faster. Then make the decision yourself, or with a licensed professional."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "42653",
+    "41541"
+   ],
+   "title": "Check the source",
+   "accent": [
+    2
+   ],
+   "next": "Perplexity vs Google: Is AI Search Better for Research?",
+   "text": "So, to recap. Start from the ten K on EDGAR, make the AI quote its sources, check three numbers yourself, ask for the other side, and keep the final decision. AI is a fast reader, not a fortune teller. What's one question you'd ask an AI about a company you follow? Tell me in the comments. If you want more honest guides to AI and money, subscribe to Future Money Lab. Next up: Perplexity versus Google. Is AI search better for research?"
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "81% FAILED",
+   "line2": "AI ON STOCK FILINGS",
+   "tag": "FinanceBench study"
+  },
+  "b": {
+   "big": "DON'T GET FOOLED",
+   "line2": "AI + STOCKS",
+   "tag": "5-step checklist"
+  }
+ },
+ "youtube": {
+  "title": "Using AI to Research Stocks Without Getting Fooled (2026)",
+  "summary": "Can you trust ChatGPT, Claude, Gemini or any AI chatbot to research stocks? A 2026 SoFi survey says three in four investors use AI for investing questions, yet in the FinanceBench study one common setup got 81% of questions about SEC filings wrong or refused them. Here is why AI gets fooled by financial data, and a free 5-step workflow: start from the 10-K on SEC EDGAR, feed the right sections, use prompts that force sources, check the numbers yourself, ask for the other side, and keep the final decision.",
+  "details": "Facts mentioned (checked November 2026):\n- SoFi survey (online, 1,000 US adults, Feb 20, 2026, distributed by Stacker, Oct 2026): 75% of investors use AI for investing questions; 86% of AI users made an investing decision based on AI; nearly 80% asked for specific investment recommendations; top uses: comparing options (just over 47%), assessing risk (45%), learning terms (44%); ChatGPT 53%, Google Gemini 28%; 74% always or often verify. SoFi is a financial company; self-reported survey.\n- FinanceBench (Islam, Kannappan, Kiela, Qian, Scherrer, Vidgen; arXiv, Nov 20, 2023; Patronus AI): 10,231 questions about public companies; 16 model configurations tested on a sample of 150 cases; 'GPT-4-Turbo used with a retrieval system incorrectly answered or refused to answer 81% of questions.'\n- Fortune (Dec 21, 2023): with retrieval, GPT-4-Turbo got 29 of 150 right, 101 not answered, 20 wrong; given whole documents (long context) it got 79% right. These are 2023 models; newer models may do better.\n- SEC Investor Bulletin 'How to Read a 10-K' (Sept 2011): all 10-Ks filed with the SEC are available to the public on EDGAR; Item 1 Business, 1A Risk Factors, 7 MD&A, 8 Financial Statements, 9 changes in and disagreements with accountants; an unqualified audit opinion is the norm; it is up to investors how much weight to give non-GAAP measures.\n- The prompt lines and the 5-step workflow are our own suggestions built from these sources, not measured results.\n- This video names no stock to buy. It is education, not a recommendation.",
+  "sources": [
+   {
+    "name": "FinanceBench: A New Benchmark for Financial Question Answering (arXiv, Nov 2023)",
+    "url": "https://arxiv.org/abs/2311.11944v1"
+   },
+   {
+    "name": "Fortune: AI chatbots tested on SEC filings (Dec 2023)",
+    "url": "https://fortune.com/2023/12/21/chatgpt-understand-sec-filings-anthropic-meta-llama2-openai-finance-ai/"
+   },
+   {
+    "name": "SoFi via Stacker: AI investing survey 2026 (Oct 2026)",
+    "url": "https://krdo.com/stacker-personal-finance-investing/2026/10/26/ai-investing-survey-2026-75-of-investors-use-ai/"
+   },
+   {
+    "name": "SEC Investor Bulletin: How to Read a 10-K",
+    "url": "https://www.sec.gov/files/reada10k.pdf"
+   }
+  ],
+  "tags": [
+   "ai stock research",
+   "chatgpt for stocks",
+   "using ai for investing",
+   "how to read a 10-k",
+   "sec edgar",
+   "ai investing mistakes",
+   "ai hallucinations finance",
+   "stock research for beginners",
+   "investing for beginners",
+   "chatgpt prompts for investing",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#investing",
+   "#AI",
+   "#stockmarket"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s04"
+   ],
+   "headline": "AI got 29 of 150 finance questions right",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s07"
+   ],
+   "headline": "The 5 parts of a 10-K to give AI",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "4 prompt lines that stop AI guessing",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
