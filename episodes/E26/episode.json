@@ -1,0 +1,501 @@
+{
+ "id": "E26",
+ "num": 22,
+ "status": "scheduled",
+ "pillar": "A",
+ "title": "Perplexity vs Google: Is AI Search Better for Research?",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "45% of answers",
+   "chapterTitle": "Intro: 45% of AI news answers had a problem",
+   "broll": [
+    "221",
+    "4907"
+   ],
+   "badge": "EBU + BBC study, October 2025",
+   "numberValue": 45,
+   "unit": "%",
+   "sub": "of AI answers about the news had at least one significant issue",
+   "big": {
+    "at": "forty"
+   },
+   "chips": [
+    {
+     "text": "3,000+ answers checked",
+     "at": "three"
+    },
+    {
+     "text": "18 countries, 14 languages",
+     "at": "eighteen"
+    }
+   ],
+   "text": "Journalists from twenty two public broadcasters checked more than three thousand answers from AI assistants about the news. Forty five percent had at least one significant issue. That study covered eighteen countries and fourteen languages. And yet more than a billion people a month now use Google's AI Mode, and Perplexity has built a whole business on AI answers. So is AI search actually better for research, or just faster at being wrong? In this video, I'll compare Perplexity and Google's AI search using the best independent tests I could find, what each one costs, and a simple routine to get answers you can trust."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "The question",
+   "chapterTitle": "What 'better for research' really means",
+   "broll": [
+    "46768",
+    "45923"
+   ],
+   "badge": "Checked November 2026",
+   "title": "Fast vs right answers",
+   "sub": "Two independent tests, official numbers, one routine",
+   "accent": [
+    2,
+    3
+   ],
+   "text": "First, what does better for research even mean? For most of us it means three things. The answer is correct. It shows where it came from, so you can check it. And it saves time compared with opening ten blue links yourself. Speed is easy to see. Correctness is not, because a wrong answer looks exactly as confident as a right one. So I won't judge these tools on how impressive they feel. I'll use published tests and official figures, all checked in November twenty twenty six."
+  },
+  {
+   "id": "s03",
+   "kind": "cards",
+   "chapter": "The contenders",
+   "chapterTitle": "Google AI Overviews, AI Mode and Perplexity",
+   "broll": [
+    "41541",
+    "4915"
+   ],
+   "items": [
+    {
+     "title": "AI Overviews",
+     "value": "2B+",
+     "sub": "monthly users (Mar 2026)",
+     "at": "overviews"
+    },
+    {
+     "title": "AI Mode",
+     "value": "1B+",
+     "sub": "monthly active users (May 2026)",
+     "at": "mode"
+    },
+    {
+     "title": "Perplexity",
+     "value": "$0 / $20",
+     "sub": "Free or Pro per month",
+     "at": "perplexity"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Built into Google Search",
+     "at": "built"
+    },
+    {
+     "text": "Answer engine with citations",
+     "at": "citations"
+    }
+   ],
+   "text": "Let's meet the contenders. Google has two AI layers. AI Overviews is the summary at the top of normal results, and Google says it has more than two billion monthly users. AI Mode is the chat style tab, and in May Google said it passed one billion monthly active users. Both are built into Google Search. Then there's Perplexity, an answer engine that writes a reply and lists its citations next to it. It has a free plan and a Pro plan. So this is really a fight between the giant you already use and a specialist."
+  },
+  {
+   "id": "s04",
+   "kind": "rows",
+   "chapter": "AI Mode",
+   "chapterTitle": "How AI Mode changed the way people search",
+   "broll": [
+    "4908",
+    "42664"
+   ],
+   "items": [
+    {
+     "name": "Query length",
+     "desc": "Triple a normal search",
+     "at": "triple"
+    },
+    {
+     "name": "Growth",
+     "desc": "Queries more than doubled every quarter",
+     "at": "doubled"
+    },
+    {
+     "name": "Voice + images",
+     "desc": "1 in 6 US searches",
+     "at": "six"
+    },
+    {
+     "name": "Planning",
+     "desc": "Growing 80% faster than AI Mode overall",
+     "at": "eighty"
+    }
+   ],
+   "footer": {
+    "text": "Source: Google, May 2026",
+    "at": "google",
+    "nth": 2,
+    "tone": "accent"
+   },
+   "text": "Here's how much AI Mode has changed searching. Google says the average AI Mode search is triple the length of a normal search. People type real questions now, not two keywords. AI Mode queries have more than doubled every quarter since launch. More than one in six searches in the U.S. now use voice or images. And planning questions grew eighty percent faster than AI Mode overall in six months. Keep in mind, these are Google's own numbers about Google's own product. They show people love it. They don't show the answers are right."
+  },
+  {
+   "id": "s05",
+   "kind": "cards",
+   "chapter": "Perplexity plans",
+   "chapterTitle": "Perplexity plans and prices",
+   "broll": [
+    "1730",
+    "18302"
+   ],
+   "text": "What does Perplexity cost? According to a pricing review based on Perplexity's published plans as of May twenty twenty six, the free plan gives unlimited standard searches plus five Pro searches a day. Pro is twenty dollars a month, or two hundred dollars billed yearly, which works out to about sixteen sixty seven a month. Max, launched in July twenty twenty five, is two hundred dollars a month for power users. Prices change, so check the official page. My advice is simple. Start on the free plan, and only pay once you hit the daily limit regularly.",
+   "items": [
+    {
+     "title": "Free",
+     "value": "$0",
+     "sub": "5 Pro searches a day",
+     "at": "free"
+    },
+    {
+     "title": "Pro",
+     "value": "$20",
+     "sub": "per month, or $200 a year",
+     "at": "twenty",
+     "nth": 2
+    },
+    {
+     "title": "Max",
+     "value": "$200",
+     "sub": "per month, power users",
+     "at": "max"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Yearly Pro ≈ $16.67 a month",
+     "at": "sixteen"
+    },
+    {
+     "text": "Plans as published May 2026",
+     "at": "pricing"
+    }
+   ],
+   "footer": {
+    "text": "Start on Free, upgrade only if you hit the limit",
+    "at": "start",
+    "tone": "accent"
+   }
+  },
+  {
+   "id": "s06",
+   "kind": "compare",
+   "chapter": "The citation test",
+   "chapterTitle": "The Columbia citation test: 1,600 queries",
+   "broll": [
+    "45923",
+    "221"
+   ],
+   "cards": [
+    {
+     "title": "8 AI search tools",
+     "sub": "free and paid",
+     "at": "eight"
+    },
+    {
+     "title": "1,600 queries",
+     "sub": "real news excerpts",
+     "at": "sixteen"
+    }
+   ],
+   "big": {
+    "value": "60%+",
+    "sub": "of answers were incorrect overall",
+    "at": "sixty"
+   },
+   "bars": [
+    {
+     "label": "Perplexity (free)",
+     "value": "37% wrong",
+     "fill": 0.37,
+     "tone": "good",
+     "at": "perplexity"
+    },
+    {
+     "label": "Grok 3",
+     "value": "94% wrong",
+     "fill": 0.94,
+     "tone": "bad",
+     "at": "grok"
+    }
+   ],
+   "footer": {
+    "text": "Tested February 2025: news citations only",
+    "at": "february"
+   },
+   "text": "Now the first independent test. Researchers at Columbia's Tow Center tested eight AI search tools with sixteen hundred queries. They pasted a short excerpt from a real news article and asked each tool to name the article, the publisher and the link. Collectively, the tools got more than sixty percent wrong. Perplexity did best, with thirty seven percent wrong. Grok three was wrong ninety four percent of the time. To be fair, this was February twenty twenty five, and it tested news citations only. But it shows a big gap between tools."
+  },
+  {
+   "id": "s07",
+   "kind": "questions",
+   "chapter": "Confidently wrong",
+   "chapterTitle": "Confidently wrong: what the test found",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "Rarely said 'I don't know'",
+     "at": "rarely"
+    },
+    {
+     "text": "Paid versions: more right, and more confidently wrong",
+     "at": "paid"
+    },
+    {
+     "text": "Gemini and Grok 3: over half made-up or broken links",
+     "at": "half"
+    },
+    {
+     "text": "Cited copies instead of the original",
+     "at": "copies"
+    }
+   ],
+   "footer": {
+    "text": "Every answer looked equally sure",
+    "at": "looked",
+    "tone": "bad"
+   },
+   "text": "The scary part wasn't the errors. It was the confidence. Most tools rarely said I don't know. Copilot was the exception, declining more questions than it answered. The paid versions, Perplexity Pro and Grok three, answered more prompts correctly than the free ones, but they also had higher error rates, because they guessed instead of declining. More than half of the answers from Gemini and Grok three cited made up or broken links. And some tools cited copies of articles on other sites instead of the original. Every answer looked equally sure."
+  },
+  {
+   "id": "s08",
+   "kind": "stat",
+   "chapter": "The news test",
+   "chapterTitle": "The EBU and BBC test: Gemini 76%",
+   "broll": [
+    "42648",
+    "13218"
+   ],
+   "badge": "EBU + BBC, 22 broadcasters, October 2025",
+   "numberValue": 76,
+   "unit": "%",
+   "sub": "of Gemini's news answers had a significant issue, mostly sourcing",
+   "big": {
+    "at": "seventy"
+   },
+   "chips": [
+    {
+     "text": "31% sourcing problems",
+     "at": "thirty"
+    },
+    {
+     "text": "20% major accuracy issues",
+     "at": "accuracy"
+    },
+    {
+     "text": "Tested: ChatGPT, Copilot, Gemini, Perplexity",
+     "at": "tested"
+    }
+   ],
+   "text": "The second test is bigger. In October twenty twenty five, the European Broadcasting Union and the BBC had journalists judge answers from ChatGPT, Copilot, Gemini and Perplexity. Across all four, thirty one percent of responses had serious sourcing problems, and twenty percent had major accuracy issues, like made up details or outdated facts. Gemini, the model behind Google's AI, had significant issues in seventy six percent of its answers, more than double the others, mostly because of poor sourcing. They tested the Gemini assistant, not Google Search itself, but it's a warning worth hearing."
+  },
+  {
+   "id": "s09",
+   "kind": "cards",
+   "chapter": "Which to use",
+   "chapterTitle": "When to use Google, when to use Perplexity",
+   "broll": [
+    "4915",
+    "46990"
+   ],
+   "items": [
+    {
+     "title": "Google",
+     "value": "Quick facts",
+     "sub": "places, shopping, today's news",
+     "at": "quick"
+    },
+    {
+     "title": "Perplexity",
+     "value": "Deep reading",
+     "sub": "many sources, listed side by side",
+     "at": "deep"
+    },
+    {
+     "title": "Both",
+     "value": "Click through",
+     "sub": "before you quote anything",
+     "at": "both"
+    }
+   ],
+   "footer": {
+    "text": "Pick by task, not by brand",
+    "at": "task",
+    "tone": "accent"
+   },
+   "text": "So which should you use? Here's my take from the evidence. For quick facts, local places, shopping and today's news, Google is hard to beat, because it sits on the biggest index and the links are right there under the summary. For deep reading, when you want one answer pulled from many sources with the citations listed side by side, Perplexity did better in the citation test and is built for exactly that. And with both, click through before you quote anything. Pick the tool by the task, not by the brand."
+  },
+  {
+   "id": "s10",
+   "kind": "steps",
+   "chapter": "The routine",
+   "chapterTitle": "A 4-step routine for trustworthy AI research",
+   "broll": [
+    "4806",
+    "46768"
+   ],
+   "items": [
+    {
+     "text": "Ask a specific question",
+     "at": "specific"
+    },
+    {
+     "text": "Open two of the cited sources",
+     "at": "open"
+    },
+    {
+     "text": "Check dates and numbers yourself",
+     "at": "dates"
+    },
+    {
+     "text": "Ask: what would change this answer?",
+     "at": "change"
+    }
+   ],
+   "footer": {
+    "text": "Two minutes of checking beats one confident mistake",
+    "at": "minutes",
+    "tone": "good"
+   },
+   "text": "Here's a simple routine I'd suggest for any AI search. Step one: ask a specific question, with the year and the place, not two vague keywords. Step two: open at least two of the cited sources. Not the summary, the actual pages. Step three: check dates and numbers yourself, because outdated information was one of the most common problems in the broadcasters' study. Step four: ask the tool what would change this answer, or what the other side says. Two minutes of checking beats one confident mistake in your report."
+  },
+  {
+   "id": "s11",
+   "kind": "verdict",
+   "chapter": "Verdict",
+   "chapterTitle": "The verdict",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "badge": "The verdict",
+   "title": "Faster, not truer",
+   "sub": "AI search finds sources fast. You still check them.",
+   "text": "So, is AI search better for research? It's faster, not truer. Both Google's AI and Perplexity can save you real time finding the right pages. In the citation test, Perplexity's free version was the most accurate tool, but it was still wrong more than a third of the time. Google reaches far more people, and its links sit right under every answer. Neither one replaces reading the source. Use AI to find the pages, then let the pages, not the summary, be your evidence. These tests are from twenty twenty five, and newer versions may do better."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "42653",
+    "41541"
+   ],
+   "title": "Click the source",
+   "accent": [
+    2
+   ],
+   "next": "10 Money Habits That Quietly Make People Rich",
+   "text": "To recap. Google for quick facts and local answers, Perplexity for reading many sources at once, and with both, open the links before you trust a number. Which one do you use for research right now, and has it ever given you a wrong answer? Tell me in the comments. If you want more honest guides to AI tools and money, subscribe to Future Money Lab. Next up: ten money habits that quietly make people rich."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "37% WRONG",
+   "line2": "PERPLEXITY VS GOOGLE",
+   "tag": "Columbia citation test"
+  },
+  "b": {
+   "big": "AI SEARCH?",
+   "line2": "FASTER, NOT TRUER",
+   "tag": "2 independent tests"
+  }
+ },
+ "youtube": {
+  "title": "Perplexity vs Google AI Search: Which Is Better for Research?",
+  "summary": "Is AI search actually better for research? I compared Perplexity with Google's AI Overviews and AI Mode using two independent tests (Columbia's Tow Center citation test and the EBU/BBC news integrity study), Google's own usage figures and Perplexity's published plans (checked November 2026): who gets sources right, why paid tools can be more confidently wrong, when to use each one, and a 4-step routine to check any AI answer.",
+  "details": "Facts mentioned (checked November 2026):\n- EBU/BBC study (press release Oct 22, 2025): 22 public service media organizations in 18 countries and 14 languages; journalists evaluated more than 3,000 responses from ChatGPT, Copilot, Gemini and Perplexity; 45% of answers had at least one significant issue; 31% serious sourcing problems; 20% major accuracy issues including hallucinated details and outdated information; Gemini had significant issues in 76% of responses, largely due to poor sourcing. The study tested the assistants, not Google Search's AI features.\n- Google AI Overviews: more than 2 billion monthly users across 200+ countries and territories and 40 languages (Google VP Dan Taylor, reported by Nairametrics, March 17, 2026).\n- Google AI Mode (Google blog, May 19, 2026): more than a billion monthly active users globally; queries more than doubled every quarter since launch; average AI Mode search is triple the length of a traditional query; more than one in six US searches use voice or images; planning-related queries grew 80% faster than AI Mode queries overall in the past 6 months. These are Google's own figures.\n- Perplexity plans (TechSifted pricing review, plans as published May 2026): Free $0 with unlimited standard searches and 5 Pro searches per day; Pro $20/month or $200/year (~$16.67/month); Max $200/month (launched July 2, 2025, TechCrunch). Prices change; check the official page.\n- Columbia Journalism Review / Tow Center, 'AI Search Has a Citation Problem' (March 6, 2025; tests run February 2025): 8 generative search tools, 1,600 queries from news excerpts; more than 60% incorrect collectively; Perplexity 37% incorrect; Grok 3 94% incorrect; Copilot declined more questions than it answered; Perplexity Pro and Grok 3 answered more prompts correctly than their free versions but had higher error rates; more than half of Gemini and Grok 3 responses cited fabricated or broken URLs; some tools cited syndicated copies. The test covered news citation only.\n- The 'which to use' advice and the 4-step routine are our own suggestions built from these sources, not measured results. Newer model versions may perform differently.",
+  "sources": [
+   {
+    "name": "EBU: AI assistants misrepresent news content 45% of the time (Oct 2025)",
+    "url": "https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste"
+   },
+   {
+    "name": "Columbia Journalism Review (Tow Center): AI Search Has a Citation Problem (Mar 2025)",
+    "url": "https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php"
+   },
+   {
+    "name": "Google: How AI Mode is changing the way people search in the U.S. (May 2026)",
+    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/"
+   },
+   {
+    "name": "Nairametrics: Google says AI Overviews has hit 2 billion users globally (Mar 2026)",
+    "url": "https://nairametrics.com/2026/03/17/google-says-ai-overviews-has-hit-2-billion-users-globally/"
+   },
+   {
+    "name": "TechSifted on DEV: Perplexity AI pricing 2026",
+    "url": "https://dev.to/techsifted/perplexity-ai-pricing-2026-free-vs-pro-vs-max-vs-enterprise-compared-1h30"
+   },
+   {
+    "name": "TechCrunch: Perplexity launches a $200 monthly subscription plan (Jul 2025)",
+    "url": "https://techcrunch.com/2025/07/02/perplexity-launches-a-200-monthly-subscription-plan/"
+   }
+  ],
+  "tags": [
+   "perplexity vs google",
+   "perplexity ai",
+   "google ai mode",
+   "ai overviews",
+   "ai search engine",
+   "is ai search accurate",
+   "perplexity pro worth it",
+   "ai for research",
+   "best ai search 2026",
+   "ai tools",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#AItools",
+   "#Perplexity",
+   "#GoogleAI"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s04"
+   ],
+   "headline": "Google AI Mode in 4 numbers",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s06"
+   ],
+   "headline": "AI search got 60% of these wrong",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "76% of Gemini's news answers had issues",
+   "cta": "Full video on our channel"
+  }
+ ],
+ "metricool": {
+  "postId": 441323409,
+  "publishAt": "2026-12-04T00:15:00+05:00"
+ },
+ "shortPosts": [
+  {
+   "postId": 441323474,
+   "publishAt": "2026-12-04T02:45:00+05:00",
+   "title": "Google AI Mode in 4 numbers #Shorts"
+  },
+  {
+   "postId": 441323538,
+   "publishAt": "2026-12-04T06:45:00+05:00",
+   "title": "AI search got 60% of these wrong #Shorts"
+  },
+  {
+   "postId": 441323617,
+   "publishAt": "2026-12-04T21:15:00+05:00",
+   "title": "76% of Gemini's news answers had issues #Shorts"
+  }
+ ]
+}
