@@ -1,0 +1,488 @@
+{
+ "id": "E27",
+ "num": 30,
+ "status": "draft",
+ "pillar": "B",
+ "title": "10 Money Habits That Quietly Make People Rich",
+ "music": "music_759.mp3",
+ "thumbnail": {
+  "a": {
+   "big": "10 QUIET HABITS",
+   "line2": "THAT BUILD WEALTH",
+   "tag": "Backed by real data"
+  },
+  "b": {
+   "big": "BORING WINS",
+   "line2": "10 MONEY HABITS",
+   "tag": "Fed, Vanguard, Morningstar data"
+  }
+ },
+ "youtube": {
+  "title": "10 Money Habits That Quietly Make People Rich (2026 Data)",
+  "summary": "Which money habits actually build wealth? I researched 10 simple habits and the data behind each one, from the Federal Reserve, Vanguard, Morningstar and S&P (checked November 2026): automating your savings, never skipping the employer match, building a cash cushion, treating credit card interest like an emergency, owning the market with low-cost index funds, ignoring headlines, investing on a schedule, keeping it simple, starting early and giving every raise a job. Education, not financial advice.",
+  "details": "Numbers mentioned (checked November 2026):\n- Federal Reserve, Economic Well-Being of U.S. Households in 2025 (May 2026; survey fielded Oct 17-28, 2025): 63% of adults would cover a hypothetical $400 emergency expense exclusively using cash, savings, or a credit card paid off at the next statement; 55% had set aside three months of expenses in an emergency or rainy-day fund; 35% of non-retirees thought their retirement savings plan was on track.\n- Vanguard How America Saves 2026 (press release June 16, 2026; 2025 data): plan participation a record 86% of eligible employees (up from 65% over 25 years); 45% of participants increased their savings rate in 2025; matching contributions a record 4.7%; average savings rate a record 12.1%; only 5% of participants traded during periods of volatility.\n- Federal Reserve G.19 Consumer Credit (Nov 6, 2026): commercial bank interest rate on credit card plans, accounts assessed interest, 22.36% in Q3 2026 (all accounts 21.19%).\n- S&P Dow Jones Indices, SPIVA U.S. Mid-Year 2026 (data as of June 30, 2026): share of all large-cap funds underperforming the S&P 500: 78.69% (1 year), 83.33% (10 years), 90.49% (15 years).\n- Morningstar Mind the Gap 2026 (10 years ended Dec 31, 2025): the average dollar invested in US funds and ETFs earned 8.7% a year vs 9.9% total return for the funds, a gap of about 1.2 percentage points a year; allocation funds had a gap of about 0.7 points. Morningstar's suggestions: fewer ad-hoc trades, regular schedules such as dollar-cost averaging, fewer and more diversified funds, automated rebalancing.\n- Our own calculations (illustrations, not predictions): $60,000 x 4% match = $2,400 a year; $5,000 at 22.36% for a year = about $1,100 of interest (simplified, no compounding or payments); $10,000 for 10 years at 9.9% = about $25,700 vs 8.7% = about $23,000; $300 a month at a steady 7% a year, compounded monthly = about $366,000 after 30 years and about $787,000 after 40 years. Real returns vary and can be negative.\n- This video does not recommend any specific investment.",
+  "sources": [
+   {
+    "name": "Federal Reserve: Economic Well-Being of U.S. Households in 2025, Executive Summary (May 2026)",
+    "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm"
+   },
+   {
+    "name": "Federal Reserve: Economic Well-Being of U.S. Households in 2025, Savings and Investments",
+    "url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-savings-investments.htm"
+   },
+   {
+    "name": "Vanguard: 25th How America Saves press release (June 2026)",
+    "url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/who-we-are/pressroom/press-release-vanguards-twenty-fifth-how-america-saves-reveals-quiet-retirement-revolution-061626.html"
+   },
+   {
+    "name": "Federal Reserve G.19 Consumer Credit (Nov 6, 2026)",
+    "url": "https://www.federalreserve.gov/releases/g19/20261106/g19.pdf"
+   },
+   {
+    "name": "S&P Dow Jones Indices: SPIVA U.S. Mid-Year 2026",
+    "url": "https://www.spglobal.com/spdji/en/documents/spiva/spiva-us-mid-year-2026.pdf"
+   },
+   {
+    "name": "Morningstar: Mind the Gap 2026",
+    "url": "https://www.morningstar.com/content/cs-assets/v3/assets/blt9415ea4cc4157833/blt852a4301adc2f5db/6a7373d51f7b5ae2da78e1e8/US_Mind_the_Gap_2026.pdf"
+   }
+  ],
+  "tags": [
+   "money habits",
+   "habits of wealthy people",
+   "how to build wealth",
+   "personal finance tips",
+   "pay yourself first",
+   "emergency fund",
+   "401k match",
+   "index funds",
+   "credit card interest",
+   "saving money tips",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#personalfinance",
+   "#moneyhabits",
+   "#investing"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s06"
+   ],
+   "headline": "The 22% habit that keeps people broke",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s07"
+   ],
+   "headline": "90% of pro funds lost to the index",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "Bad timing cost investors 1.2% a year",
+   "cta": "Full video on our channel"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "63% vs $400",
+   "chapterTitle": "Intro: only 63% could cover $400 in cash",
+   "broll": [
+    "18296",
+    "46768"
+   ],
+   "badge": "Federal Reserve survey, 2025",
+   "numberValue": 63,
+   "unit": "%",
+   "sub": "of US adults would cover a surprise $400 expense with cash or its equivalent",
+   "big": {
+    "at": "sixty"
+   },
+   "chips": [
+    {
+     "text": "Only 35% think retirement is on track",
+     "at": "thirty"
+    },
+    {
+     "text": "10 habits, all backed by data",
+     "at": "ten"
+    }
+   ],
+   "text": "Only sixty three percent of American adults say they would cover a surprise four hundred dollar expense with cash or its equivalent. That's from the Federal Reserve's latest household survey. And only thirty five percent of people who aren't retired yet think their retirement savings are on track. The difference between those groups usually isn't a lottery win or a lucky stock. It's a set of boring habits, repeated for years. In this video, I'll walk through ten money habits that quietly build wealth, and the data behind each one, so you can pick the ones that fit your life."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "Ground rules",
+   "chapterTitle": "Ground rules: data, not hype",
+   "broll": [
+    "45923",
+    "221"
+   ],
+   "badge": "Checked November 2026",
+   "title": "Boring habits, big results",
+   "sub": "Federal Reserve, Vanguard, Morningstar and S&P data",
+   "accent": [
+    2,
+    3
+   ],
+   "text": "Quick ground rules. Every number here comes from a source I opened, like the Federal Reserve, Vanguard, Morningstar and S and P, and I checked them in November twenty twenty six. This is education, not financial advice, and no habit here makes anyone rich overnight. The point is the opposite. These habits work because they're small enough to keep doing when life gets busy. Let's start with the one that does the most work with the least willpower."
+  },
+  {
+   "id": "s03",
+   "kind": "stat",
+   "chapter": "Habit 1",
+   "chapterTitle": "Habit 1: Pay yourself first, automatically",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "badge": "Vanguard How America Saves 2026",
+   "numberValue": 86,
+   "unit": "%",
+   "sub": "of eligible employees now take part in their workplace plan, a record (2025)",
+   "big": {
+    "at": "eighty"
+   },
+   "chips": [
+    {
+     "text": "Up from 65% over 25 years",
+     "at": "sixty"
+    },
+    {
+     "text": "45% raised their savings rate",
+     "at": "forty"
+    }
+   ],
+   "text": "Habit one: pay yourself first, automatically. Set your savings to leave your paycheck on payday, before you can spend it. Workplace plans show how powerful defaults are. Vanguard's twenty twenty six How America Saves report found plan participation hit a record eighty six percent of eligible employees, up from sixty five percent over twenty five years, as more plans enroll people automatically. And forty five percent of participants raised their savings rate in twenty twenty five. The lesson: decide once, then let automation do the remembering."
+  },
+  {
+   "id": "s04",
+   "kind": "cards",
+   "chapter": "Habit 2",
+   "chapterTitle": "Habit 2: Never skip the employer match",
+   "broll": [
+    "42664",
+    "18302"
+   ],
+   "items": [
+    {
+     "title": "Employer match",
+     "value": "4.7%",
+     "sub": "a record (Vanguard, 2025)",
+     "at": "four",
+     "nth": 0
+    },
+    {
+     "title": "Salary",
+     "value": "$60,000",
+     "sub": "example",
+     "at": "sixty"
+    },
+    {
+     "title": "4% match",
+     "value": "$2,400",
+     "sub": "extra pay per year",
+     "at": "two"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Skipping it = turning down a raise",
+     "at": "skip"
+    },
+    {
+     "text": "Check your plan's formula",
+     "at": "check"
+    }
+   ],
+   "text": "Habit two: never leave the employer match on the table. If your company matches what you put in, that's part of your pay you only get by saving. Vanguard says matching contributions reached a record four point seven percent. Here's simple math. On a sixty thousand dollar salary, a four percent match is two thousand four hundred dollars a year. Skip it, and you're turning down a raise. Check your plan's formula, and contribute at least enough to collect every dollar of it."
+  },
+  {
+   "id": "s05",
+   "kind": "stat",
+   "chapter": "Habit 3",
+   "chapterTitle": "Habit 3: Build a cash cushion first",
+   "broll": [
+    "18263",
+    "4806"
+   ],
+   "badge": "Federal Reserve survey, October 2025",
+   "numberValue": 55,
+   "unit": "%",
+   "sub": "of adults have three months of expenses set aside for emergencies",
+   "big": {
+    "at": "fifty"
+   },
+   "chips": [
+    {
+     "text": "Start with 1 month of essentials",
+     "at": "start"
+    },
+    {
+     "text": "Then build to 3 to 6 months",
+     "at": "build",
+     "nth": 1
+    }
+   ],
+   "text": "Habit three: build a cash cushion before you chase returns. In the Fed's survey, fifty five percent of adults said they had set aside three months of expenses in an emergency fund. That means almost half haven't. Without that cushion, a car repair turns into credit card debt, or forces you to sell investments at a bad time. Start with one month of essential expenses in a high yield savings account, then build toward three to six months. It's not exciting. It's what keeps every other habit alive."
+  },
+  {
+   "id": "s06",
+   "kind": "stamp",
+   "chapter": "Habit 4",
+   "chapterTitle": "Habit 4: Treat card interest like an emergency",
+   "broll": [
+    "4915",
+    "18296"
+   ],
+   "title": "Carry a balance?",
+   "value": "22.36%",
+   "sub": "average APR on card accounts charged interest (Federal Reserve, Q3 2026)",
+   "stamp": "Skip",
+   "stampAt": "attack",
+   "footer": {
+    "text": "$5,000 balance ≈ $1,100 interest a year",
+    "at": "carry"
+   },
+   "text": "Habit four: treat credit card interest like an emergency. According to the Federal Reserve, the average rate on credit card accounts that were charged interest was twenty two point three six percent in the third quarter of twenty twenty six. Carry a five thousand dollar balance at that rate, and you'd pay roughly eleven hundred dollars in interest a year, for nothing. Very few investments reliably beat that. So pay the full statement balance every month if you can. If you can't, attack the highest rate card first."
+  },
+  {
+   "id": "s07",
+   "kind": "rows",
+   "chapter": "Habit 5",
+   "chapterTitle": "Habit 5: Own the market, don't try to beat it",
+   "broll": [
+    "47796",
+    "9607"
+   ],
+   "items": [
+    {
+     "name": "1 year",
+     "desc": "79% of active large-cap funds trailed",
+     "at": "year"
+    },
+    {
+     "name": "10 years",
+     "desc": "83% trailed the S&P 500",
+     "at": "ten"
+    },
+    {
+     "name": "15 years",
+     "desc": "90% trailed the S&P 500",
+     "at": "fifteen"
+    }
+   ],
+   "footer": {
+    "text": "SPIVA scorecard, data to June 30, 2026",
+    "at": "professionals",
+    "tone": "accent"
+   },
+   "text": "Habit five: own the market instead of trying to beat it. S and P's SPIVA scorecard, with data to June twenty twenty six, found that over the last year, seventy nine percent of active large cap funds trailed the S and P five hundred. Over ten years, it was eighty three percent. Over fifteen years, ninety percent. Professionals with full research teams mostly lose to a simple index after fees. So for most people, a low cost, broadly diversified index fund is the quiet winner."
+  },
+  {
+   "id": "s08",
+   "kind": "compare",
+   "chapter": "Habit 6",
+   "chapterTitle": "Habit 6: Stop reacting to headlines",
+   "broll": [
+    "47214",
+    "5461"
+   ],
+   "cards": [
+    {
+     "title": "Funds earned",
+     "sub": "9.9% a year",
+     "at": "funds",
+     "nth": 1
+    },
+    {
+     "title": "Investors earned",
+     "sub": "8.7% a year",
+     "at": "average"
+    }
+   ],
+   "big": {
+    "value": "-1.2 pts",
+    "sub": "a year lost to bad timing",
+    "at": "gap"
+   },
+   "bars": [
+    {
+     "label": "$10k at 9.9% for 10 years",
+     "value": "$25,700",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "roughly"
+    },
+    {
+     "label": "$10k at 8.7% for 10 years",
+     "value": "$23,000",
+     "fill": 0.9,
+     "tone": "bad",
+     "at": "versus"
+    }
+   ],
+   "footer": {
+    "text": "Morningstar Mind the Gap 2026",
+    "at": "same"
+   },
+   "text": "Habit six: stop reacting to headlines. Morningstar's twenty twenty six Mind the Gap study found the average dollar in U.S. funds earned eight point seven percent a year over the ten years to the end of twenty twenty five, while the funds themselves earned nine point nine percent. That gap of about one point two points a year comes mostly from buying and selling at the wrong times. On ten thousand dollars over ten years, that's roughly twenty five thousand seven hundred versus twenty three thousand. Same funds, worse timing."
+  },
+  {
+   "id": "s09",
+   "kind": "steps",
+   "chapter": "Habits 7 + 8",
+   "chapterTitle": "Habits 7 and 8: Invest on a schedule, keep it simple",
+   "broll": [
+    "46990",
+    "1730"
+   ],
+   "items": [
+    {
+     "text": "Trade less, especially after big news",
+     "at": "trade"
+    },
+    {
+     "text": "Invest on a fixed schedule",
+     "at": "fixed"
+    },
+    {
+     "text": "Hold fewer, broader funds",
+     "at": "hold"
+    },
+    {
+     "text": "Automate rebalancing",
+     "at": "automate"
+    }
+   ],
+   "footer": {
+    "text": "Only 5% of Vanguard savers traded in volatility",
+    "at": "vanguard",
+    "tone": "good"
+   },
+   "text": "Habit seven: put your investing on a schedule. And habit eight: keep it simple. Morningstar's advice for closing that gap is practical. Trade less, especially in reaction to recent events. Invest on a fixed schedule, like dollar cost averaging. Hold fewer, more widely diversified funds. And use tools that automate rebalancing. Simple all in one allocation funds had a smaller gap, about point seven points a year. And in workplace plans, Vanguard found only five percent of participants traded during periods of volatility."
+  },
+  {
+   "id": "s10",
+   "kind": "compare",
+   "chapter": "Habit 9",
+   "chapterTitle": "Habit 9: Start early, even small",
+   "broll": [
+    "26923",
+    "30873"
+   ],
+   "cards": [
+    {
+     "title": "30 years",
+     "sub": "you put in $108k",
+     "at": "thirty"
+    },
+    {
+     "title": "40 years",
+     "sub": "you put in $144k",
+     "at": "forty"
+    }
+   ],
+   "big": {
+    "value": "2x+",
+    "sub": "from 10 extra years",
+    "at": "double"
+   },
+   "bars": [
+    {
+     "label": "After 30 years",
+     "value": "~$366k",
+     "fill": 0.46,
+     "tone": "accent",
+     "at": "about",
+     "nth": 0
+    },
+    {
+     "label": "After 40 years",
+     "value": "~$787k",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "about",
+     "nth": 1
+    }
+   ],
+   "footer": {
+    "text": "Illustration: $300 a month at 7% a year, not a promise",
+    "at": "real"
+   },
+   "text": "Habit nine: start early, even small. Here's an illustration, not a promise. Put three hundred dollars a month into an investment that grows seven percent a year. After thirty years, you'd have about three hundred sixty six thousand dollars. Start ten years earlier, and after forty years it's about seven hundred eighty seven thousand. Those extra ten years add just thirty six thousand dollars of your own money, but more than double the result. Real returns go up and down, but time is the one ingredient you can't buy later."
+  },
+  {
+   "id": "s11",
+   "kind": "questions",
+   "chapter": "Habit 10",
+   "chapterTitle": "Habit 10: Give every raise a job",
+   "broll": [
+    "4806",
+    "46768"
+   ],
+   "items": [
+    {
+     "text": "Am I getting the full match?",
+     "at": "match"
+    },
+    {
+     "text": "Is my emergency fund big enough?",
+     "at": "emergency"
+    },
+    {
+     "text": "Am I paying any card interest?",
+     "at": "paying"
+    },
+    {
+     "text": "Are my fees and funds still simple?",
+     "at": "fees"
+    }
+   ],
+   "footer": {
+    "text": "Average savings rate: record 12.1% (Vanguard)",
+    "at": "fifteen",
+    "tone": "accent"
+   },
+   "text": "Habit ten: give every raise a job, and check your plan once a year. When your pay goes up, send part of the increase to savings before your lifestyle absorbs it. Vanguard says the average savings rate in the plans it runs hit a record twelve point one percent. Then, once a year, ask yourself four questions. Am I getting the full match? Is my emergency fund big enough? Am I paying any card interest? And are my fees and funds still simple? Fifteen minutes a year keeps all ten habits running."
+  },
+  {
+   "id": "s12",
+   "kind": "verdict",
+   "chapterTitle": "The big idea",
+   "broll": [
+    "50759",
+    "41541"
+   ],
+   "badge": "The big idea",
+   "title": "Boring builds wealth",
+   "sub": "Small habits, repeated for years",
+   "text": "So here's the big idea. None of these habits needs a high income or a hot tip. Automate saving, take the match, keep a cushion, avoid card interest, own the market, ignore the noise, invest on a schedule, keep it simple, start early, and grow your savings with every raise. Each one is small. Together, repeated for years, they do the quiet work. You don't need all ten this week. Pick one, and set it up today."
+  },
+  {
+   "id": "s13",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "42653",
+    "13218"
+   ],
+   "title": "Pick one habit today",
+   "accent": [
+    1,
+    2
+   ],
+   "next": "Automate Boring Work with AI Agents (Beginner Guide)",
+   "text": "Which of these ten habits do you already have, and which one are you starting first? Tell me in the comments. And if a friend is just starting out with money, send this video their way. Remember, this is education, not financial advice. If you want clear, data backed explainers on money and AI, subscribe to Future Money Lab. Next up: how to automate boring work with AI agents, a beginner's guide."
+  }
+ ]
+}
