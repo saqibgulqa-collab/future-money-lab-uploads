@@ -1,7 +1,7 @@
 {
  "id": "E27",
  "num": 30,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "B",
  "title": "10 Money Habits That Quietly Make People Rich",
  "music": "music_759.mp3",
@@ -484,5 +484,23 @@
    "next": "Automate Boring Work with AI Agents (Beginner Guide)",
    "text": "Which of these ten habits do you already have, and which one are you starting first? Tell me in the comments. And if a friend is just starting out with money, send this video their way. Remember, this is education, not financial advice. If you want clear, data backed explainers on money and AI, subscribe to Future Money Lab. Next up: how to automate boring work with AI agents, a beginner's guide."
   }
- ]
+ ],
+ "metricool": {
+  "postId": 442725071,
+  "publishAt": "2026-12-05T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 442725233,
+    "publishAt": "2026-12-05T02:45:00+05:00"
+   },
+   {
+    "postId": 442725251,
+    "publishAt": "2026-12-05T06:45:00+05:00"
+   },
+   {
+    "postId": 442725264,
+    "publishAt": "2026-12-05T21:15:00+05:00"
+   }
+  ]
+ }
 }
