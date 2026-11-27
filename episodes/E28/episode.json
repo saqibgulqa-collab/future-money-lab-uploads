@@ -1,7 +1,7 @@
 {
  "id": "E28",
  "num": 25,
- "status": "draft",
+ "status": "scheduled",
  "pillar": "A",
  "title": "Automate Boring Work with AI Agents (Beginner Guide)",
  "music": "music_744.mp3",
@@ -489,6 +489,27 @@
    ],
    "headline": "The AI agent risk most people miss",
    "cta": "Full video on our channel"
+  }
+ ],
+ "metricool": {
+  "postId": 444003942,
+  "publishAt": "2026-12-06T00:15:00+05:00"
+ },
+ "shortPosts": [
+  {
+   "postId": 444004085,
+   "publishAt": "2026-12-06T02:45:00+05:00",
+   "title": "The best AI agent finished just 24% of tasks #Shorts"
+  },
+  {
+   "postId": 444004099,
+   "publishAt": "2026-12-06T06:45:00+05:00",
+   "title": "4 questions before you automate a task #Shorts"
+  },
+  {
+   "postId": 444004115,
+   "publishAt": "2026-12-06T21:15:00+05:00",
+   "title": "The AI agent risk most people miss #Shorts"
   }
  ]
 }
