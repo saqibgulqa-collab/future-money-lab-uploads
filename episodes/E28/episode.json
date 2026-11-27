@@ -1,0 +1,494 @@
+{
+ "id": "E28",
+ "num": 25,
+ "status": "draft",
+ "pillar": "A",
+ "title": "Automate Boring Work with AI Agents (Beginner Guide)",
+ "music": "music_744.mp3",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "Every 2 minutes",
+   "chapterTitle": "Intro: interrupted every 2 minutes",
+   "broll": [
+    "4908",
+    "4907"
+   ],
+   "badge": "Microsoft Work Trend Index, April 2025",
+   "numberValue": 80,
+   "unit": "%",
+   "sub": "of workers say they lack the time or energy to do their work",
+   "big": {
+    "at": "eighty"
+   },
+   "chips": [
+    {
+     "text": "Interrupted every 2 minutes",
+     "at": "interrupted"
+    },
+    {
+     "text": "275 interruptions a day",
+     "at": "hundred"
+    }
+   ],
+   "text": "Eighty percent of workers say they don't have enough time or energy to do their work. That's from Microsoft's Work Trend Index in April twenty twenty five. The same report found people are interrupted every two minutes during the workday by meetings, emails and pings, which adds up to two hundred seventy five interruptions a day. Now AI agents promise to take the boring part off your plate. But do they actually work? In this beginner guide, I'll explain what an AI agent really is, which free tools you can try, what the research says about how often they fail, and a safe way to automate your first task."
+  },
+  {
+   "id": "s02",
+   "kind": "rows",
+   "chapter": "What is an agent",
+   "chapterTitle": "Chatbot vs automation vs AI agent",
+   "broll": [
+    "1730",
+    "221"
+   ],
+   "items": [
+    {
+     "name": "Chatbot",
+     "desc": "Answers you. You do the work.",
+     "at": "chatbot"
+    },
+    {
+     "name": "Automation",
+     "desc": "Fixed rules: when X happens, do Y",
+     "at": "automation"
+    },
+    {
+     "name": "AI agent",
+     "desc": "Gets a goal, plans steps, uses tools",
+     "at": "agent",
+     "nth": 1
+    }
+   ],
+   "footer": {
+    "text": "An agent acts. You still set the goal.",
+    "at": "still",
+    "tone": "accent"
+   },
+   "text": "First, what is an AI agent? Think of three levels. A chatbot answers you, and then you do the work yourself. Automation follows fixed rules, like when a form is filled in, add a row to my spreadsheet. It's reliable, but it can't think. An AI agent sits on top. You give it a goal in plain English, and it plans the steps, opens websites or apps, and takes actions for you. That's the big difference. A chatbot talks, an agent acts. But you still set the goal, and you still decide what it's allowed to touch."
+  },
+  {
+   "id": "s03",
+   "kind": "stat",
+   "chapter": "Reality check",
+   "chapterTitle": "Reality check: the best agent finished 24% of tasks",
+   "broll": [
+    "42648",
+    "45923"
+   ],
+   "badge": "Carnegie Mellon, TheAgentCompany, June 2025",
+   "numberValue": 24,
+   "unit": "%",
+   "sub": "of office tasks fully completed by the best AI agent tested",
+   "big": {
+    "at": "twenty"
+   },
+   "chips": [
+    {
+     "text": "A fake company with simulated staff",
+     "at": "fake"
+    },
+    {
+     "text": "34.4% with partial credit",
+     "at": "partial"
+    },
+    {
+     "text": "GPT-4o: 8.6%",
+     "at": "eight"
+    }
+   ],
+   "text": "Before you hand over your job, here's a reality check. Researchers at Carnegie Mellon built a fake software company, with simulated coworkers, and asked ten AI agents to do real office tasks in engineering, finance and HR. The best one, Claude three point five Sonnet, fully completed only twenty four percent of the tasks, or thirty four point four percent with partial credit. Gemini two point oh Flash managed eleven point four percent, and GPT four o eight point six percent. These were twenty twenty five models, and newer ones may do better. But the lesson is clear. Agents are helpers, not employees."
+  },
+  {
+   "id": "s04",
+   "kind": "questions",
+   "chapter": "Good first tasks",
+   "chapterTitle": "Which tasks to give an AI agent",
+   "broll": [
+    "4806",
+    "46768"
+   ],
+   "items": [
+    {
+     "text": "It repeats every week",
+     "at": "repeats"
+    },
+    {
+     "text": "The steps are clear",
+     "at": "clear"
+    },
+    {
+     "text": "A mistake is cheap to fix",
+     "at": "cheap"
+    },
+    {
+     "text": "You can check the result in a minute",
+     "at": "minute"
+    }
+   ],
+   "footer": {
+    "text": "Four yeses? Automate it.",
+    "at": "yeses",
+    "tone": "good"
+   },
+   "text": "So which tasks should you give an agent? Use four questions. One, does it repeat every week? Two, are the steps clear enough that you could explain them to a new intern? Three, is a mistake cheap to fix? And four, can you check the result in about a minute? If you get four yeses, it's a good first task. Think sorting emails, copying data between apps, collecting prices, or summarizing a long report. In a Zapier survey of one thousand U.S. workers back in twenty twenty one, data entry was the single most dreaded task. That's exactly the kind of work to start with."
+  },
+  {
+   "id": "s05",
+   "kind": "cards",
+   "chapter": "The tools",
+   "chapterTitle": "Three agents a beginner can try",
+   "broll": [
+    "4915",
+    "1730"
+   ],
+   "items": [
+    {
+     "title": "Gemini Tasks",
+     "value": "Free",
+     "sub": "US, Canada, India + 3 more",
+     "at": "gemini"
+    },
+    {
+     "title": "ChatGPT agent",
+     "value": "Paid plans",
+     "sub": "its own virtual computer",
+     "at": "chatgpt"
+    },
+    {
+     "title": "Zapier Agents",
+     "value": "Free",
+     "sub": "400 activities a month",
+     "at": "zapier"
+    }
+   ],
+   "chips": [
+    {
+     "text": "Checked November 2026",
+     "at": "checked"
+    }
+   ],
+   "footer": {
+    "text": "Start free. Pay only when you hit a limit.",
+    "at": "start",
+    "tone": "accent"
+   },
+   "text": "Here are three agents a beginner can try. Gemini Tasks, which Google used to call Spark, became free in November twenty twenty six for free Gemini users in the U.S., Canada, India, Japan, South Korea and Australia. It can browse, book and work across Google apps. ChatGPT agent launched in July twenty twenty five for paid plans, and it runs tasks on its own virtual computer. And Zapier Agents connects to thousands of work apps, with a free plan. Everything here was checked in November twenty twenty six. My advice: start free, and pay only when you keep hitting a limit."
+  },
+  {
+   "id": "s06",
+   "kind": "pricelist",
+   "chapter": "Zapier Agents",
+   "chapterTitle": "Zapier Agents plans and what an activity is",
+   "broll": [
+    "42664",
+    "18302"
+   ],
+   "prefix": "$",
+   "items": [
+    {
+     "label": "Free: 400 activities a month",
+     "value": "$0",
+     "num": 0,
+     "at": "free"
+    },
+    {
+     "label": "Pro: 1,500 activities a month",
+     "value": "$33.33",
+     "num": 33.33,
+     "at": "pro"
+    },
+    {
+     "label": "Enterprise: custom",
+     "value": "Custom",
+     "at": "enterprise"
+    }
+   ],
+   "total": {
+    "label": "Pro, per month (billed yearly)",
+    "yearly": {
+     "text": "$400 a year",
+     "at": "billed",
+     "tone": "accent"
+    },
+    "callout": {
+     "text": "1 web search = 1 activity",
+     "at": "search"
+    }
+   },
+   "text": "Let's look closer at Zapier Agents, because its limits teach you how agents are priced. The free plan gives you four hundred activities a month. The Pro plan is thirty three dollars and thirty three cents a month, billed yearly as four hundred dollars, for one thousand five hundred activities. Enterprise is custom. So what is an activity? Zapier says it's any action your agent takes, including browsing the web or looking something up in your files. One web search counts as one. A task with ten steps can use ten activities, so keep your first agents small."
+  },
+  {
+   "id": "s07",
+   "kind": "steps",
+   "chapter": "Your first agent",
+   "chapterTitle": "Build your first agent in 5 steps",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "Pick one boring task",
+     "at": "pick"
+    },
+    {
+     "text": "Write it like intern instructions",
+     "at": "write"
+    },
+    {
+     "text": "Connect only the apps it needs",
+     "at": "connect"
+    },
+    {
+     "text": "Test run and watch every step",
+     "at": "test"
+    },
+    {
+     "text": "Check results for two weeks",
+     "at": "weeks"
+    }
+   ],
+   "footer": {
+    "text": "Small, clear, checked",
+    "at": "small",
+    "tone": "good"
+   },
+   "text": "Here's how to build your first agent in five steps. Step one, pick one boring task, not your whole job. Step two, write the instructions like you would for a new intern: the goal, the steps, and what done looks like. Step three, connect only the apps it actually needs, and nothing else. Step four, do a test run and watch every step it takes. Most agents show a log of what they did. Step five, check its results every day for two weeks. If it keeps getting it right, you can check less often. Small, clear and checked beats big and clever."
+  },
+  {
+   "id": "s08",
+   "kind": "rows",
+   "chapter": "Examples",
+   "chapterTitle": "Three beginner automations you can copy",
+   "broll": [
+    "4915",
+    "46990"
+   ],
+   "items": [
+    {
+     "name": "Morning inbox digest",
+     "desc": "Summarize unread email, flag 3 to answer",
+     "at": "morning"
+    },
+    {
+     "name": "Price watcher",
+     "desc": "Check a product page, tell me if it drops",
+     "at": "price"
+    },
+    {
+     "name": "Form to sheet",
+     "desc": "New sign-up becomes a row and a draft reply",
+     "at": "form"
+    }
+   ],
+   "footer": {
+    "text": "Drafts, not sends",
+    "at": "drafts",
+    "tone": "accent"
+   },
+   "text": "Need ideas? Here are three beginner automations you can copy. One, a morning inbox digest. The agent reads your unread email, writes a short summary, and flags the three messages you should answer first. Two, a price watcher. It checks a product or flight page and tells you when the price drops. Gemini lists price monitoring as one of its task types. Three, form to sheet. When someone fills in a sign up form, the agent adds a row to your spreadsheet and writes a draft reply. Notice the pattern. The agent prepares drafts. You decide what gets sent."
+  },
+  {
+   "id": "s09",
+   "kind": "questions",
+   "chapter": "Stay safe",
+   "chapterTitle": "Safety rules: prompt injection and confirmations",
+   "broll": [
+    "221",
+    "4908"
+   ],
+   "items": [
+    {
+     "text": "Hidden instructions on web pages",
+     "at": "hidden"
+    },
+    {
+     "text": "Never paste passwords or card numbers",
+     "at": "passwords"
+    },
+    {
+     "text": "Keep confirmations on",
+     "at": "confirmations"
+    },
+    {
+     "text": "No money, no deleting, no sending alone",
+     "at": "deleting"
+    }
+   ],
+   "footer": {
+    "text": "You are the last click",
+    "at": "last",
+    "tone": "bad"
+   },
+   "text": "Now the part most videos skip: safety. The biggest risk is called prompt injection. A web page, email or document can hide instructions that trick an agent, for example into sending an email or posting private information. Google warns about this on its own help page. So follow a few rules. Never paste passwords or card numbers into the chat. Keep confirmations switched on. Gemini, for example, is designed to ask before it buys something, sends a message, deletes data or submits a form. And don't let any agent move money, delete files or send messages without you. You are the last click."
+  },
+  {
+   "id": "s10",
+   "kind": "compare",
+   "chapter": "Time check",
+   "chapterTitle": "Is it worth it? Do the time math",
+   "broll": [
+    "46768",
+    "42653"
+   ],
+   "cards": [
+    {
+     "title": "Setup",
+     "sub": "one hour, once",
+     "at": "setup"
+    },
+    {
+     "title": "Checking",
+     "sub": "a few minutes a day",
+     "at": "checking"
+    }
+   ],
+   "big": {
+    "value": "Saves time?",
+    "sub": "only if the task repeats",
+    "at": "repeats"
+   },
+   "bars": [
+    {
+     "label": "Task done once a month",
+     "value": "skip it",
+     "fill": 0.2,
+     "tone": "bad",
+     "at": "month"
+    },
+    {
+     "label": "Task done every day",
+     "value": "automate",
+     "fill": 0.9,
+     "tone": "good",
+     "at": "every"
+    }
+   ],
+   "footer": {
+    "text": "Count setup plus checking time",
+    "at": "count"
+   },
+   "text": "Is it worth it? Do the time math before you start. Setting up your first agent might take you an hour, once. Then checking its work takes a few minutes a day, at least at the beginning. So an agent only saves time if the task repeats. A report you make once a month? It's probably faster to just do it yourself. Something you do every day, like sorting email or copying leads? That's where the hour of setup pays back. Count both the setup and the checking time, and be honest with yourself about the numbers."
+  },
+  {
+   "id": "s11",
+   "kind": "verdict",
+   "chapter": "Verdict",
+   "chapterTitle": "The verdict",
+   "broll": [
+    "26923",
+    "50759"
+   ],
+   "badge": "The verdict",
+   "title": "Delegate, then check",
+   "sub": "Agents handle the boring steps. You keep the judgment.",
+   "text": "So, can AI agents automate your boring work? Yes, for small, repeatable, low risk tasks, and that's already useful. Free options like Gemini Tasks and Zapier's free plan make it cheap to try. But the research is clear that even the best agents fail on many real office tasks, and they can be tricked by hidden instructions. So my verdict is simple. Delegate, then check. Let the agent handle the boring steps, and keep the judgment, the money and the final send for yourself."
+  },
+  {
+   "id": "s12",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "42653",
+    "41541"
+   ],
+   "title": "Automate one task",
+   "accent": [
+    1,
+    2
+   ],
+   "next": "Roth IRA vs Traditional IRA Explained for Beginners",
+   "text": "To recap. Pick one boring task, start with a free agent, keep confirmations on, and check its work. What's the first task you'd hand to an AI agent? Tell me in the comments. I read them. If you want more honest guides to AI tools and money, subscribe to Future Money Lab. Next up: Roth IRA versus Traditional IRA, explained for beginners."
+  }
+ ],
+ "thumbnail": {
+  "a": {
+   "big": "ONLY 24%",
+   "line2": "AI AGENTS FOR BEGINNERS",
+   "tag": "Carnegie Mellon test"
+  },
+  "b": {
+   "big": "AUTOMATE IT",
+   "line2": "FREE AI AGENTS",
+   "tag": "Beginner guide 2026"
+  }
+ },
+ "youtube": {
+  "title": "Automate Boring Work with AI Agents (Beginner Guide 2026)",
+  "summary": "What is an AI agent, and can it really automate your boring work? I researched what agents are (vs chatbots and simple automation), what a Carnegie Mellon study found when ten agents tried real office tasks, three tools a beginner can try (Gemini Tasks, ChatGPT agent, Zapier Agents; checked November 2026), a 4-question test for which tasks to automate, a 5-step way to build your first agent, three example automations, and the safety rules that matter, like prompt injection and confirmations.",
+  "details": "Facts mentioned (checked November 2026):\n- Microsoft Work Trend Index 2025 (April 23, 2025): 80% of the global workforce, employees and leaders, say they lack enough time or energy to do their work; during the 9-5, employees are interrupted every 2 minutes by meetings, emails or pings, adding up to 275 interruptions a day including activity outside core hours.\n- Carnegie Mellon University, TheAgentCompany (news article June 17, 2025): a simulated software company with simulated staff; ten AI agents tested on office tasks (engineering, finance, HR and more). Best: Claude 3.5 Sonnet completed 24% of tasks (34.4% with partial credit); Gemini 2.0 Flash 11.4%; GPT-4o 8.6%. These are 2025 models; newer versions may perform differently.\n- Zapier survey (April 2021, 1,000 U.S. knowledge workers at small and medium businesses, via OnePoll): data entry was the most dreaded task.\n- Gemini Tasks (formerly Spark): free for free-tier Gemini users in the US, Japan, South Korea, Canada, Australia and India (Android Central, Nov 18, 2026; matches Google's help page). Google's help page: must be 18+, personal Google Account; up to 15 tasks at a time; designed to ask for confirmation before sending communications, deleting data, making purchases, submitting web forms and similar actions; warns about prompt injection and not to enter sign-in or payment details in the task thread.\n- ChatGPT agent: launched July 17, 2025 for Pro, Plus and Team users; runs agentic abilities in its own virtual computer (The Decoder). Plan limits change; check OpenAI's help center.\n- Zapier Agents pricing page (checked November 2026): Free $0 with 400 activities per month; Pro $33.33/month billed annually ($400/year) with 1,500 activities per month; Enterprise custom. Activities include actions the agent takes in behaviors or chat, browsing the web, or looking up information from attached knowledge.\n- The 4-question test, 5 steps, example automations and time math are our own suggestions, not measured results.",
+  "sources": [
+   {
+    "name": "Microsoft WorkLab: 2025 Work Trend Index (Apr 2025)",
+    "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born"
+   },
+   {
+    "name": "Carnegie Mellon: TheAgentCompany (Jun 2025)",
+    "url": "https://www.cs.cmu.edu/news/2025/agent-company"
+   },
+   {
+    "name": "Zapier: the most dreaded tasks for knowledge workers (Apr 2021)",
+    "url": "https://zapier.com/blog/most-dreaded-tasks/"
+   },
+   {
+    "name": "Google Gemini Help: tasks and workflows in Gemini Apps",
+    "url": "https://support.google.com/gemini/answer/16596215"
+   },
+   {
+    "name": "Android Central: Gemini Tasks made free (Nov 2026)",
+    "url": "https://www.androidcentral.com/apps-software/ai/google-just-made-its-best-gemini-agent-free-heres-where-you-can-get-it"
+   },
+   {
+    "name": "The Decoder: OpenAI launches ChatGPT agent (Jul 2025)",
+    "url": "https://the-decoder.com/openai-launches-powerful-chatgpt-agent-that-automates-complex-tasks-for-pro-plus-and-team/"
+   },
+   {
+    "name": "Zapier Agents pricing",
+    "url": "https://zapier.com/l/agents-pricing"
+   }
+  ],
+  "tags": [
+   "ai agents",
+   "ai agents for beginners",
+   "automate boring work",
+   "ai automation",
+   "gemini tasks",
+   "chatgpt agent",
+   "zapier agents",
+   "what is an ai agent",
+   "ai productivity",
+   "ai tools 2026",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#AIagents",
+   "#AItools",
+   "#Automation"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s03"
+   ],
+   "headline": "The best AI agent finished just 24% of tasks",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s04"
+   ],
+   "headline": "4 questions before you automate a task",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s09"
+   ],
+   "headline": "The AI agent risk most people miss",
+   "cta": "Full video on our channel"
+  }
+ ]
+}
