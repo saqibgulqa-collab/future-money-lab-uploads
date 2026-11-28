@@ -1,0 +1,524 @@
+{
+ "id": "E29",
+ "num": 31,
+ "status": "scheduled",
+ "pillar": "B",
+ "title": "Roth IRA vs Traditional IRA Explained for Beginners",
+ "music": "music_759.mp3",
+ "thumbnail": {
+  "a": {
+   "big": "ROTH OR TRADITIONAL?",
+   "line2": "THE $7,500 CHOICE",
+   "tag": "2026 IRS limits"
+  },
+  "b": {
+   "big": "TAX NOW OR LATER?",
+   "line2": "ROTH VS TRADITIONAL IRA",
+   "tag": "Beginner guide, real math"
+  }
+ },
+ "youtube": {
+  "title": "Roth IRA vs Traditional IRA Explained for Beginners (2026)",
+  "summary": "Roth IRA or traditional IRA? A plain-English beginner guide (checked November 2026): how each account is taxed, a side-by-side example that shows why your future tax rate decides the winner, the 2026 and 2027 IRA limits and Roth income limits, when the traditional IRA deduction shrinks, the Roth five-year rule and early-withdrawal penalty, who each account usually fits, and a 5-step way to choose. Education, not financial advice.",
+  "details": "Facts mentioned (checked November 2026):\n- 2026 IRA contribution limit $7,500 (up from $7,000); catch-up for age 50+ $1,100 (IRS IR-2025-111, Nov 13, 2025).\n- 2026 Roth IRA income phase-out ranges: single/head of household $153,000-$168,000; married filing jointly $242,000-$252,000; married filing separately $0-$10,000 (IRS).\n- 2026 traditional IRA deduction phase-outs: single covered by a workplace plan $81,000-$91,000; married filing jointly, contributing spouse covered $129,000-$149,000; not covered but married to a covered spouse $242,000-$252,000 (IRS).\n- 2027 (Notice 2026-66, reported by Journal of Accountancy, Nov 12, 2026): IRA limit unchanged at $7,500, catch-up $1,100; Roth phase-outs single $158,000-$173,000, married filing jointly $250,000-$260,000; traditional deduction phase-outs single $83,000-$93,000, married covered $133,000-$153,000, spouse covered $250,000-$260,000.\n- Traditional contributions deductible if you qualify; Roth contributions aren't deductible; qualified Roth distributions owe no tax; Roth IRAs have no required minimum distributions for the original owner (IRS, Traditional and Roth IRAs).\n- Roth five-year rule for earnings, age 59 1/2, possible 10% penalty on early nonqualified withdrawals; the five-year clock starts Jan 1 of the year of the first contribution (Schwab, May 2026).\n- 'A Roth IRA might be more beneficial' if you expect a higher tax bracket in the future; contribution deadline typically April 15 of the following year (Vanguard).\n- Our own calculations (illustration, not a prediction): $7,500 at 7% a year for 30 years = about $57,092; at a 22% tax rate both accounts net about $44,532; at a 12% retirement rate the traditional nets about $50,241; at 32% about $38,823. 22% of $7,500 = $1,650. Real returns vary and can be negative; tax brackets are examples.\n- This video is general education, not tax, legal or investment advice.",
+  "sources": [
+   {
+    "name": "IRS: 401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500 (Nov 2025)",
+    "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+   },
+   {
+    "name": "Journal of Accountancy: Inflation adjustments to retirement account limits issued for 2027 (Nov 2026)",
+    "url": "https://www.journalofaccountancy.com/news/2026/nov/inflation-adjustments-to-retirement-account-limits-issued-for-2027/"
+   },
+   {
+    "name": "IRS: Traditional and Roth IRAs",
+    "url": "https://www.irs.gov/retirement-plans/traditional-and-roth-iras"
+   },
+   {
+    "name": "Schwab: What to know about the five-year rule for Roths (May 2026)",
+    "url": "https://www.schwab.com/learn/story/what-to-know-about-five-year-rule-roths"
+   },
+   {
+    "name": "Vanguard: Roth vs. traditional IRA",
+    "url": "https://investor.vanguard.com/investor-resources-education/iras/roth-vs-traditional-ira"
+   }
+  ],
+  "tags": [
+   "roth ira vs traditional ira",
+   "roth ira explained",
+   "traditional ira explained",
+   "ira for beginners",
+   "roth ira income limits 2026",
+   "ira contribution limit 2026",
+   "retirement savings",
+   "tax free retirement",
+   "personal finance",
+   "investing for beginners",
+   "Future Money Lab"
+  ],
+  "hashtags": [
+   "#RothIRA",
+   "#PersonalFinance",
+   "#Retirement"
+  ]
+ },
+ "shorts": [
+  {
+   "scenes": [
+    "s05"
+   ],
+   "headline": "What really decides Roth vs traditional",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s06"
+   ],
+   "headline": "Roth IRA income limits for 2026 and 2027",
+   "cta": "Full video on our channel"
+  },
+  {
+   "scenes": [
+    "s08"
+   ],
+   "headline": "The Roth 5-year rule in 40 seconds",
+   "cta": "Full video on our channel"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "stat",
+   "chapter": "Tax now or later?",
+   "chapterTitle": "Intro: one $7,500 choice",
+   "broll": [
+    "18296",
+    "46768"
+   ],
+   "badge": "IRS limit for 2026",
+   "numberValue": 7500,
+   "prefix": "$",
+   "sub": "the most you can put into an IRA for 2026",
+   "big": {
+    "at": "seven"
+   },
+   "chips": [
+    {
+     "text": "+$1,100 if you're 50 or older",
+     "at": "eleven"
+    },
+    {
+     "text": "Same limits announced for 2027",
+     "at": "twenty",
+     "nth": 2
+    }
+   ],
+   "text": "For twenty twenty six, the IRS lets most people put up to seven thousand five hundred dollars into an IRA, plus an extra eleven hundred if you're fifty or older. And for twenty twenty seven, the IRS kept those same limits. But before you put in a single dollar, you face one choice: Roth or traditional. Pick well, and the same money can leave you thousands of dollars more after tax. In this video, I'll explain both accounts in plain English, run the math, and give you a simple way to choose."
+  },
+  {
+   "id": "s02",
+   "kind": "hero",
+   "chapter": "Ground rules",
+   "chapterTitle": "The one question behind it all",
+   "broll": [
+    "45923",
+    "221"
+   ],
+   "badge": "Checked November 2026",
+   "title": "Tax now, or tax later?",
+   "sub": "IRS, Vanguard and Schwab sources, plain English",
+   "accent": [
+    1,
+    4
+   ],
+   "text": "Quick ground rules. The limits and income ranges here come from the IRS, and I checked them in November twenty twenty six. This is education, not financial advice, and tax rules have details that depend on your situation. Here's the good news. Under all the jargon, the whole Roth versus traditional debate comes down to one question. Do you want to pay tax on this money now, or later? Once you see that, everything else in this video clicks into place."
+  },
+  {
+   "id": "s03",
+   "kind": "cards",
+   "chapter": "The basics",
+   "chapterTitle": "Traditional vs Roth in one minute",
+   "broll": [
+    "4907",
+    "42653"
+   ],
+   "items": [
+    {
+     "title": "Traditional IRA",
+     "value": "Tax break now",
+     "sub": "deduct contributions if you qualify",
+     "at": "traditional"
+    },
+    {
+     "title": "Roth IRA",
+     "value": "Tax-free later",
+     "sub": "qualified withdrawals owe no tax",
+     "at": "roth",
+     "nth": 0
+    }
+   ],
+   "chips": [
+    {
+     "text": "Both grow without yearly tax",
+     "at": "both"
+    },
+    {
+     "text": "Same $7,500 limit, shared",
+     "at": "shared"
+    }
+   ],
+   "text": "Here are the two accounts in one minute. With a traditional IRA, you can deduct your contributions if you qualify, so you get a tax break this year. Your money grows, and you pay income tax when you take it out in retirement. With a Roth IRA, it's flipped. Your contributions aren't deductible, so you pay tax today. But qualified withdrawals later are tax free, growth included. In both, your money grows without a yearly tax bill. And the seven thousand five hundred dollar limit is shared across all your IRAs."
+  },
+  {
+   "id": "s04",
+   "kind": "compare",
+   "chapter": "The math",
+   "chapterTitle": "The math: when tax rates stay the same",
+   "broll": [
+    "46990",
+    "9607"
+   ],
+   "cards": [
+    {
+     "title": "Traditional",
+     "sub": "invest $7,500, taxed at the end",
+     "at": "traditional"
+    },
+    {
+     "title": "Roth",
+     "sub": "pay 22% first, invest $5,850",
+     "at": "roth"
+    }
+   ],
+   "big": {
+    "value": "$44,532",
+    "sub": "both end up the same",
+    "at": "exactly"
+   },
+   "bars": [
+    {
+     "label": "Traditional after tax",
+     "value": "$44,532",
+     "fill": 1.0,
+     "tone": "accent",
+     "at": "traditional",
+     "nth": 1
+    },
+    {
+     "label": "Roth, tax-free",
+     "value": "$44,532",
+     "fill": 1.0,
+     "tone": "good",
+     "at": "roth",
+     "nth": 1
+    }
+   ],
+   "footer": {
+    "text": "Illustration: 7% a year for 30 years, not a promise",
+    "at": "illustration"
+   },
+   "text": "Let's run the math. Say you have seven thousand five hundred dollars of pay, and your tax rate is twenty two percent. In a traditional IRA, you invest the full amount. In a Roth, you pay tax first, so you invest five thousand eight hundred fifty. Now let both grow at seven percent a year for thirty years. The traditional account reaches about fifty seven thousand, and after twenty two percent tax, you keep about forty four thousand five hundred. The Roth also ends at about forty four thousand five hundred, tax free. Exactly the same. This is an illustration, not a promise."
+  },
+  {
+   "id": "s05",
+   "kind": "rows",
+   "chapter": "The real decider",
+   "chapterTitle": "What really decides it: your future tax rate",
+   "broll": [
+    "47214",
+    "26758"
+   ],
+   "items": [
+    {
+     "name": "Same rate later (22%)",
+     "desc": "Tie: both about $44,532",
+     "at": "same"
+    },
+    {
+     "name": "Lower rate later (12%)",
+     "desc": "Traditional wins: about $50,241",
+     "at": "lower"
+    },
+    {
+     "name": "Higher rate later (32%)",
+     "desc": "Roth wins: $44,532 vs about $38,823",
+     "at": "higher"
+    }
+   ],
+   "footer": {
+    "text": "Compare your tax rate now vs in retirement",
+    "at": "compare",
+    "tone": "accent"
+   },
+   "text": "So what actually decides the winner? Your tax rate in retirement compared with today. If it's the same, it's a tie. If your rate is lower later, say twelve percent, the traditional account keeps about fifty thousand two hundred, and it wins. If your rate is higher later, say thirty two percent, the traditional account keeps only about thirty eight thousand eight hundred, and the Roth wins. Vanguard puts it simply: a Roth might be more beneficial if you expect to be in a higher tax bracket in the future. So compare your rate now with your rate later."
+  },
+  {
+   "id": "s06",
+   "kind": "rows",
+   "chapter": "Roth income limits",
+   "chapterTitle": "Roth IRA income limits for 2026 and 2027",
+   "broll": [
+    "42648",
+    "45923"
+   ],
+   "items": [
+    {
+     "name": "Single, 2026",
+     "desc": "Phase-out: $153,000 to $168,000",
+     "at": "single"
+    },
+    {
+     "name": "Married jointly, 2026",
+     "desc": "Phase-out: $242,000 to $252,000",
+     "at": "married"
+    },
+    {
+     "name": "Single, 2027",
+     "desc": "Phase-out: $158,000 to $173,000",
+     "at": "raised"
+    },
+    {
+     "name": "Married jointly, 2027",
+     "desc": "Phase-out: $250,000 to $260,000",
+     "at": "fifty",
+     "nth": 3
+    }
+   ],
+   "footer": {
+    "text": "Above the range: no direct Roth contribution",
+    "at": "above"
+   },
+   "text": "There's a catch with the Roth. It has income limits. For twenty twenty six, if you're single, your allowed contribution shrinks between one hundred fifty three thousand and one hundred sixty eight thousand dollars of modified adjusted gross income. For married couples filing jointly, the range is two hundred forty two thousand to two hundred fifty two thousand. For twenty twenty seven, the IRS raised those to one hundred fifty eight to one hundred seventy three thousand, and two hundred fifty to two hundred sixty thousand. Above the range, you can't contribute to a Roth directly."
+  },
+  {
+   "id": "s07",
+   "kind": "rows",
+   "chapter": "Traditional's catch",
+   "chapterTitle": "Traditional IRA: when the deduction shrinks",
+   "broll": [
+    "4806",
+    "42664"
+   ],
+   "items": [
+    {
+     "name": "Single, work plan",
+     "desc": "Deduction phases out: $81,000 to $91,000",
+     "at": "single"
+    },
+    {
+     "name": "Married, you covered",
+     "desc": "Phases out: $129,000 to $149,000",
+     "at": "married"
+    },
+    {
+     "name": "Only spouse covered",
+     "desc": "Phases out: $242,000 to $252,000",
+     "at": "only"
+    },
+    {
+     "name": "No work plan",
+     "desc": "Deduction not limited by these ranges",
+     "at": "neither"
+    }
+   ],
+   "footer": {
+    "text": "IRS limits for 2026",
+    "at": "anyone"
+   },
+   "text": "The traditional IRA has its own catch. Anyone with earned income can contribute, but the tax deduction can shrink if you or your spouse have a retirement plan at work. For twenty twenty six, if you're single and covered at work, the deduction phases out between eighty one thousand and ninety one thousand dollars. If you're married and covered, it's one hundred twenty nine to one hundred forty nine thousand. If only your spouse is covered, two hundred forty two to two hundred fifty two thousand. If neither of you has a workplace plan, these ranges don't limit your deduction."
+  },
+  {
+   "id": "s08",
+   "kind": "steps",
+   "chapter": "Withdrawals",
+   "chapterTitle": "Withdrawals: the five-year rule and penalties",
+   "broll": [
+    "18302",
+    "4915"
+   ],
+   "items": [
+    {
+     "text": "Roth contributions can come out without tax or penalty",
+     "at": "contributions",
+     "nth": 0
+    },
+    {
+     "text": "Roth earnings: wait 5 years and age 59\u00bd",
+     "at": "earnings",
+     "nth": 0
+    },
+    {
+     "text": "Early earnings can face tax plus a 10% penalty",
+     "at": "ten"
+    },
+    {
+     "text": "Traditional: required withdrawals later in life",
+     "at": "required"
+    },
+    {
+     "text": "Roth: no required withdrawals for the original owner",
+     "at": "original"
+    }
+   ],
+   "footer": {
+    "text": "The 5-year clock starts Jan 1 of your first contribution year",
+    "at": "clock",
+    "tone": "accent"
+   },
+   "text": "Now, getting money out. With a Roth, the contributions you put in can generally come out without tax or penalty. Earnings are different. Schwab explains that the account must be funded for five years before earnings come out tax free, and you usually need to be fifty nine and a half. Take earnings early, and you could owe tax plus a ten percent penalty. Traditional IRAs also make you start required withdrawals later in life. Roth IRAs have none for the original owner. And that five year clock starts on January first of your first contribution year."
+  },
+  {
+   "id": "s09",
+   "kind": "questions",
+   "chapter": "Roth fits if",
+   "chapterTitle": "When a Roth usually fits better",
+   "broll": [
+    "1730",
+    "50759"
+   ],
+   "items": [
+    {
+     "text": "You're early in your career, in a lower bracket",
+     "at": "early"
+    },
+    {
+     "text": "You expect to earn more later",
+     "at": "earn"
+    },
+    {
+     "text": "You want flexibility with your contributions",
+     "at": "flexibility"
+    },
+    {
+     "text": "You don't want required withdrawals",
+     "at": "required"
+    }
+   ],
+   "footer": {
+    "text": "Pay tax while your rate is low",
+    "at": "low",
+    "tone": "good"
+   },
+   "text": "So when does a Roth usually fit better? If you're early in your career and in a lower tax bracket, paying tax now is cheap. If you expect your income to rise, a Roth locks in today's lower rate. If you like flexibility, being able to pull out your contributions is a real safety valve, though it's best not to touch them. And if you don't want required withdrawals later, the Roth leaves your money alone. The common thread: pay tax while your rate is low."
+  },
+  {
+   "id": "s10",
+   "kind": "questions",
+   "chapter": "Traditional fits if",
+   "chapterTitle": "When a traditional IRA usually fits better",
+   "broll": [
+    "13218",
+    "42653"
+   ],
+   "items": [
+    {
+     "text": "You're in a high bracket right now",
+     "at": "high"
+    },
+    {
+     "text": "You expect a lower rate in retirement",
+     "at": "lower"
+    },
+    {
+     "text": "You qualify for the full deduction",
+     "at": "qualify"
+    },
+    {
+     "text": "You're over the Roth income limit",
+     "at": "limit"
+    }
+   ],
+   "footer": {
+    "text": "Take the break while your rate is high",
+    "at": "break",
+    "tone": "good"
+   },
+   "text": "And when does a traditional IRA usually fit better? If you're in a high tax bracket right now, a deduction saves more today. At twenty two percent, deducting seven thousand five hundred dollars cuts your tax bill by about sixteen hundred fifty dollars. If you expect a lower rate in retirement, you pay less overall. It works best when you qualify for the full deduction. And if your income is over the Roth limit, the traditional IRA may be the account you can use. The common thread: take the break while your rate is high."
+  },
+  {
+   "id": "s11",
+   "kind": "steps",
+   "chapter": "Your plan",
+   "chapterTitle": "A 5-step way to choose",
+   "broll": [
+    "4806",
+    "46768"
+   ],
+   "items": [
+    {
+     "text": "Grab any employer match first",
+     "at": "grab"
+    },
+    {
+     "text": "Check your income against both limits",
+     "at": "check"
+    },
+    {
+     "text": "Compare your tax rate now vs later",
+     "at": "compare"
+    },
+    {
+     "text": "Not sure? Split between both",
+     "at": "split"
+    },
+    {
+     "text": "Contribute by the tax filing deadline",
+     "at": "deadline"
+    }
+   ],
+   "footer": {
+    "text": "For 2026: usually by April 15, 2027",
+    "at": "april",
+    "tone": "accent"
+   },
+   "text": "Here's a simple five step way to choose. One: if your job offers a retirement plan match, grab that free money first. Two: check your income against the Roth limit and the traditional deduction range. Three: compare your tax rate now with what you expect in retirement. Four: if you honestly can't tell, split your contributions between both, and give yourself tax options later. And five: contribute by the tax filing deadline, which for twenty twenty six contributions is usually April fifteenth, twenty twenty seven."
+  },
+  {
+   "id": "s12",
+   "kind": "verdict",
+   "chapterTitle": "The big idea",
+   "broll": [
+    "26923",
+    "41541"
+   ],
+   "badge": "The big idea",
+   "title": "Pay tax when it's lowest",
+   "sub": "Now, later, or split it",
+   "text": "So here's the big idea. Roth versus traditional isn't about which account is better. It's about when you pay tax. Pay it when your rate is lowest. If that's now, lean Roth. If that's later, lean traditional. If you don't know, split it. Either way, the biggest win is simply starting, because seven thousand five hundred dollars a year, invested for decades, matters far more than picking the perfect account."
+  },
+  {
+   "id": "s13",
+   "kind": "outro",
+   "chapterTitle": "Your turn",
+   "broll": [
+    "42653",
+    "13218"
+   ],
+   "title": "Roth, traditional, or both?",
+   "accent": [
+    0,
+    1
+   ],
+   "next": "AI Tools for Small Business Owners: The Complete Starter Kit",
+   "text": "Which one are you leaning toward, Roth, traditional, or a mix of both? Tell me in the comments, and tell me why. Remember, this is education, not financial advice, so check your own numbers or talk to a tax professional before you decide. If you want clear, data backed explainers on money and AI, subscribe to Future Money Lab. Next up: the complete starter kit of AI tools for small business owners."
+  }
+ ],
+ "metricool": {
+  "postId": 445200223,
+  "publishAt": "2026-12-07T00:15:00+05:00",
+  "shortPosts": [
+   {
+    "postId": 445200334,
+    "publishAt": "2026-12-07T02:45:00+05:00"
+   },
+   {
+    "postId": 445200344,
+    "publishAt": "2026-12-07T06:45:00+05:00"
+   },
+   {
+    "postId": 445200356,
+    "publishAt": "2026-12-07T21:15:00+05:00"
+   }
+  ]
+ }
+}
